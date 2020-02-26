@@ -41,6 +41,8 @@ $app->singleton(
     App\Exceptions\Handler::class
 );
 
+$app->register(Scottybo\LaravelFacebookSdk\LaravelFacebookSdkServiceProvider::class);
+
 /*
 |--------------------------------------------------------------------------
 | Return The Application
