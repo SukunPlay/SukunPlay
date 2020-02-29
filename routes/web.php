@@ -10,11 +10,13 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+//
+//Route::get('/', function () {
+//    return view('welcome');
+//});
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'Facebook\Main@index')->name('home');
 
-Route::get('/test','Facebook\test@index')->name('index');
+Route::get('/fbupdate','Facebook\getVideo@storevideo')->name('storevideo');
 
 Route::post('fbwebhook','Facebook\test@fbwebhook')->name('fbwebhook');

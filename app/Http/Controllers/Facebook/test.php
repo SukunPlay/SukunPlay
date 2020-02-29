@@ -45,11 +45,13 @@ class test extends Controller
 
         //All that is returned in the response
 
-        foreach ($me as $n){
-            echo $n['source'];
-            echo "<br>";
-            echo "<br>";
-            }
+        echo $me;
+
+//        foreach ($me as $n){
+//            echo $n['source'];
+//            echo "<br>";
+//            echo "<br>";
+//            }
 
 
         //Print out my name

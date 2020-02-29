@@ -155,7 +155,6 @@
         }
     </script>
 
-
     <div class="container">
         <div class="row">
             <div class="col-lg-10 col-xl-9 mx-auto">
@@ -167,9 +166,11 @@
                     <!--       <img src="https://source.unsplash.com/WEQbe2jBg40/414x512" class="xcard-img-left d-none d-md-flex" > -->
 
 {{--                    <div class="card-img-left d-none d-md-flex">--}}
+
                     <video controls autoplay muted width="100%" height="100%" >
-                        <source  src="https://video.xx.fbcdn.net/v/t42.9040-2/86875427_808260072985198_5206032328811347968_n.mp4?_nc_cat=109&_nc_sid=985c63&efg=eyJybHIiOjQwMywicmxhIjo4MDMsInZlbmNvZGVfdGFnIjoic3ZlX3NkIn0%3D&_nc_eui2=AeELpY1zZbfEwGXS4TIprbFfthTx7o72yjOowaPi2sqLGZkhVv6rJmABOYIuk54EhNgqDk20xxs4gTOlAaNjFYCQ1vzqIZ0Ci1m7ooO-ybWghQ&_nc_oc=AQl6-pP5HljDD30P6z8DT4C3PdSB8oSMSedaQqYYx9vxn2esHWU3OdBMCf4FflF2EXc&rl=403&vabr=224&_nc_ht=video.fmle2-1.fna&oh=a32b3f73185424488a217b5b7e45d83c&oe=5E5162F8">
+                        <source  src="{{$return['item']->link}}">
                     </video>
+
 
 {{--                    <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fweb.facebook.com%2Fsukunplay%2Fvideos%2F186831332635851%2F&width=500&show_text=false&appId=1564301706925810&height=500" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>--}}
                    </div>
