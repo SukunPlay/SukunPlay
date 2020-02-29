@@ -167,7 +167,7 @@
 
 {{--                    <div class="card-img-left d-none d-md-flex">--}}
 
-                    <video controls autoplay muted width="100%" height="100%" >
+                    <video controls autoplay loop muted width="100%" height="100%" >
                         <source  src="{{$return['item']->link}}">
                     </video>
 

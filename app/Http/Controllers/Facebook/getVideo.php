@@ -74,7 +74,7 @@ class getVideo extends Controller
 
 
 
-
+        return redirect('/');
 
 
     }
