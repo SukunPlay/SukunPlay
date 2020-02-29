@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/test','Facebook\test@index')->name('index');
+
+Route::post('fbwebhook','Facebook\test@fbwebhook')->name('fbwebhook');

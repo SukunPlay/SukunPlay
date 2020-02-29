@@ -57,4 +57,9 @@ class test extends Controller
 
 
     }
+
+    public function fbwebhook(Request $request){
+
+        return true;
+    }
 }
