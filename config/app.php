@@ -2,6 +2,12 @@
 
 return [
 
+
+    'fb_app_id' => 2568340536820063,
+    'fb_app_secret' => 'e5876414afc79bdc4a832efc7c09a3e1',
+    'fb_graph_version' => '2.1',
+    'fb_access' => 'EAAkf5GFcAV8BAKhaFZBhUZA0c00qmG6tu5bejFVb3eZB98yc5wRaY3guXSLGSMajZB9ywZBNkel6ffVlwgYnZCLqXYzQ6UbzwbZAEaUBJHSAz3CsgEjvDKHf8PKEVdhNm6TUwbZCinZAz5ZA1f1rngLZBYGMIDI5VaSrAwZCYPiLyqTGvMoZBCL8P7XY8FbMBtj8zWvdZCcJdPHwZCenWGHBHdgFU1ZC',
+
     /*
     |--------------------------------------------------------------------------
     | Application Name
@@ -166,7 +172,6 @@ return [
          * Package Service Providers...
          */
 
-        Scottybo\LaravelFacebookSdk\LaravelFacebookSdkServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -227,7 +232,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-        'Facebook' => Scottybo\LaravelFacebookSdk\FacebookFacade::class,
+
 
     ],
 
