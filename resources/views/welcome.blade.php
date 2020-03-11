@@ -24,6 +24,8 @@
             }
 
             .card-signin {
+                height: auto;
+                width: 150%;
                 border: 0;
                 border-radius: 1rem;
                 box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
@@ -37,13 +39,14 @@
             }
 
             .card-signin .card-img-left {
-                width: 60%;
+                width: 250%;
                 /* Link to your background image using in the property below! */
                 /* background: scroll center url('https://video.xx.fbcdn.net/v/t42.9040-2/85253716_2946183178749344_2585852319744655360_n.mp4?_nc_cat=101&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6InN2ZV9zZCJ9&_nc_eui2=AeFsiFiW3lvV37Ao1f85usz3Mtc8sKYYRaf9Ngf2pQLiRIzefJyUQ9UN0qoCbgoxteaGapkOi-S4Ho1EYY2AyfMHrZOCzanx7RGzy1k3LfSgVg&_nc_oc=AQnjX6GAd9QqtwAjTpVvzr_r-ecoycPywVOnAj4kO6xPeUcqEK_jRgXgn9iHLQwoSSw&_nc_ht=video.fmle2-1.fna&oh=166882c7225d5d58f8ae93227f9565b8&oe=5E515652');*/
                 background-size: cover;
             }
 
             .card-signin .card-body {
+                width: 200%;
                 padding: 2rem;
             }
 
@@ -132,6 +135,29 @@
                 background-color: #3b5998;
             }
 
+            .holder {
+                width: 560px;
+                height: 315px;
+                position: relative;
+            }
+
+            .frame {
+                width: 100%;
+                height: 100%;
+            }
+
+            .overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 560%;
+                height: 315px;
+                cursor: pointer;
+                background-color: none;
+            }
+
+
+
 
 
         </style>
@@ -140,20 +166,27 @@
 
     <body>
 
+{{--    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>--}}
+{{--    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>--}}
 
-    <fb:login-button
-        scope="public_profile,email"
-        onlogin="checkLoginState();">
-    </fb:login-button>
+{{--    <div class="holder">--}}
+{{--        <iframe width="560" height="315" src="https://www.youtube.com/embed/Q4FK_syYYtQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>--}}
+{{--        <div class="overlay trigger" src="https://www.youtube.com/embed/Q4FK_syYYtQ" data-target="#videoModal" data-toggle="modal"></div>--}}
+{{--    </div>--}}
 
-    <script>
 
-        function checkLoginState() {
-            FB.getLoginStatus(function(response) {
-                statusChangeCallback(response);
-            });
-        }
-    </script>
+
+{{--    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">--}}
+{{--        <div class="modal-dialog modal-lg" role="document">--}}
+{{--            <h5 class="modal-title"></h5>--}}
+{{--            <div class="modal-content">--}}
+{{--                <div class="embed-responsive embed-responsive-16by9">--}}
+{{--                    <iframe class="embed-responsive-item" src="" allowfullscreen></iframe>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+
 
     <div class="container">
         <div class="row">
@@ -162,48 +195,44 @@
                   <div class="card-img-left d-none d-md-flex">
 
 
-                    <!-- Background image for card set in CSS! -->
-                    <!--       <img src="https://source.unsplash.com/WEQbe2jBg40/414x512" class="xcard-img-left d-none d-md-flex" > -->
-
-{{--                    <div class="card-img-left d-none d-md-flex">--}}
-
                     <video controls autoplay loop muted width="100%" height="100%" >
-                        <source  src="{{$return['item']->link}}">
+                        <source  src="https://video.xx.fbcdn.net/v/t39.24130-2/88450143_501684670543807_6166085097344109706_n.mp4?_nc_cat=100&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQk9IAt9SCAzeougqGzDjFC9-enLs_YhaJWfBinpT8mVnDwAlPy4YqKyzwE_9EQNSrE&_nc_ht=video.xx&oh=ca501e3e6d0592695fcbcbae45d7fcc8&oe=5E935311">
                     </video>
 
 
-{{--                    <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fweb.facebook.com%2Fsukunplay%2Fvideos%2F186831332635851%2F&width=500&show_text=false&appId=1564301706925810&height=500" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>--}}
                    </div>
-{{--                    <div class="card-body">--}}
-{{--                        <h5 class="card-title text-center">Register</h5>--}}
-{{--                        <form class="form-signin">--}}
-{{--                            <div class="form-label-group">--}}
-{{--                                <input type="text" id="inputUserame" class="form-control" placeholder="Username" required autofocus>--}}
-{{--                                <label for="inputUserame">Username</label>--}}
-{{--                            </div>--}}
+                    <div class="card-body">
+                        <h6 class="card-title text-center"><b>Hello hgdasd</b></h6>
+                    </div>
 
 
-
-
-{{--                              <div class="form-label-group">--}}
-{{--                                <input type="password" id="inputConfirmPassword" class="form-control" placeholder="Password" required>--}}
-{{--                                <label for="inputConfirmPassword">Confirm password</label>--}}
-{{--                              </div>--}}
-
-{{--                              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Register</button>--}}
-{{--                              <a class="d-block text-center mt-2 small" href="#">Sign In</a>--}}
-{{--                              <hr class="my-4">--}}
-{{--                              <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Sign up with Google</button>--}}
-{{--                              <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Sign up with Facebook</button> --}}
-{{--                        </form>--}}
-{{--                    </div>--}}
                 </div>
             </div>
         </div>
     </div>
     </body>
 
+<script>
 
+    $(document).ready(function() {
+        autoPlayYouTubeModal();
+    });
+
+    function autoPlayYouTubeModal() {
+        var trigger = $('.trigger');
+        trigger.click(function(e) {
+            e.preventDefault();
+            var theModal = $(this).data("target");
+            var videoSRC = $(this).attr("src");
+            var videoSRCauto = videoSRC + "?autoplay=1";
+            $(theModal + ' iframe').attr('src', videoSRCauto);
+            $(theModal).on('hidden.bs.modal', function(e) {
+                $(theModal + ' iframe').attr('src', '');
+            });
+        });
+    };
+
+</script>
     <script>
         window.fbAsyncInit = function() {
             FB.init({
