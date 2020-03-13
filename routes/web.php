@@ -20,3 +20,6 @@ Route::get('/', 'Facebook\Main@index')->name('home');
 Route::get('/fbupdate','Facebook\getVideo@storevideo')->name('storevideo');
 
 Route::post('fbwebhook','Facebook\test@fbwebhook')->name('fbwebhook');
+
+Route::get('/dashboard/home','DashboardController@home')->name('dashboard.home');
+
