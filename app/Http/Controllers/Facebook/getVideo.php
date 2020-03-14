@@ -45,10 +45,8 @@ class getVideo extends Controller
         $me = $response->getGraphUser()['videos'];
 
         $this->storefbvidz($me);
-        $n = 0;
 
         while (isset($me->getMetaData()['paging']['next'])){
-            $n += 1;
 
             $response = $fb->next($me);
             $me = $response;
