@@ -3,10 +3,12 @@
 namespace App\Http\Controllers\Facebook;
 
 use App\Facebook\StoreVideo;
+use App\Facebook\Thumbnail;
 use App\Http\Controllers\Controller;
 use Facebook\Exceptions\FacebookSDKException;
 use Facebook\Facebook;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class getVideo extends Controller
 {
@@ -28,7 +30,7 @@ class getVideo extends Controller
         try {
 
             // Get your UserNode object, replace {access-token} with your token
-            $response = $fb->get('me?fields=videos{source,description}', config('app.fb_access'));
+            $response = $fb->get('me?fields=videos{thumbnails,description,id,title,source}', config('app.fb_access'));
 
         } catch (\Facebook\Exceptions\FacebookResponseException $e) {
             // Returns Graph API errors when they occur
@@ -42,6 +44,27 @@ class getVideo extends Controller
 
         $me = $response->getGraphUser()['videos'];
 
+        $this->storefbvidz($me);
+        $n = 0;
+
+        while (isset($me->getMetaData()['paging']['next'])){
+            $n += 1;
+
+            $response = $fb->next($me);
+            $me = $response;
+            $this->storefbvidz($me);
+
+        }
+
+
+
+//        while ()
+//        dd($fb->next($me));
+
+
+
+
+
         //All that is returned in the response
 
 //        foreach ($me as $n){
@@ -50,26 +73,7 @@ class getVideo extends Controller
 //            echo "<br>";
 //        }
 
-        foreach ($me as $n){
 
-            if (!StoreVideo::where('fb_id','=',$n['id'])->exists()){
-
-                $new_video = new StoreVideo();
-                try {
-                    $new_video->fb_id = $n['id'];
-                    $new_video->link = $n['source'];
-                    $new_video->desc = $n['description'];
-                    $new_video->save();
-                }catch (\Exception $e){
-                    $new_video->rolllback();
-                }
-
-
-
-            }
-
-
-        }
 
 
 
@@ -77,6 +81,52 @@ class getVideo extends Controller
         return redirect('/');
 
 
+    }
+
+
+    public function storefbvidz($data){
+
+        foreach ($data as $n){
+
+            if (!StoreVideo::where('fb_id','=',$n['id'])->exists()){
+
+                DB::beginTransaction();
+                $new_video = new StoreVideo();
+                try {
+                    $new_video->fb_id = $n['id'];
+                    $new_video->link = $n['source'];
+                    $new_video->desc = $n['description'];
+                    $new_video->title = $n['title'];
+                    $new_video->save();
+                }catch (\Exception $e){
+                    DB::rollBack();
+                }
+
+
+                foreach ($n['thumbnails'] as $thumbnail){
+
+
+                    $new_thumbnail = new Thumbnail();
+
+                    try {
+                        $new_thumbnail->video_id = $n['id'];
+                        $new_thumbnail->link = $thumbnail['uri'];
+                        $new_thumbnail->save();
+
+                    }catch (\Exception $e){
+
+                        DB::rollBack();
+                    }
+
+                }
+
+
+                DB::commit();
+
+            }
+
+
+        }
     }
 
     //
