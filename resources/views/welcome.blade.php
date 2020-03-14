@@ -159,6 +159,41 @@
             }
 
 
+        /* Extra small devices (phones, 600px and down) */
+        @media only screen and (max-width: 600px) {
+            .vid{
+                border-radius: 3px 3px 0px 0px;
+            }
+        }
+
+        /* Small devices (portrait tablets and large phones, 600px and up) */
+        @media only screen and (min-width: 600px) {
+            .vid{
+                border-radius: 3px 3px 0px 0px;
+            }
+        }
+
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (min-width: 768px) {
+            .vid{
+                border-radius: 3px 0px 0px 3px;
+            }
+        }
+
+        /* Large devices (laptops/desktops, 992px and up) */
+        @media only screen and (min-width: 992px) {
+            .vid{
+                border-radius: 3px 0px 0px 3px;
+            }
+        }
+
+        /* Extra large devices (large laptops and desktops, 1200px and up) */
+        @media only screen and (min-width: 1200px) {
+            .vid{
+                border-radius: 3px 0px 0px 3px;
+            }
+        }
+
 
 
 
@@ -230,25 +265,26 @@
       <!-- Modal content-->
       <div class="modal-content" style="background-color:transparent; border:none;">
 
-                    <div class="col-lg-10 col-xl-9 ">
-                        <div class="card card-signin flex-row my-5">
-                        <div class="card-img-left d-none d-md-flex">
-
-
-                            <video controls autoplay loop muted width="100%" height="100%" class="sukun">
-                                <source src="" >
-                                    Your browser does not support the video tag.
-                            </video>
-
-
-                        </div>
-                            <div class="card-body">
-                                <h6 class="card-title text-center"><b>Hello hgdasd</b></h6>
-                            </div>
-
-
-                        </div>
-                    </div>
+        <div class="card  my-5 " style="border:none;">
+            <div class="row no-gutters">
+              <div class="col-md-6" style="margine-left:-1px">
+                <video controls autoplay loop muted width="100%" height="100%" class="sukun vid" style="margin-bottom:-6px;" >
+                    <source src="" >
+                        Your browser does not support the video tag.
+                </video>
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">SUKUN</h5>
+                  <p class="card-text">
+                      SUKUN
+                   </p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
 
         </div>
 
