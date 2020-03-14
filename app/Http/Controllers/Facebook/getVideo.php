@@ -17,7 +17,7 @@ class getVideo extends Controller
 
         try {
             $fb = new Facebook([
-                'app_id' => config('app.fb_app_id'),           //Replace {your-app-id} with your app ID
+                'app_id' => config('app.fb_app_id'),
                 'app_secret' => config('app.fb_app_secret'),
                 'graph_api_version' => config('app.fb_graph_version'),
             ]);
@@ -28,16 +28,12 @@ class getVideo extends Controller
 
 
         try {
-
-            // Get your UserNode object, replace {access-token} with your token
             $response = $fb->get('me?fields=videos{thumbnails,description,id,title,source}', config('app.fb_access'));
 
         } catch (\Facebook\Exceptions\FacebookResponseException $e) {
-            // Returns Graph API errors when they occur
             echo 'Graph returned an error: ' . $e->getMessage();
             exit;
         } catch (\Facebook\Exceptions\FacebookSDKException $e) {
-            // Returns SDK errors when validation fails or other local issues
             echo 'Facebook SDK returned an error: ' . $e->getMessage();
             exit;
         }
@@ -54,28 +50,7 @@ class getVideo extends Controller
 
         }
 
-
-
-//        while ()
-//        dd($fb->next($me));
-
-
-
-
-
-        //All that is returned in the response
-
-//        foreach ($me as $n){
-//            echo $n['source'];
-//            echo "<br>";
-//            echo "<br>";
-//        }
-
-
-
-
-
-
+        //need to update this later @Todo
         return redirect('/');
 
 
