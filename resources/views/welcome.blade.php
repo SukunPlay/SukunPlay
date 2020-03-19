@@ -207,47 +207,47 @@
         <div class="row" >
 
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 " data-toggle="modal" data-target="#myModal" data-url="https://video.xx.fbcdn.net/v/t39.24130-2/88450143_501684670543807_6166085097344109706_n.mp4?_nc_cat=100&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQk9IAt9SCAzeougqGzDjFC9-enLs_YhaJWfBinpT8mVnDwAlPy4YqKyzwE_9EQNSrE&_nc_ht=video.xx&oh=ca501e3e6d0592695fcbcbae45d7fcc8&oe=5E935311" >
-                <video controls autoplay loop muted width="100%" height="100%" >
+                <video controls  loop muted width="100%" height="100%" >
                     <source  src="https://video.xx.fbcdn.net/v/t39.24130-2/88450143_501684670543807_6166085097344109706_n.mp4?_nc_cat=100&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQk9IAt9SCAzeougqGzDjFC9-enLs_YhaJWfBinpT8mVnDwAlPy4YqKyzwE_9EQNSrE&_nc_ht=video.xx&oh=ca501e3e6d0592695fcbcbae45d7fcc8&oe=5E935311">
                 </video>
             </div>
 
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 " data-toggle="modal" data-target="#myModal" data-url="https://video.xx.fbcdn.net/v/t39.24130-2/88450143_501684670543807_6166085097344109706_n.mp4?_nc_cat=100&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQk9IAt9SCAzeougqGzDjFC9-enLs_YhaJWfBinpT8mVnDwAlPy4YqKyzwE_9EQNSrE&_nc_ht=video.xx&oh=ca501e3e6d0592695fcbcbae45d7fcc8&oe=5E935311" >
-                <video controls autoplay loop muted width="100%" height="100%" >
+                <video controls loop muted width="100%" height="100%" >
                     <source  src="https://video.xx.fbcdn.net/v/t39.24130-2/88450143_501684670543807_6166085097344109706_n.mp4?_nc_cat=100&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQk9IAt9SCAzeougqGzDjFC9-enLs_YhaJWfBinpT8mVnDwAlPy4YqKyzwE_9EQNSrE&_nc_ht=video.xx&oh=ca501e3e6d0592695fcbcbae45d7fcc8&oe=5E935311">
                 </video>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 " data-toggle="modal" data-target="#myModal" data-url="https://video.xx.fbcdn.net/v/t39.24130-2/88450143_501684670543807_6166085097344109706_n.mp4?_nc_cat=100&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQk9IAt9SCAzeougqGzDjFC9-enLs_YhaJWfBinpT8mVnDwAlPy4YqKyzwE_9EQNSrE&_nc_ht=video.xx&oh=ca501e3e6d0592695fcbcbae45d7fcc8&oe=5E935311" >
-                <video controls autoplay loop muted width="100%" height="100%" >
-                    <source  src="https://video.xx.fbcdn.net/v/t39.24130-2/88450143_501684670543807_6166085097344109706_n.mp4?_nc_cat=100&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQk9IAt9SCAzeougqGzDjFC9-enLs_YhaJWfBinpT8mVnDwAlPy4YqKyzwE_9EQNSrE&_nc_ht=video.xx&oh=ca501e3e6d0592695fcbcbae45d7fcc8&oe=5E935311">
-                </video>
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 " data-toggle="modal" data-target="#myModal" data-url="https://video.xx.fbcdn.net/v/t39.24130-2/88450143_501684670543807_6166085097344109706_n.mp4?_nc_cat=100&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQk9IAt9SCAzeougqGzDjFC9-enLs_YhaJWfBinpT8mVnDwAlPy4YqKyzwE_9EQNSrE&_nc_ht=video.xx&oh=ca501e3e6d0592695fcbcbae45d7fcc8&oe=5E935311" >
-                <video controls autoplay loop muted width="100%" height="100%" >
+                <video controls  loop muted width="100%" height="100%" >
                     <source  src="https://video.xx.fbcdn.net/v/t39.24130-2/88450143_501684670543807_6166085097344109706_n.mp4?_nc_cat=100&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQk9IAt9SCAzeougqGzDjFC9-enLs_YhaJWfBinpT8mVnDwAlPy4YqKyzwE_9EQNSrE&_nc_ht=video.xx&oh=ca501e3e6d0592695fcbcbae45d7fcc8&oe=5E935311">
                 </video>
             </div>
 
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 " data-toggle="modal" data-target="#myModal" data-url="https://video.xx.fbcdn.net/v/t39.24130-2/88450143_501684670543807_6166085097344109706_n.mp4?_nc_cat=100&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQk9IAt9SCAzeougqGzDjFC9-enLs_YhaJWfBinpT8mVnDwAlPy4YqKyzwE_9EQNSrE&_nc_ht=video.xx&oh=ca501e3e6d0592695fcbcbae45d7fcc8&oe=5E935311" >
-                <video controls autoplay loop muted width="100%" height="100%" >
-                    <source  src="https://video.xx.fbcdn.net/v/t39.24130-2/88450143_501684670543807_6166085097344109706_n.mp4?_nc_cat=100&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQk9IAt9SCAzeougqGzDjFC9-enLs_YhaJWfBinpT8mVnDwAlPy4YqKyzwE_9EQNSrE&_nc_ht=video.xx&oh=ca501e3e6d0592695fcbcbae45d7fcc8&oe=5E935311">
-                </video>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 " data-toggle="modal" data-target="#myModal" data-url="https://video.xx.fbcdn.net/v/t39.24130-2/88450143_501684670543807_6166085097344109706_n.mp4?_nc_cat=100&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQk9IAt9SCAzeougqGzDjFC9-enLs_YhaJWfBinpT8mVnDwAlPy4YqKyzwE_9EQNSrE&_nc_ht=video.xx&oh=ca501e3e6d0592695fcbcbae45d7fcc8&oe=5E935311" >
-                <video controls autoplay loop muted width="100%" height="100%" >
+                <video controls  loop muted width="100%" height="100%" >
                     <source  src="https://video.xx.fbcdn.net/v/t39.24130-2/88450143_501684670543807_6166085097344109706_n.mp4?_nc_cat=100&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQk9IAt9SCAzeougqGzDjFC9-enLs_YhaJWfBinpT8mVnDwAlPy4YqKyzwE_9EQNSrE&_nc_ht=video.xx&oh=ca501e3e6d0592695fcbcbae45d7fcc8&oe=5E935311">
                 </video>
             </div>
 
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 " data-toggle="modal" data-target="#myModal" data-url="https://video.xx.fbcdn.net/v/t39.24130-2/88450143_501684670543807_6166085097344109706_n.mp4?_nc_cat=100&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQk9IAt9SCAzeougqGzDjFC9-enLs_YhaJWfBinpT8mVnDwAlPy4YqKyzwE_9EQNSrE&_nc_ht=video.xx&oh=ca501e3e6d0592695fcbcbae45d7fcc8&oe=5E935311" >
-                <video controls autoplay loop muted width="100%" height="100%" >
+                <video controls  loop muted width="100%" height="100%" >
+                    <source  src="https://video.xx.fbcdn.net/v/t39.24130-2/88450143_501684670543807_6166085097344109706_n.mp4?_nc_cat=100&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQk9IAt9SCAzeougqGzDjFC9-enLs_YhaJWfBinpT8mVnDwAlPy4YqKyzwE_9EQNSrE&_nc_ht=video.xx&oh=ca501e3e6d0592695fcbcbae45d7fcc8&oe=5E935311">
+                </video>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 " data-toggle="modal" data-target="#myModal" data-url="https://video.xx.fbcdn.net/v/t39.24130-2/88450143_501684670543807_6166085097344109706_n.mp4?_nc_cat=100&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQk9IAt9SCAzeougqGzDjFC9-enLs_YhaJWfBinpT8mVnDwAlPy4YqKyzwE_9EQNSrE&_nc_ht=video.xx&oh=ca501e3e6d0592695fcbcbae45d7fcc8&oe=5E935311" >
+                <video controls  loop muted width="100%" height="100%" >
                     <source  src="https://video.xx.fbcdn.net/v/t39.24130-2/88450143_501684670543807_6166085097344109706_n.mp4?_nc_cat=100&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQk9IAt9SCAzeougqGzDjFC9-enLs_YhaJWfBinpT8mVnDwAlPy4YqKyzwE_9EQNSrE&_nc_ht=video.xx&oh=ca501e3e6d0592695fcbcbae45d7fcc8&oe=5E935311">
                 </video>
             </div>
 
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 " data-toggle="modal" data-target="#myModal" data-url="https://video.xx.fbcdn.net/v/t39.24130-2/88450143_501684670543807_6166085097344109706_n.mp4?_nc_cat=100&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQk9IAt9SCAzeougqGzDjFC9-enLs_YhaJWfBinpT8mVnDwAlPy4YqKyzwE_9EQNSrE&_nc_ht=video.xx&oh=ca501e3e6d0592695fcbcbae45d7fcc8&oe=5E935311" >
-                <video controls autoplay loop muted width="100%" height="100%" >
+                <video controls  loop muted width="100%" height="100%" >
+                    <source  src="https://video.xx.fbcdn.net/v/t39.24130-2/88450143_501684670543807_6166085097344109706_n.mp4?_nc_cat=100&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQk9IAt9SCAzeougqGzDjFC9-enLs_YhaJWfBinpT8mVnDwAlPy4YqKyzwE_9EQNSrE&_nc_ht=video.xx&oh=ca501e3e6d0592695fcbcbae45d7fcc8&oe=5E935311">
+                </video>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 " data-toggle="modal" data-target="#myModal" data-url="https://video.xx.fbcdn.net/v/t39.24130-2/88450143_501684670543807_6166085097344109706_n.mp4?_nc_cat=100&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQk9IAt9SCAzeougqGzDjFC9-enLs_YhaJWfBinpT8mVnDwAlPy4YqKyzwE_9EQNSrE&_nc_ht=video.xx&oh=ca501e3e6d0592695fcbcbae45d7fcc8&oe=5E935311" >
+                <video controls  loop muted width="100%" height="100%" >
                     <source  src="https://video.xx.fbcdn.net/v/t39.24130-2/88450143_501684670543807_6166085097344109706_n.mp4?_nc_cat=100&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQk9IAt9SCAzeougqGzDjFC9-enLs_YhaJWfBinpT8mVnDwAlPy4YqKyzwE_9EQNSrE&_nc_ht=video.xx&oh=ca501e3e6d0592695fcbcbae45d7fcc8&oe=5E935311">
                 </video>
             </div>
@@ -256,12 +256,12 @@
 
         </div>
 
-        
+
 
      <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog modal-lg">
-    
+
       <!-- Modal content-->
       <div class="modal-content" style="background-color:transparent; border:none;">
 
@@ -289,7 +289,7 @@
         </div>
 
       </div>
-      
+
     </div>
   </div>
     </body>
@@ -298,8 +298,8 @@
 
 
 $('#myModal').on('show.bs.modal', function (event) {
-  var button = $(event.relatedTarget) 
-  var url = button.data('url') 
+  var button = $(event.relatedTarget)
+  var url = button.data('url')
 
   var video = document.getElementsByClassName('sukun');
    video[0].src = url;
