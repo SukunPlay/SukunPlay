@@ -20,7 +20,6 @@
         <!-- Page Heading -->
         <div class="d-sm-flex align-items-center justify-content-between mb-4" >
             <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
-            <a style="background: #009247" href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
         </div>
 
         <!-- Content Row -->
@@ -32,8 +31,8 @@
                     <div class="card-body">
                         <div class="row no-gutters align-items-center">
                             <div class="col mr-2">
-                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Applications (Monthly)</div>
-                                <div class="h5 mb-0 font-weight-bold text-gray-800">40,000</div>
+                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Videos</div>
+                                <div class="h5 mb-0 font-weight-bold text-gray-800">1,000</div>
                             </div>
                             <div class="col-auto">
                                 <i color="blue" class="fas fa-file-alt fa-2x  "></i>
@@ -49,7 +48,7 @@
                     <div class="card-body">
                         <div class="row no-gutters align-items-center">
                             <div class="col mr-2">
-                                <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Approved Applications</div>
+                                <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Approved Videos</div>
                                 <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
                             </div>
                             <div class="col-auto">
@@ -66,7 +65,7 @@
                     <div class="card-body">
                         <div class="row no-gutters align-items-center">
                             <div class="col mr-2">
-                                <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Pending Applications</div>
+                                <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Pending Videos</div>
                                 <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
                             </div>
                             <div class="col-auto">
@@ -83,7 +82,7 @@
                     <div class="card-body">
                         <div class="row no-gutters align-items-center">
                             <div class="col mr-2">
-                                <div class="text-xs font-weight-bold text-danger text-uppercase mb-1">Cancelled Applications</div>
+                                <div class="text-xs font-weight-bold text-danger text-uppercase mb-1">Cancelled Videos</div>
                                 <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
                             </div>
                             <div class="col-auto">
@@ -289,7 +288,6 @@
     </div>
     <!-- /.container-fluid -->
 
-    </div>
     <!-- End of Main Content -->
     <!-- Page level plugins -->
     <script src="{{asset('dashboard/vendor/chart.js/Chart.min.js')}}"></script>

@@ -15,7 +15,7 @@ class CreateStoreVideosTable extends Migration
     {
         Schema::create('store_videos', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('fb_id')->index();
+            $table->bigInteger('fb_id')->index();
             $table->longText('link');
             $table->longText('desc');
             $table->longText('title')->nullable();
