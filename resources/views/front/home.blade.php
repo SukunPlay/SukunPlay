@@ -140,14 +140,20 @@
 {{--                        Start--}}
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                            <div class="card" data-toggle="modal" data-target="#myModal" data-url="https://video.xx.fbcdn.net/v/t39.24130-2/88450143_501684670543807_6166085097344109706_n.mp4?_nc_cat=100&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQk9IAt9SCAzeougqGzDjFC9-enLs_YhaJWfBinpT8mVnDwAlPy4YqKyzwE_9EQNSrE&_nc_ht=video.xx&oh=ca501e3e6d0592695fcbcbae45d7fcc8&oe=5E935311">
+                            <div class="card"
+                                 data-toggle="modal"
+                                 data-target="#myModal"
+                                 data-url="https://video.xx.fbcdn.net/v/t39.24130-2/88450143_501684670543807_6166085097344109706_n.mp4?_nc_cat=100&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQk9IAt9SCAzeougqGzDjFC9-enLs_YhaJWfBinpT8mVnDwAlPy4YqKyzwE_9EQNSrE&_nc_ht=video.xx&oh=ca501e3e6d0592695fcbcbae45d7fcc8&oe=5E935311"
+                                 data-id="528346251424615">
                                 <img class="card-img-top" src="https://source.unsplash.com/tz87qQK9n58/900x500" alt="..." />
                                 <div class="card-body">
-                                    <h5 class="card-title">Card Image Cap (Top)</h5>
+                                    <h5 class="card-title">Some title here</h5>
                                 </div>
                             </div>
                         </div>
 
+
+{{--                        End--}}
 
                         <div class="modal fade" id="myModal" role="dialog">
                             <div class="modal-dialog modal-xl">
@@ -166,11 +172,11 @@
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="card-body">
-                                                    <h5 class="card-title">SUKUN</h5>
-                                                    <p class="card-text">
-                                                        SUKUN
+                                                    <h5 class="card-title" id="video_title"></h5>
+                                                    <p class="card-text" id="video_desc">
+
                                                     </p>
-                                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                                    <p class="card-text"><small class="text-muted" id="video_created_at"></small></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -240,7 +246,59 @@
         </footer>
     </div>
 </div>
+
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 <script src="js/scripts.js"></script>
+<script>
+
+
+    $('#myModal').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget);
+        var url = button.data('url');
+
+        var id = button.data('id');
+
+        // load info
+
+        $.ajax({url: "/video/info/"+id, success: function(result){
+
+
+
+                $('#video_title').html(result.title);
+                $('#video_desc').html(result.desc);
+                $('#video_created_at').html("last updated "+ result.humanTime)
+
+            }});
+
+
+
+
+
+        var video = document.getElementsByClassName('sukun');
+        video[0].src = url;
+        video[0].play();
+
+    })
+
+    $(document).ready(function () {
+        autoPlayYouTubeModal();
+    });
+
+    function autoPlayYouTubeModal() {
+        var trigger = $('.trigger');
+        trigger.click(function (e) {
+            e.preventDefault();
+            var theModal = $(this).data("target");
+            var videoSRC = $(this).attr("src");
+            var videoSRCauto = videoSRC + "?autoplay=1";
+            $(theModal + ' iframe').attr('src', videoSRCauto);
+            $(theModal).on('hidden.bs.modal', function (e) {
+                $(theModal + ' iframe').attr('src', '');
+            });
+        });
+    };
+
+</script>
+
     @endsection
