@@ -23,3 +23,5 @@ Route::post('fbwebhook','Facebook\test@fbwebhook')->name('fbwebhook');
 
 Route::get('/dashboard/home','DashboardController@home')->name('dashboard.home');
 
+Route::get('/home','DashboardController@index')->name('home');
+
