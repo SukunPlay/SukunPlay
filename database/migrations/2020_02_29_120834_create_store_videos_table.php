@@ -17,12 +17,14 @@ class CreateStoreVideosTable extends Migration
             $table->bigIncrements('id');
             $table->bigInteger('fb_id')->index();
             $table->longText('link');
-            $table->longText('desc');
+            $table->longText('desc')->nullable();
             $table->longText('title')->nullable();
             $table->integer('approved')->default(0);
             $table->integer('category_id')->nullable();
             $table->longText('dh_desc')->nullable();
             $table->longText('dh_title')->nullable();
+            $table->longText('en_desc')->nullable();
+            $table->longText('en_title')->nullable();
             $table->softDeletes();
             $table->timestamps();
         });
