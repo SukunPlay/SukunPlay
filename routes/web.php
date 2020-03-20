@@ -25,3 +25,5 @@ Route::get('/dashboard/home','DashboardController@home')->name('dashboard.home')
 
 Route::get('/home','DashboardController@index')->name('home');
 
+Route::get('/test','DashboardController@testz')->name('test');
+

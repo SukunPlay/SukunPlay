@@ -25,6 +25,7 @@ class CreateStoreVideosTable extends Migration
             $table->longText('dh_title')->nullable();
             $table->longText('en_desc')->nullable();
             $table->longText('en_title')->nullable();
+            $table->bigInteger('likes')->nullable();
             $table->softDeletes();
             $table->timestamps();
         });
