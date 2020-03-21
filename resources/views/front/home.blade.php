@@ -283,7 +283,14 @@
         video[0].src = url;
         video[0].play();
 
-    })
+    }).on('hide.bs.modal', function(e) {
+
+        var video = document.getElementsByClassName('sukun');
+        video[0].src = '';
+        video[0].play();
+    });
+
+
 
     $(document).ready(function () {
         autoPlayYouTubeModal();
