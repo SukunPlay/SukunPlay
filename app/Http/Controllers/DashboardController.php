@@ -18,8 +18,11 @@ class DashboardController extends Controller
 
         $item = StoreVideo::all()->sortBy('desc');
 
+        $sample = StoreVideo::where('id','=',1)->first();
+
         $return = [
-            'item' => $item
+            'item' => $item,
+            'sample' => $sample,
         ];
 
         return view('front.home')->with('return', $return);
