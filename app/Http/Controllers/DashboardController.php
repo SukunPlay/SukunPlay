@@ -15,7 +15,14 @@ class DashboardController extends Controller
     }
 
     public function testz(){
-        return view('front.home');
+
+        $item = StoreVideo::all()->sortBy('desc');
+
+        $return = [
+            'item' => $item
+        ];
+
+        return view('front.home')->with('return', $return);
     }
 
 
