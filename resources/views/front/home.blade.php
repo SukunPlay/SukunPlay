@@ -291,7 +291,6 @@
     });
 
 
-
     $(document).ready(function () {
         autoPlayYouTubeModal();
     });
