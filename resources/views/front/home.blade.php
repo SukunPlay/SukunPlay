@@ -163,14 +163,14 @@
 
                                     <div class="card  my-5 " style="border-radius: 20px;border:none">
                                         <div class="row no-gutters">
-                                            <div class="col-md-8" style="margine-left:-1px">
+                                            <div class="col-12 col-md-12 col-lg-8 col-xl-8" style="margine-left:-1px">
                                                 <video controls autoplay loop muted width="100%" height="100%" class="sukun vid"
                                                        style="margin-bottom:-6px;">
                                                     <source src="">
                                                     Your browser does not support the video tag.
                                                 </video>
                                             </div>
-                                            <div class="col-md-4">
+                                            <div class="col-12 col-md-12 col-lg-4 col-xl-4">
                                                 <div class="card-body">
                                                     <h5 class="card-title" id="video_title"></h5>
                                                     <p class="card-text" id="video_desc">

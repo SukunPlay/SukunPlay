@@ -13,6 +13,10 @@ class StoreVideo extends Model
         'humanTime'
     ];
 
+    protected $hidden = [
+
+    ];
+
 
     public function getHumanTimeAttribute()
     {
