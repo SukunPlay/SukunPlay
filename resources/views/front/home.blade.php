@@ -275,7 +275,7 @@
 
         $(document).on('click', '#load_more_button', function(){
             var id = $(this).data('id');
-            $('#load_more_button').html('<b>Loading...</b>');
+            $('#load_more_button').html('<b style="font-family: MVAWAHEED; font-size: 30px"> . . . ލޯޑު ވަނީ</b>');
             load_data(id, _token);
         });
 
