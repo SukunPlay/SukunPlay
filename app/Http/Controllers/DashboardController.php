@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Facebook\StoreVideo;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 class DashboardController extends Controller
@@ -35,6 +36,11 @@ class DashboardController extends Controller
 
         //find video
         $video = StoreVideo::where('fb_id','=',$video_id)->first();
+
+
+        $carbon = Carbon::make($video->fb_created);
+
+        $video->diffz = $carbon->diffForHumans();
 
         if($video){
             return $video->toArray();

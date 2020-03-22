@@ -40,6 +40,7 @@ class getVideo extends Controller
 
         $me = $response->getGraphUser()['videos'];
 
+
         $this->storefbvidz($me);
 
         while (isset($me->getMetaData()['paging']['next'])){
@@ -51,7 +52,7 @@ class getVideo extends Controller
         }
 
         //need to update this later @Todo
-        return redirect('/');
+        return redirect('/test');
 
 
     }
@@ -74,6 +75,7 @@ class getVideo extends Controller
                     $new_video->save();
                 }catch (\Exception $e){
                     DB::rollBack();
+
                 }
 
 
@@ -100,6 +102,106 @@ class getVideo extends Controller
             }
 
 
+        }
+    }
+
+
+
+    public function sortz(){
+
+
+        $sort = StoreVideo::all()->sortByDesc('fb_created');
+
+
+
+        $num= $sort->count();
+
+
+        foreach ($sort as $s){
+
+            $s->sort = $num;
+            $num--;
+            $s->save();
+
+
+        }
+    }
+
+
+
+    function aload_more(Request $request)
+    {
+        if($request->ajax())
+        {
+            if($request->id > 0)
+            {
+
+                $data = StoreVideo::where('sort','<', $request->id)
+                    ->orderby('sort', 'DESC')
+                    ->limit(9)
+                    ->get();
+
+            }
+            else
+            {
+
+                $data = DB::table('store_videos')
+                    ->orderBy('sort', 'DESC')
+                    ->limit(9)
+                    ->get();
+
+            }
+            $output = '';
+            $last_id = '';
+
+            if(!$data->isEmpty())
+            {
+                foreach($data as $row)
+                {
+
+                    $thumbnail = Thumbnail::where('video_id','=',$row->fb_id)->first()->link;
+                    $output .= '
+
+
+
+         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" style="margin-bottom: 50px">
+                            <div class="card"
+                                 data-toggle="modal"
+                                 data-target="#myModal"
+                                 data-url="'.$row->link.'"
+                                 data-xid="'.$row->fb_id.'">
+                                <img class="card-img-top" src="'.$thumbnail.'" alt="..." />
+                                <div class="card-body">
+                                    <h5 class="card-title">'.$row->title.'</h5>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+        ';
+                    $last_id = $row->sort;
+                }
+                $output .= '
+
+            <div class="container" id="load_more">
+            <div class="row justify-content-center">
+            <div class="col-lg-8">
+        <button type="button" name="load_more_button" class="btn btn-success form-control" data-id="'.$last_id.'" id="load_more_button">Load More</button>
+       </div>
+       </div>
+       </div>
+       ';
+            }
+            else
+            {
+                $output .= '
+       <div id="load_more">
+        <button type="button" name="load_more_button" class="btn btn-info form-control">No Data Found</button>
+       </div>
+       ';
+            }
+            echo $output;
         }
     }
 

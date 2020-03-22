@@ -143,26 +143,28 @@
                     </div>
                     <hr class="mb-4" />
 
-                    <div class="row">
+                    <div class="row" id="post_data">
 
 {{--                        Start--}}
 
-                        @foreach($return['item'] as $item)
 
-                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" style="margin-bottom: 50px">
-                            <div class="card"
-                                 data-toggle="modal"
-                                 data-target="#myModal"
-                                 data-url="{{$item->link}}"
-                                 data-id="{{$item->fb_id}}">
-                                <img class="card-img-top" src="{{\App\Facebook\Thumbnail::where('video_id', '=', $item->fb_id)->first()->link}}" alt="..." />
-                                <div class="card-body">
-                                    <h5 class="card-title">{{$item->title}}</h5>
-                                </div>
-                            </div>
-                        </div>
 
-                        @endforeach
+{{--                        @foreach($return['item'] as $item)--}}
+
+{{--                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" style="margin-bottom: 50px">--}}
+{{--                            <div class="card"--}}
+{{--                                 data-toggle="modal"--}}
+{{--                                 data-target="#myModal"--}}
+{{--                                 data-url="{{$item->link}}"--}}
+{{--                                 data-xid="{{$item->fb_id}}">--}}
+{{--                                <img class="card-img-top" src="{{\App\Facebook\Thumbnail::where('video_id', '=', $item->fb_id)->first()->link}}" alt="..." />--}}
+{{--                                <div class="card-body">--}}
+{{--                                    <h5 class="card-title">{{$item->title}}</h5>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+
+{{--                        @endforeach--}}
 
 
 {{--                        End--}}
@@ -266,21 +268,51 @@
 <script>
 
 
+    $(document).ready(function(){
+
+        var _token = $('input[name="_token"]').val();
+
+        load_data('', _token);
+
+        function load_data(id="", _token)
+        {
+            $.ajax({
+                url:"/loadmore/aload_more",
+                method:"POST",
+                data:{id:id, _token:_token},
+                success:function(data)
+                {
+                    $('#load_more_button').remove();
+                    $('#post_data').append(data);
+                }
+            })
+        }
+
+        $(document).on('click', '#load_more_button', function(){
+            var id = $(this).data('id');
+            $('#load_more_button').html('<b>Loading...</b>');
+            load_data(id, _token);
+        });
+
+    });
+
+
+
     $('#myModal').on('show.bs.modal', function (event) {
         var button = $(event.relatedTarget);
         var url = button.data('url');
 
-        var id = button.data('id');
+        var xid = button.data('xid');
 
         // load info
 
-        $.ajax({url: "/video/info/"+id, success: function(result){
+        $.ajax({url: "/video/info/"+xid, success: function(result){
 
 
 
                 $('#video_title').html(result.title);
                 $('#video_desc').html(result.desc);
-                $('#video_created_at').html("last updated "+ result.fb_created)
+                $('#video_created_at').html("last updated "+ result.diffz)
 
             }});
 

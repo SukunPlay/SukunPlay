@@ -26,7 +26,8 @@ class CreateStoreVideosTable extends Migration
             $table->longText('en_desc')->nullable();
             $table->longText('en_title')->nullable();
             $table->bigInteger('likes')->nullable();
-            $table->dateTime('fb_created');
+            $table->dateTime('fb_created')->nullable();
+            $table->bigInteger('sort')->unique()->nullable();
             $table->softDeletes();
             $table->timestamps();
         });

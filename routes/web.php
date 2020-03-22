@@ -19,6 +19,13 @@ Route::get('/', 'Facebook\Main@index')->name('home');
 
 Route::get('/fbupdate','Facebook\getVideo@storevideo')->name('storevideo');
 
+Route::get('/fbsort','Facebook\getVideo@sortz')->name('sortvideo');
+
+Route::post('/loadmore/aload_more', 'Facebook\getVideo@aload_more')->name('loadmore.aload_more');
+
+
+
+
 Route::post('fbwebhook','Facebook\test@fbwebhook')->name('fbwebhook');
 
 Route::get('/dashboard/home','DashboardController@home')->name('dashboard.home');
