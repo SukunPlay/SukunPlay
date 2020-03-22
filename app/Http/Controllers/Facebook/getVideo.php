@@ -171,8 +171,10 @@ class getVideo extends Controller
                                  data-url="'.$row->link.'"
                                  data-xid="'.$row->fb_id.'">
                                 <img class="card-img-top" src="'.$thumbnail.'" alt="..." />
+                                <img class="card-img-top playbutton" src="'.asset('logo2.png').'" alt="..." />
+
                                 <div class="card-body">
-                                    <h5 class="card-title" style="font-family: MVAWAHEED; text-align: right">'.$row->title.'</h5>
+                                    <h5 class="card-title" style="font-family: MVAWAHEED; text-align: right; font-size: 20px">'.$row->title.'</h5>
                                 </div>
                             </div>
                         </div>

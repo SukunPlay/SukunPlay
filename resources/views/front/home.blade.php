@@ -17,6 +17,15 @@
             src: url('{{ asset('fonts/AAMMUFKF.TTF') }}');
         }
 
+        .playbutton
+        {
+            position: absolute;
+            top: 100px;
+            left: 105px;
+            height: 90px;
+            width: 100px;
+        }
+
     </style>
 <div id="layoutDefault">
     <div id="layoutDefault_content">
@@ -126,7 +135,7 @@
             <section class="bg-light py-5">
                 <div class="container">
                     <div class="d-flex align-items-center justify-content-center">
-                        <h6 class="mb-0" style="font-family: MVAWAHEED; text-align: right; font-size: 40px" >އެންމެ ފަހުގެ ޙަބަރު</h6>
+                        <h6 class="mb-0" style="font-family: AAMUFKF; text-align: right; font-size: 40px" >އެންމެ ފަހުގެ ޙަބަރު</h6>
 
                     </div>
                     <hr class="mb-4" />
@@ -139,14 +148,14 @@
                             <div class="row no-gutters">
                                 <div class="col-lg-6 align-self-stretch bg-img-cover  d-lg-flex" style='background-image: url("{{\App\Facebook\Thumbnail::where('video_id','=', $return['sample']->fb_id)->first()->link}}");height: 400px'></div>
                                 <div class="col-lg-6 p-5 ">
-                                    <a class="text-dark" href="#!" style="font-family: MVAWAHEED; text-align: right; font-size: 35px"><p>{{$return['sample']->title}}</p></a>
-                                    <p class="text "style="font-family: AAMUFKF; text-align: right">{{$return['sample']->desc}}</p>
+                                    <a class="text-dark" href="#!" style="font-family: AAMUFKF; text-align: right; font-size: 35px"><p>{{$return['sample']->title}}</p></a>
+                                    <p class="text " style="font-family: MVAWAHEED; text-align: right;font-size: 20px">{{$return['sample']->desc}}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="d-flex align-items-center justify-content-center">
-                        <h6 class="mb-0" style="font-family: MVAWAHEED; text-align: right;font-size: 40px" > ހުރިހާ ޙަބަރެއް</h6>
+                        <h6 class="mb-0" style="font-family: AAMUFKF; text-align: right;font-size: 40px" > ހުރިހާ ޙަބަރެއް</h6>
 
                     </div>
                     <hr class="mb-4" />
@@ -164,7 +173,7 @@
                                         <div class="row no-gutters">
                                             <div class="col-12 col-md-12 col-lg-8 col-xl-8" style="margine-left:-1px;">
                                                 <video controls autoplay loop muted width="100%" height="100%" class="sukun vid"
-                                                       style="margin-bottom:-6px;border-top-left-radius: 20px;border-bottom-left-radius: 20px">
+                                                       style="margin-bottom:-6px;border-top-left-radius: 20px;border-bottom-left-radius: 20px;">
                                                     <source src="">
                                                     Your browser does not support the video tag.
                                                 </video>
@@ -172,11 +181,11 @@
                                             <div class="col-12 col-md-12 col-lg-4 col-xl-4">
                                                     <button type="button" class="btn btn-default align-content-end" data-dismiss="modal">X</button>
                                                 <div class="card-body">
-                                                    <h5 class="card-title" id="video_title"></h5>
-                                                    <p class="card-text" id="video_desc">
+                                                   <p class="text-dark" style="font-family: AAMUFKF; text-align: right;font-size: 40px" id="video_title"><b></b></p>
+                                                    <p class="card-text" style="font-family: MVAWAHEED; text-align: right;font-size: 20px" id="video_desc">
 
                                                     </p>
-                                                    <p class="card-text"><small class="text-muted" id="video_created_at"></small></p>
+                                                    <p class="card-text" style="text-align: right"><small class="text-muted" id="video_created_at" style="text-align: right"></small></p>
                                                 </div>
                                             </div>
                                         </div>
