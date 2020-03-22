@@ -9720,7 +9720,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #1f2d41 !important;
+  background-color: #009d33!important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -20376,10 +20376,10 @@ section {
   height: 1rem;
 }
 .footer.footer-dark {
-  color: rgba(255, 255, 255, 0.6);
+  color: white;
 }
 .footer.footer-dark hr {
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: white;
 }
 .footer.footer-light {
   color: #a2acba;

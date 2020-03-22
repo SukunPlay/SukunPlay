@@ -125,7 +125,7 @@
             </nav>
             <section class="bg-light py-5">
                 <div class="container">
-                    <div class="d-flex align-items-center justify-content-end">
+                    <div class="d-flex align-items-center justify-content-center">
                         <h6 class="mb-0" style="font-family: MVAWAHEED; text-align: right; font-size: 40px" >އެންމެ ފަހުގެ ޙަބަރު</h6>
 
                     </div>
@@ -139,13 +139,13 @@
                             <div class="row no-gutters">
                                 <div class="col-lg-6 align-self-stretch bg-img-cover  d-lg-flex" style='background-image: url("{{\App\Facebook\Thumbnail::where('video_id','=', $return['sample']->fb_id)->first()->link}}");height: 400px'></div>
                                 <div class="col-lg-6 p-5 ">
-                                    <a class="text-dark" href="#!" style="font-family: MVAWAHEED; text-align: right"><h1>{{$return['sample']->title}}</h1></a>
+                                    <a class="text-dark" href="#!" style="font-family: MVAWAHEED; text-align: right; font-size: 35px"><p>{{$return['sample']->title}}</p></a>
                                     <p class="text "style="font-family: AAMUFKF; text-align: right">{{$return['sample']->desc}}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="d-flex align-items-center justify-content-end">
+                    <div class="d-flex align-items-center justify-content-center">
                         <h6 class="mb-0" style="font-family: MVAWAHEED; text-align: right;font-size: 40px" > ހުރިހާ ޙަބަރެއް</h6>
 
                     </div>
