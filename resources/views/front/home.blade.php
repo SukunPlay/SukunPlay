@@ -1,17 +1,29 @@
 @extends('front.app')
 
 @section('body')
-    <style>
+    <style type="text/css">
         .right-to-left-saidey {
             direction: rtl;
         }
+
+
+        @font-face {
+            font-family: MVAWAHEED;
+            src: url('{{ asset('fonts/MVAWAHEED.TTF') }}');
+        }
+
+        @font-face {
+            font-family: AAMUFKF;
+            src: url('{{ asset('fonts/AAMMUFKF.TTF') }}');
+        }
+
     </style>
 <div id="layoutDefault">
     <div id="layoutDefault_content">
         <main>
             <nav class="navbar navbar-marketing navbar-expand-lg bg-white navbar-light">
                 <div class="container justify-content-end">
-                    <a class="navbar-brand text-dark" href="index.html">SukunPlay</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i data-feather="menu"></i></button>
+                    <a class="navbar-brand text-dark" href="#">SukunPlay</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i data-feather="menu"></i></button>
 {{--                    <div class="collapse navbar-collapse" id="navbarSupportedContent">--}}
 {{--                        <ul class="navbar-nav ml-auto mr-lg-5">--}}
 {{--                            <li class="nav-item"><a class="nav-link" href="index.html">Home </a></li>--}}
@@ -129,8 +141,8 @@
                             <div class="row no-gutters">
                                 <div class="col-lg-6 align-self-stretch bg-img-cover d-none d-lg-flex" style='background-image: url("{{\App\Facebook\Thumbnail::where('video_id','=', $return['sample']->fb_id)->first()->link}}")'></div>
                                 <div class="col-lg-6 p-5 ">
-                                    <a class="text-dark" href="#!"><h1>{{$return['sample']->title}}</h1></a>
-                                    <p class="text-left">{{$return['sample']->desc}}</p>
+                                    <a class="text-dark" href="#!" style="font-family: MVAWAHEED; text-align: right"><h1>{{$return['sample']->title}}</h1></a>
+                                    <p class="text "style="font-family: AAMUFKF; text-align: right">{{$return['sample']->desc}}</p>
                                 </div>
                             </div>
                         </div>
@@ -145,29 +157,6 @@
 
                     <div class="row" id="post_data">
 
-{{--                        Start--}}
-
-
-
-{{--                        @foreach($return['item'] as $item)--}}
-
-{{--                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" style="margin-bottom: 50px">--}}
-{{--                            <div class="card"--}}
-{{--                                 data-toggle="modal"--}}
-{{--                                 data-target="#myModal"--}}
-{{--                                 data-url="{{$item->link}}"--}}
-{{--                                 data-xid="{{$item->fb_id}}">--}}
-{{--                                <img class="card-img-top" src="{{\App\Facebook\Thumbnail::where('video_id', '=', $item->fb_id)->first()->link}}" alt="..." />--}}
-{{--                                <div class="card-body">--}}
-{{--                                    <h5 class="card-title">{{$item->title}}</h5>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-
-{{--                        @endforeach--}}
-
-
-{{--                        End--}}
 
                         <div class="modal fade" id="myModal" role="dialog">
                             <div class="modal-dialog modal-xl">
