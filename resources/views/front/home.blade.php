@@ -32,7 +32,7 @@
         <main>
             <nav class="navbar navbar-marketing navbar-expand-lg bg-white navbar-light">
                 <div class="container justify-content-end">
-                    <a class="navbar-brand text-dark" href="#">SukunPlay</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i data-feather="menu"></i></button>
+                    <a class="navbar-brand text-dark" href="#"><img src="{{asset('logo.svg')}}"></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i data-feather="menu"></i></button>
 {{--                    <div class="collapse navbar-collapse" id="navbarSupportedContent">--}}
 {{--                        <ul class="navbar-nav ml-auto mr-lg-5">--}}
 {{--                            <li class="nav-item"><a class="nav-link" href="index.html">Home </a></li>--}}
