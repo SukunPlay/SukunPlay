@@ -125,11 +125,9 @@
             </nav>
             <section class="bg-light py-5">
                 <div class="container">
-                    <div class="d-flex align-items-center justify-content-between">
-                        <h6 class="mb-0">Featured Story</h6>
-                        <div>
-                            <a class="text-arrow-icon small" href="#!">More headlines<i data-feather="arrow-right"></i></a>
-                        </div>
+                    <div class="d-flex align-items-center justify-content-end">
+                        <h6 class="mb-0" style="font-family: MVAWAHEED; text-align: right; font-size: 40px" >އެންމެ ފަހުގެ ޙަބަރު</h6>
+
                     </div>
                     <hr class="mb-4" />
                     <div class="card mb-4"
@@ -139,7 +137,7 @@
                     data-id="{{$return['sample']->fb_id}}">
                         <div class="card-body p-0">
                             <div class="row no-gutters">
-                                <div class="col-lg-6 align-self-stretch bg-img-cover d-none d-lg-flex" style='background-image: url("{{\App\Facebook\Thumbnail::where('video_id','=', $return['sample']->fb_id)->first()->link}}")'></div>
+                                <div class="col-lg-6 align-self-stretch bg-img-cover  d-lg-flex" style='background-image: url("{{\App\Facebook\Thumbnail::where('video_id','=', $return['sample']->fb_id)->first()->link}}");height: 400px'></div>
                                 <div class="col-lg-6 p-5 ">
                                     <a class="text-dark" href="#!" style="font-family: MVAWAHEED; text-align: right"><h1>{{$return['sample']->title}}</h1></a>
                                     <p class="text "style="font-family: AAMUFKF; text-align: right">{{$return['sample']->desc}}</p>
@@ -147,11 +145,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="d-flex align-items-center justify-content-between">
-                        <h6 class="mb-0">Top Stories</h6>
-                        <div>
-                            <a class="text-arrow-icon small" href="#!">View more<i data-feather="arrow-right"></i></a>
-                        </div>
+                    <div class="d-flex align-items-center justify-content-end">
+                        <h6 class="mb-0" style="font-family: MVAWAHEED; text-align: right;font-size: 40px" > ހުރިހާ ޙަބަރެއް</h6>
+
                     </div>
                     <hr class="mb-4" />
 
