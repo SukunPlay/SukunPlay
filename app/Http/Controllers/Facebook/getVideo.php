@@ -28,7 +28,7 @@ class getVideo extends Controller
 
 
         try {
-            $response = $fb->get('me?fields=videos{thumbnails,description,id,title,source}', config('app.fb_access'));
+            $response = $fb->get('me?fields=videos{created_time,id,description,thumbnails,source,title}', config('app.fb_access'));
 
         } catch (\Facebook\Exceptions\FacebookResponseException $e) {
             echo 'Graph returned an error: ' . $e->getMessage();
@@ -70,6 +70,7 @@ class getVideo extends Controller
                     $new_video->link = $n['source'];
                     $new_video->desc = $n['description'];
                     $new_video->title = $n['title'];
+                    $new_video->fb_created =$n['created_time'];
                     $new_video->save();
                 }catch (\Exception $e){
                     DB::rollBack();

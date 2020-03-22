@@ -16,7 +16,7 @@ class DashboardController extends Controller
 
     public function testz(){
 
-        $item = StoreVideo::all()->sortBy('desc');
+        $item = StoreVideo::all()->sortByDesc('fb_created');
 
         $sample = StoreVideo::where('id','=',1)->first();
 

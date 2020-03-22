@@ -1,6 +1,11 @@
 @extends('front.app')
 
 @section('body')
+    <style>
+        .right-to-left-saidey {
+            direction: rtl;
+        }
+    </style>
 <div id="layoutDefault">
     <div id="layoutDefault_content">
         <main>
@@ -123,9 +128,9 @@
                         <div class="card-body p-0">
                             <div class="row no-gutters">
                                 <div class="col-lg-6 align-self-stretch bg-img-cover d-none d-lg-flex" style='background-image: url("{{\App\Facebook\Thumbnail::where('video_id','=', $return['sample']->fb_id)->first()->link}}")'></div>
-                                <div class="col-lg-6 p-5">
-                                    <a class="badge badge-marketing badge-primary-soft badge-pill text-primary mb-3" href="#!">Web</a><a class="text-dark" href="#!"><h1>{{$return['sample']->title}}</h1></a>
-                                    <p>{{$return['sample']->desc}}</p>
+                                <div class="col-lg-6 p-5 ">
+                                    <a class="text-dark" href="#!"><h1>{{$return['sample']->title}}</h1></a>
+                                    <p class="text-left">{{$return['sample']->desc}}</p>
                                 </div>
                             </div>
                         </div>
@@ -275,7 +280,7 @@
 
                 $('#video_title').html(result.title);
                 $('#video_desc').html(result.desc);
-                $('#video_created_at').html("last updated "+ result.humanTime)
+                $('#video_created_at').html("last updated "+ result.fb_created)
 
             }});
 
