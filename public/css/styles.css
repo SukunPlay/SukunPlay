@@ -8905,6 +8905,7 @@ a.close.disabled {
 .modal-open .modal {
   overflow-x: hidden;
   overflow-y: auto;
+    background-color: rgba(0,0,0,.7);
 }
 
 .modal {
