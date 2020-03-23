@@ -17,13 +17,21 @@
             src: url('{{ asset('fonts/AAMMUFKF.TTF') }}');
         }
 
-        .playbutton
-        {
+        .videos img {
+            width:100%;
+            height:auto;
+        }
+        a.video {
+            float: left;
+            position: relative;
+        }
+        a.video span {
+            width: 100%;
+            height: 100%;
             position: absolute;
-            top: 100px;
-            left: 105px;
-            height: 90px;
-            width: 100px;
+            background: url({{asset('logo2.png')}}) no-repeat;
+            background-position: 50% 50%;
+            background-size: 50%;
         }
 
     </style>
@@ -31,8 +39,19 @@
     <div id="layoutDefault_content">
         <main>
             <nav class="navbar navbar-marketing navbar-expand-lg bg-white navbar-light">
-                <div class="container justify-content-end">
-                    <a class="navbar-brand text-dark" href="#"><img src="{{asset('logo.svg')}}"></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i data-feather="menu"></i></button>
+                <div class="container justify-content-center">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <a class="navbar-brand text-dark" href="#"></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i data-feather="menu"></i></button>
+                    <img src="{{asset('logo.svg')}}" height="50px">
+
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
 {{--                    <div class="collapse navbar-collapse" id="navbarSupportedContent">--}}
 {{--                        <ul class="navbar-nav ml-auto mr-lg-5">--}}
 {{--                            <li class="nav-item"><a class="nav-link" href="index.html">Home </a></li>--}}
@@ -131,6 +150,7 @@
 {{--                    </div>--}}
 
                 </div>
+
             </nav>
             <section class="bg-light py-5">
                 <div class="container">
