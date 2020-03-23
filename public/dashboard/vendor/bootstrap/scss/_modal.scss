@@ -9,8 +9,9 @@
   overflow: hidden;
 
   .modal {
+      background-color: black;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: hidden;
   }
 }
 
@@ -127,7 +128,7 @@
 
   // Fade for backdrop
   &.fade { opacity: 0; }
-  &.show { opacity: $modal-backdrop-opacity; }
+  &.show { opacity: 0.8; }
 }
 
 // Modal header

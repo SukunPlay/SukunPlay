@@ -202,8 +202,12 @@ class getVideo extends Controller
             else
             {
                 $output .= '
-       <div id="load_more">
+       <div class="container" id="load_more">
+            <div class="row justify-content-center">
+            <div class="col-lg-8">
         <button type="button" name="load_more_button" class="btn btn-info form-control"style="font-family: MVAWAHEED; font-size: 30px">ނިމުނީ<button>
+         </div>
+       </div>
        </div>
        ';
             }
