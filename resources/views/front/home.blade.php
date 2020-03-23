@@ -199,7 +199,7 @@
                                                 </video>
                                             </div>
                                             <div class="col-12 col-md-12 col-lg-4 col-xl-4">
-                                                    <button type="button" class="btn btn-default align-content-end" data-dismiss="modal">X</button>
+                                                    <button type="button" class="btn btn-default align-content-end" data-dismiss="modal"></button>
                                                 <div class="card-body">
                                                    <p class="text-dark" style="font-family: AAMUFKF; text-align: right;font-size: 40px" id="video_title"><b></b></p>
                                                     <p class="card-text" style="font-family: MVAWAHEED; text-align: right;font-size: 20px" id="video_desc">
