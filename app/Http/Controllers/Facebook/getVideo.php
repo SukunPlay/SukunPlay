@@ -138,7 +138,7 @@ class getVideo extends Controller
 
                 $data = StoreVideo::where('sort','<', $request->id)
                     ->orderby('sort', 'DESC')
-                    ->limit(9)
+                    ->limit(12)
                     ->get();
 
             }
@@ -147,7 +147,7 @@ class getVideo extends Controller
 
                 $data = DB::table('store_videos')
                     ->orderBy('sort', 'DESC')
-                    ->limit(9)
+                    ->limit(12)
                     ->get();
 
             }
@@ -164,7 +164,7 @@ class getVideo extends Controller
 
 
 
-         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" style="margin-bottom: 50px">
+         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3" style="margin-bottom: 50px">
                             <div class="card"
                                  data-toggle="modal"
                                  data-target="#myModal"
@@ -192,7 +192,7 @@ class getVideo extends Controller
 
             <div class="container" id="load_more">
             <div class="row justify-content-center">
-            <div class="col-lg-8">
+            <div class="col-lg-12">
         <button type="button" name="load_more_button" class="btn btn-success form-control" data-id="'.$last_id.'" id="load_more_button" style="font-family: MVAWAHEED; font-size: 30px">އިތުރަށް</button>
        </div>
        </div>

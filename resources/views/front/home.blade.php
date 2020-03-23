@@ -180,6 +180,13 @@
                     </div>
                     <hr class="mb-4" />
 
+                </div>
+
+
+
+                </section>
+                <section class="bg-light py-5" >
+                    <div class="container">
                     <div class="row" id="post_data">
 
 
@@ -189,7 +196,7 @@
                                 <!-- Modal content-->
                                 <div class="modal-content" style="background-color:transparent; border:none">
 
-                                    <div class="card  my-5 " style="border-radius: 20px;border:none">
+                                    <div class="card my-5 " style="border-radius: 20px;border:none">
                                         <div class="row no-gutters">
                                             <div class="col-12 col-md-12 col-lg-8 col-xl-8" style="margine-left:-1px;">
                                                 <video controls autoplay loop muted width="100%" height="100%" class="sukun vid"
