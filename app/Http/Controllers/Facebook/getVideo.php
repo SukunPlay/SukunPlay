@@ -9,10 +9,12 @@ use Facebook\Exceptions\FacebookSDKException;
 use Facebook\Facebook;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Str;
 
 class getVideo extends Controller
 {
-    public function storevideo(){
+    public function storevideo()
+    {
 
 
         try {
@@ -43,7 +45,7 @@ class getVideo extends Controller
 
         $this->storefbvidz($me);
 
-        while (isset($me->getMetaData()['paging']['next'])){
+        while (isset($me->getMetaData()['paging']['next'])) {
 
             $response = $fb->next($me);
             $me = $response;
@@ -58,11 +60,12 @@ class getVideo extends Controller
     }
 
 
-    public function storefbvidz($data){
+    public function storefbvidz($data)
+    {
 
-        foreach ($data as $n){
+        foreach ($data as $n) {
 
-            if (!StoreVideo::where('fb_id','=',$n['id'])->exists()){
+            if (!StoreVideo::where('fb_id', '=', $n['id'])->exists()) {
 
                 DB::beginTransaction();
                 $new_video = new StoreVideo();
@@ -71,15 +74,15 @@ class getVideo extends Controller
                     $new_video->link = $n['source'];
                     $new_video->desc = $n['description'];
                     $new_video->title = $n['title'];
-                    $new_video->fb_created =$n['created_time'];
+                    $new_video->fb_created = $n['created_time'];
                     $new_video->save();
-                }catch (\Exception $e){
+                } catch (\Exception $e) {
                     DB::rollBack();
 
                 }
 
 
-                foreach ($n['thumbnails'] as $thumbnail){
+                foreach ($n['thumbnails'] as $thumbnail) {
 
 
                     $new_thumbnail = new Thumbnail();
@@ -89,7 +92,7 @@ class getVideo extends Controller
                         $new_thumbnail->link = $thumbnail['uri'];
                         $new_thumbnail->save();
 
-                    }catch (\Exception $e){
+                    } catch (\Exception $e) {
 
                         DB::rollBack();
                     }
@@ -106,18 +109,17 @@ class getVideo extends Controller
     }
 
 
-
-    public function sortz(){
+    public function sortz()
+    {
 
 
         $sort = StoreVideo::all()->sortByDesc('fb_created');
 
 
+        $num = $sort->count();
 
-        $num= $sort->count();
 
-
-        foreach ($sort as $s){
+        foreach ($sort as $s) {
 
             $s->sort = $num;
             $num--;
@@ -128,22 +130,17 @@ class getVideo extends Controller
     }
 
 
-
     function aload_more(Request $request)
     {
-        if($request->ajax())
-        {
-            if($request->id > 0)
-            {
+        if ($request->ajax()) {
+            if ($request->id > 0) {
 
-                $data = StoreVideo::where('sort','<', $request->id)
+                $data = StoreVideo::where('sort', '<', $request->id)
                     ->orderby('sort', 'DESC')
                     ->limit(12)
                     ->get();
 
-            }
-            else
-            {
+            } else {
 
                 $data = DB::table('store_videos')
                     ->orderBy('sort', 'DESC')
@@ -154,34 +151,32 @@ class getVideo extends Controller
             $output = '';
             $last_id = '';
 
-            if(!$data->isEmpty())
-            {
-                foreach($data as $row)
-                {
+            if (!$data->isEmpty()) {
+                foreach ($data as $row) {
 
-                    $thumbnail = Thumbnail::where('video_id','=',$row->fb_id)->first()->link;
+                    $thumbnail = Thumbnail::where('video_id', '=', $row->fb_id)->first()->link;
                     $output .= '
 
 
 
-         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3" style="margin-bottom: 50px">
-                            <div class="card"
-                                 data-toggle="modal"
-                                 data-target="#myModal"
-                                 data-url="'.$row->link.'"
-                                 data-xid="'.$row->fb_id.'">
+             <div class="col-6 col-md-4 col-lg-3" style="margin-bottom: 50px;padding-right:0.5rem;padding-left:0.5rem">
+                                <div class="card"
+                                     data-toggle="modal"
+                                     data-target="#myModal"
+                                     data-url="' . $row->link . '"
+                                     data-xid="' . $row->fb_id . '">
 
-                                <div class="videos">
-                                  <a class="video">
-                                    <span></span>
-                                    <img src="'.$thumbnail.'" alt="My Awesome Video" />
-                                  </a>
+                                    <div class="videos">
+                                      <a class="video">
+                                        <span></span>
+                                        <img src="' . $thumbnail . '" alt="My Awesome Video" />
+                                      </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-family: MVAWAHEED; text-align: right; font-size: 20px">' . $row->title . '</h5>
+                                    </div>
                                 </div>
-                                <div class="card-body">
-                                    <h5 class="card-title" style="font-family: MVAWAHEED; text-align: right; font-size: 20px">'.$row->title.'</h5>
-                                </div>
-                            </div>
-                        </div>
+            </div>
 
 
 
@@ -193,14 +188,12 @@ class getVideo extends Controller
             <div class="container" id="load_more">
             <div class="row justify-content-center">
             <div class="col-lg-12">
-        <button type="button" name="load_more_button" class="btn btn-success form-control" data-id="'.$last_id.'" id="load_more_button" style="font-family: MVAWAHEED; font-size: 30px">އިތުރަށް</button>
+        <button type="button" name="load_more_button" class="btn btn-success form-control" data-id="' . $last_id . '" id="load_more_button" style="font-family: MVAWAHEED; font-size: 30px">އިތުރަށް</button>
        </div>
        </div>
        </div>
        ';
-            }
-            else
-            {
+            } else {
                 $output .= '
        <div class="container" id="load_more">
             <div class="row justify-content-center">
