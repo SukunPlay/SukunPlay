@@ -262,7 +262,7 @@
 
                 </section>
                 <section class="bg-light ">
-                    <div class="container p-4 col-12">
+                    <div class="container p-4 p-lg-15 col-12">
                         <div class="row" id="post_data">
 
 
