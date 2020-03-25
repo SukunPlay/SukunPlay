@@ -396,7 +396,7 @@
                     method: "POST",
                     data: {id: id, _token: _token},
                     success: function (data) {
-                        $('#load_more_button').remove();
+                        $('#load_more').remove();
                         $('#post_data').append(data);
                     }
                 })
