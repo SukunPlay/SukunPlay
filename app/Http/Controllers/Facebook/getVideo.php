@@ -161,6 +161,7 @@ class getVideo extends Controller
 
              <div class="col-6 col-md-3 col-lg-2" style="margin-bottom: 50px;padding-right:0.5rem;padding-left:0.5rem">
                                 <div class="card"
+                                    style="border-radius: 0!important;"
                                      data-toggle="modal"
                                      data-target="#myModal"
                                      data-url="' . $row->link . '"

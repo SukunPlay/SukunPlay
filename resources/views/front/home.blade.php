@@ -226,12 +226,12 @@
                 <section class="bg-light py-5">
                     <div class="container">
                         <div class="d-flex align-items-center justify-content-center">
-                            <h6 class="mb-0" style="font-family: AAMUFKF; text-align: right; font-size: 40px">އެންމެ
-                                ފަހުގެ</h6>
+                            <h6 class="mb-0" style="font-family: AAMUFKF; text-align: right; font-size: 40px">އެންމެ ފަސް</h6>
 
                         </div>
                         <hr class="mb-4"/>
                         <div class="card mb-4"
+                             style="border-radius: 0!important;"
                              data-toggle="modal"
                              data-target="#myModal"
                              data-url="{{$return['sample']->link}}"
@@ -272,13 +272,13 @@
                                     <!-- Modal content-->
                                     <div class="modal-content" style="background-color:transparent; border:none">
 
-                                        <div class="card my-5 " style="border-radius: 20px;border:none">
+                                        <div class="card my-5 " style="border-radius: 0px;border:none">
                                             <div class="row no-gutters">
                                                 <div class="col-12 col-md-12 col-lg-8 col-xl-8"
                                                      style="margine-left:-1px;">
                                                     <video controls autoplay loop muted width="100%" height="100%"
                                                            class="sukun vid"
-                                                           style="margin-bottom:-6px;border-top-left-radius: 20px;border-bottom-left-radius: 20px;">
+                                                           style="margin-bottom:-6px;">
                                                         <source src="">
                                                         Your browser does not support the video tag.
                                                     </video>
