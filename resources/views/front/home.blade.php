@@ -6,6 +6,9 @@
             direction: rtl;
         }
 
+        .hides-for-small{
+            display: none;
+        }
 
         @font-face {
             font-family: MVAWAHEED;
@@ -83,12 +86,25 @@
         @media only screen
         and (min-width: 1224px) {
             /* Styles */
+            .hides-for-small{
+                display: inherit;
+            }
+            .hides-for-large{
+                display: none;
+            }
+
         }
 
         /* Large screens ----------- */
         @media only screen
         and (min-width: 1824px) {
             /* Styles */
+            .hides-for-small{
+                display: inherit;
+            }
+            .hides-for-large{
+                display: none;
+            }
         }
 
         /* iPhone 4 ----------- */
@@ -113,9 +129,133 @@
                 <div class="d-flex align-items-center justify-content-center pb-5">
                     <h6 class="mb-0" style="font-family: AAMUFKF; text-align: right; font-size: 25px">އެންމެ ފަހުގެ
                         ވީޑިއޯ</h6>
+                </div>
+            </div>
+
+            <div class=" hides-for-large">
+                <div class="container p-4 pr-lg-15 pl-lg-15 col-12" style="background-color: red;height: 100%;width: 100%; padding-top: 0!important;">
+
+
 
                 </div>
             </div>
+
+            <div class=" hides-for-small">
+            <div class="container p-4 pr-lg-15 pl-lg-15 col-12" style="background-color: #FFFFFF; padding-top: 0!important;">
+
+                <div class="row">
+
+                    <div class="col-lg-2" style="padding-right:0px;">
+                        <div
+                            style="height: 97%; width: 100%; background-color: #D6EBFF"></div>
+                    </div>
+
+                    <div class="col-lg-5"
+                         style="">
+                        <div class="row">
+                            <div class="col-6"
+                                 style="padding-right:1rem;padding-left:3rem">
+                                <div class="card"
+                                     style="border-radius: 0!important;"
+                                     data-toggle="modal"
+                                     data-target="#myModal"
+                                     data-url="' . $row->link . '"
+                                     data-xid="' . $row->fb_id . '">
+
+                                    <div class="videos">
+                                        <a class="video">
+                                            <span></span>
+                                            <img
+                                                src="{{\App\Facebook\Thumbnail::where('video_id','=',$return['sample']->fb_id)->first()->link}}"
+                                                alt="My Awesome Video"/>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-6"
+                                 style="padding-right:3rem;padding-left:1rem">
+                                <div class="card"
+                                     style="border-radius: 0!important;"
+                                     data-toggle="modal"
+                                     data-target="#myModal"
+                                     data-url="' . $row->link . '"
+                                     data-xid="' . $row->fb_id . '">
+
+                                    <div class="videos">
+                                        <a class="video">
+                                            <span></span>
+                                            <img
+                                                src="{{\App\Facebook\Thumbnail::where('video_id','=',$return['sample']->fb_id)->first()->link}}"
+                                                alt="My Awesome Video"/>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-6"
+                                 style="padding-right:1rem;padding-left:3rem;margin-top:5rem">
+                                <div class="card"
+                                     style="border-radius: 0!important;"
+                                     data-toggle="modal"
+                                     data-target="#myModal"
+                                     data-url="' . $row->link . '"
+                                     data-xid="' . $row->fb_id . '">
+
+                                    <div class="videos">
+                                        <a class="video">
+                                            <span></span>
+                                            <img
+                                                src="{{\App\Facebook\Thumbnail::where('video_id','=',$return['sample']->fb_id)->first()->link}}"
+                                                alt="My Awesome Video"/>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-6"
+                                 style="padding-right:3rem;padding-left:1rem;margin-top:5rem">
+                                <div class="card"
+                                     style="border-radius: 0!important;"
+                                     data-toggle="modal"
+                                     data-target="#myModal"
+                                     data-url="' . $row->link . '"
+                                     data-xid="' . $row->fb_id . '">
+
+                                    <div class="videos">
+                                        <a class="video">
+                                            <span></span>
+                                            <img
+                                                src="{{\App\Facebook\Thumbnail::where('video_id','=',$return['sample']->fb_id)->first()->link}}"
+                                                alt="My Awesome Video"/>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+                    </div>
+
+                    <div class="col-lg-5" style="padding-left: 0px;">
+                        <img
+                            src="{{\App\Facebook\Thumbnail::where('video_id','=',$return['sample']->fb_id)->first()->link}}"
+                            style="height: 97%; width: 100%">
+                    </div>
+
+
+                </div>
+
+            </div>
+            </div>
+
+
         </section>
         <section class="bg-light ">
             <div class="container p-4 p-lg-15 col-12">
