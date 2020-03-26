@@ -95,236 +95,119 @@
         @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
             /* Styles */
         }
-
-
     </style>
 
 
 
 
-    <div id="layoutDefault">
-        <div id="layoutDefault_content">
-            <main>
-                <nav class="navbar navbar-marketing navbar-expand-lg navbar-light" style="background-color: #00A651; height: 68px">
-                    <div class="container justify-content-center">
-                        <br>
-                        <br>
-                        <br>
-                        <br>
+    <main>
+        <nav class="navbar navbar-marketing navbar-expand-lg navbar-light"
+             style="background-color: #00A651; height: 68px">
+            <div class="container justify-content-center">
+                <img src="{{asset('logo.svg')}}" height="24.53px">
+            </div>
 
-                        <img src="{{asset('logo.svg')}}" height="24.53px">
+        </nav>
+        <section class="pt-4" style="background-color: #FFFFFF">
+            <div class="container col-12 pr-15 pl-15">
+                <div class="d-flex align-items-center justify-content-center pb-5">
+                    <h6 class="mb-0" style="font-family: AAMUFKF; text-align: right; font-size: 25px">އެންމެ ފަހުގެ
+                        ވީޑިއޯ</h6>
 
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-
-                    </div>
-
-                </nav>
-                <section class="pt-4">
-                    <div class="container">
-                        <div class="d-flex align-items-center justify-content-center pb-5">
-                            <h6 class="mb-0" style="font-family: AAMUFKF; text-align: right; font-size: 25px">އެންމެ ފަހުގެ ވީޑިއޯ</h6>
-
-                        </div>
-
-                        <div class="row col-12">
-
-                            <div style="background-color: green" class="col-4">
-                                ad slot
-                            </div>
-                            <div style="background-color: blue" class="col-4">
-                                <div class="row">
-                                    <div style="background-color: red" class="col-6">
-
-                                        1
-                                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light ">
+            <div class="container p-4 p-lg-15 col-12">
+                <div class="row" id="post_data">
 
 
-                                    <div style="background-color: yellow" class="col-6">
+                    <div class="modal fade" id="myModal" role="dialog">
+                        <div class="modal-dialog modal-xl">
 
-                                        2
-                                    </div>
+                            <!-- Modal content-->
+                            <div class="modal-content" style="background-color:transparent; border:none">
 
-                                    <div style="background-color: grey" class="col-6">
+                                <div class="card my-5 " style="border-radius: 0px;border:none">
+                                    <div class="row no-gutters">
+                                        <div class="col-12 col-md-12 col-lg-8 col-xl-8"
+                                             style="margine-left:-1px;">
+                                            <video controls autoplay loop muted width="100%" height="100%"
+                                                   class="sukun vid"
+                                                   style="margin-bottom:-6px;">
+                                                <source src="">
+                                                Your browser does not support the video tag.
+                                            </video>
+                                        </div>
+                                        <div class="col-12 col-md-12 col-lg-4 col-xl-4">
+                                            <button type="button" class="btn btn-default align-content-end"
+                                                    data-dismiss="modal"><i class="far fa-window-close fa-3x"
+                                                                            style="position: fixed; top: 1em; right: 1em; color: white"></i>
+                                            </button>
+                                            <div class="card-body">
+                                                <p class="text-dark"
+                                                   style="font-family: AAMUFKF; text-align: right;font-size: 40px"
+                                                   id="video_title"><b></b></p>
+                                                <p class="card-text"
+                                                   style="font-family: MVAWAHEED; text-align: right;font-size: 20px"
+                                                   id="video_desc">
 
-                                        3
-                                    </div>
-
-
-                                    <div style="background-color: darkgreen" class="col-6">
-
-                                        4
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-                            <div style="background-color: darkblue" class="col-4">
-                                ad slot
-                            </div>
-
-                        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-                        <div class="card mb-4"
-                             style="border-radius: 0!important;"
-                             data-toggle="modal"
-                             data-target="#myModal"
-                             data-url="{{$return['sample']->link}}"
-                             data-id="{{$return['sample']->fb_id}}">
-                            <div class="card-body p-0">
-                                <div class="row no-gutters">
-                                    <div class="col-lg-6 align-self-stretch bg-img-cover  d-lg-flex"
-                                         style='background-image: url("{{\App\Facebook\Thumbnail::where('video_id','=', $return['sample']->fb_id)->first()->link}}");height: 500px'></div>
-                                    <div class="col-lg-6 p-5 ">
-                                        <a class="text-dark" href="#!"
-                                           style="font-family: AAMUFKF; text-align: right; font-size: 35px">
-                                            <p>{{$return['sample']->title}}</p></a>
-                                        <p class="text "
-                                           style="font-family: MVAWAHEED; text-align: right;font-size: 20px">{{$return['sample']->desc}}</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="d-flex align-items-center justify-content-center">
-                            <h6 class="mb-0" style="font-family: AAMUFKF; text-align: right;font-size: 40px"> ހުރިހާ
-                                ޚަބަރެއް</h6>
-
-                        </div>
-                        <hr class="mb-4"/>
-
-                    </div>
-
-
-                </section>
-                <section class="bg-light ">
-                    <div class="container p-4 p-lg-15 col-12">
-                        <div class="row" id="post_data">
-
-
-                            <div class="modal fade" id="myModal" role="dialog">
-                                <div class="modal-dialog modal-xl">
-
-                                    <!-- Modal content-->
-                                    <div class="modal-content" style="background-color:transparent; border:none">
-
-                                        <div class="card my-5 " style="border-radius: 0px;border:none">
-                                            <div class="row no-gutters">
-                                                <div class="col-12 col-md-12 col-lg-8 col-xl-8"
-                                                     style="margine-left:-1px;">
-                                                    <video controls autoplay loop muted width="100%" height="100%"
-                                                           class="sukun vid"
-                                                           style="margin-bottom:-6px;">
-                                                        <source src="">
-                                                        Your browser does not support the video tag.
-                                                    </video>
-                                                </div>
-                                                <div class="col-12 col-md-12 col-lg-4 col-xl-4">
-                                                    <button type="button" class="btn btn-default align-content-end"
-                                                            data-dismiss="modal"><i class="far fa-window-close fa-3x"
-                                                                                    style="position: fixed; top: 1em; right: 1em; color: white"></i>
-                                                    </button>
-                                                    <div class="card-body">
-                                                        <p class="text-dark"
-                                                           style="font-family: AAMUFKF; text-align: right;font-size: 40px"
-                                                           id="video_title"><b></b></p>
-                                                        <p class="card-text"
-                                                           style="font-family: MVAWAHEED; text-align: right;font-size: 20px"
-                                                           id="video_desc">
-
-                                                        </p>
-                                                        <p class="card-text" style="text-align: right"><small
-                                                                class="text-muted" id="video_created_at"
-                                                                style="text-align: right"></small></p>
-                                                    </div>
-                                                </div>
+                                                </p>
+                                                <p class="card-text" style="text-align: right"><small
+                                                        class="text-muted" id="video_created_at"
+                                                        style="text-align: right"></small></p>
                                             </div>
                                         </div>
-
-
                                     </div>
-
                                 </div>
 
+
                             </div>
 
-
-                            {{--                        End--}}
-
-
-
-
-
-                            {{--                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 " data-toggle="modal" data-target="#myModal"--}}
-                            {{--                             data-url="https://video.xx.fbcdn.net/v/t39.24130-2/88450143_501684670543807_6166085097344109706_n.mp4?_nc_cat=100&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQk9IAt9SCAzeougqGzDjFC9-enLs_YhaJWfBinpT8mVnDwAlPy4YqKyzwE_9EQNSrE&_nc_ht=video.xx&oh=ca501e3e6d0592695fcbcbae45d7fcc8&oe=5E935311">--}}
-
-                            {{--                            <div>--}}
-                            {{--                                <video controls loop muted width="100%" height="100%">--}}
-                            {{--                                    <source--}}
-                            {{--                                        src="https://video.xx.fbcdn.net/v/t39.24130-2/88450143_501684670543807_6166085097344109706_n.mp4?_nc_cat=100&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQk9IAt9SCAzeougqGzDjFC9-enLs_YhaJWfBinpT8mVnDwAlPy4YqKyzwE_9EQNSrE&_nc_ht=video.xx&oh=ca501e3e6d0592695fcbcbae45d7fcc8&oe=5E935311">--}}
-                            {{--                                </video>--}}
-                            {{--                                <div>--}}
-
-                            {{--                                    <h5 style="font-weight: bold">Some titel</h5>--}}
-
-                            {{--                                </div>--}}
-                            {{--                            </div>--}}
-
-                            {{--                        </div>--}}
-
-                        </div>
-                    </div>
-
-
-                </section>
-            </main>
-        </div>
-        <div id="layoutDefault_footer">
-            <footer class="footer pt-10 pb-5 mt-auto bg-dark footer-dark">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3">
-                            <div class="footer-brand">Sukun Play</div>
-                            <div class="mb-3">tag line</div>
-                            <div class="icon-list-social mb-5">
-                                <a class="icon-list-social-link" href="javascript:void(0);"><i
-                                        class="fab fa-instagram"></i></a><a class="icon-list-social-link"
-                                                                            href="javascript:void(0);"><i
-                                        class="fab fa-facebook"></i></a><a class="icon-list-social-link"
-                                                                           href="javascript:void(0);"><i
-                                        class="fab fa-github"></i></a><a class="icon-list-social-link"
-                                                                         href="javascript:void(0);"><i
-                                        class="fab fa-twitter"></i></a>
-                            </div>
                         </div>
 
                     </div>
-                    <hr class="my-5"/>
-                    <div class="row align-items-center">
-                        <div class="col-md-6 small">Copyright &copy; Sukun 2020 | Developed by Deploy</div>
-                        <div class="col-md-6 text-md-right small">
-                            <a href="javascript:void(0);">Privacy Policy</a>
-                            &middot;
-                            <a href="javascript:void(0);">Terms &amp; Conditions</a>
+
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+
+    <div id="layoutDefault_footer">
+        <footer class="footer pt-10 pb-5 mt-auto bg-dark footer-dark">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="footer-brand">Sukun Play</div>
+                        <div class="mb-3">tag line</div>
+                        <div class="icon-list-social mb-5">
+                            <a class="icon-list-social-link" href="javascript:void(0);"><i
+                                    class="fab fa-instagram"></i></a><a class="icon-list-social-link"
+                                                                        href="javascript:void(0);"><i
+                                    class="fab fa-facebook"></i></a><a class="icon-list-social-link"
+                                                                       href="javascript:void(0);"><i
+                                    class="fab fa-github"></i></a><a class="icon-list-social-link"
+                                                                     href="javascript:void(0);"><i
+                                    class="fab fa-twitter"></i></a>
                         </div>
+                    </div>
+
+                </div>
+                <hr class="my-5"/>
+                <div class="row align-items-center">
+                    <div class="col-md-6 small">Copyright &copy; Sukun 2020 | Developed by Deploy</div>
+                    <div class="col-md-6 text-md-right small">
+                        <a href="javascript:void(0);">Privacy Policy</a>
+                        &middot;
+                        <a href="javascript:void(0);">Terms &amp; Conditions</a>
                     </div>
                 </div>
-            </footer>
-        </div>
+            </div>
+        </footer>
     </div>
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
