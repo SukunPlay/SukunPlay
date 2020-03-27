@@ -38,5 +38,7 @@ Route::get('/test1','DashboardController@test1')->name('test1');
 
 Route::get('/test2','DashboardController@test2')->name('test2');
 
+Route::get('/test3','DashboardController@test3')->name('test3');
+
 Route::get('/video/info/{video_id}','DashboardController@getInfo')->name('get-video-info');
 

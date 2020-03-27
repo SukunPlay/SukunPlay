@@ -59,6 +59,20 @@ class DashboardController extends Controller
         return view('front.test.home2')->with('return', $return);
     }
 
+    public function test3(){
+
+        $item = StoreVideo::all()->sortByDesc('fb_created');
+
+        $sample = StoreVideo::where('id','=',1)->first();
+
+        $return = [
+            'item' => $item,
+            'sample' => $sample,
+        ];
+
+        return view('front.test.home3')->with('return', $return);
+    }
+
     public function getInfo(Request $request)
     {
         $video_id = $request->video_id;
