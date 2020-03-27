@@ -141,7 +141,7 @@
             </div>
 
             <div class=" hides-for-small">
-            <div class="container p-4 pr-lg-15 pl-lg-15 col-12" style="background-color: #FFFFFF; padding-top: 0!important;">
+            <div class="container p-4 pr-lg-10 pl-lg-10 col-12" style="background-color: #FFFFFF; padding-top: 0!important;">
 
                 <div class="row">
 
@@ -154,7 +154,7 @@
                          style="">
                         <div class="row">
                             <div class="col-6"
-                                 style="padding-right:1rem;padding-left:3rem">
+                                 style="padding-right:1rem;padding-left:3rem; padding-top: 1rem">
                                 <div class="card"
                                      style="border-radius: 0!important;"
                                      data-toggle="modal"
@@ -174,7 +174,7 @@
                                 </div>
                             </div>
                             <div class="col-6"
-                                 style="padding-right:3rem;padding-left:1rem">
+                                 style="padding-right:3rem;padding-left:1rem; padding-top: 1rem">
                                 <div class="card"
                                      style="border-radius: 0!important;"
                                      data-toggle="modal"
@@ -194,7 +194,7 @@
                                 </div>
                             </div>
                             <div class="col-6"
-                                 style="padding-right:1rem;padding-left:3rem;margin-top:5rem">
+                                 style="padding-right:1rem;padding-left:3rem;margin-top:2rem">
                                 <div class="card"
                                      style="border-radius: 0!important;"
                                      data-toggle="modal"
@@ -214,7 +214,7 @@
                                 </div>
                             </div>
                             <div class="col-6"
-                                 style="padding-right:3rem;padding-left:1rem;margin-top:5rem">
+                                 style="padding-right:3rem;padding-left:1rem;margin-top:2rem">
                                 <div class="card"
                                      style="border-radius: 0!important;"
                                      data-toggle="modal"
