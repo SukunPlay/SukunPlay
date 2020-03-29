@@ -10,6 +10,10 @@
             display: none;
         }
 
+        .hides-for-medium {
+            display: none;
+        }
+
         @font-face {
             font-family: MVAWAHEED;
             src: url('{{ asset('fonts/MVAWAHEED.TTF') }}');
@@ -84,7 +88,7 @@
 
         /* Desktops and laptops ----------- */
         @media only screen
-        and (min-width: 992px) {
+        and (min-width: 768px) {
             /* Styles */
             .hides-for-small {
                 display: inherit;
@@ -95,6 +99,20 @@
             }
 
         }
+
+
+        /*@media only screen*/
+        /*and (min-width: 1200px) {*/
+        /*    !* Styles *!*/
+        /*    .hides-for-medium {*/
+        /*        display: inherit;*/
+        /*    }*/
+
+        /*    .hides-for-large {*/
+        /*        display: none;*/
+        /*    }*/
+
+        /*}*/
 
         /* Large screens ----------- */
         @media only screen
@@ -166,30 +184,37 @@
                 </div>
 
             </div>
-            </div>
 
-            <div class="container hides-for-small">
+
+
+            <div class="container hides-for-small p-0">
                 <div class="row">
 
                     <div class="col-1 mb-2" style="">
-                        <div src="" style=" height: 322px; width: 150px; background-color:#D6EBFF ">
+                        <div src="" style="height: 100%; width: 150px; background-color:#D6EBFF ">
 
                         </div>
 
                     </div>
 
-                    <div class="col-11 pl-15">
-                        <div class="card mb-4" style="border-radius: 0!important; height: 322px">
+                    <div class="col-11 mb-2 pl-15">
+                        <div class="card" style="border-radius: 0!important;">
                             <div class="card-body p-0">
                                 <div class="row no-gutters">
-                                    <div class="col-lg-6 align-self-stretch bg-img-cover d-none d-lg-flex"
-                                         style='background-image: url("https://source.unsplash.com/npxXWgQ33ZQ/1200x800"); height:322px'></div>
-                                    <div class="col-lg-6 p-5">
-                                        <a class="badge badge-marketing badge-primary-soft badge-pill text-primary mb-3"
-                                           href="#!">Web</a><a class="text-dark" href="#!"><h1>News companies post
+                                    <div class="videos col-6">
+                                        <a class="video">
+                                            <span></span>
+                                            <img
+                                                src="{{\App\Facebook\Thumbnail::where('video_id','=',$return['sample']->fb_id)->first()->link}}"
+                                                alt="My Awesome Video"/>
+                                        </a>
+                                    </div>
+                                  <div class="col-6 p-4">
+                                        <a class="badge badge-marketing badge-primary-soft badge-pill text-primary"
+                                           href="#!">Web</a><a class="text-dark" href="#!"><h1 style="font-size: 2vw">News companies post
                                                 headline
                                                 about creating new websites with powerful UI kits</h1></a>
-                                        <p>When creating and developing startups, using a UI kit to bootstrap your
+                                        <p style="font-size: 1vw">When creating and developing startups, using a UI kit to bootstrap your
                                             companies
                                             website can be an extremely efficient way to save time, money, and
                                             runway.</p>
@@ -202,11 +227,6 @@
                     </div>
                 </div>
             </div>
-
-            {{--                        <img--}}
-            {{--                            src="{{\App\Facebook\Thumbnail::where('video_id','=',$return['sample']->fb_id)->first()->link}}"--}}
-            {{--                            style="height: 97%; width: 100%">--}}
-
 
         </section>
         <section class="" style="background-color: #f2f2f2">
