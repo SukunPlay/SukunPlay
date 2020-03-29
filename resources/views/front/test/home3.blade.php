@@ -186,7 +186,6 @@
             </div>
 
 
-
             <div class="container hides-for-small p-0">
                 <div class="row">
 
@@ -209,17 +208,40 @@
                                                 alt="My Awesome Video"/>
                                         </a>
                                     </div>
-                                  <div class="col-6 p-4">
-                                        <a class="badge badge-marketing badge-primary-soft badge-pill text-primary"
-                                           href="#!">Web</a><a class="text-dark" href="#!"><h1 style="font-size: 2vw">News companies post
-                                                headline
-                                                about creating new websites with powerful UI kits</h1></a>
-                                        <p style="font-size: 1vw">When creating and developing startups, using a UI kit to bootstrap your
-                                            companies
-                                            website can be an extremely efficient way to save time, money, and
-                                            runway.</p>
-                                        <a class="text-arrow-icon small" href="#!">Read more<i
-                                                data-feather="arrow-right"></i></a>
+                                    <div class="col-6 p-5">
+                                        <hr style="border-width: 1px;display: block; border-color: black">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h1 style="font-size: 1.2vw; font-family: AAMUFKF; text-align: right">{{$return['sample']->desc}}</h1>
+                                            </div>
+
+                                            <div class="col-6">
+
+                                                a
+                                            </div>
+
+                                            <div class="col-6">
+
+                                                b
+                                            </div>
+                                        </div>
+
+
+
+                                    <hr style="border-width: 1px;display: block; border-color: black">
+
+                                    <div style="background-color: #d6ebff; height: 68px">
+                                    </div>
+
+                                        <div style="height: 68px; text-align: right">
+
+                                            Share links here
+                                        </div>
+
+                                        <div style="height: 68px; text-align: right">
+
+                                            Link Copy kohlahvaa
+                                        </div>
                                     </div>
                                 </div>
                             </div>
