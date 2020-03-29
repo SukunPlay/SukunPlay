@@ -186,7 +186,7 @@ class getVideo extends Controller
 
             <div class="container" id="load_more">
             <div class="row justify-content-center">
-            <div class="col-lg-12">
+            <div class="">
         <button type="button" name="load_more_button" class="btn btn-success form-control" data-id="' . $last_id . '" id="load_more_button" style="font-family: MVAWAHEED; font-size: 30px">އިތުރަށް</button>
        </div>
        </div>
@@ -196,7 +196,7 @@ class getVideo extends Controller
                 $output .= '
        <div class="container" id="load_more">
             <div class="row justify-content-center">
-            <div class="col-lg-12">
+            <div class="">
         <button type="button" name="load_more_button" class="btn btn-info form-control"style="font-family: MVAWAHEED; font-size: 30px">ނިމުނީ<button>
          </div>
        </div>

@@ -209,7 +209,7 @@
 
 
         </section>
-        <section class="bg-light ">
+        <section class="" style="background-color: #f2f2f2">
             <div class="container pt-5 pb-5 pr-4 pl-4">
                 <div class="row" id="post_data">
 
