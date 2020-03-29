@@ -140,6 +140,24 @@
                     <div class="col-12 mb-2" style="height: 68px;background-color: #d6ebff">
                     </div>
 
+                        <div class="col-12" style="margin-bottom: 50px;padding-right:0.5rem;padding-left:0.5rem">
+                            <div class="card"
+                                 style="border-radius: 0!important;"
+                                 data-toggle="modal"
+                                 data-target="#myModal"
+                                 data-url=""
+                                 data-xid="">
+
+                                <div class="videos">
+                                    <a class="video">
+                                        <span></span>
+                                        <img src="{{\App\Facebook\Thumbnail::where('video_id','=',$return['sample']->fb_id)->first()->link}}" alt="My Awesome Video" />
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
