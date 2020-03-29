@@ -127,38 +127,45 @@
 
         </nav>
         <section class="pt-4" style="background-color: #FFFFFF">
-            <div class="container col-12 pr-15 pl-15">
-                <div class="d-flex align-items-center justify-content-center pb-5">
-                    <h6 class="mb-0" style="font-family: AAMUFKF; text-align: right; font-size: 25px">އެންމެ ފަހުގެ ވީޑިއޯ</h6>
+            <div class="container justify-content-center">
+                <div class="justify-content-center d-flex pb-5">
+                    <h6 class="mb-0" style="font-family: AAMUFKF; text-align: right; font-size: 25px">އެންމެ ފަހުގެ
+                        ވީޑިއޯ</h6>
+                </div>
+
+            </div>
+
+            <div class="container hides-for-large pr-2 pl-2">
+                <div class="col-12 mb-2"
+                     style="height: 68px;background-color: #d6ebff;padding-right:1rem;padding-left:1rem">
                 </div>
             </div>
 
 
             <div class="container hides-for-large pr-4 pl-4">
                 <div class="row">
-                    <div class="col-12 mb-2" style="height: 68px;background-color: #d6ebff">
-                    </div>
+                    <div class="col-12" style="margin-bottom: 50px;padding-right:0.5rem;padding-left:0.5rem">
+                        <div class="card"
+                             style="border-radius: 0!important;"
+                             data-toggle="modal"
+                             data-target="#myModal"
+                             data-url=""
+                             data-xid="">
 
-                        <div class="col-12" style="margin-bottom: 50px;padding-right:0.5rem;padding-left:0.5rem">
-                            <div class="card"
-                                 style="border-radius: 0!important;"
-                                 data-toggle="modal"
-                                 data-target="#myModal"
-                                 data-url=""
-                                 data-xid="">
-
-                                <div class="videos">
-                                    <a class="video">
-                                        <span></span>
-                                        <img src="{{\App\Facebook\Thumbnail::where('video_id','=',$return['sample']->fb_id)->first()->link}}" alt="My Awesome Video" />
-                                    </a>
-                                </div>
-
+                            <div class="videos">
+                                <a class="video">
+                                    <span></span>
+                                    <img
+                                        src="{{\App\Facebook\Thumbnail::where('video_id','=',$return['sample']->fb_id)->first()->link}}"
+                                        alt="My Awesome Video"/>
+                                </a>
                             </div>
+
                         </div>
                     </div>
-
                 </div>
+
+            </div>
             </div>
 
             <div class="container hides-for-small">
