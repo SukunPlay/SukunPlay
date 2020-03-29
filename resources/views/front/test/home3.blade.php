@@ -131,6 +131,31 @@
         @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
             /* Styles */
         }
+
+
+        .vertical-alignment-helper {
+            display: table;
+            height: 100%;
+            width: 100%;
+            pointer-events: none;
+        }
+
+        .vertical-align-center {
+            /* To center vertically */
+            display: table-cell;
+            vertical-align: middle;
+            pointer-events: none;
+        }
+
+        .modal-contentz {
+            /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+            width: inherit;
+            max-width: inherit; /* For Bootstrap 4 - to avoid the modal window stretching full width */
+            height: inherit;
+            /* To center horizontally */
+            margin: 0 auto;
+            pointer-events: all;
+        }
     </style>
 
 
@@ -144,7 +169,7 @@
             </div>
 
         </nav>
-        <section class="pt-4" style="background-color: #FFFFFF">
+        <section class="pt-4 pb-4" style="background-color: #FFFFFF">
             <div class="container justify-content-center">
                 <div class="justify-content-center d-flex pb-5">
                     <h6 class="mb-0" style="font-family: AAMUFKF; text-align: right; font-size: 25px">އެންމެ ފަހުގެ
@@ -227,11 +252,10 @@
                                         </div>
 
 
+                                        <hr style="border-width: 1px;display: block; border-color: black">
 
-                                    <hr style="border-width: 1px;display: block; border-color: black">
-
-                                    <div style="background-color: #d6ebff; height: 68px">
-                                    </div>
+                                        <div style="background-color: #d6ebff; height: 68px">
+                                        </div>
 
                                         <div style="font-size: 0.7vw; text-align: right">
                                             Share links here
@@ -250,11 +274,18 @@
 
         </section>
         <section class="" style="background-color: #f2f2f2">
+            <div class="container justify-content-center pt-4">
+                <div class="justify-content-center d-flex">
+                    <h6 class="mb-0" style="font-family: AAMUFKF; text-align: right; font-size: 25px">އެންމެ ފަހުގެ
+                        ވީޑިއޯ</h6>
+                </div>
+
+            </div>
             <div class="container pt-5 pb-5 pr-4 pl-4">
                 <div class="row" id="post_data">
 
 
-                    <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal fade pt-5" id="myModal" role="dialog" style="">
                         <div class="modal-dialog modal-xl">
 
                             <!-- Modal content-->
@@ -273,21 +304,67 @@
                                         </div>
                                         <div class="col-12 col-md-12 col-lg-4 col-xl-4">
                                             <button type="button" class="btn btn-default align-content-end"
-                                                    data-dismiss="modal"><i class="far fa-window-close fa-3x"
-                                                                            style="position: fixed; top: 1em; right: 1em; color: white"></i>
+                                                    data-dismiss="modal"><i
+                                                    style="position: fixed; top: 1em; right: 1em; color: white">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18.622"
+                                                         height="18.622" viewBox="0 0 18.622 18.622">
+                                                        <g id="cancel" transform="translate(-8 -8)">
+                                                            <path id="Path_35" data-name="Path 35"
+                                                                  d="M17.311,8a9.311,9.311,0,1,0,9.311,9.311A9.321,9.321,0,0,0,17.311,8Zm0,17.07a7.759,7.759,0,1,1,7.759-7.759A7.768,7.768,0,0,1,17.311,25.07Z"
+                                                                  transform="translate(0 0)" fill="#fff"/>
+                                                            <path id="Path_36" data-name="Path 36"
+                                                                  d="M29.98,24.227a.776.776,0,0,0-1.1,0L27.1,26.007l-1.779-1.779a.776.776,0,0,0-1.1,1.1L26.007,27.1l-1.779,1.779a.776.776,0,1,0,1.1,1.1L27.1,28.2l1.779,1.779a.776.776,0,0,0,1.1-1.1L28.2,27.1l1.779-1.779A.776.776,0,0,0,29.98,24.227Z"
+                                                                  transform="translate(-9.793 -9.793)" fill="#fff"/>
+                                                        </g>
+                                                    </svg>
+                                                </i>
                                             </button>
-                                            <div class="card-body">
+                                            <div class="card-body pt-0">
+                                                <hr style="border-width: 1px;display: block; border-color: black">
                                                 <p class="text-dark"
-                                                   style="font-family: AAMUFKF; text-align: right;font-size: 40px"
+                                                   style="font-family: AAMUFKF; text-align: right;font-size: 2.5vw"
                                                    id="video_title"><b></b></p>
-                                                <p class="card-text"
-                                                   style="font-family: MVAWAHEED; text-align: right;font-size: 20px"
-                                                   id="video_desc">
 
-                                                </p>
+
+                                                <div class="row col-8 align-content-center">
+                                                    <div class="col-6">
+                                                        <div class="align-content-center">
+                                                            <div class="row">
+                                                                <ion-icon name="eye-outline"></ion-icon>
+                                                                &nbsp;
+                                                                <p style="font-size: 10px;">2.5k</p>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                        <div class="col-6">
+                                                            <div class="align-content-center">
+                                                                <div class="row">
+                                                                    <ion-icon name="eye-outline"></ion-icon>
+                                                                    &nbsp;
+                                                                    <p style="font-size: 10px;">2.5k</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                </div>
+
+
+                                                <hr style="border-width: 1px;display: block; border-color: black">
+                                                <div style="background-color: #d6ebff; height: 68px" class="mt-5">
+                                                </div>
+                                                <div style="font-size: 0.7vw; text-align: right">
+                                                    Share links here
+                                                </div>
+
+                                                <div style="font-size: 0.7vw;  text-align: right">
+                                                    Link Copy kohlahvaa
+                                                </div>
+
+
                                                 <p class="card-text" style="text-align: right"><small
                                                         class="text-muted" id="video_created_at"
-                                                        style="text-align: right"></small></p>
+                                                        style="text-align: right; font-size: 1vw"></small></p>
                                             </div>
                                         </div>
                                     </div>
