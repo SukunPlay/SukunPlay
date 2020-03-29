@@ -233,11 +233,11 @@
                                     <div style="background-color: #d6ebff; height: 68px">
                                     </div>
 
-                                        <div style="font-size: 1vw; text-align: right">
+                                        <div style="font-size: 0.7vw; text-align: right">
                                             Share links here
                                         </div>
 
-                                        <div style="font-size: 1vw;  text-align: right">
+                                        <div style="font-size: 0.7vw;  text-align: right">
                                             Link Copy kohlahvaa
                                         </div>
                                     </div>
