@@ -129,13 +129,12 @@
         <section class="pt-4" style="background-color: #FFFFFF">
             <div class="container col-12 pr-15 pl-15">
                 <div class="d-flex align-items-center justify-content-center pb-5">
-                    <h6 class="mb-0" style="font-family: AAMUFKF; text-align: right; font-size: 25px">އެންމެ ފަހުގެ
-                        ވީޑިއޯ</h6>
+                    <h6 class="mb-0" style="font-family: AAMUFKF; text-align: right; font-size: 25px">އެންމެ ފަހުގެ ވީޑިއޯ</h6>
                 </div>
             </div>
 
 
-            <div class="container hides-for-large">
+            <div class="container hides-for-large pr-4 pl-4">
                 <div class="row">
                     <div class="col-12 mb-2" style="height: 68px;background-color: #d6ebff">
                     </div>
@@ -204,7 +203,7 @@
 
         </section>
         <section class="bg-light ">
-            <div class="container pt-5 pb-5">
+            <div class="container pt-5 pb-5 pr-4 pl-4">
                 <div class="row" id="post_data">
 
 
