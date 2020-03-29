@@ -208,7 +208,7 @@
                                                 alt="My Awesome Video"/>
                                         </a>
                                     </div>
-                                    <div class="col-6 p-5">
+                                    <div class="col-6 p-4">
                                         <hr style="border-width: 1px;display: block; border-color: black">
                                         <div class="row">
                                             <div class="col-12">
@@ -233,13 +233,11 @@
                                     <div style="background-color: #d6ebff; height: 68px">
                                     </div>
 
-                                        <div style="height: 68px; text-align: right">
-
+                                        <div style="font-size: 1vw; text-align: right">
                                             Share links here
                                         </div>
 
-                                        <div style="height: 68px; text-align: right">
-
+                                        <div style="font-size: 1vw;  text-align: right">
                                             Link Copy kohlahvaa
                                         </div>
                                     </div>
