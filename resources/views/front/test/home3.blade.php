@@ -84,7 +84,7 @@
 
         /* Desktops and laptops ----------- */
         @media only screen
-        and (min-width: 1224px) {
+        and (min-width: 992px) {
             /* Styles */
             .hides-for-small {
                 display: inherit;
@@ -135,36 +135,48 @@
             </div>
 
 
-            <div class="container">
-            <div class="row">
+            <div class="container hides-for-large">
+                <div class="row">
+                    <div class="col-12 mb-2" style="height: 68px;background-color: #d6ebff">
+                    </div>
 
-                <div class="col-1 mb-2" style="">
-                    <div src="" style=" height: 322px; width: 150px; background-color:#D6EBFF ">
+
+                </div>
+            </div>
+
+            <div class="container hides-for-small">
+                <div class="row">
+
+                    <div class="col-1 mb-2" style="">
+                        <div src="" style=" height: 322px; width: 150px; background-color:#D6EBFF ">
+
+                        </div>
 
                     </div>
 
-                </div>
-
-                <div class="col-11 pl-15">
-                    <div class="card mb-4" style="border-radius: 0!important; height: 322px">
-                        <div class="card-body p-0">
-                            <div class="row no-gutters">
-                                <div class="col-lg-6 align-self-stretch bg-img-cover d-none d-lg-flex"
-                                     style='background-image: url("https://source.unsplash.com/npxXWgQ33ZQ/1200x800"); height:322px'></div>
-                                <div class="col-lg-6 p-5">
-                                    <a class="badge badge-marketing badge-primary-soft badge-pill text-primary mb-3"
-                                       href="#!">Web</a><a class="text-dark" href="#!"><h1>News companies post headline
-                                            about creating new websites with powerful UI kits</h1></a>
-                                    <p>When creating and developing startups, using a UI kit to bootstrap your companies
-                                        website can be an extremely efficient way to save time, money, and runway.</p>
-                                    <a class="text-arrow-icon small" href="#!">Read more<i
-                                            data-feather="arrow-right"></i></a>
+                    <div class="col-11 pl-15">
+                        <div class="card mb-4" style="border-radius: 0!important; height: 322px">
+                            <div class="card-body p-0">
+                                <div class="row no-gutters">
+                                    <div class="col-lg-6 align-self-stretch bg-img-cover d-none d-lg-flex"
+                                         style='background-image: url("https://source.unsplash.com/npxXWgQ33ZQ/1200x800"); height:322px'></div>
+                                    <div class="col-lg-6 p-5">
+                                        <a class="badge badge-marketing badge-primary-soft badge-pill text-primary mb-3"
+                                           href="#!">Web</a><a class="text-dark" href="#!"><h1>News companies post
+                                                headline
+                                                about creating new websites with powerful UI kits</h1></a>
+                                        <p>When creating and developing startups, using a UI kit to bootstrap your
+                                            companies
+                                            website can be an extremely efficient way to save time, money, and
+                                            runway.</p>
+                                        <a class="text-arrow-icon small" href="#!">Read more<i
+                                                data-feather="arrow-right"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
             </div>
 
             {{--                        <img--}}
