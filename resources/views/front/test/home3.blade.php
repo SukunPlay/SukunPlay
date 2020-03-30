@@ -319,10 +319,10 @@
                                                     </svg>
                                                 </i>
                                             </button>
-                                            <div class="card-body pt-0">
+                                            <div class="card-body pt-0 pb-0">
                                                 <hr style="border-width: 1px;display: block; border-color: black">
                                                 <p class="text-dark"
-                                                   style="font-family: AAMUFKF; text-align: right;font-size: 2.5vw"
+                                                   style="font-family: AAMUFKF; text-align: right;font-size: 2vw"
                                                    id="video_title"><b></b></p>
 
 
@@ -346,14 +346,14 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-7 pr-0">
-                                                        <p style="font-family: MVAWAHEED; font-size: 10px; float: right; direction: rtl">
+                                                    <div class="col-7">
+                                                        <p style="font-family: MVAWAHEED; font-size: 15px; float: right; direction: rtl">
                                                             2020&#x202b;03&nbsp;މާރޗް&nbsp;</p>
                                                     </div>
                                                 </div>
 
 
-                                                <hr style="border-width: 1px;display: block; border-color: black">
+                                                <hr style="border-width: 1px;display: block; border-color: black" class="mt-0">
                                                 <div style="background-color: #d6ebff; height: 68px" class="mt-2">
                                                 </div>
                                                 <div class="row pt-4">
