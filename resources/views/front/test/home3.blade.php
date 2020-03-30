@@ -240,7 +240,7 @@
                                            id=""><b>{{$return['sample']->title}}</b></p>
 
 
-                                        <div class="row pl-4 pt-3">
+                                        <div class="row pl-4 pt-0">
                                             <div class="col-2">
                                                 <div class="align-content-center">
                                                     <div class="row">
@@ -268,9 +268,9 @@
 
 
                                         <hr style="border-width: 1px;display: block; border-color: black" class="mt-0">
-                                        <div style="background-color: #d6ebff; height: 68px" class="mt-2">
+                                        <div style="background-color: #d6ebff; height: 68px" class="mt-1">
                                         </div>
-                                        <div class="row pt-4">
+                                        <div class="row pt-2">
                                             <div class="col-7" style="text-align: right; font-size: 1.5vh">
 
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24.824" height="24.824" viewBox="0 0 24.824 24.824"><g transform="translate(0.75 0.75)"><rect width="23.324" height="23.324" rx="11.662" transform="translate(0 0)" fill="none" stroke="#222221" stroke-miterlimit="10" stroke-width="1.5"/><g transform="translate(6.142 5.164)"><rect width="2.414" height="7.797" transform="translate(0.232 3.898)" fill="#222221"/><path d="M327.3,193.734a1.439,1.439,0,1,0-1.427-1.439A1.434,1.434,0,0,0,327.3,193.734Z" transform="translate(-325.874 -190.857)" fill="#222221"/><path d="M335.024,200.772c0-1.1.5-1.749,1.47-1.749.888,0,1.315.627,1.315,1.749v4.093h2.4v-4.937c0-2.088-1.184-3.1-2.837-3.1a2.718,2.718,0,0,0-2.35,1.288v-1.05h-2.315v7.8h2.315Z" transform="translate(-328.52 -193.17)" fill="#222221"/></g></g></svg>
@@ -286,7 +286,7 @@
 
 
                                             <div class="col-5" style="text-align: right">
-                                                <p style="font-family: MVAWAHEED; font-size: 1.2vh;">ޝެއަރ
+                                                <p style="font-family: MVAWAHEED; font-size: 1.3vh;">ޝެއަރ
                                                     ކުރެއްވުމަށް</p>
                                             </div>
 
@@ -303,12 +303,12 @@
                                                 <input type="text"
                                                        value="test copy lol"
                                                        disabled id="textToCopy"
-                                                       style="font-size:1.32vh ;border-radius: 5px; border-color: #009d33; border-style:solid; background-color: #FFFFFF; width:10vw ">
+                                                       style="font-size:1vh ;border-radius: 5px; border-color: #009d33; border-style:solid; background-color: #FFFFFF; width:9vw ">
 
                                             </div>
 
                                             <div style="text-align: right" class="col-6">
-                                                <p style="font-family: MVAWAHEED; font-size: 1.2vh;">ލިންކު ކޮޕީ
+                                                <p style="font-family: MVAWAHEED; font-size: 1.3vh;">ލިންކު ކޮޕީ
                                                     ކޮށްލައްވާ</p>
                                             </div>
 
