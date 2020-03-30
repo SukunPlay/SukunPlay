@@ -173,7 +173,7 @@ class getVideo extends Controller
                                         <img src="' . $thumbnail . '" alt="My Awesome Video" />
                                       </a>
                                     </div>
-                                    <div class="p-2" style="text-align: right; font-family: AAMUFKF; font-size: 1.5vh">
+                                    <div class="p-2" style="text-align: right; font-family: AAMUFKF; font-size: 1.5vh; min-height: 80px">
                                     ' . Str::limit($row->title, 61) . '</div>
 
                                 </div>
