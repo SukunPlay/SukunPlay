@@ -482,11 +482,30 @@
             <div class="container hides-for-small">
                 <div class="row ">
                     <div class="col-6">
-                        az
+                        <i class="fab fa-linkedin"></i>
+
+                        <i class="fab fa-instagram"></i>
+
+                        <i class="fab fa-whatsapp"></i>
+
+                        <i class="fab fa-viber"></i>
+
+                        <i class="fab fa-facebook"></i>
+
+                        <i class="fab fa-twitter"></i>
                     </div>
 
                     <div class="col-6" style="text-align: right">
-                        bz
+                        <p style="font-family: MVAWAHEED">ހ. އޯލްވޭސް ހެޕީ ހައުސް، ފުރަތަމަ ފަންގިފިލާ، އަބަދަށް އުފާ ހިނގުން، 20038، މާލެ، ދިވެހިރާއްޖެ</p>
+                        <p style="font-family: MVAWAHEED;"> &#x202b;އީމެއިލް :&nbsp;<a href="mailto:editor@sukunplay.com">editor@sukunplay.com</a> &nbsp;</p>
+                        <p style="font-family: MVAWAHEED;">&#x202b;މޯބައިލް :&nbsp;<a href="tel:9700200">9700200</a> &nbsp;</p>
+
+                        <div class="row">
+                            <div style="text-align: right">
+
+
+                            </div>
+                        </div>
                     </div>
 
                 </div>
