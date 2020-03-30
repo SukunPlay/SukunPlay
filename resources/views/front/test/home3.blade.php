@@ -225,7 +225,7 @@
                         <div class="card" style="border-radius: 0!important;">
                             <div class="card-body p-0">
                                 <div class="row no-gutters">
-                                    <div class="videos col-7">
+                                    <div class="videos col-7 col-md-12 col-lg-7">
                                         <a class="video">
                                             <span></span>
                                             <img
@@ -233,7 +233,7 @@
                                                 alt="My Awesome Video"/>
                                         </a>
                                     </div>
-                                    <div class="col-5 p-4">
+                                    <div class="col-5 p-4 col-md-12 col-lg-5">
                                         <hr style="border-width: 1px;display: block; border-color: black">
                                         <p class="text-dark pt-2"
                                            style="font-family: AAMUFKF; text-align: center;font-size: 1.7vw"
@@ -260,7 +260,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-7 pr-lg-0 pr-md-2">
+                                            <div class="col-7 pr-0 ">
                                                 <p style="font-family: MVAWAHEED; font-size: 15px;text-align: right ;">
                                                     2020&#x202b;03&nbsp;މާރޗް&nbsp;</p>
                                             </div>
