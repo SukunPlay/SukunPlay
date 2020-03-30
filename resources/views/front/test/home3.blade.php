@@ -478,7 +478,7 @@
     </main>
 
     <div id="layoutDefault_footer">
-        <footer class="footer pt-10 pb-5 mt-auto bg-dark footer-dark" >
+        <footer class="footer pt-5 pb-4 mt-auto bg-dark footer-dark">
             <div class="container hides-for-small">
                 <div class="row ">
                     <div class="col-6">
@@ -496,9 +496,12 @@
                     </div>
 
                     <div class="col-6" style="text-align: right">
-                        <p style="font-family: MVAWAHEED">ހ. އޯލްވޭސް ހެޕީ ހައުސް، ފުރަތަމަ ފަންގިފިލާ، އަބަދަށް އުފާ ހިނގުން، 20038، މާލެ، ދިވެހިރާއްޖެ</p>
-                        <p style="font-family: MVAWAHEED;"> &#x202b;އީމެއިލް :&nbsp;<a href="mailto:editor@sukunplay.com">editor@sukunplay.com</a> &nbsp;</p>
-                        <p style="font-family: MVAWAHEED;">&#x202b;މޯބައިލް :&nbsp;<a href="tel:9700200">9700200</a> &nbsp;</p>
+                        <p style="font-family: MVAWAHEED">ހ. އޯލްވޭސް ހެޕީ ހައުސް، ފުރަތަމަ ފަންގިފިލާ، އަބަދަށް އުފާ
+                            ހިނގުން، 20038، މާލެ، ދިވެހިރާއްޖެ</p>
+                        <p style="font-family: MVAWAHEED;"> &#x202b;އީމެއިލް :&nbsp;<a
+                                href="mailto:editor@sukunplay.com">editor@sukunplay.com</a> &nbsp;</p>
+                        <p style="font-family: MVAWAHEED;">&#x202b;މޯބައިލް :&nbsp;<a href="tel:9700200">9700200</a>
+                            &nbsp;</p>
 
                     </div>
 
@@ -507,14 +510,28 @@
 
             <div class="container hides-for-large">
                 <div class="row ">
-                    <div class="col-12" style="text-align: center">
-                        az
+                    <div class="col-12 pb-2" style="text-align: center">
+                        <i class="fab fa-linkedin"></i>
+
+                        <i class="fab fa-instagram"></i>
+
+                        <i class="fab fa-whatsapp"></i>
+
+                        <i class="fab fa-viber"></i>
+
+                        <i class="fab fa-facebook"></i>
+
+                        <i class="fab fa-twitter"></i>
                     </div>
 
                     <div class="col-12" style="text-align: center">
-                        bz
+                        <p style="font-family: MVAWAHEED">ހ. އޯލްވޭސް ހެޕީ ހައުސް، ފުރަތަމަ ފަންގިފިލާ، އަބަދަށް އުފާ
+                            ހިނގުން، 20038، މާލެ، ދިވެހިރާއްޖެ</p>
+                        <p style="font-family: MVAWAHEED;"> &#x202b;އީމެއިލް :&nbsp;<a
+                                href="mailto:editor@sukunplay.com">editor@sukunplay.com</a> &nbsp;</p>
+                        <p style="font-family: MVAWAHEED;">&#x202b;މޯބައިލް :&nbsp;<a href="tel:9700200">9700200</a>
+                            &nbsp;</p>
                     </div>
-
                 </div>
             </div>
         </footer>
