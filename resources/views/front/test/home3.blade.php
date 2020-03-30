@@ -500,12 +500,6 @@
                         <p style="font-family: MVAWAHEED;"> &#x202b;އީމެއިލް :&nbsp;<a href="mailto:editor@sukunplay.com">editor@sukunplay.com</a> &nbsp;</p>
                         <p style="font-family: MVAWAHEED;">&#x202b;މޯބައިލް :&nbsp;<a href="tel:9700200">9700200</a> &nbsp;</p>
 
-                        <div class="row">
-                            <div style="text-align: right">
-
-
-                            </div>
-                        </div>
                     </div>
 
                 </div>
