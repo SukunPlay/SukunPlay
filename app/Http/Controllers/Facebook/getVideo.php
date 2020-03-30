@@ -159,7 +159,7 @@ class getVideo extends Controller
 
 
 
-             <div class="col-6 col-md-3 col-lg-2" style="margin-bottom: 50px;padding-right:0.5rem;padding-left:0.5rem">
+             <div class="col-6 col-md-3 col-lg-3" style="margin-bottom: 50px;padding-right:0.5rem;padding-left:0.5rem">
                                 <div class="card"
                                     style="border-radius: 0!important;"
                                      data-toggle="modal"
@@ -173,6 +173,8 @@ class getVideo extends Controller
                                         <img src="' . $thumbnail . '" alt="My Awesome Video" />
                                       </a>
                                     </div>
+                                    <div class="p-2" style="text-align: right; font-family: AAMUFKF; font-size: 1.5vh">
+                                    ' . Str::limit($row->title, 61) . '</div>
 
                                 </div>
             </div>
@@ -187,7 +189,7 @@ class getVideo extends Controller
             <div class="container" id="load_more">
             <div class="row justify-content-center">
             <div class="">
-        <button type="button" name="load_more_button" class="btn btn-success form-control" data-id="' . $last_id . '" id="load_more_button" style="font-family: MVAWAHEED; font-size: 30px">އިތުރަށް</button>
+        <button type="button" name="load_more_button" class="btn btn-success form-control" data-id="' . $last_id . '" id="load_more_button" style="font-family: MVAWAHEED; font-size: 15px">އިތުރަށް</button>
        </div>
        </div>
        </div>
@@ -197,7 +199,7 @@ class getVideo extends Controller
        <div class="container" id="load_more">
             <div class="row justify-content-center">
             <div class="">
-        <button type="button" name="load_more_button" class="btn btn-info form-control"style="font-family: MVAWAHEED; font-size: 30px">ނިމުނީ<button>
+        <button type="button" name="load_more_button" class="btn btn-info form-control"style="font-family: MVAWAHEED; font-size: 15px">ނިމުނީ<button>
          </div>
        </div>
        </div>

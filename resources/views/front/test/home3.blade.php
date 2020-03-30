@@ -38,7 +38,7 @@
             width: 100%;
             height: 100%;
             position: absolute;
-            background: url({{asset('logo2.png')}}) no-repeat;
+            background: url({{asset('playbutton.svg')}}) no-repeat;
             background-position: 50% 50%;
             background-size: 20%;
         }
@@ -169,8 +169,8 @@
             </div>
 
         </nav>
-        <section class="pt-4 pb-4" style="background-color: #FFFFFF">
-            <div class="container justify-content-center">
+        <section class="pt-4 pb-5" style="background-color: #FFFFFF">
+            <div class="container justify-content-center pt-4">
                 <div class="justify-content-center d-flex pb-5">
                     <h6 class="mb-0" style="font-family: AAMUFKF; text-align: right; font-size: 25px">އެންމެ ފަހުގެ
                         ވީޑިއޯ</h6>
@@ -235,34 +235,87 @@
                                     </div>
                                     <div class="col-6 p-4">
                                         <hr style="border-width: 1px;display: block; border-color: black">
+                                        <p class="text-dark pt-3"
+                                           style="font-family: AAMUFKF; text-align: right;font-size: 2vw"
+                                           id=""><b>{{$return['sample']->title}}</b></p>
+
+
+                                        <div class="row pl-4 pt-3">
+                                            <div class="col-2">
+                                                <div class="align-content-center">
+                                                    <div class="row">
+                                                        <i class="far fa-eye"></i>
+                                                        &nbsp;
+                                                        <p style="font-size: 10px;">2.5k</p>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-2">
+                                                <div class="align-content-center">
+                                                    <div class="row">
+                                                        <i class="far fa-thumbs-up"></i>
+                                                        &nbsp;
+                                                        <p style="font-size: 10px;">2.5k</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-7 pr-0">
+                                                <p style="font-family: MVAWAHEED; font-size: 15px; float: right; direction: rtl">
+                                                    2020&#x202b;03&nbsp;މާރޗް&nbsp;</p>
+                                            </div>
+                                        </div>
+
+
+                                        <hr style="border-width: 1px;display: block; border-color: black" class="mt-0">
+                                        <div style="background-color: #d6ebff; height: 68px" class="mt-2">
+                                        </div>
+                                        <div class="row pt-4">
+                                            <div class="col-7" style="text-align: right; font-size: 1.6vh">
+
+                                                <i class="fab fa-linkedin"></i>
+
+                                                <i class="fab fa-instagram"></i>
+
+                                                <i class="fab fa-whatsapp"></i>
+
+                                                <i class="fab fa-viber"></i>
+
+                                                <i class="fab fa-facebook"></i>
+
+                                                <i class="fab fa-twitter"></i>
+
+                                            </div>
+
+
+                                            <div class="col-5" style="text-align: right">
+                                                <p style="font-family: MVAWAHEED; font-size: 1.32vh;">ޝެއަރ
+                                                    ކުރެއްވުމަށް</p>
+                                            </div>
+
+                                        </div>
+
                                         <div class="row">
-                                            <div class="col-12">
-                                                <h1 style="font-size: 1.2vw; font-family: AAMUFKF; text-align: right">{{$return['sample']->desc}}</h1>
+                                            <div class="col-2 pr-0" style="text-align: right">
+                                                <button style="border:none; background-color: #ffffff"><i
+                                                        class="far fa-copy" onclick="copyToClipboard()"></i>
+                                                </button>
+
+                                            </div>
+                                            <div class="col-4 pl-0">
+                                                <input type="text"
+                                                       value="test copy lol"
+                                                       disabled id="textToCopy"
+                                                       style="font-size:1.32vh ;border-radius: 5px; border-color: #009d33; border-style:solid; background-color: #FFFFFF; width:10vw ">
+
                                             </div>
 
-                                            <div class="col-6">
-
-                                                a
+                                            <div style="text-align: right" class="col-6">
+                                                <p style="font-family: MVAWAHEED; font-size: 1.32vh;">ލިންކު ކޮޕީ
+                                                    ކޮށްލައްވާ</p>
                                             </div>
 
-                                            <div class="col-6">
 
-                                                b
-                                            </div>
-                                        </div>
-
-
-                                        <hr style="border-width: 1px;display: block; border-color: black">
-
-                                        <div style="background-color: #d6ebff; height: 68px">
-                                        </div>
-
-                                        <div style="font-size: 0.7vw; text-align: right">
-                                            Share links here
-                                        </div>
-
-                                        <div style="font-size: 0.7vw;  text-align: right">
-                                            Link Copy kohlahvaa
                                         </div>
                                     </div>
                                 </div>
@@ -274,10 +327,9 @@
 
         </section>
         <section class="" style="background-color: #f2f2f2">
-            <div class="container justify-content-center pt-4">
+            <div class="container justify-content-center pt-5">
                 <div class="justify-content-center d-flex">
-                    <h6 class="mb-0" style="font-family: AAMUFKF; text-align: right; font-size: 25px">އެންމެ ފަހުގެ
-                        ވީޑިއޯ</h6>
+                    <h6 class="mb-0" style="font-family: AAMUFKF; text-align: right; font-size: 25px">ހުރިހާ ވީޑިއޯ</h6>
                 </div>
 
             </div>
@@ -321,12 +373,12 @@
                                             </button>
                                             <div class="card-body pt-0 pb-0">
                                                 <hr style="border-width: 1px;display: block; border-color: black">
-                                                <p class="text-dark"
+                                                <p class="text-dark pt-5"
                                                    style="font-family: AAMUFKF; text-align: right;font-size: 2vw"
                                                    id="video_title"><b></b></p>
 
 
-                                                <div class="row pl-4">
+                                                <div class="row pl-4 pt-5">
                                                     <div class="col-2">
                                                         <div class="align-content-center">
                                                             <div class="row">
@@ -346,14 +398,15 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-7">
+                                                    <div class="col-7 pr-0">
                                                         <p style="font-family: MVAWAHEED; font-size: 15px; float: right; direction: rtl">
                                                             2020&#x202b;03&nbsp;މާރޗް&nbsp;</p>
                                                     </div>
                                                 </div>
 
 
-                                                <hr style="border-width: 1px;display: block; border-color: black" class="mt-0">
+                                                <hr style="border-width: 1px;display: block; border-color: black"
+                                                    class="mt-0">
                                                 <div style="background-color: #d6ebff; height: 68px" class="mt-2">
                                                 </div>
                                                 <div class="row pt-4">
@@ -383,7 +436,8 @@
 
                                                 <div class="row">
                                                     <div class="col-2 pr-0" style="text-align: right">
-                                                        <button style="border:none; background-color: #ffffff"><i class="far fa-copy" onclick="copyToClipboard()"></i>
+                                                        <button style="border:none; background-color: #ffffff"><i
+                                                                class="far fa-copy" onclick="copyToClipboard()"></i>
                                                         </button>
 
                                                     </div>
@@ -396,17 +450,13 @@
                                                     </div>
 
                                                     <div style="text-align: right" class="col-6">
-                                                        <p style="font-family: MVAWAHEED; font-size: 1.32vh;">ލިންކު ކޮޕީ
+                                                        <p style="font-family: MVAWAHEED; font-size: 1.32vh;">ލިންކު
+                                                            ކޮޕީ
                                                             ކޮށްލައްވާ</p>
                                                     </div>
 
 
                                                 </div>
-
-
-                                                {{--                                                    <p class="card-text" style="text-align: right"><small--}}
-                                                {{--                                                            class="text-muted" id="video_created_at"--}}
-                                                {{--                                                            style="text-align: right; font-size: 1vw"></small></p>--}}
 
                                             </div>
                                         </div>
@@ -428,33 +478,30 @@
     </main>
 
     <div id="layoutDefault_footer">
-        <footer class="footer pt-10 pb-5 mt-auto bg-dark footer-dark">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-3">
-                        <div class="footer-brand">Sukun Play</div>
-                        <div class="mb-3">tag line</div>
-                        <div class="icon-list-social mb-5">
-                            <a class="icon-list-social-link" href="javascript:void(0);"><i
-                                    class="fab fa-instagram"></i></a><a class="icon-list-social-link"
-                                                                        href="javascript:void(0);"><i
-                                    class="fab fa-facebook"></i></a><a class="icon-list-social-link"
-                                                                       href="javascript:void(0);"><i
-                                    class="fab fa-github"></i></a><a class="icon-list-social-link"
-                                                                     href="javascript:void(0);"><i
-                                    class="fab fa-twitter"></i></a>
-                        </div>
+        <footer class="footer pt-10 pb-5 mt-auto bg-dark footer-dark" >
+            <div class="container hides-for-small">
+                <div class="row ">
+                    <div class="col-6">
+                        az
+                    </div>
+
+                    <div class="col-6" style="text-align: right">
+                        bz
                     </div>
 
                 </div>
-                <hr class="my-5"/>
-                <div class="row align-items-center">
-                    <div class="col-md-6 small">Copyright &copy; Sukun 2020 | Developed by Deploy</div>
-                    <div class="col-md-6 text-md-right small">
-                        <a href="javascript:void(0);">Privacy Policy</a>
-                        &middot;
-                        <a href="javascript:void(0);">Terms &amp; Conditions</a>
+            </div>
+
+            <div class="container hides-for-large">
+                <div class="row ">
+                    <div class="col-12" style="text-align: center">
+                        az
                     </div>
+
+                    <div class="col-12" style="text-align: center">
+                        bz
+                    </div>
+
                 </div>
             </div>
         </footer>
@@ -488,7 +535,7 @@
 
             $(document).on('click', '#load_more_button', function () {
                 var id = $(this).data('id');
-                $('#load_more_button').html('<b style="font-family: MVAWAHEED; font-size: 30px"> . . . ލޯޑު ވަނީ</b>');
+                $('#load_more_button').html('<b style="font-family: MVAWAHEED; font-size: 15px"> . . . ލޯޑު ވަނީ</b>');
                 load_data(id, _token);
             });
 
