@@ -174,7 +174,7 @@ class getVideo extends Controller
                                       </a>
                                     </div>
                                     <div class="p-2" style="text-align: right; font-family: AAMUFKF; font-size: 1.5vh; min-height: 80px">
-                                    ' . Str::limit($row->title, 61) . '</div>
+                                    ' .$row->title. '</div>
 
                                 </div>
             </div>
