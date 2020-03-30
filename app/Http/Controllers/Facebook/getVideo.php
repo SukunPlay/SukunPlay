@@ -54,7 +54,7 @@ class getVideo extends Controller
         }
 
         //need to update this later @Todo
-        return redirect('/test');
+        return redirect('/');
 
 
     }
