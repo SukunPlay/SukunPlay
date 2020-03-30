@@ -6,7 +6,7 @@ return [
     'fb_app_id' => 2568340536820063,
     'fb_app_secret' => 'e5876414afc79bdc4a832efc7c09a3e1',
     'fb_graph_version' => '6.0',
-    'fb_access' => 'EAAkf5GFcAV8BAF5aF3EanP2GfMyBFs2nAdGdVLhzoawPFXqTQQ2gpmwWxZC7LlD9ZAUZCEZAuJstyXldmJirfM9eFU2x2Rj1s8wQbHUDnQWHf4Byif4DCeWsKhDehaxRyMooW2pIoVBrmzwjf4dFFVcz6YLPSmhuK5gmZB65gsn0oWs6fNbSuIWTq5heFIqgZD',
+    'fb_access' => 'EAADmYhe4xeIBAPkLN4UqrW7JEaX4gimKFdvDGEkceq3HkPZBCGJ87j8zy6H66TQLWlRb4DZALWRzGZBbtzcNTIUbxzkFwMVoHTi0z8zEla7OEiDC8AMwyeGD7ZBECAugNVlJ0LJZAMZA4rmKJtX9ZCOnbzGbPN7bnEZBUDhFirPRVBiZBkHgUqpoXbkrkrTWpo5QZD',
 
     /*
     |--------------------------------------------------------------------------
