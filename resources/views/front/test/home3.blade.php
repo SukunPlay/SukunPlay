@@ -326,8 +326,8 @@
                                                    id="video_title"><b></b></p>
 
 
-                                                <div class="row col-8 align-content-center">
-                                                    <div class="col-6">
+                                                <div class="row pl-4">
+                                                    <div class="col-2">
                                                         <div class="align-content-center">
                                                             <div class="row">
                                                                 <ion-icon name="eye-outline"></ion-icon>
@@ -337,7 +337,7 @@
 
                                                         </div>
                                                     </div>
-                                                        <div class="col-6">
+                                                        <div class="col-2">
                                                             <div class="align-content-center">
                                                                 <div class="row">
                                                                     <ion-icon name="eye-outline"></ion-icon>
@@ -346,12 +346,16 @@
                                                                 </div>
                                                             </div>
                                                         </div>
+                                                    <div class="col-7">
 
+                                                            <p class="align-content-end" style="font-family: MVAWAHEED; font-size: 10px; text-align: right; float: left; direction: rtl">2020&#x202b;03 މާރޗް&nbsp;&#x202c;</p>
+                                                    </div>
                                                 </div>
 
 
+
                                                 <hr style="border-width: 1px;display: block; border-color: black">
-                                                <div style="background-color: #d6ebff; height: 68px" class="mt-5">
+                                                <div style="background-color: #d6ebff; height: 68px" class="mt-2">
                                                 </div>
                                                 <div style="font-size: 0.7vw; text-align: right">
                                                     Share links here
