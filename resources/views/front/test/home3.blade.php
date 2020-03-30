@@ -169,9 +169,9 @@
             </div>
 
         </nav>
-        <section class="pt-4 pb-5" style="background-color: #FFFFFF">
-            <div class="container justify-content-center pt-4">
-                <div class="justify-content-center d-flex pb-5">
+        <section class="pt-4 pb-lg-5 pb-md-5 pb-sm-2" style="background-color: #FFFFFF">
+            <div class="container justify-content-center pt-lg-4 pt-md-4 pt-sm-0">
+                <div class="justify-content-center d-flex pb-lg-5 pb-md-5 pb-sm-3">
                     <h6 class="mb-0" style="font-family: AAMUFKF; text-align: right; font-size: 25px">އެންމެ ފަހުގެ
                         ވީޑިއޯ</h6>
                 </div>
@@ -327,13 +327,13 @@
 
         </section>
         <section class="" style="background-color: #f2f2f2">
-            <div class="container justify-content-center pt-5">
+            <div class="container justify-content-center pt-lg-5 pt-sm-3 pt-md-5">
                 <div class="justify-content-center d-flex">
                     <h6 class="mb-0" style="font-family: AAMUFKF; text-align: right; font-size: 25px">ހުރިހާ ވީޑިއޯ</h6>
                 </div>
 
             </div>
-            <div class="container pt-5 pb-5 pr-4 pl-4">
+            <div class="container pt-lg-5 pt-md-5 pt-sm-3 pb-5 pr-4 pl-4">
                 <div class="row" id="post_data">
 
 
