@@ -23,8 +23,14 @@ class Main extends Controller
 
 
     public function fbwebhook(Request $request){
+        if (isset($request['hub_challenge'])){
+            $challenge = $request['hub_challenge'];
+            $token = $request['hub_verify_token'];
+        }
 
-        return "271187866";
+        if ($token=='SunkunWebhook'){
+            echo $challenge;
+        }
     }
     //
 }
