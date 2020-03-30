@@ -3,10 +3,10 @@
 return [
 
 
-    'fb_app_id' => 2568340536820063,
-    'fb_app_secret' => 'e5876414afc79bdc4a832efc7c09a3e1',
+    'fb_app_id' => 643972722814140,
+    'fb_app_secret' => '742cf3c0e3e002e599ac8258a275165b',
     'fb_graph_version' => '6.0',
-    'fb_access' => 'EAADmYhe4xeIBAPkLN4UqrW7JEaX4gimKFdvDGEkceq3HkPZBCGJ87j8zy6H66TQLWlRb4DZALWRzGZBbtzcNTIUbxzkFwMVoHTi0z8zEla7OEiDC8AMwyeGD7ZBECAugNVlJ0LJZAMZA4rmKJtX9ZCOnbzGbPN7bnEZBUDhFirPRVBiZBkHgUqpoXbkrkrTWpo5QZD',
+    'fb_access' => 'EAAJJsJVjbLwBAC18agtSZBLvY0fouc2EogTgXZBzZCiUJZBLCMPIZBc3rvO0V34VsupCLz5epiF20NcpzZAbOsEQHJMCI73J643LcKW1KD8H0E7rmTtIZByhI0lODINh6qGXXslZBu4R9x3I8toJOZBZCheFjrXOKkNKl77o9Dmb4IQvEH9yZBan1ZA6tsgY3x8TQrQZD',
 
     /*
     |--------------------------------------------------------------------------

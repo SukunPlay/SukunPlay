@@ -4,11 +4,13 @@ namespace App\Http\Controllers\Facebook;
 
 use App\Facebook\Config;
 use App\Facebook\StoreVideo;
+use App\Facebook\Thumbnail;
 use App\Http\Controllers\Controller;
 use App\User;
 use Facebook\Exceptions\FacebookSDKException;
 use Facebook\Facebook;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class Main extends Controller
 {
@@ -37,19 +39,17 @@ class Main extends Controller
         }
     }
 
+
+
+    //this is the gem
     public function fbwebhookpost(Request $request){
 
-        $u = new Config();
-        $u->app_id = "dafsdfasdf";
-        $u->secret = "secret";
-        $u->version = 1.1;
-        $u->access_token = "dsfsdf";
-        $u->save();
+        $this->getfbVideos();
+        $this->sortfbVideo();
+
     }
 
-    public function webhooksubs(){
-        /* PHP SDK v5.0.0 */
-        /* make the API call */
+    public function getfbVideos(){
 
         try {
             $fb = new Facebook([
@@ -62,24 +62,124 @@ class Main extends Controller
 
         }
 
+
         try {
-            // Returns a `Facebook\FacebookResponse` object
-            $response = $fb->get(
-                '/108039337384349/subscribed_apps',
-                'EAAkf5GFcAV8BAF5aF3EanP2GfMyBFs2nAdGdVLhzoawPFXqTQQ2gpmwWxZC7LlD9ZAUZCEZAuJstyXldmJirfM9eFU2x2Rj1s8wQbHUDnQWHf4Byif4DCeWsKhDehaxRyMooW2pIoVBrmzwjf4dFFVcz6YLPSmhuK5gmZB65gsn0oWs6fNbSuIWTq5heFIqgZD'
-            );
-        } catch(Facebook\Exceptions\FacebookResponseException $e) {
+            $response = $fb->get('me?fields=videos{created_time,id,description,thumbnails,source,title}', config('app.fb_access'));
+
+        } catch (\Facebook\Exceptions\FacebookResponseException $e) {
             echo 'Graph returned an error: ' . $e->getMessage();
             exit;
-        } catch(Facebook\Exceptions\FacebookSDKException $e) {
+        } catch (\Facebook\Exceptions\FacebookSDKException $e) {
             echo 'Facebook SDK returned an error: ' . $e->getMessage();
             exit;
         }
-        $graphNode = $response->getGraphNode();
-        /* handle the result */
 
-        echo $graphNode;
+        $me = $response->getGraphUser()['videos'];
+
+
+        $this->storefbvideo($me);
+
+        //need to update this later @Todo
+        return true;
+
     }
+
+
+    public function storefbvideo($data)
+    {
+
+        foreach ($data as $n) {
+
+            if (!StoreVideo::where('fb_id', '=', $n['id'])->exists()) {
+
+                DB::beginTransaction();
+                $new_video = new StoreVideo();
+                try {
+                    $new_video->fb_id = $n['id'];
+                    $new_video->link = $n['source'];
+                    $new_video->desc = $n['description'];
+                    $new_video->title = $n['title'];
+                    $new_video->fb_created = $n['created_time'];
+                    $new_video->save();
+                } catch (\Exception $e) {
+                    DB::rollBack();
+
+                }
+
+
+                foreach ($n['thumbnails'] as $thumbnail) {
+
+
+                    $new_thumbnail = new Thumbnail();
+
+                    try {
+                        $new_thumbnail->video_id = $n['id'];
+                        $new_thumbnail->link = $thumbnail['uri'];
+                        $new_thumbnail->save();
+
+                    } catch (\Exception $e) {
+
+                        DB::rollBack();
+                    }
+
+                }
+
+
+                DB::commit();
+
+            }
+
+
+        }
+    }
+
+
+    public function sortfbVideo(){
+
+        $num=0;
+        $sort=0;
+
+        DB::beginTransaction();
+
+        if (StoreVideo::whereNotNull('sort')->exists()){
+            $last_sort = StoreVideo::whereNotNull('sort')->first();
+            $sort = StoreVideo::whereNotNull('sort')->get()->sortBy('fb_created');
+            $num = $last_sort->sort;
+
+            try {
+                foreach ($sort as $s) {
+
+                    $s->sort = $num;
+                    $num++;
+                    $s->save();
+
+                }
+            }catch (\Exception $e){
+                DB::rollBack();
+            }
+        }else{
+            $sort = StoreVideo::all()->sortByDesc('fb_created');
+            $num = $sort->count();
+
+            try {
+                foreach ($sort as $s) {
+
+                    $s->sort = $num;
+                    $num--;
+                    $s->save();
+
+                }
+            }catch (\Exception $e){
+                DB::rollBack();
+            }
+        }
+
+
+
+        DB::commit();
+    }
+
+
 
 
     public function privacy(){

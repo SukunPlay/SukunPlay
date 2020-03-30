@@ -112,21 +112,47 @@ class getVideo extends Controller
     public function sortz()
     {
 
+        $num=0;
+        $sort=0;
 
-        $sort = StoreVideo::all()->sortByDesc('fb_created');
+        DB::beginTransaction();
 
+        if (StoreVideo::whereNotNull('sort')->exists()){
+            $last_sort = StoreVideo::whereNotNull('sort')->first();
+            $sort = StoreVideo::whereNotNull('sort')->get()->sortBy('fb_created');
+            $num = $last_sort->sort;
 
-        $num = $sort->count();
+            try {
+                foreach ($sort as $s) {
 
+                    $s->sort = $num;
+                    $num++;
+                    $s->save();
 
-        foreach ($sort as $s) {
+                }
+            }catch (\Exception $e){
+                DB::rollBack();
+            }
+        }else{
+            $sort = StoreVideo::all()->sortByDesc('fb_created');
+            $num = $sort->count();
 
-            $s->sort = $num;
-            $num--;
-            $s->save();
+            try {
+                foreach ($sort as $s) {
 
+                    $s->sort = $num;
+                    $num--;
+                    $s->save();
 
+                }
+            }catch (\Exception $e){
+                DB::rollBack();
+            }
         }
+
+
+
+        DB::commit();
     }
 
 
