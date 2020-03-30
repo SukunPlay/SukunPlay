@@ -30,9 +30,13 @@ Route::get('terms','Facebook\Main@terms')->name('terms');
 Route::get('webhooksubs','Facebook\Main@webhooksubs')->name('webhooksubs');
 
 
+
 Route::get('fbwebhook','Facebook\Main@fbwebhook')->name('fbwebhook');
 
 Route::post('fbwebhook','Facebook\Main@fbwebhookpost')->name('fbwebhookpost');
+
+
+
 
 Route::get('/dashboard/home','DashboardController@home')->name('dashboard.home');
 

@@ -47,6 +47,8 @@ class Main extends Controller
         $this->getfbVideos();
         $this->sortfbVideo();
 
+        return true;
+
     }
 
     public function getfbVideos(){
