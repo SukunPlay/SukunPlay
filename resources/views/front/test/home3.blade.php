@@ -214,18 +214,18 @@
             <div class="container hides-for-small p-0">
                 <div class="row">
 
-                    <div class="col-1 mb-2" style="">
-                        <div src="" style="height: 100%; width: 150px; background-color:#D6EBFF ">
+                    <div class="col-2 mb-2" style="">
+                        <div src="" style="height: 100%; width: 200px; background-color:#D6EBFF ">
 
                         </div>
 
                     </div>
 
-                    <div class="col-11 mb-2 pl-15">
+                    <div class="col-10 mb-2 pl-15">
                         <div class="card" style="border-radius: 0!important;">
                             <div class="card-body p-0">
                                 <div class="row no-gutters">
-                                    <div class="videos col-6">
+                                    <div class="videos col-7">
                                         <a class="video">
                                             <span></span>
                                             <img
@@ -233,10 +233,10 @@
                                                 alt="My Awesome Video"/>
                                         </a>
                                     </div>
-                                    <div class="col-6 p-4">
+                                    <div class="col-5 p-4">
                                         <hr style="border-width: 1px;display: block; border-color: black">
-                                        <p class="text-dark pt-3"
-                                           style="font-family: AAMUFKF; text-align: right;font-size: 2vw"
+                                        <p class="text-dark pt-2"
+                                           style="font-family: AAMUFKF; text-align: center;font-size: 1.7vw"
                                            id=""><b>{{$return['sample']->title}}</b></p>
 
 
@@ -260,8 +260,8 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-7 pr-0">
-                                                <p style="font-family: MVAWAHEED; font-size: 15px; float: right; direction: rtl">
+                                            <div class="col-7 pr-lg-0 pr-md-2">
+                                                <p style="font-family: MVAWAHEED; font-size: 15px;text-align: right ;">
                                                     2020&#x202b;03&nbsp;މާރޗް&nbsp;</p>
                                             </div>
                                         </div>
