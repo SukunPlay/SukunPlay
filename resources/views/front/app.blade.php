@@ -12,7 +12,7 @@
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
     {{ csrf_field() }}
 
-    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script type="text/javascript" src="{{asset('fawesome/all.min.js')}}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.24.1/feather.min.js" crossorigin="anonymous"></script>
 </head>
 <body>

@@ -330,59 +330,99 @@
                                                     <div class="col-2">
                                                         <div class="align-content-center">
                                                             <div class="row">
-                                                                <ion-icon name="eye-outline"></ion-icon>
+                                                                <i class="far fa-eye"></i>
                                                                 &nbsp;
                                                                 <p style="font-size: 10px;">2.5k</p>
                                                             </div>
 
                                                         </div>
                                                     </div>
-                                                        <div class="col-2">
-                                                            <div class="align-content-center">
-                                                                <div class="row">
-                                                                    <ion-icon name="eye-outline"></ion-icon>
-                                                                    &nbsp;
-                                                                    <p style="font-size: 10px;">2.5k</p>
-                                                                </div>
+                                                    <div class="col-2">
+                                                        <div class="align-content-center">
+                                                            <div class="row">
+                                                                <i class="far fa-thumbs-up"></i>
+                                                                &nbsp;
+                                                                <p style="font-size: 10px;">2.5k</p>
                                                             </div>
                                                         </div>
+                                                    </div>
                                                     <div class="col-7 pr-0">
-                                                            <p style="font-family: MVAWAHEED; font-size: 10px; float: right; direction: rtl">2020&#x202b;03&nbsp;މާރޗް&nbsp;</p>
+                                                        <p style="font-family: MVAWAHEED; font-size: 10px; float: right; direction: rtl">
+                                                            2020&#x202b;03&nbsp;މާރޗް&nbsp;</p>
                                                     </div>
                                                 </div>
-
 
 
                                                 <hr style="border-width: 1px;display: block; border-color: black">
                                                 <div style="background-color: #d6ebff; height: 68px" class="mt-2">
                                                 </div>
-                                                <div style="font-size: 0.7vw; text-align: right">
-                                                    Share links here
+                                                <div class="row pt-4">
+                                                    <div class="col-7" style="text-align: right; font-size: 1.6vh">
+
+                                                        <i class="fab fa-linkedin"></i>
+
+                                                        <i class="fab fa-instagram"></i>
+
+                                                        <i class="fab fa-whatsapp"></i>
+
+                                                        <i class="fab fa-viber"></i>
+
+                                                        <i class="fab fa-facebook"></i>
+
+                                                        <i class="fab fa-twitter"></i>
+
+                                                    </div>
+
+
+                                                    <div class="col-5" style="text-align: right">
+                                                        <p style="font-family: MVAWAHEED; font-size: 1.32vh;">ޝެއަރ
+                                                            ކުރެއްވުމަށް</p>
+                                                    </div>
+
                                                 </div>
 
-                                                <div style="font-size: 0.7vw;  text-align: right">
-                                                    Link Copy kohlahvaa
+                                                <div class="row">
+                                                    <div class="col-2 pr-0" style="text-align: right">
+                                                        <button style="border:none; background-color: #ffffff"><i class="far fa-copy" onclick="copyToClipboard()"></i>
+                                                        </button>
+
+                                                    </div>
+                                                    <div class="col-4 pl-0">
+                                                        <input type="text"
+                                                               value="test copy lol"
+                                                               disabled id="textToCopy"
+                                                               style="font-size:1.32vh ;border-radius: 5px; border-color: #009d33; border-style:solid; background-color: #FFFFFF; width:10vw ">
+
+                                                    </div>
+
+                                                    <div style="text-align: right" class="col-6">
+                                                        <p style="font-family: MVAWAHEED; font-size: 1.32vh;">ލިންކު ކޮޕީ
+                                                            ކޮށްލައްވާ</p>
+                                                    </div>
+
+
                                                 </div>
 
 
-                                                <p class="card-text" style="text-align: right"><small
-                                                        class="text-muted" id="video_created_at"
-                                                        style="text-align: right; font-size: 1vw"></small></p>
+                                                {{--                                                    <p class="card-text" style="text-align: right"><small--}}
+                                                {{--                                                            class="text-muted" id="video_created_at"--}}
+                                                {{--                                                            style="text-align: right; font-size: 1vw"></small></p>--}}
+
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
+
+                                </div>
 
                             </div>
 
                         </div>
 
                     </div>
-
                 </div>
-            </div>
 
+            </div>
 
         </section>
     </main>
@@ -504,6 +544,19 @@
                 });
             });
         };
+
+        function copyToClipboard() {
+
+            var copyText = document.getElementById("textToCopy");
+
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+
+
+            document.execCommand("copy");
+
+            alert("Link Copied to Clipboard");
+        }
 
     </script>
 
