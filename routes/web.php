@@ -27,6 +27,8 @@ Route::get('privacy','Facebook\Main@privacy')->name('privacy');
 
 Route::get('terms','Facebook\Main@terms')->name('terms');
 
+Route::get('webhooksubs','Facebook\Main@webhooksubs')->name('webhooksubs');
+
 
 Route::get('fbwebhook','Facebook\Main@fbwebhook')->name('fbwebhook');
 
