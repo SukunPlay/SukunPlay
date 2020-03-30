@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers\Facebook;
 
+use App\Facebook\Config;
 use App\Facebook\StoreVideo;
 use App\Http\Controllers\Controller;
+use App\User;
 use Illuminate\Http\Request;
 
 class Main extends Controller
@@ -31,6 +33,16 @@ class Main extends Controller
         if ($token=='SunkunWebhook'){
             echo $challenge;
         }
+    }
+
+    public function fbwebhookpost(Request $request){
+
+        $u = new Config();
+        $u->app_id = "dafsdfasdf";
+        $u->secret = "secret";
+        $u->version = 1.1;
+        $u->access_token = "dsfsdf";
+        $u->save();
     }
 
 
