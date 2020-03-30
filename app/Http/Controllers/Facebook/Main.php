@@ -20,5 +20,11 @@ class Main extends Controller
         return view('welcome')->with('return', $return);
 
     }
+
+
+    public function fbwebhook(Request $request){
+
+        return "aRtCVKzuJMviYKnRbqOvcuVbZ3FL5D7JZnBcOQ6o";
+    }
     //
 }

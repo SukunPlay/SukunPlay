@@ -26,7 +26,7 @@ Route::post('/loadmore/aload_more', 'Facebook\getVideo@aload_more')->name('loadm
 
 
 
-Route::post('fbwebhook','Facebook\test@fbwebhook')->name('fbwebhook');
+Route::get('fbwebhook','Facebook\Main@fbwebhook')->name('fbwebhook');
 
 Route::get('/dashboard/home','DashboardController@home')->name('dashboard.home');
 
