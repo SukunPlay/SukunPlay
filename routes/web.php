@@ -23,7 +23,9 @@ Route::get('/fbsort','Facebook\getVideo@sortz')->name('sortvideo');
 
 Route::post('/loadmore/aload_more', 'Facebook\getVideo@aload_more')->name('loadmore.aload_more');
 
+Route::get('privacy','Facebook\Main@privacy')->name('privacy');
 
+Route::get('terms','Facebook\Main@terms')->name('terms');
 
 
 Route::get('fbwebhook','Facebook\Main@fbwebhook')->name('fbwebhook');

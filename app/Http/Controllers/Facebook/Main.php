@@ -32,5 +32,15 @@ class Main extends Controller
             echo $challenge;
         }
     }
+
+
+    public function privacy(){
+        return view('front.privacy');
+    }
+
+    public function terms(){
+
+        return view('front.terms');
+    }
     //
 }
