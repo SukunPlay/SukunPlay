@@ -346,9 +346,8 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                    <div class="col-7">
-
-                                                            <p class="align-content-end" style="font-family: MVAWAHEED; font-size: 10px; text-align: right; float: left; direction: rtl">2020&#x202b;03 މާރޗް&nbsp;&#x202c;</p>
+                                                    <div class="col-7 pr-0">
+                                                            <p style="font-family: MVAWAHEED; font-size: 10px; float: right; direction: rtl">2020&#x202b;03&nbsp;މާރޗް&nbsp;</p>
                                                     </div>
                                                 </div>
 
