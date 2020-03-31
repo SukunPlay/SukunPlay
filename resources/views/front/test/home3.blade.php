@@ -47,6 +47,7 @@
             height: 100%;
             position: absolute;
             background: url({{asset('playbutton.svg')}}) no-repeat;
+            opacity: 0.5;
             background-position: 50% 50%;
             background-size: 20%;
         }
@@ -1312,7 +1313,7 @@
 
             $(document).on('click', '#load_more_button', function () {
                 var id = $(this).data('id');
-                $('#load_more_button').html('<b style="font-family: MVAWAHEED; font-size: 15px"> . . . ލޯޑު ވަނީ</b>');
+                $('#load_more_button').html('<b style="font-family: MVAWAHEED; font-size: 15px"> . . . </b>');
                 load_data(id, _token);
             });
 
