@@ -576,25 +576,29 @@
 
 
                                         <div class="row pl-4 pt-0">
-                                            <div class="col-2">
-                                                <div class="align-content-center">
-                                                    <div class="row">
-                                                        <i class="far fa-eye"></i>
-                                                        &nbsp;
-                                                        <p style="font-size: 10px;">0</p>
-                                                    </div>
 
-                                                </div>
-                                            </div>
-                                            <div class="col-2">
-                                                <div class="align-content-center">
-                                                    <div class="row">
-                                                        <i class="far fa-thumbs-up"></i>
-                                                        &nbsp;
-                                                        <p style="font-size: 10px;">0</p>
+                                                <div class="col-4">
+                                                    <div class="align-content-center">
+                                                        <div class="row">
+                                                            <i class="far fa-eye"></i>
+                                                            &nbsp;
+                                                            <p style="font-size: 10px;">0</p>
+                                                        </div>
+
                                                     </div>
                                                 </div>
-                                            </div>
+                                            <div class="col-8"></div>
+                                                <div class="col-4">
+                                                    <div class="align-content-center">
+                                                        <div class="row">
+                                                            <i class="far fa-thumbs-up"></i>
+                                                            &nbsp;
+                                                            <p style="font-size: 10px;">0</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
                                             @php
                                                 $date = \Carbon\Carbon::make($return['sample']->fb_created);
                                                 $month = $date->month;
@@ -679,7 +683,7 @@
 
 
                                             @endphp
-                                            <div class="col-7 pr-0 ">
+                                            <div class="col-8 pr-4 justify-content-end">
                                                 <p style="font-family: MVAWAHEED; font-size: 15px;text-align: right ;">
                                                     {{$date->year}}&#x202b;{{$date->day}}&nbsp;{{$dmonth}}&nbsp;</p>
                                             </div>
@@ -795,11 +799,11 @@
                                                 </button>
 
                                             </div>
-                                            <div class="col-4 pl-0">
+                                            <div class="col-4 pl-2">
                                                 <input type="text"
                                                        value=""
                                                        disabled id="textToCopy"
-                                                       style="font-size:1vh ;border-radius: 5px; border-color: #009d33; border-style:solid; background-color: #f1f1f1; width:9vw ">
+                                                       style="font-size:1vh ;border-radius: 5px; border-color: #009d33; border-style:solid; background-color: #f1f1f1; width:8vw ">
 
                                             </div>
 
@@ -913,8 +917,8 @@
                                                 <div class="row pt-4">
                                                     <div class="col-7" style="text-align: right; font-size: 1.6vh">
 
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24.824"
-                                                             height="24.824"
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                                             height="20"
                                                              viewBox="0 0 24.824 24.824">
                                                             <g transform="translate(0.75 0.75)">
                                                                 <rect width="23.324" height="23.324" rx="11.662"
@@ -937,8 +941,8 @@
                                                             </g>
                                                         </svg>
 
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24.824"
-                                                             height="24.824"
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                                             height="20"
                                                              viewBox="0 0 24.824 24.824">
                                                             <g transform="translate(0.75 0.75)">
                                                                 <path
@@ -963,8 +967,8 @@
                                                             </g>
                                                         </svg>
 
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24.824"
-                                                             height="24.824"
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                                             height="20"
                                                              viewBox="0 0 24.824 24.824">
                                                             <g transform="translate(0.75 0.75)">
                                                                 <path
@@ -987,8 +991,8 @@
                                                             </g>
                                                         </svg>
 
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24.824"
-                                                             height="24.824"
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                                             height="20"
                                                              viewBox="0 0 24.824 24.824">
                                                             <g transform="translate(0.75 0.75)">
                                                                 <rect width="23.324" height="23.324" rx="11.662"
@@ -1002,8 +1006,8 @@
                                                             </g>
                                                         </svg>
 
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24.824"
-                                                             height="24.824"
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                                             height="20"
                                                              viewBox="0 0 24.824 24.824">
                                                             <g transform="translate(0.75 0.75)">
                                                                 <path
