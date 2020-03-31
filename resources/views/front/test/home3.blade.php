@@ -169,7 +169,7 @@
             </div>
 
         </nav>
-        <section class="pt-4 pb-lg-5 pb-md-5 pb-sm-2" style="background-color: #FFFFFF">
+        <section class="pt-2 pb-lg-5 pb-md-5 pb-sm-2" style="background-color: #FFFFFF">
             <div class="container justify-content-center hides-for-small pt-lg-4 pt-md-4 pt-sm-0 mb-0">
                 <div class="justify-content-center d-flex pb-lg-5 pb-md-5 pb-sm-5 mb-4 mb-sm-4 mb-lg-0">
                     <h6 class="mb-0" style="font-family: MVAWAHEED; text-align: right; font-size: 25px">އެންމެ ފަހުގެ
@@ -847,7 +847,7 @@
 
             <div class="container hides-for-large">
                 <div class="row ">
-                    <div class="col-12 pb-2" style="text-align: center">
+                    <div class="col-12 pb-4" style="text-align: center">
 
                         <svg xmlns="http://www.w3.org/2000/svg" width="24.824" height="24.824"
                              viewBox="0 0 24.824 24.824">
@@ -912,11 +912,11 @@
                     </div>
 
                     <div class="col-12" style="text-align: center">
-                        <p style="font-family: MVAWAHEED">ހ. އޯލްވޭސް ހެޕީ ހައުސް، ފުރަތަމަ ފަންގިފިލާ، އަބަދަށް އުފާ
+                        <p style="font-family: MVAWAHEED;margin-bottom: 0px">ހ. އޯލްވޭސް ހެޕީ ހައުސް، ފުރަތަމަ ފަންގިފިލާ، އަބަދަށް އުފާ
                             ހިނގުން، 20038، މާލެ، ދިވެހިރާއްޖެ</p>
-                        <p style="font-family: MVAWAHEED;"> &#x202b;އީމެއިލް :&nbsp;<a
+                        <p style="font-family: MVAWAHEED;margin-bottom: 0px"> &#x202b;އީމެއިލް :&nbsp;<a
                                 href="mailto:editor@sukunplay.com">editor@sukunplay.com</a> &nbsp;</p>
-                        <p style="font-family: MVAWAHEED;">&#x202b;މޯބައިލް :&nbsp;<a href="tel:9700200">9700200</a>
+                        <p style="font-family: MVAWAHEED;margin-bottom: 0px">&#x202b;މޯބައިލް :&nbsp;<a href="tel:9700200">9700200</a>
                             &nbsp;</p>
                     </div>
                 </div>
