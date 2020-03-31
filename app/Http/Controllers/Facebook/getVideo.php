@@ -154,12 +154,6 @@ class getVideo extends Controller
             }
         }
 
-        if ($e){
-
-            return $last_sort->sort;
-        }
-
-
 
         DB::commit();
     }
