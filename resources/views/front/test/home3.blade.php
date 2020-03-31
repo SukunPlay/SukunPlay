@@ -273,7 +273,7 @@
 
                     <div class="col-3 show-for-medium">
                         <div class="card-body pt-0">
-                            <img src="{{'vertical.jpg'}}" style="">
+                            <img src="{{'middle.jpg'}}" style="">
                         </div>
 
                     </div>
