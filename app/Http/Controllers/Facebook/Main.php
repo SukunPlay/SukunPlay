@@ -142,6 +142,7 @@ class Main extends Controller
 
     public function sortfbVideo(){
 
+
         $num=0;
         $sort=0;
 
@@ -150,7 +151,7 @@ class Main extends Controller
         DB::beginTransaction();
 
         if (StoreVideo::whereNotNull('sort')->exists()){
-            $last_sort = StoreVideo::whereNotNull('sort')->first();
+            $last_sort = StoreVideo::whereNotNull('sort')->orderBy('sort','DESC')->first();
             $sort = StoreVideo::whereNull('sort')->get()->sortBy('fb_created');
             $num = $last_sort->sort;
 
@@ -181,7 +182,6 @@ class Main extends Controller
                 DB::rollBack();
             }
         }
-
 
 
         DB::commit();
