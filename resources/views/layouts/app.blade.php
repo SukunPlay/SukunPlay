@@ -57,6 +57,7 @@
 <script src="{{asset('dashboard/js/sukun.min.js')}}"></script>
 
 
+@yield('js')
 </body>
 
 </html>

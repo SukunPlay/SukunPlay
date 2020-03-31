@@ -42,6 +42,7 @@
 <script src='https://unpkg.com/popper.js@1.12.9/dist/umd/popper.js'></script>
 <script src='https://unpkg.com/bootstrap@4.0.0/dist/js/bootstrap.js'></script><script  src="{{asset('vidoes/script.js')}}"></script>
 
+@yield('js')
 </body>
 
 </html>

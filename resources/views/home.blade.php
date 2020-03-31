@@ -3,7 +3,30 @@
 @section('head')
     <!-- Styles -->
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
+    <style>
+
+        
+        @font-face {
+            font-family: MVAWAHEED;
+            src: url('{{ asset('fonts/MVAWAHEED.TTF') }}');
+        }
+
+ 
+
+    .hider{
+    display:none;
+    }
+
+    .dv, .thaanaKeyboardInput {
+        font-family: MVAWAHEED;
+        direction: rtl;
+        font-size: 1.2rem;
+        line-height: 1.1;
+    }
+
+    </style>
 
 
 
@@ -13,6 +36,36 @@
 
 @section('content')
 
+<br>
+
+<div class="row">
+
+    <div class="col">
+
+        <div class="input-group">
+            <input type="text"  class="form-control" name="search" id="search" placeholder="Serach" autocomplete="off">
+            <input type="hidden" name="search_thaanaKeyboardState" value="phonetic">
+            <div class="input-group-btn">
+                <button class="btn btn-default " id="languageChange" >EN</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+
+    <div class="col">
+
+        <ul class="hider list-group"  id="result">
+        
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+    
 
 <div class="container">
     <button type="button" class="btn btn-danger mb-2 ml-3 mt-2">
@@ -104,7 +157,96 @@
 </div>
 <!-- partial -->
 
+
+
+@endsection
+
+@section('js')
+
+<script src="{{asset('js/jtk-4.2.1.pack.js')}}"></script>
+    
+
+<script>
+
+    $("#languageChange").click(
+        function() {
+            var lang = $(this).text();
+            switch(lang) {
+                case "EN" :
+                    $(this).addClass("dv").text("ހށ");
+                    $("#search").addClass("dv").attr("placeholder","ހޯދާ").val('').focus();
+                    thaanaKeyboard.setHandlerById("search","enable");
+                    break;
+                case "ހށ" :
+                    $(this).removeClass("dv").text("EN");
+                    $("#search").removeClass("dv").attr("placeholder","Enter a word").val('').focus();
+                    thaanaKeyboard.setHandlerById("search","disable");
+                    break;
+            }
+            return false;
+        }
+    );
+
+
+
+    $(document).ready(function(){
+    
+     fetch_customer_data();
+    
+     function fetch_customer_data(query = '')
+     {
+      $.ajax({
+       url:"{{ route('search.action') }}",
+       method:'GET',
+       data:{query:query},
+       dataType:'json',
+       
+       success:function(data)
+       {
+        var ul = document.getElementById("result");
+        var english = /^[A-Za-z0-9]*$/;
+        $('#result').empty();
+        if(data['total_data'] <= 0)
+        {
+            var li = document.createElement("li");
+            li.appendChild(document.createTextNode('No Data Found'));
+            li.classList.add("list-group-item");
+            ul.appendChild( li )
+        }
+
+        for( var i = 0; i < data['total_data']; i++ )
+        { 
+            o = data['data'][i];
+
+            var li = document.createElement("li");
+            const anchor = document.createElement('a');
+            anchor.href = o.link;
+            anchor.innerText = o.title;
+            li.appendChild(anchor);
+
+            // var li = document.createElement("li");
+            // li.appendChild(document.createTextNode("<a href='sss'>"+o.title+"</a>"));
+            li.classList.add("list-group-item");
+            if (!english.test(o.title))
+            {
+                li.classList.add("dv");
+                li.classList.add("text-right");
+            }
+            ul.appendChild( li );     
+        } 
+       }
+      })
+     }
+    
+     $(document).on('keyup', '#search', function(){
+      $('#result').removeClass("hider");  
+      var query = $(this).val();
+      fetch_customer_data(query);
+     });
+    });
+    </script>
 @endsection
 
 @push('js')
+
 

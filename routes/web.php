@@ -36,3 +36,7 @@ Route::get('/test','DashboardController@testz')->name('test');
 
 Route::get('/video/info/{video_id}','DashboardController@getInfo')->name('get-video-info');
 
+Route::get('/live_search', 'LiveSearch@index');
+Route::get('/search/action', 'SearchController@action')->name('search.action');
+
+
