@@ -115,17 +115,19 @@ class getVideo extends Controller
         $num=0;
         $sort=0;
 
+
+
         DB::beginTransaction();
 
         if (StoreVideo::whereNotNull('sort')->exists()){
             $last_sort = StoreVideo::whereNotNull('sort')->first();
-            $sort = StoreVideo::whereNotNull('sort')->get()->sortBy('fb_created');
+            $sort = StoreVideo::whereNull('sort')->get()->sortBy('fb_created');
             $num = $last_sort->sort;
 
             try {
                 foreach ($sort as $s) {
 
-                    $s->sort = $num;
+                    $s->sort = $num+1;
                     $num++;
                     $s->save();
 

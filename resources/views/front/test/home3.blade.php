@@ -222,7 +222,7 @@
                     </div>
 
                     <div class="col-10 mb-2 pl-15">
-                        <div class="card" style="border-radius: 0!important;">
+                        <div class="card" style="border-radius: 0!important; box-shadow: none; background-color: #f1f1f1">
                             <div class="card-body p-0">
                                 <div class="row no-gutters">
                                     <div class="videos col-7 col-md-12 col-lg-7">
@@ -235,8 +235,8 @@
                                     </div>
                                     <div class="col-5 p-4 col-md-12 col-lg-5">
                                         <hr style="border-width: 1px;display: block; border-color: black">
-                                        <p class="text-dark pt-2"
-                                           style="font-family: AAMUFKF; text-align: center;font-size: 1.7vw"
+                                        <p class="pt-2"
+                                           style="font-family: AAMUFKF; text-align: center;font-size: 1.7vw; color: #285943"
                                            id=""><b>{{$return['sample']->title}}</b></p>
 
 
@@ -246,7 +246,7 @@
                                                     <div class="row">
                                                         <i class="far fa-eye"></i>
                                                         &nbsp;
-                                                        <p style="font-size: 10px;">2.5k</p>
+                                                        <p style="font-size: 10px;">0</p>
                                                     </div>
 
                                                 </div>
@@ -256,7 +256,7 @@
                                                     <div class="row">
                                                         <i class="far fa-thumbs-up"></i>
                                                         &nbsp;
-                                                        <p style="font-size: 10px;">2.5k</p>
+                                                        <p style="font-size: 10px;">0</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -268,8 +268,7 @@
 
 
                                         <hr style="border-width: 1px;display: block; border-color: black" class="mt-0">
-                                        <div style="background-color: #d6ebff; height: 68px" class="mt-1">
-                                        </div>
+
                                         <div class="row pt-2">
                                             <div class="col-7" style="text-align: right; font-size: 1.5vh">
 
@@ -370,8 +369,8 @@
                                             </button>
                                             <div class="card-body pt-0 pb-0">
                                                 <hr style="border-width: 1px;display: block; border-color: black">
-                                                <p class="text-dark pt-5"
-                                                   style="font-family: AAMUFKF; text-align: right;font-size: 2vw"
+                                                <p class="pt-5"
+                                                   style="font-family: AAMUFKF; text-align: center;font-size: 2vw; color: #285943"
                                                    id="video_title"><b></b></p>
 
 
@@ -381,7 +380,7 @@
                                                             <div class="row">
                                                                 <i class="far fa-eye"></i>
                                                                 &nbsp;
-                                                                <p style="font-size: 10px;">2.5k</p>
+                                                                <p style="font-size: 10px;">0</p>
                                                             </div>
 
                                                         </div>
@@ -391,7 +390,7 @@
                                                             <div class="row">
                                                                 <i class="far fa-thumbs-up"></i>
                                                                 &nbsp;
-                                                                <p style="font-size: 10px;">2.5k</p>
+                                                                <p style="font-size: 10px;">0</p>
                                                             </div>
                                                         </div>
                                                     </div>
