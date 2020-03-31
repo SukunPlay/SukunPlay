@@ -44,8 +44,11 @@ class Main extends Controller
     //this is the gem
     public function fbwebhookpost(Request $request){
 
-        $this->getfbVideos();
-        $this->sortfbVideo();
+        $getv = $this->getfbVideos();
+
+        if ($getv == true){
+            $this->sortfbVideo();
+        }
 
         return true;
 
@@ -141,17 +144,19 @@ class Main extends Controller
         $num=0;
         $sort=0;
 
+
+
         DB::beginTransaction();
 
         if (StoreVideo::whereNotNull('sort')->exists()){
             $last_sort = StoreVideo::whereNotNull('sort')->first();
-            $sort = StoreVideo::whereNotNull('sort')->get()->sortBy('fb_created');
+            $sort = StoreVideo::whereNull('sort')->get()->sortBy('fb_created');
             $num = $last_sort->sort;
 
             try {
                 foreach ($sort as $s) {
 
-                    $s->sort = $num;
+                    $s->sort = $num+1;
                     $num++;
                     $s->save();
 
