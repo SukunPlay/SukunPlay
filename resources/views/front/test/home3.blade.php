@@ -170,7 +170,7 @@
 
         </nav>
         <section class="pt-4 pb-lg-5 pb-md-5 pb-sm-2" style="background-color: #FFFFFF">
-            <div class="container justify-content-center pt-lg-4 pt-md-4 pt-sm-0 mb-0">
+            <div class="container justify-content-center hides-for-small pt-lg-4 pt-md-4 pt-sm-0 mb-0">
                 <div class="justify-content-center d-flex pb-lg-5 pb-md-5 pb-sm-5 mb-4 mb-sm-4 mb-lg-0">
                     <h6 class="mb-0" style="font-family: MVAWAHEED; text-align: right; font-size: 25px">އެންމެ ފަހުގެ
                         ވީޑިއޯ</h6>
@@ -182,6 +182,14 @@
                 <div class="col-12 mb-2"
                      style="height: 68px;background-color: #d6ebff;padding-right:1rem;padding-left:1rem">
                 </div>
+            </div>
+
+            <div class="container justify-content-center hides-for-large pt-3">
+                <div class="justify-content-center d-flex pb-lg-5 pb-md-5 pb-sm-5 mb-4 mb-sm-4 mb-lg-0">
+                    <h6 class="mb-0" style="font-family: MVAWAHEED; text-align: right; font-size: 25px">އެންމެ ފަހުގެ
+                        ވީޑިއޯ</h6>
+                </div>
+
             </div>
 
 
