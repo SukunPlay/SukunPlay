@@ -695,9 +695,16 @@
                                                     </div>
                                                     <div class="col-4 pl-0">
                                                         <input type="text"
+                                                               class="hides-for-small"
                                                                value=""
                                                                disabled id="textToCopy"
                                                                style="font-size:1.32vh ;border-radius: 5px; border-color: #009d33; border-style:solid; background-color: #FFFFFF; width:10vw ">
+
+                                                        <input type="text"
+                                                               class="hides-for-large"
+                                                               value=""
+                                                               disabled id="textToCopy"
+                                                               style="font-size:1.32vh ;border-radius: 5px; border-color: #009d33; border-style:solid; background-color: #FFFFFF; width:30vw ">
 
                                                     </div>
 
