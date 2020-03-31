@@ -156,7 +156,7 @@ class getVideo extends Controller
 
         if ($e){
 
-            return $e;
+            return $last_sort->sort;
         }
 
 
