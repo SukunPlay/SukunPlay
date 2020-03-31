@@ -301,16 +301,16 @@
 
                                         <div class="row">
                                             <div class="col-2 pr-0" style="text-align: right">
-                                                <button style="border:none; background-color: #ffffff"><i
+                                                <button style="border:none; background-color: #f1f1f1"><i
                                                         class="far fa-copy" onclick="copyToClipboard()"></i>
                                                 </button>
 
                                             </div>
                                             <div class="col-4 pl-0">
                                                 <input type="text"
-                                                       value="test copy lol"
+                                                       value=""
                                                        disabled id="textToCopy"
-                                                       style="font-size:1vh ;border-radius: 5px; border-color: #009d33; border-style:solid; background-color: #FFFFFF; width:9vw ">
+                                                       style="font-size:1vh ;border-radius: 5px; border-color: #009d33; border-style:solid; background-color: #f1f1f1; width:9vw ">
 
                                             </div>
 
@@ -447,7 +447,7 @@
                                                     </div>
                                                     <div class="col-4 pl-0">
                                                         <input type="text"
-                                                               value="test copy lol"
+                                                               value=""
                                                                disabled id="textToCopy"
                                                                style="font-size:1.32vh ;border-radius: 5px; border-color: #009d33; border-style:solid; background-color: #FFFFFF; width:10vw ">
 
