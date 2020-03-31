@@ -833,11 +833,11 @@
                     </div>
 
                     <div class="col-6" style="text-align: right">
-                        <p style="font-family: MVAWAHEED">ހ. އޯލްވޭސް ހެޕީ ހައުސް، ފުރަތަމަ ފަންގިފިލާ، އަބަދަށް އުފާ
+                        <p style="font-family: MVAWAHEED;margin-bottom: 0px">ހ. އޯލްވޭސް ހެޕީ ހައުސް، ފުރަތަމަ ފަންގިފިލާ، އަބަދަށް އުފާ
                             ހިނގުން، 20038، މާލެ، ދިވެހިރާއްޖެ</p>
-                        <p style="font-family: MVAWAHEED;"> &#x202b;އީމެއިލް :&nbsp;<a
+                        <p style="font-family: MVAWAHEED;margin-bottom: 0px"> &#x202b;އީމެއިލް :&nbsp;<a
                                 href="mailto:editor@sukunplay.com">editor@sukunplay.com</a> &nbsp;</p>
-                        <p style="font-family: MVAWAHEED;">&#x202b;މޯބައިލް :&nbsp;<a href="tel:9700200">9700200</a>
+                        <p style="font-family: MVAWAHEED;margin-bottom: 0px">&#x202b;މޯބައިލް :&nbsp;<a href="tel:9700200">9700200</a>
                             &nbsp;</p>
 
                     </div>
