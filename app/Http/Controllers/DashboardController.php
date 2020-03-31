@@ -15,55 +15,12 @@ class DashboardController extends Controller
         return view('home');
     }
 
-    public function testz(){
-
-        $item = StoreVideo::all()->sortByDesc('fb_created');
-
-        $sample = StoreVideo::where('id','=',1)->first();
-
-        $return = [
-            'item' => $item,
-            'sample' => $sample,
-        ];
-
-        return view('front.home')->with('return', $return);
-    }
-
-
-    public function test1(){
-
-        $item = StoreVideo::all()->sortByDesc('fb_created');
-
-        $sample = StoreVideo::where('id','=',1)->first();
-
-        $return = [
-            'item' => $item,
-            'sample' => $sample,
-        ];
-
-        return view('front.test.home')->with('return', $return);
-    }
-
-
-    public function test2(){
-
-        $item = StoreVideo::all()->sortByDesc('fb_created');
-
-        $sample = StoreVideo::where('id','=',1)->first();
-
-        $return = [
-            'item' => $item,
-            'sample' => $sample,
-        ];
-
-        return view('front.test.home2')->with('return', $return);
-    }
 
     public function test3(){
 
         $item = StoreVideo::all()->sortByDesc('fb_created');
 
-        $sample = StoreVideo::where('id','=',1)->first();
+        $sample = StoreVideo::all()->sortByDesc('sort')->first();
 
         $return = [
             'item' => $item,
