@@ -273,9 +273,93 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            @php
+                                                $date = \Carbon\Carbon::make($return['sample']->fb_created);
+                                                $month = $date->month;
+                                                $dmonth= null;
+
+                                                switch ($month){
+
+                                                    case 1;
+
+                                                    $dmonth= "ޖަނަވަރީ";
+
+                                                    break;
+
+                                                    case 2;
+
+                                                    $dmonth= "ފެބުރުވަރީ";
+
+                                                    break;
+
+                                                     case 3;
+
+                                                    $dmonth= "މާރިޗު";
+
+                                                    break;
+
+                                                     case 4;
+
+                                                    $dmonth= "އެޕްރީލު";
+
+                                                    break;
+
+                                                     case 5;
+
+                                                    $dmonth= "މޭ";
+
+                                                    break;
+
+                                                     case 6;
+
+                                                    $dmonth= "ޖޫން";
+
+                                                    break;
+
+                                                     case 7;
+
+                                                    $dmonth= "ޖުލައި";
+
+                                                    break;
+
+                                                     case 8;
+
+                                                    $dmonth= "އޮގަސްޓް";
+
+                                                    break;
+
+                                                     case 9;
+
+                                                    $dmonth= "ސެޕްޓެންބަރު";
+
+                                                    break;
+
+                                                     case 10;
+
+                                                    $dmonth= "އޮކްޓޫބަރު";
+
+                                                    break;
+
+                                                     case 11;
+
+                                                    $dmonth= "ނޮވެންބަރު";
+
+                                                    break;
+
+                                                     case 12;
+
+                                                    $dmonth= "ޑިސެންބަރު";
+
+                                                    break;
+
+
+                                                }
+
+
+                                            @endphp
                                             <div class="col-7 pr-0 ">
                                                 <p style="font-family: MVAWAHEED; font-size: 15px;text-align: right ;">
-                                                    2020&#x202b;03&nbsp;މާރޗް&nbsp;</p>
+                                                    {{$date->year}}&#x202b;{{$date->day}}&nbsp;{{$dmonth}}&nbsp;</p>
                                             </div>
                                         </div>
 
@@ -487,8 +571,8 @@
                                                         </div>
                                                     </div>
                                                     <div class="col-7 pr-0">
-                                                        <p style="font-family: MVAWAHEED; font-size: 15px; float: right; direction: rtl">
-                                                            2020&#x202b;03&nbsp;މާރޗް&nbsp;</p>
+                                                        <p style="font-family: MVAWAHEED; font-size: 15px; float: right; direction: rtl" id="video_created_at">
+                                                            </p>
                                                     </div>
                                                 </div>
 
@@ -773,7 +857,7 @@
 
                     $('#video_title').html(result.title);
                     $('#video_desc').html(result.desc);
-                    $('#video_created_at').html("last updated " + result.diffz)
+                    $('#video_created_at').html(result.diffz)
 
                 }
             });

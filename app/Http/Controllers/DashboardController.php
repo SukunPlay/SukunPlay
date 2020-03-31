@@ -8,15 +8,19 @@ use Illuminate\Http\Request;
 
 class DashboardController extends Controller
 {
-    public function home() {
+    public function home()
+    {
         return view('dashboard.home');
     }
-    public function index() {
+
+    public function index()
+    {
         return view('home');
     }
 
 
-    public function test3(){
+    public function test3()
+    {
 
         $item = StoreVideo::all()->sortByDesc('fb_created');
 
@@ -35,14 +39,96 @@ class DashboardController extends Controller
         $video_id = $request->video_id;
 
         //find video
-        $video = StoreVideo::where('fb_id','=',$video_id)->first();
+        $video = StoreVideo::where('fb_id', '=', $video_id)->first();
 
 
-        $carbon = Carbon::make($video->fb_created);
+//        $carbon = Carbon::make($video->fb_created);
 
-        $video->diffz = $carbon->diffForHumans();
+        $date = \Carbon\Carbon::make($video->fb_created);
+        $month = $date->month;
+        $dmonth = null;
 
-        if($video){
+        switch ($month) {
+
+            case 1;
+
+                $dmonth = "ޖަނަވަރީ";
+
+                break;
+
+            case 2;
+
+                $dmonth = "ފެބުރުވަރީ";
+
+                break;
+
+            case 3;
+
+                $dmonth = "މާރިޗު";
+
+                break;
+
+            case 4;
+
+                $dmonth = "އެޕްރީލު";
+
+                break;
+
+            case 5;
+
+                $dmonth = "މޭ";
+
+                break;
+
+            case 6;
+
+                $dmonth = "ޖޫން";
+
+                break;
+
+            case 7;
+
+                $dmonth = "ޖުލައި";
+
+                break;
+
+            case 8;
+
+                $dmonth = "އޮގަސްޓް";
+
+                break;
+
+            case 9;
+
+                $dmonth = "ސެޕްޓެންބަރު";
+
+                break;
+
+            case 10;
+
+                $dmonth = "އޮކްޓޫބަރު";
+
+                break;
+
+            case 11;
+
+                $dmonth = "ނޮވެންބަރު";
+
+                break;
+
+            case 12;
+
+                $dmonth = "ޑިސެންބަރު";
+
+                break;
+
+
+        }
+
+
+        $video->diffz = $date->year."&#x202b;".$date->day."&nbsp;".$dmonth."&nbsp;";
+
+        if ($video) {
             return $video->toArray();
         }
     }
