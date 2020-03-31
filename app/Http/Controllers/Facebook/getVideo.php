@@ -154,6 +154,11 @@ class getVideo extends Controller
             }
         }
 
+        if ($e){
+
+            return $e;
+        }
+
 
 
         DB::commit();
