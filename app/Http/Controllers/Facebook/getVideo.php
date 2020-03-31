@@ -53,6 +53,7 @@ class getVideo extends Controller
 
         }
 
+        $this->sortz();
         //need to update this later @Todo
         return redirect('/');
 
@@ -106,6 +107,7 @@ class getVideo extends Controller
 
 
         }
+
     }
 
 
