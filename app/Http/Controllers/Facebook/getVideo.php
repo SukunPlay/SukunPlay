@@ -40,7 +40,7 @@ class getVideo extends Controller
             exit;
         }
 
-        $me = $response->getGraphUser()['videos'];
+        $me = $response->getGraphNode()['videos'];
 
 
         $this->storefbvidz($me);
