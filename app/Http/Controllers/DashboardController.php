@@ -13,13 +13,8 @@ class DashboardController extends Controller
         return view('dashboard.home');
     }
 
+
     public function index()
-    {
-        return view('home');
-    }
-
-
-    public function test3()
     {
 
         $item = StoreVideo::all()->sortByDesc('fb_created');

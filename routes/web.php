@@ -15,7 +15,9 @@
 //    return view('welcome');
 //});
 
-Route::get('/', 'Facebook\Main@index')->name('home');
+
+
+Route::get('/','DashboardController@index')->name('home');
 
 Route::get('/fbupdate','Facebook\getVideo@storevideo')->name('storevideo');
 
@@ -36,15 +38,15 @@ Route::get('fbwebhook','Facebook\Main@fbwebhook')->name('fbwebhook');
 Route::post('fbwebhook','Facebook\Main@fbwebhookpost')->name('fbwebhookpost');
 
 
+//
+//
+//Route::get('/dashboard/home','DashboardController@home')->name('dashboard.home');
+//
+//Route::get('/home','DashboardController@index')->name('home');
+//
 
-
-Route::get('/dashboard/home','DashboardController@home')->name('dashboard.home');
-
-Route::get('/home','DashboardController@index')->name('home');
-
-
-
-Route::get('/test3','DashboardController@test3')->name('test3');
+//
+//Route::get('/test3','DashboardController@test3')->name('test3');
 
 Route::get('/video/info/{video_id}','DashboardController@getInfo')->name('get-video-info');
 
