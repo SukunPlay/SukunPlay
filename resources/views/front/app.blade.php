@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="{{$return['sample']->title}}" />
     <meta name="author" content="SukunPlay" />
-    <meta property="image" content="{{\App\Facebook\Thumbnail::where('video_id','=',$return['sample']->fb_id)->first()->link}}">
+    <meta name="image" property="image" content="{{\App\Facebook\Thumbnail::where('video_id','=',$return['sample']->fb_id)->first()->link}}">
     <title>Sukun Play</title>
     <link href="css/styles.css" rel="stylesheet" />
     <link href="{{asset('fawesome/all.min.css')}}" rel="stylesheet" />
