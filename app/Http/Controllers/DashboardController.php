@@ -26,7 +26,7 @@ class DashboardController extends Controller
             'sample' => $sample,
         ];
 
-        return view('front.test.home3')->with('return', $return);
+        return view('front.home')->with('return', $return);
     }
 
     public function getInfo(Request $request)
