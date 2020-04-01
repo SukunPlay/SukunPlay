@@ -7,6 +7,25 @@
     <meta name="description" content="{{$return['sample']->title}}" />
     <meta name="author" content="SukunPlay" />
     <meta name="image" property="image" content="{{\App\Facebook\Thumbnail::where('video_id','=',$return['sample']->fb_id)->first()->link}}">
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="Sukun Play">
+    <meta itemprop="description" content="{{$return['sample']->title}}">
+    <meta itemprop="image" content="{{\App\Facebook\Thumbnail::where('video_id','=',$return['sample']->fb_id)->first()->link}}">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="http://www.sukunplay.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sukun Play">
+    <meta property="og:description" content="{{$return['sample']->title}}">
+    <meta property="og:image" content="{{\App\Facebook\Thumbnail::where('video_id','=',$return['sample']->fb_id)->first()->link}}">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sukun Play">
+    <meta name="twitter:description" content="{{$return['sample']->title}}">
+    <meta name="twitter:image" content="{{\App\Facebook\Thumbnail::where('video_id','=',$return['sample']->fb_id)->first()->link}}">
+
+
     <title>Sukun Play</title>
     <link href="css/styles.css" rel="stylesheet" />
     <link href="{{asset('fawesome/all.min.css')}}" rel="stylesheet" />
