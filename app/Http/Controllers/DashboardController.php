@@ -21,9 +21,23 @@ class DashboardController extends Controller
 
         $sample = StoreVideo::all()->sortByDesc('sort')->first();
 
+        $desc1 = asset('desc.jpg');
+        $desc2 = asset('desc2.jpg');
+        $desc=null;
+
+        $rand = rand(0,2);
+
+        if ($rand > 1){
+            $desc = $desc1;
+
+        } else{
+            $desc = $desc2;
+        }
+
         $return = [
             'item' => $item,
             'sample' => $sample,
+            'desc' => $desc,
         ];
 
         return view('front.home')->with('return', $return);
