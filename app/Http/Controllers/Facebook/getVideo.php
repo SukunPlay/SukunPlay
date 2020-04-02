@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Facebook;
 
+use App\Facebook\getVideoInsights;
 use App\Facebook\StoreVideo;
 use App\Facebook\Thumbnail;
 use App\Http\Controllers\Controller;
@@ -16,40 +17,44 @@ class getVideo extends Controller
     public function storevideo()
     {
 
+//
+//        try {
+//            $fb = new Facebook([
+//                'app_id' => config('app.fb_app_id'),
+//                'app_secret' => config('app.fb_app_secret'),
+//                'graph_api_version' => config('app.fb_graph_version'),
+//            ]);
+//
+//        } catch (FacebookSDKException $e) {
+//
+//        }
+//
+//
+//        try {
+//            $response = $fb->get('me?fields=videos{created_time,id,description,thumbnails,source,title}', config('app.fb_access'));
+//
+//        } catch (\Facebook\Exceptions\FacebookResponseException $e) {
+//            echo 'Graph returned an error: ' . $e->getMessage();
+//            exit;
+//        } catch (\Facebook\Exceptions\FacebookSDKException $e) {
+//            echo 'Facebook SDK returned an error: ' . $e->getMessage();
+//            exit;
+//        }
+//
+//        $me = $response->getGraphNode()['videos'];
 
-        try {
-            $fb = new Facebook([
-                'app_id' => config('app.fb_app_id'),
-                'app_secret' => config('app.fb_app_secret'),
-                'graph_api_version' => config('app.fb_graph_version'),
-            ]);
+        $endpoint = 'me?fields=videos{created_time,id,description,thumbnails,source,title}';
+        $graphNode = getVideoInsights::queryfb($endpoint);
 
-        } catch (FacebookSDKException $e) {
+        $videos = $graphNode['node']['videos'];
 
-        }
+        $this->storefbvidz($videos);
 
+        while (isset($videos->getMetaData()['paging']['next'])) {
 
-        try {
-            $response = $fb->get('me?fields=videos{created_time,id,description,thumbnails,source,title}', config('app.fb_access'));
-
-        } catch (\Facebook\Exceptions\FacebookResponseException $e) {
-            echo 'Graph returned an error: ' . $e->getMessage();
-            exit;
-        } catch (\Facebook\Exceptions\FacebookSDKException $e) {
-            echo 'Facebook SDK returned an error: ' . $e->getMessage();
-            exit;
-        }
-
-        $me = $response->getGraphNode()['videos'];
-
-
-        $this->storefbvidz($me);
-
-        while (isset($me->getMetaData()['paging']['next'])) {
-
-            $response = $fb->next($me);
-            $me = $response;
-            $this->storefbvidz($me);
+            $response = $graphNode['fb']->next($videos);
+            $videos = $response;
+            $this->storefbvidz($videos);
 
         }
 

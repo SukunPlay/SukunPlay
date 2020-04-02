@@ -10,7 +10,7 @@ class getVideoInsights extends Model
 {
     //
 
-    public function queryfb($endpoint){
+    public static function queryfb($endpoint){
 
         try {
             $fb = new Facebook([
