@@ -97,7 +97,7 @@
 
         /* Desktops and laptops ----------- */
         @media only screen
-        and (min-width: 768px) {
+        and (min-width: 902px) {
             /* Styles */
             .hides-for-small {
                 display: inherit;
@@ -115,7 +115,12 @@
         }
 
 
-        @media only screen and (max-width: 1200px) and (min-width: 768px) {
+        .show-for-medium {
+            display: none;
+        }
+
+
+        @media only screen and (max-width: 1200px) and (min-width: 992px) {
 
             .show-for-medium {
                 display: block;
@@ -127,6 +132,25 @@
                 display: none;
             }
         }
+
+        @media only screen and (max-width: 902px) {
+            .hide-ipad {
+                display: none;
+            }
+        }
+
+        .show-for-ipad{
+            display: none;
+        }
+
+
+        @media only screen and (max-width: 991px) and (min-width: 902px) {
+
+            .show-for-ipad {
+                display: block;
+            }
+        }
+
 
 
         /*@media only screen*/
@@ -272,7 +296,7 @@
             <div class="container hides-for-small p-0">
                 <div class="row">
 
-                    <div class="col-3 show-for-medium">
+                    <div class="col-3 show-for-medium hide-ipad">
                         <div class="card-body pt-0">
                             <img src="{{'middle.jpg'}}" style="">
                         </div>
@@ -283,7 +307,33 @@
                         <div class="card-body pt-0">
                             <img src="{{'vertical.jpg'}}" style="">
                         </div>
+                    </div>
 
+                    <div class="col-2 show-for-ipad align-content-center">
+                        <div class="card-body pt-0">
+                            <img src="{{'vertical.jpg'}}" style="width: 220px">
+                        </div>
+                    </div>
+
+                    <div class="col-10 mb-2 pl-15 show-for-ipad align-content-center">
+
+                            <div class="card-body p-0 no-gutters">
+
+                                    <div class="videos">
+                                        <a class="video"
+                                           data-toggle="modal"
+                                           data-target="#myModal"
+                                           data-url="{{$return['sample']->link}}"
+                                           data-xid="{{$return['sample']->fb_id}}">
+                                            <span></span>
+                                            <img
+                                                src="{{\App\Facebook\Thumbnail::where('video_id','=',$return['sample']->fb_id)->first()->link}}"
+                                                alt="My Awesome Video"
+                                            style="width: 365px"/>
+                                        </a>
+                                    </div>
+
+                        </div>
                     </div>
 
                     <div class="col-10 mb-2 pl-15 hide-bs">
