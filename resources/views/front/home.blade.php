@@ -329,7 +329,7 @@
                                             <img
                                                 src="{{\App\Facebook\Thumbnail::where('video_id','=',$return['sample']->fb_id)->first()->link}}"
                                                 alt="My Awesome Video"
-                                            style="width: 365px"/>
+                                                style="width: 365px"/>
                                         </a>
                                     </div>
 
