@@ -4,11 +4,13 @@ namespace App\Facebook;
 
 use Facebook\Exceptions\FacebookSDKException;
 use Facebook\Facebook;
+use http\Env\Request;
 use Illuminate\Database\Eloquent\Model;
 
 class getVideoInsights extends Model
 {
     //
+
 
     public static function queryfb($endpoint){
 

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Facebook;
 
 use App\Facebook\Config;
+use App\Facebook\getVideoInsights;
 use App\Facebook\StoreVideo;
 use App\Facebook\Thumbnail;
 use App\Http\Controllers\Controller;
@@ -198,5 +199,20 @@ class Main extends Controller
 
         return view('front.terms');
     }
-    //
+    //test
+
+    public function queryvideoinsights(Request $request){
+
+        $node = getVideoInsights::queryfb($request->endpoint);
+
+        return $node;
+
+
+    }
+
+    public function test(){
+
+        return view('front.test.home3');
+    }
+
 }
