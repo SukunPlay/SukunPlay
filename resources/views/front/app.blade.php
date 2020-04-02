@@ -6,24 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="{{$return['sample']->title}}" />
     <meta name="author" content="SukunPlay" />
-    <meta name="image" property="image" content="{{\App\Facebook\Thumbnail::where('video_id','=',$return['sample']->fb_id)->first()->link}}">
+    <meta name="image" property="image" content="{{asset('desc.jpg')}}">
     <!-- Google / Search Engine Tags -->
     <meta itemprop="name" content="Sukun Play">
     <meta itemprop="description" content="{{$return['sample']->title}}">
-    <meta itemprop="image" content="{{\App\Facebook\Thumbnail::where('video_id','=',$return['sample']->fb_id)->first()->link}}">
+    <meta itemprop="image" content="{{asset('desc.jpg')}}">
 
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="http://www.sukunplay.com">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Sukun Play">
     <meta property="og:description" content="{{$return['sample']->title}}">
-    <meta property="og:image" content="{{\App\Facebook\Thumbnail::where('video_id','=',$return['sample']->fb_id)->first()->link}}">
+    <meta property="og:image" content="{{asset('desc.jpg')}}">
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Sukun Play">
     <meta name="twitter:description" content="{{$return['sample']->title}}">
-    <meta name="twitter:image" content="{{\App\Facebook\Thumbnail::where('video_id','=',$return['sample']->fb_id)->first()->link}}">
+    <meta name="twitter:image" content="{{asset('desc.jpg')}}">
 
 
     <title>Sukun Play</title>
