@@ -222,7 +222,7 @@
             pointer-events: all;
         }
 
-        .dv, .thaanaKeyboardInput {
+        .dv {
             font-family: MVAWAHEED;
             direction: rtl;
             font-size: 1.2rem;
@@ -245,7 +245,8 @@
             <div class="container hides-for-small pt-lg-4 pt-md-4 pt-sm-0 mb-0 pr-4 pl-4">
                 <div class="row">
                     <div class="col-6 col-sm-12 col-md-6 col-lg-6 justify-content-start d-flex pb-lg-5 pb-md-5 pb-sm-5 mb-4 mb-sm-4 mb-lg-0 pr-0">
-                            <input type="text"  class="form-control dv" name="search" id="search" placeholder="ހޯދާ" autocomplete="off" style="width: 25vw">
+                            <input type="text"  class="form-control dv" name="search" id="search" placeholder="ހޯދާ" autocomplete="off" style="width: 25vw; border-radius: 25px; border-color: #0f6848;">
+                            <input type="hidden" name="search_thaanaKeyboardState" value="phonetic">
 
                     </div>
 
@@ -1371,11 +1372,14 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
             crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
-    <script>
 
+
+
+
+    <script>
+        thaanaKeyboard.setHandlerById("search","enable");
 
         $(document).ready(function () {
-
             var _token = $('input[name="_token"]').val();
 
             load_data('', _token);

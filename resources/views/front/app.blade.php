@@ -32,8 +32,10 @@
     <link rel="icon" type="image/x-icon" href="{{asset('favicon.jpg')}}" />
     {{ csrf_field() }}
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script type="text/javascript" src="{{asset('fawesome/all.min.js')}}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.24.1/feather.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/jtk-4.2.1.pack.js"></script>
 </head>
 <body>
 
