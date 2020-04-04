@@ -359,7 +359,6 @@
                                            style="font-family: AAMUFKF; text-align: center;font-size: 1.7vw; color: #285943"
                                            id=""><b>{{$return['sample']->title}}</b></p>
 
-
                                         <div class="row pl-4 pt-0">
                                             <div class="col-2">
                                                 {{--                                                <div class="align-content-center">--}}
