@@ -259,9 +259,10 @@
             <div class="container hides-for-small pt-lg-4 pt-md-4 pt-sm-0 mb-0 pr-4 pl-4">
                 <div class="row">
                     <div
-                        class="col-6 col-sm-12 col-md-6 col-lg-6 justify-content-start d-flex pb-lg-5 pb-md-5 pb-sm-5 mb-4 mb-sm-4 mb-lg-0 pr-0">
+                        class="col-6 col-sm-12 col-md-6 col-lg-6 justify-content-start d-flex  pr-0">
                         <input type="text" class="form-control dv" name="searchx" id="searchx" placeholder="ހޯދާ"
-                               autocomplete="off" style="width: 20vw; border-radius: 25px; border-color: #00A651;background: url('/search.svg') no-repeat scroll 10px 10px;padding-left:30px; color: #00A651">
+                               autocomplete="off"
+                               style="width: 20vw; border-radius: 25px; border-color: #00A651;background: url('/search.svg') no-repeat scroll 10px 10px;padding-left:30px; color: #00A651">
                         <input type="hidden" name="searchx_thaanaKeyboardState" value="phonetic">
                     </div>
 
@@ -270,6 +271,13 @@
                         <h6 class="mb-0" style="font-family: MVAWAHEED; text-align: right; font-size: 25px">އެންމެ
                             ފަހުގެ
                             ވީޑިއޯ</h6>
+                    </div>
+                </div>
+
+                <div class="row pb-4">
+                    <div class="col">
+                        <ul class="hider list-group" id="resultx">
+                        </ul>
                     </div>
                 </div>
 
@@ -292,12 +300,23 @@
             </div>
 
             <div class="container justify-content-center hides-for-large pt-3">
-                <div class="justify-content-center d-flex pb-lg-5 pb-md-5 pb-sm-5 mb-4 mb-sm-4 mb-lg-0">
+                <div class="justify-content-center d-flex pb-2 ">
                     <input type="text" class="form-control dv" name="searchy" id="searchy" placeholder="ހޯދާ"
-                           autocomplete="off" style="width: 45vw; border-radius: 25px; border-color: #00A651;background: url('/search.svg') no-repeat scroll 10px 10px;padding-left:30px; color: #00A651">
+                           autocomplete="off"
+                           style="width: 45vw; border-radius: 25px; border-color: #00A651;background: url('/search.svg') no-repeat scroll 10px 10px;padding-left:30px; color: #00A651">
                     <input type="hidden" name="searchy_thaanaKeyboardState" value="phonetic">
                 </div>
-                <div class="justify-content-center d-flex pb-lg-5 pb-md-5 pb-sm-5 mb-4 mb-sm-4 mb-lg-0">
+                <div class="row">
+
+                    <div class="col">
+
+                        <ul class="hider list-group"  id="resulty">
+
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="justify-content-center d-flex pt-4 pb-lg-5 pb-md-5 pb-sm-5 mb-4 mb-sm-4 mb-lg-0">
                     <h6 class="mb-0" style="font-family: MVAWAHEED; text-align: right; font-size: 25px">އެންމެ ފަހުގެ
                         ވީޑިއޯ</h6>
                 </div>
@@ -1404,33 +1423,27 @@
         $(document).ready(function () {
 
 
-
-
             fetch_customer_data();
 
-            function fetch_customer_data(query = '')
-            {
+            function fetch_customer_data(query = '') {
                 $.ajax({
-                    url:"{{'search.videos'}}",
-                    method:'GET',
-                    data:{query:query},
-                    dataType:'json',
+                    url: "{{route('search.videos')}}",
+                    method: 'GET',
+                    data: {query: query},
+                    dataType: 'json',
 
-                    success:function(data)
-                    {
-                        var ul = document.getElementById("result");
+                    success: function (data) {
+                        var ul = document.getElementById("resultx");
                         var english = /^[A-Za-z0-9]*$/;
                         $('#resultx').empty();
-                        if(data['total_data'] <= 0)
-                        {
+                        if (data['total_data'] <= 0) {
                             var li = document.createElement("li");
                             li.appendChild(document.createTextNode('ނެތް'));
                             li.classList.add("list-group-item");
-                            ul.appendChild( li )
+                            ul.appendChild(li)
                         }
 
-                        for( var i = 0; i < data['total_data']; i++ )
-                        {
+                        for (var i = 0; i < data['total_data']; i++) {
                             o = data['data'][i];
 
                             var li = document.createElement("li");
@@ -1442,47 +1455,91 @@
                             // var li = document.createElement("li");
                             // li.appendChild(document.createTextNode("<a href='sss'>"+o.title+"</a>"));
                             li.classList.add("list-group-item");
-                            if (!english.test(o.title))
-                            {
+                            if (!english.test(o.title)) {
                                 li.classList.add("dv");
                                 li.classList.add("text-right");
                             }
-                            ul.appendChild( li );
+                            ul.appendChild(li);
+                        }
+
+                        var ul = document.getElementById("resulty");
+                        var english = /^[A-Za-z0-9]*$/;
+                        $('#resulty').empty();
+                        if (data['total_data'] <= 0) {
+                            var li = document.createElement("li");
+                            li.appendChild(document.createTextNode('ނެތް'));
+                            li.classList.add("list-group-item");
+                            ul.appendChild(li)
+                        }
+
+                        for (var i = 0; i < data['total_data']; i++) {
+                            o = data['data'][i];
+
+                            var li = document.createElement("li");
+                            const anchor = document.createElement('a');
+                            anchor.href = o.link;
+                            anchor.innerText = o.title;
+                            li.appendChild(anchor);
+
+                            // var li = document.createElement("li");
+                            // li.appendChild(document.createTextNode("<a href='sss'>"+o.title+"</a>"));
+                            li.classList.add("list-group-item");
+                            if (!english.test(o.title)) {
+                                li.classList.add("dv");
+                                li.classList.add("text-right");
+                            }
+                            ul.appendChild(li);
                         }
                     }
                 })
             }
 
 
-
-            $(document).on('keyup', '#searchx', function(){
-                $('#resultx').removeClass("hider");
-                if ($('#searchx').val() == ''){
-                    const myNode = document.getElementById("resultx");
-                    while (myNode.firstChild) {
-                        myNode.removeChild(myNode.lastChild);
+            $(document).on('keyup', '#searchx', function () {
+                setTimeout(function () {
+                    $('#resultx').removeClass("hider");
+                    if ($('#searchx').val() == '') {
+                        const myNode = document.getElementById("resultx");
+                        while (myNode.firstChild) {
+                            myNode.removeChild(myNode.lastChild);
+                        }
+                    } else {
+                        var query = $('#searchx').val();
                     }
-                }else{
-                    var query = $('#searchx').val();
-                }
-                fetch_customer_data(query);
+                    fetch_customer_data(query);
+                }, 500);
             });
 
 
-            $(document).on('keyup', '#searchy', function(){
-                $('#resulty').removeClass("hider");
-                if ($('#searchy').val() == ''){
-                    const myNode = document.getElementById("resulty");
-                    while (myNode.firstChild) {
-                        myNode.removeChild(myNode.lastChild);
+            $(document).on('keyup', '#searchy', function () {
+                setTimeout(function () {
+                    $('#resulty').removeClass("hider");
+                    if ($('#searchy').val() == '') {
+                        const myNode = document.getElementById("resulty");
+                        while (myNode.firstChild) {
+                            myNode.removeChild(myNode.lastChild);
+                        }
+                    } else {
+                        var query = $('#searchy').val();
                     }
-                }else{
-                    var query = $('#searchy').val();
-                }
-                fetch_customer_data(query);
+                    fetch_customer_data(query);
+                }, 500);
             });
 
 
+            //
+            // $(document).on('keyup', '#searchy', function(){
+            //     $('#resulty').removeClass("hider");
+            //     if ($('#searchy').val() == ''){
+            //         const myNode = document.getElementById("resulty");
+            //         while (myNode.firstChild) {
+            //             myNode.removeChild(myNode.lastChild);
+            //         }
+            //     }else{
+            //         var query = $('#searchy').val();
+            //     }
+            //     fetch_customer_data(query);
+            // });
 
 
             var _token = $('input[name="_token"]').val();

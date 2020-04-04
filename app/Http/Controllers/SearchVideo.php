@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class SearchVideo extends Controller
 {
@@ -28,6 +29,7 @@ class SearchVideo extends Controller
                     ->orWhere('dh_title', 'like', '%'.$query.'%')
                     //  ->orWhere('created_at', 'like', '%'.$query.'%')
                     //  ->orderBy('created_at', 'desc')
+                    ->limit(5)
                     ->get()->where('deleted_at', null);
 
             }
