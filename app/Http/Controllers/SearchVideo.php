@@ -33,7 +33,7 @@ class SearchVideo extends Controller
             }
             else
             {
-                $data = null;
+                $data = 'lol';
             }
 
 
