@@ -221,6 +221,13 @@
             margin: 0 auto;
             pointer-events: all;
         }
+
+        .dv, .thaanaKeyboardInput {
+            font-family: MVAWAHEED;
+            direction: rtl;
+            font-size: 1.2rem;
+            line-height: 1.1;
+        }
     </style>
 
 
@@ -235,11 +242,19 @@
 
         </nav>
         <section class="pt-2 pb-lg-5 pb-md-5 pb-sm-2" style="background-color: #FFFFFF">
-            <div class="container justify-content-center hides-for-small pt-lg-4 pt-md-4 pt-sm-0 mb-0">
-                <div class="justify-content-center d-flex pb-lg-5 pb-md-5 pb-sm-5 mb-4 mb-sm-4 mb-lg-0">
-                    <h6 class="mb-0" style="font-family: MVAWAHEED; text-align: right; font-size: 25px">އެންމެ ފަހުގެ
-                        ވީޑިއޯ</h6>
+            <div class="container hides-for-small pt-lg-4 pt-md-4 pt-sm-0 mb-0 pr-4 pl-4">
+                <div class="row">
+                    <div class="col-6 col-sm-12 col-md-6 col-lg-6 justify-content-start d-flex pb-lg-5 pb-md-5 pb-sm-5 mb-4 mb-sm-4 mb-lg-0 pr-0">
+                            <input type="text"  class="form-control dv" name="search" id="search" placeholder="ހޯދާ" autocomplete="off" style="width: 25vw">
+
+                    </div>
+
+                    <div class=" col-6 col-sm-12 col-md-6 col-lg-6 justify-content-end d-flex pb-lg-5 pb-md-5 pb-sm-5 mb-4 mb-sm-4 mb-lg-0 pr-0">
+                        <h6 class="mb-0" style="font-family: MVAWAHEED; text-align: right; font-size: 25px">އެންމެ ފަހުގެ
+                            ވީޑިއޯ</h6>
+                    </div>
                 </div>
+
 
             </div>
 
