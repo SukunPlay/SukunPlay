@@ -37,7 +37,7 @@ Route::post('fbwebhook','Facebook\Main@fbwebhookpost')->name('fbwebhookpost');
 
 Route::get('/video/info/{video_id}','DashboardController@getInfo')->name('get-video-info');
 
-
+//Route::get('/video/info/{video_id}','DashboardController@getInfo')->name('get-video-info');
 
 //test routes
 

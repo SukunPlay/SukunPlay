@@ -1402,6 +1402,89 @@
         thaanaKeyboard.setHandlerById("searchy", "enable");
 
         $(document).ready(function () {
+
+
+
+
+            fetch_customer_data();
+
+            function fetch_customer_data(query = '')
+            {
+                $.ajax({
+                    url:"{{'search.videos'}}",
+                    method:'GET',
+                    data:{query:query},
+                    dataType:'json',
+
+                    success:function(data)
+                    {
+                        var ul = document.getElementById("result");
+                        var english = /^[A-Za-z0-9]*$/;
+                        $('#result').empty();
+                        if(data['total_data'] <= 0)
+                        {
+                            var li = document.createElement("li");
+                            li.appendChild(document.createTextNode('No Data Found'));
+                            li.classList.add("list-group-item");
+                            ul.appendChild( li )
+                        }
+
+                        for( var i = 0; i < data['total_data']; i++ )
+                        {
+                            o = data['data'][i];
+
+                            var li = document.createElement("li");
+                            const anchor = document.createElement('a');
+                            anchor.href = o.link;
+                            anchor.innerText = o.title;
+                            li.appendChild(anchor);
+
+                            // var li = document.createElement("li");
+                            // li.appendChild(document.createTextNode("<a href='sss'>"+o.title+"</a>"));
+                            li.classList.add("list-group-item");
+                            if (!english.test(o.title))
+                            {
+                                li.classList.add("dv");
+                                li.classList.add("text-right");
+                            }
+                            ul.appendChild( li );
+                        }
+                    }
+                })
+            }
+
+
+
+            $(document).on('keyup', '#searchx', function(){
+                $('#resultx').removeClass("hider");
+                if ($('#searchx').val() == ''){
+                    const myNode = document.getElementById("resultx");
+                    while (myNode.firstChild) {
+                        myNode.removeChild(myNode.lastChild);
+                    }
+                }else{
+                    var query = $('#searchx').val();
+                }
+                fetch_customer_data(query);
+            });
+
+
+            $(document).on('keyup', '#searchy', function(){
+                $('#resulty').removeClass("hider");
+                if ($('#searchy').val() == ''){
+                    const myNode = document.getElementById("resulty");
+                    while (myNode.firstChild) {
+                        myNode.removeChild(myNode.lastChild);
+                    }
+                }else{
+                    var query = $('#searchy').val();
+                }
+                fetch_customer_data(query);
+            });
+
+
+
+
             var _token = $('input[name="_token"]').val();
 
             load_data('', _token);
