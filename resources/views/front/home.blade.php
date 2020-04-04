@@ -310,7 +310,7 @@
 
                     <div class="col">
 
-                        <ul class="hider list-group"  id="resulty">
+                        <ul class="hider list-group" id="resulty">
 
                         </ul>
                     </div>
@@ -1440,6 +1440,13 @@
                             var li = document.createElement("li");
                             li.appendChild(document.createTextNode('ނެތް'));
                             li.classList.add("list-group-item");
+                            li.classList.add("dv");
+                            li.style.borderRadius = "0px";
+                            li.style.borderColor = "#00A651";
+                            li.style.color = "#00A651";
+                            li.setAttribute("data-toggle", "modal");
+                            li.setAttribute("data-target", "#myModal");
+                            li.classList.add("text-right");
                             ul.appendChild(li)
                         }
 
@@ -1447,18 +1454,23 @@
                             o = data['data'][i];
 
                             var li = document.createElement("li");
-                            const anchor = document.createElement('a');
-                            anchor.href = o.link;
-                            anchor.innerText = o.title;
-                            li.appendChild(anchor);
 
+                            li.appendChild(document.createTextNode(o.title));
                             // var li = document.createElement("li");
                             // li.appendChild(document.createTextNode("<a href='sss'>"+o.title+"</a>"));
                             li.classList.add("list-group-item");
-                            if (!english.test(o.title)) {
-                                li.classList.add("dv");
-                                li.classList.add("text-right");
-                            }
+                            li.setAttribute("data-toggle", "modal");
+                            li.setAttribute("data-target", "#myModal");
+                            li.setAttribute("data-url", o.link);
+                            li.setAttribute("data-xid", o.fb_id);
+                            // li.setAttribute("onmouseover", hover(this));
+                            // li.setAttribute("onmouseout", hoverOff(this));
+                            li.classList.add("dv");
+                            li.style.borderRadius = "0px";
+                            li.style.borderColor = "#00A651";
+                            li.style.color = "#00A651";
+                            li.classList.add("text-right");
+
                             ul.appendChild(li);
                         }
 
@@ -1469,6 +1481,13 @@
                             var li = document.createElement("li");
                             li.appendChild(document.createTextNode('ނެތް'));
                             li.classList.add("list-group-item");
+                            li.classList.add("dv");
+                            li.style.borderRadius = "0px";
+                            li.style.borderColor = "#00A651";
+                            li.style.color = "#00A651";
+                            li.setAttribute("data-toggle", "modal");
+                            li.setAttribute("data-target", "#myModal");
+                            li.classList.add("text-right");
                             ul.appendChild(li)
                         }
 
@@ -1476,24 +1495,33 @@
                             o = data['data'][i];
 
                             var li = document.createElement("li");
-                            const anchor = document.createElement('a');
-                            anchor.href = o.link;
-                            anchor.innerText = o.title;
-                            li.appendChild(anchor);
 
+                            li.appendChild(document.createTextNode(o.title));
                             // var li = document.createElement("li");
                             // li.appendChild(document.createTextNode("<a href='sss'>"+o.title+"</a>"));
                             li.classList.add("list-group-item");
-                            if (!english.test(o.title)) {
-                                li.classList.add("dv");
-                                li.classList.add("text-right");
-                            }
+                            li.setAttribute("data-toggle", "modal");
+                            li.setAttribute("data-target", "#myModal");
+                            li.setAttribute("data-url", o.link);
+                            li.setAttribute("data-xid", o.fb_id);
+                            // li.setAttribute("onmouseover", "hover(this)");
+                            // li.setAttribute("onmouseout", "hoverOff(this)");
+                            li.classList.add("dv");
+                            li.style.borderRadius = "0px";
+                            li.style.borderColor = "#00A651";
+                            li.style.color = "#00A651";
+                            li.classList.add("text-right");
+
                             ul.appendChild(li);
                         }
                     }
                 })
             }
 
+            {{--data-toggle="modal"--}}
+            {{--data-target="#myModal"--}}
+            {{--data-url="{{$return['sample']->link}}"--}}
+            {{--data-xid="{{$return['sample']->fb_id}}">--}}
 
             $(document).on('keyup', '#searchx', function () {
                 setTimeout(function () {
@@ -1630,6 +1658,15 @@
 
             alert("Link Copied to Clipboard");
         }
+
+        // function hover(x)
+        // {
+        //     x.style.backgroundColor = "#FFFFFF";
+        // }
+        // function hoverOff(x)
+        // {
+        //     x.style.backgroundColor = "#FFFFFF";
+        // }
 
     </script>
 
