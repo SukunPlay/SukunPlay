@@ -434,92 +434,10 @@
                                                 {{--                                                </div>--}}
                                             </div>
                                             @php
-                                                $date = \Carbon\Carbon::make($return['sample']->fb_created);
-                                                $month = $date->month;
-                                                $dmonth= null;
-
-                                                switch ($month){
-
-                                                    case 1;
-
-                                                    $dmonth= "ޖަނަވަރީ";
-
-                                                    break;
-
-                                                    case 2;
-
-                                                    $dmonth= "ފެބުރުވަރީ";
-
-                                                    break;
-
-                                                     case 3;
-
-                                                    $dmonth= "މާރިޗު";
-
-                                                    break;
-
-                                                     case 4;
-
-                                                    $dmonth= "އެޕްރީލު";
-
-                                                    break;
-
-                                                     case 5;
-
-                                                    $dmonth= "މޭ";
-
-                                                    break;
-
-                                                     case 6;
-
-                                                    $dmonth= "ޖޫން";
-
-                                                    break;
-
-                                                     case 7;
-
-                                                    $dmonth= "ޖުލައި";
-
-                                                    break;
-
-                                                     case 8;
-
-                                                    $dmonth= "އޮގަސްޓް";
-
-                                                    break;
-
-                                                     case 9;
-
-                                                    $dmonth= "ސެޕްޓެންބަރު";
-
-                                                    break;
-
-                                                     case 10;
-
-                                                    $dmonth= "އޮކްޓޫބަރު";
-
-                                                    break;
-
-                                                     case 11;
-
-                                                    $dmonth= "ނޮވެންބަރު";
-
-                                                    break;
-
-                                                     case 12;
-
-                                                    $dmonth= "ޑިސެންބަރު";
-
-                                                    break;
-
-
-                                                }
-
-
+                                                $date = \Carbon\Carbon::make($return['sample']->fb_created)->locale('dv')->diffForHumans();
                                             @endphp
                                             <div class="col-7 pr-0 ">
-                                                <p style="font-family: MVAWAHEED; font-size: 15px;text-align: right ;">
-                                                    {{$date->year}}&#x202b;{{$date->day}}&nbsp;{{$dmonth}}&nbsp;</p>
+                                                <p style="font-family: MVAWAHEED; font-size: 15px;text-align: right ;" id="sampledate"></p>
                                             </div>
                                         </div>
 
@@ -787,8 +705,7 @@
 
                                             @endphp
                                             <div class="col-8 pr-4 justify-content-end">
-                                                <p style="font-family: MVAWAHEED; font-size: 15px;text-align: right ;">
-                                                    {{$date->year}}&#x202b;{{$date->day}}&nbsp;{{$dmonth}}&nbsp;</p>
+                                                <p style="font-family: MVAWAHEED; font-size: 15px;text-align: right ;" id="sampledate1"></p>
                                             </div>
                                         </div>
 
@@ -1417,10 +1334,22 @@
         thaanaKeyboard.setHandlerById("searchx", "enable");
         thaanaKeyboard.setHandlerById("searchy", "enable");
 
+
+
         $(document).ready(function () {
 
 
             fetch_customer_data();
+
+            sdate = "{{$date->locale('dv')->diffForHumans()}}";
+
+            sdate = sdate.replace("ކުރިން",'&#x202b;');
+
+            document.getElementById("sampledate").innerHTML = sdate+"&#x202b;"+" ކުރިން";
+
+            document.getElementById("sampledate1").innerHTML = sdate+"&#x202b;"+" ކުރިން";
+
+
 
             function fetch_customer_data(query = '') {
                 $.ajax({
@@ -1610,7 +1539,7 @@
 
                     s = result.dvdiff
                     s = s.replace("ކުރިން","");
-                    $('#video_created_at').html(s+" ކުރިން")
+                    $('#video_created_at').html(s+" ކުރިން");
 
                 }
             });
