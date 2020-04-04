@@ -37,10 +37,11 @@ Route::post('fbwebhook','Facebook\Main@fbwebhookpost')->name('fbwebhookpost');
 
 Route::get('/video/info/{video_id}','DashboardController@getInfo')->name('get-video-info');
 
-//Route::get('/video/info/{video_id}','DashboardController@getInfo')->name('get-video-info');
+Route::get('/search/videos','SearchVideo@search')->name('search.videos');
 
 //test routes
 
 Route::get('/test','Facebook\Main@test')->name('test');
 
 Route::post('/test','Facebook\Main@queryvideoinsights')->name('testpost');
+//Route::get('/search/action', 'SearchController@action')->name('search.action');

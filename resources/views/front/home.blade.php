@@ -1420,7 +1420,7 @@
                     {
                         var ul = document.getElementById("result");
                         var english = /^[A-Za-z0-9]*$/;
-                        $('#result').empty();
+                        $('#resultx').empty();
                         if(data['total_data'] <= 0)
                         {
                             var li = document.createElement("li");
