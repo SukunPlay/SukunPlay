@@ -1004,7 +1004,7 @@
                                                         {{--                                                        </div>--}}
                                                     </div>
                                                     <div class="col-7 pr-0">
-                                                        <p style="font-family: MVAWAHEED; font-size: 15px; float: right; direction: rtl"
+                                                        <p lang="dv" style="font-family: MVAWAHEED; font-size: 15px; float: right; direction: rtl"
                                                            id="video_created_at">
                                                         </p>
                                                     </div>
@@ -1607,7 +1607,10 @@
                     $('#video_title').html(result.title);
                     $('#video_titles').html(result.title);
                     $('#video_desc').html(result.desc);
-                    $('#video_created_at').html(result.diffz)
+
+                    s = result.dvdiff
+                    s = s.replace("ކުރިން","");
+                    $('#video_created_at').html(s+" ކުރިން")
 
                 }
             });

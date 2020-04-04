@@ -135,6 +135,9 @@ class DashboardController extends Controller
         }
 
 
+        $video->dvdiff = $date->locale('dv')->diffForHumans();
+
+
         $video->diffz = $date->year."&#x202b;".$date->day."&nbsp;".$dmonth."&nbsp;";
 
         if ($video) {
