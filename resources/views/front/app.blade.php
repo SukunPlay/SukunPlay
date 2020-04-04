@@ -29,7 +29,7 @@
     <title>Sukun Play</title>
     <link href="css/styles.css" rel="stylesheet" />
     <link href="{{asset('fawesome/all.min.css')}}" rel="stylesheet" />
-    <link rel="icon" type="image/x-icon" href="{{asset('favicon.jpg')}}" />
+    <link rel="icon" type="image/x-icon" href="{{asset('playbutton.svg')}}" />
     {{ csrf_field() }}
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
