@@ -7,13 +7,13 @@
 
     <style>
 
-        
+
         @font-face {
             font-family: MVAWAHEED;
             src: url('{{ asset('fonts/MVAWAHEED.TTF') }}');
         }
 
- 
+
 
     .hider{
     display:none;
@@ -43,7 +43,7 @@
     <div class="col">
 
         <div class="input-group">
-            <input type="text"  class="form-control" name="search" id="search" placeholder="Serach" autocomplete="off">
+            <input type="text"  class="form-control dv" name="search" id="search" placeholder="ހޯދާ" autocomplete="off">
             <input type="hidden" name="search_thaanaKeyboardState" value="phonetic">
             <div class="input-group-btn">
                 <button class="btn btn-default " id="languageChange" >EN</button>
@@ -56,7 +56,7 @@
     <div class="col">
 
         <ul class="hider list-group"  id="result">
-        
+
         </ul>
     </div>
 
@@ -65,7 +65,7 @@
 
 
 
-    
+
 
 <div class="container">
     <button type="button" class="btn btn-danger mb-2 ml-3 mt-2">
@@ -164,35 +164,15 @@
 @section('js')
 
 <script src="{{asset('js/jtk-4.2.1.pack.js')}}"></script>
-    
+
 
 <script>
 
-    $("#languageChange").click(
-        function() {
-            var lang = $(this).text();
-            switch(lang) {
-                case "EN" :
-                    $(this).addClass("dv").text("ހށ");
-                    $("#search").addClass("dv").attr("placeholder","ހޯދާ").val('').focus();
-                    thaanaKeyboard.setHandlerById("search","enable");
-                    break;
-                case "ހށ" :
-                    $(this).removeClass("dv").text("EN");
-                    $("#search").removeClass("dv").attr("placeholder","Enter a word").val('').focus();
-                    thaanaKeyboard.setHandlerById("search","disable");
-                    break;
-            }
-            return false;
-        }
-    );
-
-
-
     $(document).ready(function(){
-    
+    thaanaKeyboard.setHandlerById("search","enable");
+
      fetch_customer_data();
-    
+
      function fetch_customer_data(query = '')
      {
       $.ajax({
@@ -200,7 +180,7 @@
        method:'GET',
        data:{query:query},
        dataType:'json',
-       
+
        success:function(data)
        {
         var ul = document.getElementById("result");
@@ -215,7 +195,7 @@
         }
 
         for( var i = 0; i < data['total_data']; i++ )
-        { 
+        {
             o = data['data'][i];
 
             var li = document.createElement("li");
@@ -232,15 +212,22 @@
                 li.classList.add("dv");
                 li.classList.add("text-right");
             }
-            ul.appendChild( li );     
-        } 
+            ul.appendChild( li );
+        }
        }
       })
      }
-    
+
      $(document).on('keyup', '#search', function(){
-      $('#result').removeClass("hider");  
-      var query = $(this).val();
+      $('#result').removeClass("hider");
+      if ($('#search').val() == ''){
+              const myNode = document.getElementById("result");
+              while (myNode.firstChild) {
+                  myNode.removeChild(myNode.lastChild);
+              }
+      }else{
+          var query = $('#search').val();
+      }
       fetch_customer_data(query);
      });
     });

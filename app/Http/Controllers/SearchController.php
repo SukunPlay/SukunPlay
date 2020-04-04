@@ -9,7 +9,7 @@ class SearchController extends Controller
 {
     function action(Request $request)
     {
-        
+
      if($request->ajax())
      {
       $output = '';
@@ -29,21 +29,16 @@ class SearchController extends Controller
         //  ->orWhere('created_at', 'like', '%'.$query.'%')
         //  ->orderBy('created_at', 'desc')
          ->get()->where('deleted_at', null);
-         
+
       }
       else
       {
-        $data = DB::table('store_videos')
-        ->orderBy('created_at', 'desc')
-        ->get()->where('deleted_at', null);
+        $data = null;
       }
-      
+
       $total_row = $data->count();
 
-      if($total_row <= 0)
-      {
-       $data = [ ['title' => 'not data'] ];
-      }
+
       $data = array(
        'data'  => $data,
        'total_data'  => $total_row
