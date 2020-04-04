@@ -1424,7 +1424,7 @@
                         if(data['total_data'] <= 0)
                         {
                             var li = document.createElement("li");
-                            li.appendChild(document.createTextNode('No Data Found'));
+                            li.appendChild(document.createTextNode('ނެތް'));
                             li.classList.add("list-group-item");
                             ul.appendChild( li )
                         }
