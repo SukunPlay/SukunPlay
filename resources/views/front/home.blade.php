@@ -1385,8 +1385,8 @@
                             var li = document.createElement("li");
                             var img = document.createElement("img");
                             img.src = o.firstThumbnail;
-                            img.style.width = '20%';
-                            img.style.height = '20%';
+                            img.style.width = '10%';
+                            img.style.height = '10%';
                             img.style.float = "left";
                             li.appendChild(document.createTextNode(o.title));
                             // var li = document.createElement("li");
