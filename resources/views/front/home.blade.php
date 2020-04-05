@@ -1464,10 +1464,6 @@
                 })
             }
 
-            {{--data-toggle="modal"--}}
-            {{--data-target="#myModal"--}}
-            {{--data-url="{{$return['sample']->link}}"--}}
-            {{--data-xid="{{$return['sample']->fb_id}}">--}}
 
             $(document).on('keyup', '#searchx', function () {
                 setTimeout(function () {
@@ -1499,22 +1495,6 @@
                     fetch_customer_data(query);
                 }, 500);
             });
-
-
-            //
-            // $(document).on('keyup', '#searchy', function(){
-            //     $('#resulty').removeClass("hider");
-            //     if ($('#searchy').val() == ''){
-            //         const myNode = document.getElementById("resulty");
-            //         while (myNode.firstChild) {
-            //             myNode.removeChild(myNode.lastChild);
-            //         }
-            //     }else{
-            //         var query = $('#searchy').val();
-            //     }
-            //     fetch_customer_data(query);
-            // });
-
 
             var _token = $('input[name="_token"]').val();
 
@@ -1608,14 +1588,6 @@
             alert("Link Copied to Clipboard");
         }
 
-        // function hover(x)
-        // {
-        //     x.style.backgroundColor = "#FFFFFF";
-        // }
-        // function hoverOff(x)
-        // {
-        //     x.style.backgroundColor = "#FFFFFF";
-        // }
 
     </script>
 

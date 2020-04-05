@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="{{$return['sample']->title}}" />
-    <meta name="author" content="SukunPlay" />
+    <meta name="description" content="{{$return['sample']->title}}"/>
+    <meta name="author" content="SukunPlay"/>
     <meta name="image" property="image" content="{{$return['desc']}}">
     <!-- Google / Search Engine Tags -->
     <meta itemprop="name" content="Sukun Play">
