@@ -152,45 +152,6 @@
         }
 
 
-        /*@media only screen*/
-        /*and (min-width: 1200px) {*/
-        /*    !* Styles *!*/
-        /*    .hides-for-medium {*/
-        /*        display: inherit;*/
-        /*    }*/
-
-        /*    .hides-for-large {*/
-        /*        display: none;*/
-        /*    }*/
-
-        /*}*/
-
-        /* Large screens ----------- */
-        /*@media only screen*/
-        /*and (min-width: 1824px) {*/
-        /*    !* Styles *!*/
-        /*    .hides-for-small {*/
-        /*        display: inherit;*/
-        /*    }*/
-
-        /*    .hides-for-large {*/
-        /*        display: none;*/
-        /*    }*/
-        /*}*/
-
-
-        /*@media only screen*/
-        /*and (min-width: 1200px) {*/
-        /*    !* Styles *!*/
-        /*    .hides-for-small {*/
-        /*        display: inherit;*/
-        /*    }*/
-
-        /*    .hides-for-medium {*/
-        /*        display: none;*/
-        /*    }*/
-        /*}*/
-
         /* iPhone 4 ----------- */
         @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
             /* Styles */
@@ -205,18 +166,15 @@
         }
 
         .vertical-align-center {
-            /* To center vertically */
             display: table-cell;
             vertical-align: middle;
             pointer-events: none;
         }
 
         .modal-contentz {
-            /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
             width: inherit;
-            max-width: inherit; /* For Bootstrap 4 - to avoid the modal window stretching full width */
+            max-width: inherit;
             height: inherit;
-            /* To center horizontally */
             margin: 0 auto;
             pointer-events: all;
         }
@@ -229,22 +187,23 @@
         }
 
 
-        ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        ::placeholder {
             color: #00A651;
-            opacity: 1; /* Firefox */
+            opacity: 1;
         }
 
-        :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        :-ms-input-placeholder {
             color: #00A651;
         }
 
-        ::-ms-input-placeholder { /* Microsoft Edge */
+        ::-ms-input-placeholder {
             color: #00A651;
         }
 
         li:hover{
             background-color: #D7FFF1;
         }
+
     </style>
 
 
