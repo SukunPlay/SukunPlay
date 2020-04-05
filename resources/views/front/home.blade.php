@@ -1363,7 +1363,6 @@
                             li.style.color = "#00A651";
                             li.classList.add("text-right");
                             li.appendChild(img);
-
                             ul.appendChild(li);
                         }
 
@@ -1381,7 +1380,6 @@
                             li.setAttribute("data-toggle", "modal");
                             li.setAttribute("data-target", "#myModal");
                             li.classList.add("text-right");
-
                             ul.appendChild(li)
                         }
 
