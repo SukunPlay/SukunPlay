@@ -816,7 +816,7 @@
 
             </div>
             <div class="container pt-lg-5 pt-md-5 pt-sm-3 pb-5 pr-4 pl-4">
-                <div class="row" id="post_data">
+                <div class="row" id="post_data" style="direction: rtl">
 
 
                     <div class="modal fade pt-5" id="myModal" role="dialog" style="">
