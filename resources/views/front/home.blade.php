@@ -200,7 +200,7 @@
             color: #00A651;
         }
 
-        li:hover{
+        li:hover {
             background-color: #D7FFF1;
         }
 
@@ -399,7 +399,8 @@
                                                 $date = \Carbon\Carbon::make($return['sample']->fb_created)->locale('dv')->diffForHumans();
                                             @endphp
                                             <div class="col-7 pr-0 ">
-                                                <p style="font-family: MVAWAHEED; font-size: 15px;text-align: right ;" id="sampledate"></p>
+                                                <p style="font-family: MVAWAHEED; font-size: 15px;text-align: right ;"
+                                                   id="sampledate"></p>
                                             </div>
                                         </div>
 
@@ -667,7 +668,8 @@
 
                                             @endphp
                                             <div class="col-8 pr-4 justify-content-end">
-                                                <p style="font-family: MVAWAHEED; font-size: 15px;text-align: right ;" id="sampledate1"></p>
+                                                <p style="font-family: MVAWAHEED; font-size: 15px;text-align: right ;"
+                                                   id="sampledate1"></p>
                                             </div>
                                         </div>
 
@@ -883,7 +885,8 @@
                                                         {{--                                                        </div>--}}
                                                     </div>
                                                     <div class="col-7 pr-0">
-                                                        <p lang="dv" style="font-family: MVAWAHEED; font-size: 15px; float: right; direction: rtl"
+                                                        <p lang="dv"
+                                                           style="font-family: MVAWAHEED; font-size: 15px; float: right; direction: rtl"
                                                            id="video_created_at">
                                                         </p>
                                                     </div>
@@ -1297,7 +1300,6 @@
         thaanaKeyboard.setHandlerById("searchy", "enable");
 
 
-
         $(document).ready(function () {
 
 
@@ -1305,12 +1307,11 @@
 
             sdate = "{{$date->locale('dv')->diffForHumans()}}";
 
-            sdate = sdate.replace("ކުރިން",'&#x202b;');
+            sdate = sdate.replace("ކުރިން", '&#x202b;');
 
-            document.getElementById("sampledate").innerHTML = sdate+"&#x202b;"+" ކުރިން";
+            document.getElementById("sampledate").innerHTML = sdate + "&#x202b;" + " ކުރިން";
 
-            document.getElementById("sampledate1").innerHTML = sdate+"&#x202b;"+" ކުރިން";
-
+            document.getElementById("sampledate1").innerHTML = sdate + "&#x202b;" + " ކުރިން";
 
 
             function fetch_customer_data(query = '') {
@@ -1489,8 +1490,8 @@
                     $('#video_desc').html(result.desc);
 
                     s = result.dvdiff
-                    s = s.replace("ކުރިން","");
-                    $('#video_created_at').html(s+" ކުރިން");
+                    s = s.replace("ކުރިން", "");
+                    $('#video_created_at').html(s + " ކުރިން");
 
                 }
             });
