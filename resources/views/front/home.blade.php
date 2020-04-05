@@ -1436,7 +1436,11 @@
                             o = data['data'][i];
 
                             var li = document.createElement("li");
-
+                            var img = document.createElement("img");
+                            img.src = o.firstThumbnail;
+                            img.style.width = '10%';
+                            img.style.height = '10%';
+                            img.style.float = "left";
                             li.appendChild(document.createTextNode(o.title));
                             // var li = document.createElement("li");
                             // li.appendChild(document.createTextNode("<a href='sss'>"+o.title+"</a>"));
@@ -1452,6 +1456,7 @@
                             li.style.borderColor = "#00A651";
                             li.style.color = "#00A651";
                             li.classList.add("text-right");
+                            li.appendChild(img);
 
                             ul.appendChild(li);
                         }
