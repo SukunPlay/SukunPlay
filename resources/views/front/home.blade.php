@@ -1372,11 +1372,6 @@
                         $('#resulty').empty();
                         if (data['total_data'] <= 0) {
                             var li = document.createElement("li");
-                            var img = document.createElement("img");
-                            img.src = "";
-                            img.style.width = '20%';
-                            img.style.height = '20%';
-                            img.style.float = "left";
                             li.appendChild(document.createTextNode('ނެތް'));
                             li.classList.add("list-group-item");
                             li.classList.add("dv");
@@ -1386,7 +1381,6 @@
                             li.setAttribute("data-toggle", "modal");
                             li.setAttribute("data-target", "#myModal");
                             li.classList.add("text-right");
-                            li.appendChild(img);
 
                             ul.appendChild(li)
                         }
