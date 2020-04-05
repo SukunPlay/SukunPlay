@@ -819,7 +819,7 @@
                 <div class="row" id="post_data" style="direction: rtl">
 
 
-                    <div class="modal fade pt-5" id="myModal" role="dialog" style="">
+                    <div class="modal fade pt-5" id="myModal" role="dialog" style=" direction: ltr">
                         <div class="modal-dialog modal-xl">
 
                             <!-- Modal content-->
