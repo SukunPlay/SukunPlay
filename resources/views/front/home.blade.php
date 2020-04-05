@@ -1376,14 +1376,18 @@
                             li.setAttribute("data-toggle", "modal");
                             li.setAttribute("data-target", "#myModal");
                             li.classList.add("text-right");
-                            ul.appendChild(li)
+                            ul.appendChild(li);
                         }
 
                         for (var i = 0; i < data['total_data']; i++) {
                             o = data['data'][i];
-
+                            console.log(o);
                             var li = document.createElement("li");
-
+                            var img = document.createElement("img");
+                            img.src = o.firstThumbnail;
+                            img.style.width = '20%';
+                            img.style.height = '20%';
+                            img.style.float = "left";
                             li.appendChild(document.createTextNode(o.title));
                             // var li = document.createElement("li");
                             // li.appendChild(document.createTextNode("<a href='sss'>"+o.title+"</a>"));
@@ -1399,6 +1403,7 @@
                             li.style.borderColor = "#00A651";
                             li.style.color = "#00A651";
                             li.classList.add("text-right");
+                            li.appendChild(img);
 
                             ul.appendChild(li);
                         }
@@ -1408,6 +1413,11 @@
                         $('#resulty').empty();
                         if (data['total_data'] <= 0) {
                             var li = document.createElement("li");
+                            var img = document.createElement("img");
+                            img.src = "";
+                            img.style.width = '20%';
+                            img.style.height = '20%';
+                            img.style.float = "left";
                             li.appendChild(document.createTextNode('ނެތް'));
                             li.classList.add("list-group-item");
                             li.classList.add("dv");
@@ -1417,6 +1427,8 @@
                             li.setAttribute("data-toggle", "modal");
                             li.setAttribute("data-target", "#myModal");
                             li.classList.add("text-right");
+                            li.appendChild(img);
+
                             ul.appendChild(li)
                         }
 

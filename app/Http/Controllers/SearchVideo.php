@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Facebook\StoreVideo;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -17,8 +18,8 @@ class SearchVideo extends Controller
             $query = $request->get('query');
             if($query != '')
             {
-                $data = DB::table('store_videos')
-                    ->where('id', 'like', '%'.$query.'%')
+                $data = StoreVideo
+                    ::where('id', 'like', '%'.$query.'%')
                     //  ->orWhere('fb_id', 'like', '%'.$query.'%')
                     //  ->orWhere('link', 'like', '%'.$query.'%')
 //                    ->orWhere('desc', 'like', '%'.$query.'%')
@@ -30,7 +31,8 @@ class SearchVideo extends Controller
                     //  ->orWhere('created_at', 'like', '%'.$query.'%')
                     //  ->orderBy('created_at', 'desc')
                     ->limit(5)
-                    ->get()->where('deleted_at', null);
+                    ->where('deleted_at', null)
+                    ->get();
 
             }
             else
