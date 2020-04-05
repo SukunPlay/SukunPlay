@@ -234,8 +234,8 @@
                     </div>
                 </div>
 
-                <div class="row pb-4">
-                    <div class="col">
+                <div class="row pb-4 pr-0">
+                    <div class="col pr-0">
                         <ul class="hider list-group" id="resultx">
                         </ul>
                     </div>
