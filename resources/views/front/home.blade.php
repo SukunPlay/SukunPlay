@@ -585,86 +585,6 @@
 
                                             @php
                                                 $date = \Carbon\Carbon::make($return['sample']->fb_created);
-                                                $month = $date->month;
-                                                $dmonth= null;
-
-                                                switch ($month){
-
-                                                    case 1;
-
-                                                    $dmonth= "ޖަނަވަރީ";
-
-                                                    break;
-
-                                                    case 2;
-
-                                                    $dmonth= "ފެބުރުވަރީ";
-
-                                                    break;
-
-                                                     case 3;
-
-                                                    $dmonth= "މާރިޗު";
-
-                                                    break;
-
-                                                     case 4;
-
-                                                    $dmonth= "އެޕްރީލު";
-
-                                                    break;
-
-                                                     case 5;
-
-                                                    $dmonth= "މޭ";
-
-                                                    break;
-
-                                                     case 6;
-
-                                                    $dmonth= "ޖޫން";
-
-                                                    break;
-
-                                                     case 7;
-
-                                                    $dmonth= "ޖުލައި";
-
-                                                    break;
-
-                                                     case 8;
-
-                                                    $dmonth= "އޮގަސްޓް";
-
-                                                    break;
-
-                                                     case 9;
-
-                                                    $dmonth= "ސެޕްޓެންބަރު";
-
-                                                    break;
-
-                                                     case 10;
-
-                                                    $dmonth= "އޮކްޓޫބަރު";
-
-                                                    break;
-
-                                                     case 11;
-
-                                                    $dmonth= "ނޮވެންބަރު";
-
-                                                    break;
-
-                                                     case 12;
-
-                                                    $dmonth= "ޑިސެންބަރު";
-
-                                                    break;
-
-
-                                                }
-
 
                                             @endphp
                                             <div class="col-8 pr-4 justify-content-end">
@@ -817,6 +737,7 @@
             </div>
             <div class="container pt-lg-5 pt-md-5 pt-sm-3 pb-5 pr-4 pl-4">
                 <div class="row" id="post_data" style="direction: rtl">
+
 
 
                     <div class="modal fade pt-5" id="myModal" role="dialog" style=" direction: ltr">
