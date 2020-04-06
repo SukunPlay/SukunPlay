@@ -23,14 +23,14 @@ class DashboardController extends Controller
 
         $desc1 = asset('desc.jpg');
         $desc2 = asset('desc2.jpg');
-        $desc=null;
+        $desc = null;
 
-        $rand = rand(0,2);
+        $rand = rand(0, 2);
 
-        if ($rand > 1){
+        if ($rand > 1) {
             $desc = $desc1;
 
-        } else{
+        } else {
             $desc = $desc2;
         }
 
@@ -138,7 +138,7 @@ class DashboardController extends Controller
         $video->dvdiff = $date->locale('dv')->diffForHumans();
 
 
-        $video->diffz = $date->year."&#x202b;".$date->day."&nbsp;".$dmonth."&nbsp;";
+        $video->diffz = $date->year . "&#x202b;" . $date->day . "&nbsp;" . $dmonth . "&nbsp;";
 
         if ($video) {
             return $video->toArray();
