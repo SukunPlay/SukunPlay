@@ -166,7 +166,7 @@ class getVideo extends Controller
 
     function aload_more(Request $request)
     {
-        $last_sort_id = StoreVideo::where('sort','!=',null)->first()->sort;
+        $last_sort_id = StoreVideo::all()->first()->sort;
 
         if ($request->ajax()) {
             if ($request->id > 0) {
