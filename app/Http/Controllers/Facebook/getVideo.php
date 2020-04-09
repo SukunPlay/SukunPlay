@@ -166,6 +166,8 @@ class getVideo extends Controller
 
     function aload_more(Request $request)
     {
+        $last_sort_id = StoreVideo::where('sort','!=',null)->first()->sort;
+
         if ($request->ajax()) {
             if ($request->id > 0) {
 
@@ -178,6 +180,7 @@ class getVideo extends Controller
 
                 $data = DB::table('store_videos')
                     ->orderBy('sort', 'DESC')
+                    ->where('sort','!=',$last_sort_id)
                     ->limit(12)
                     ->get();
 
