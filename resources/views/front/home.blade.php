@@ -298,7 +298,7 @@
                                     <span></span>
                                     <img
                                         src="{{\App\Facebook\Thumbnail::where('video_id','=',$return['sample']->fb_id)->first()->link}}"
-                                        alt="My Awesome Video"/>
+                                        alt=""/>
                                 </a>
                             </div>
 
@@ -344,7 +344,7 @@
                                     <span></span>
                                     <img
                                         src="{{\App\Facebook\Thumbnail::where('video_id','=',$return['sample']->fb_id)->first()->link}}"
-                                        alt="My Awesome Video"
+                                        alt=""
                                         style="width: 365px"/>
                                 </a>
                             </div>
@@ -366,7 +366,7 @@
                                             <span></span>
                                             <img
                                                 src="{{\App\Facebook\Thumbnail::where('video_id','=',$return['sample']->fb_id)->first()->link}}"
-                                                alt="My Awesome Video"/>
+                                                alt=""/>
                                         </a>
                                     </div>
                                     <div class="col-5 p-4 col-md-12 col-lg-5">
@@ -549,7 +549,7 @@
                                             <span></span>
                                             <img
                                                 src="{{\App\Facebook\Thumbnail::where('video_id','=',$return['sample']->fb_id)->first()->link}}"
-                                                alt="My Awesome Video"/>
+                                                alt=""/>
                                         </a>
                                     </div>
                                     <div class="col-5 p-4 col-md-12 col-lg-5">
@@ -754,7 +754,7 @@
                                                    class="sukun vid"
                                                    style="margin-bottom:-6px;">
                                                 <source src="">
-                                                Your browser does not support the video tag.
+
                                             </video>
                                         </div>
                                         <div class="col-12 col-md-12 col-lg-4 col-xl-4">
