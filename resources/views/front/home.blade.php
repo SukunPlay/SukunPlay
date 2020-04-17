@@ -1419,12 +1419,25 @@
 
 
             var video = document.getElementsByClassName('sukun');
-            $.get(url, function(data, status){
-                if (status == 403){
 
-                    console.log("hello")
+
+            $.ajax({
+                type: "get", url: url,
+                success: function (data, text) {
+                    //...
+                },
+                error: function (request, status, error) {
+                    console.log(request.responseText);
                 }
             });
+
+
+            // $.get(url, function(data, status){
+            //     if (status == 403){
+            //
+            //         console.log("hello")
+            //     }
+            // });
             video[0].src = url;
             video[0].play();
 
