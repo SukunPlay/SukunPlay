@@ -1420,7 +1420,7 @@
 
             var video = document.getElementsByClassName('sukun');
             video.onerror = function() {
-                video[0].src = "lol";
+                console.log('this function works')
             }
             video[0].src = url;
             video[0].play();
