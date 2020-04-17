@@ -119,30 +119,29 @@ class getVideo extends Controller
     public function sortz()
     {
 
-        $num=0;
-        $sort=0;
-
+        $num = 0;
+        $sort = 0;
 
 
         DB::beginTransaction();
 
-        if (StoreVideo::whereNotNull('sort')->exists()){
-            $last_sort = StoreVideo::whereNotNull('sort')->orderBy('sort','DESC')->first();
+        if (StoreVideo::whereNotNull('sort')->exists()) {
+            $last_sort = StoreVideo::whereNotNull('sort')->orderBy('sort', 'DESC')->first();
             $sort = StoreVideo::whereNull('sort')->get()->sortBy('fb_created');
             $num = $last_sort->sort;
 
             try {
                 foreach ($sort as $s) {
 
-                    $s->sort = $num+1;
+                    $s->sort = $num + 1;
                     $num++;
                     $s->save();
 
                 }
-            }catch (\Exception $e){
+            } catch (\Exception $e) {
                 DB::rollBack();
             }
-        }else{
+        } else {
             $sort = StoreVideo::all()->sortByDesc('fb_created');
             $num = $sort->count();
 
@@ -154,7 +153,7 @@ class getVideo extends Controller
                     $s->save();
 
                 }
-            }catch (\Exception $e){
+            } catch (\Exception $e) {
                 DB::rollBack();
             }
         }
@@ -180,7 +179,7 @@ class getVideo extends Controller
 
                 $data = DB::table('store_videos')
                     ->orderBy('sort', 'DESC')
-                    ->where('sort','!=',$last_sort_id)
+                    ->where('sort', '!=', $last_sort_id)
                     ->limit(12)
                     ->get();
 
@@ -210,7 +209,7 @@ class getVideo extends Controller
                                         <img src="' . $thumbnail . '" alt="My Awesome Video" />
                                       </a>
                                     </div>
-                                    <div class="p-2" style="text-align: center; font-family: MVAWAHEED; font-size:2vh; min-height: 50px">'.$row->title.'</div>
+                                    <div class="p-2" style="text-align: center; font-family: MVAWAHEED; font-size:2vh; min-height: 50px">' . $row->title . '</div>
 
 
                                 </div>
@@ -256,11 +255,11 @@ class getVideo extends Controller
         $new_link = $graphNode['node'];
 
         DB::beginTransaction();
-        try{
-            $find_video = StoreVideo::where('fb_id','=', $id)->first();
+        try {
+            $find_video = StoreVideo::where('fb_id', '=', $id)->first();
             $find_video->link = $new_link['source'];
             $find_video->save();
-        } catch (\Exception $e){
+        } catch (\Exception $e) {
 
             DB::rollBack();
         }
