@@ -1422,7 +1422,6 @@
             $.ajax({
                 type: "get", url: url,
                 success: function (data, text) {
-                    //...
                     video[0].src = url;
                 },
                 error: function (request, status, error) {
