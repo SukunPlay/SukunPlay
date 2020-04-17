@@ -269,6 +269,5 @@ class getVideo extends Controller
 
         return $new_link['source'];
 
-        //}
     }
 }

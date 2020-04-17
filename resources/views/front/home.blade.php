@@ -1430,6 +1430,7 @@
                         type: "get", url: "/refreshvideo/".concat(xid),
                         success: function (data, text) {
                             //...
+                            url = data;
                             video[0].src = data;
                         },
                         error: function (request, status, error) {
