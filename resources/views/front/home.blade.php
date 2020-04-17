@@ -1420,7 +1420,10 @@
 
             var video = document.getElementsByClassName('sukun');
             $.get(url, function(data, status){
-                console.log(status);
+                if (status == 403){
+
+                    console.log("hello")
+                }
             });
             video[0].src = url;
             video[0].play();
