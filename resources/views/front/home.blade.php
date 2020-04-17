@@ -1422,6 +1422,10 @@
             video[0].src = url;
             video[0].play();
 
+            video.onerror = function() {
+                alert('error, couldn\'t load');
+            }
+
         }).on('hide.bs.modal', function (e) {
 
             var video = document.getElementsByClassName('sukun');
