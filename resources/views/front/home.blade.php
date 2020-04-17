@@ -1419,9 +1419,9 @@
 
 
             var video = document.getElementsByClassName('sukun');
-            video.onerror = function() {
-                console.log('this function works')
-            }
+            $.get(url, function(data, status){
+                console.log(status);
+            });
             video[0].src = url;
             video[0].play();
 
