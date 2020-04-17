@@ -256,9 +256,15 @@ class getVideo extends Controller
         $new_link = $graphNode['node'];
 
         DB::beginTransaction();
-        $find_video = StoreVideo::where('fb_id','=', $id)->first();
-        $find_video->link = $new_link['source'];
-        $find_video->save();
+        try{
+            $find_video = StoreVideo::where('fb_id','=', $id)->first();
+            $find_video->link = $new_link['source'];
+            $find_video->save();
+        } catch (\Exception $e){
+
+            DB::rollBack();
+        }
+
 
         DB::commit();
 
