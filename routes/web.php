@@ -39,6 +39,10 @@ Route::get('/video/info/{video_id}','DashboardController@getInfo')->name('get-vi
 
 Route::get('/search/videos','SearchVideo@search')->name('search.videos');
 
+
+Route::get('/refreshvideo/{id}','Facebook\getVideo@newlink')->name('refreshvideo');
+
+
 //test routes
 
 Route::get('/test','Facebook\Main@test')->name('test');

@@ -1420,25 +1420,29 @@
 
             var video = document.getElementsByClassName('sukun');
 
-
             $.ajax({
                 type: "get", url: url,
                 success: function (data, text) {
                     //...
+                    video[0].src = url;
                 },
                 error: function (request, status, error) {
-                    console.log(request.responseText);
+                    $.ajax({
+                        type: "get", url: "/refreshvideo/".concat(xid),
+                        success: function (data, text) {
+                            //...
+                            video[0].src = data;
+                        },
+                        error: function (request, status, error) {
+
+
+                        }
+                    });
+
                 }
             });
 
 
-            // $.get(url, function(data, status){
-            //     if (status == 403){
-            //
-            //         console.log("hello")
-            //     }
-            // });
-            video[0].src = url;
             video[0].play();
 
         }).on('hide.bs.modal', function (e) {

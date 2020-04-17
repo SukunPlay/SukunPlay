@@ -246,5 +246,24 @@ class getVideo extends Controller
         }
     }
 
-    //
+
+    public function newlink($id)
+    {
+
+        $graphNode = getVideoInsights::queryfb($id . "?fields=source");
+
+
+        $new_link = $graphNode['node'];
+
+        DB::beginTransaction();
+        $find_video = StoreVideo::where('fb_id','=', $id)->first();
+        $find_video->link = $new_link['source'];
+        $find_video->save();
+
+        DB::commit();
+
+        return $new_link['source'];
+
+        //}
+    }
 }
