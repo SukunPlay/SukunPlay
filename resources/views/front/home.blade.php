@@ -1419,12 +1419,10 @@
 
 
             var video = document.getElementsByClassName('sukun');
+            video.onerror = function() {
+            }
             video[0].src = url;
             video[0].play();
-
-            video.onerror = function() {
-                alert('error, couldn\'t load');
-            }
 
         }).on('hide.bs.modal', function (e) {
 
