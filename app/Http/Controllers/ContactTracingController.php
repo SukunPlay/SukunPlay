@@ -46,6 +46,7 @@ class ContactTracingController extends Controller
             $work_add = null;
             $date = null;
             $status = null;
+            $sex = null;
 
             if ($v->parent != '' || $v->parent != null) {
                 $parent = '<b>Infected from Case: </b>' . $pv->case . '<br>';
@@ -81,6 +82,10 @@ class ContactTracingController extends Controller
                 $work_add = '<b>Work Address: </b>' . $v->work_add . '<br>';
             }
 
+            if ($v->sex != '' || $v->sex != null) {
+                $sex = '<b>Gender: </b>' . $v->sex . '<br>';
+            }
+
             if ($v->date != '' || $v->date != null) {
                 $date = '<b>Date: </b> </b>' . Carbon::make($v->date)->format('d M Y') . '<br>';
             }
@@ -95,7 +100,7 @@ class ContactTracingController extends Controller
             }
 
 
-            $case = $case . 'case ' . $v->case . ': ' . 'console.log(' . $v->case . ');' .
+            $case = $case . 'case ' .'"'.$v->case .'"'. ': ' . 'console.log(' . $v->case . ');' .
                 'info ="' . $date . $parent . $full_name . $nationality . $location . $age . $perm_add . $curr_add .
                 $work_add . $status . '"; break;';
 
@@ -140,6 +145,7 @@ class ContactTracingController extends Controller
             $new->perm_add = $request->perm_add;
             $new->curr_add = $request->curr_add;
             $new->work_add = $request->work_add;
+            $new->sex = $request->sex;
             $new->date = $request->date;
             $new->age = $request->age;
             $new->status = $request->status;

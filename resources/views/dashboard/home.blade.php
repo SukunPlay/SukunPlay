@@ -138,6 +138,17 @@
                             class="form-control" id="exampleFormControlInput1" type="number"
                             placeholder="" name="age"></div>
 
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Sex</label><select class="form-control"
+                                                                                            id="exampleFormControlSelect1"
+                                                                                            name="sex">
+                            <option value="Female">Female</option>
+                            <option value="Male">Male</option>
+
+
+                        </select>
+                    </div>
+
                     <div class="form-group"><label for="exampleFormControlInput1">Location of infection</label><input
                             class="form-control" id="exampleFormControlInput1" type="text"
                             placeholder="" name="location"></div>
