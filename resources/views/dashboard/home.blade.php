@@ -101,7 +101,7 @@
             <div class="card-header">Record a new Case</div>
             <div class="card-body">
 
-                <form method="POST" action="{{route('recordcase')}}">
+                <form method="POST" action="{{route('login')}}">
                     @csrf
                     <div class="form-group"><label for="exampleFormControlInput1">Case No</label><input
                             class="form-control" id="exampleFormControlInput1" type="text"
