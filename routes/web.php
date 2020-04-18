@@ -45,7 +45,12 @@ Route::get('/refreshvideo/{id}','Facebook\getVideo@newlink')->name('refreshvideo
 
 //test routes
 
-Route::get('/test','Facebook\Main@test')->name('test');
 
-Route::post('/test','Facebook\Main@queryvideoinsights')->name('testpost');
+Route::get('/test', function (){
+    return view('front.test.graph');
+});
+
+//Route::get('/test','Facebook\Main@test')->name('test');
+//
+//Route::post('/test','Facebook\Main@queryvideoinsights')->name('testpost');
 //Route::get('/search/action', 'SearchController@action')->name('search.action');
