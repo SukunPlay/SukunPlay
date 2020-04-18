@@ -28,7 +28,7 @@ class ContactTracingController extends Controller
 
 
         foreach ($data as $v) {
-
+            $pv = ContactTracing::where('id', '=', $v->parent)->first();
             if($counter == count($data) -1){
                 $var = $var . $v->case . " = " . '"' . $v->case_color . '"';
             }else{
@@ -48,8 +48,8 @@ class ContactTracingController extends Controller
             $status = null;
 
             if ($v->parent != '' || $v->parent != null) {
-                $parent = '<b>Infected from Case: </b>' . $v->parent . '<br>';
-                $pv = ContactTracing::where('id', '=', $v->parent)->first();
+                $parent = '<b>Infected from Case: </b>' . $pv->case . '<br>';
+
                 $edge = $edge . "['" . $pv->case . "','" . $v->case . "'],";
             }
 
@@ -82,7 +82,7 @@ class ContactTracingController extends Controller
             }
 
             if ($v->date != '' || $v->date != null) {
-                $date = '<b>Date: </b> </b>' . Carbon::make($v->date)->format() . '<br>';
+                $date = '<b>Date: </b> </b>' . Carbon::make($v->date)->format('d M Y') . '<br>';
             }
 
             if ($v->status == 0) {
