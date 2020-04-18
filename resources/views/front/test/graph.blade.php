@@ -2,15 +2,17 @@
 
 <head>
 
+
+
     <script src="{{asset('graph/highcharts.js')}}"></script>
     <script src="{{asset('graph/networkgraph.js')}}"></script>
 
     <style>
         #container {
             min-width: 320px;
-            max-width: 800px;
+            max-width: 100%;
             margin: 0 auto;
-            height: 500px;
+            height: 100%;
         }
     </style>
 
@@ -24,9 +26,11 @@
 
 <footer>
     <script>
-        var celticColor = "#7becb2",
-            italicColor = "#ecb27b",
-            indoIranianColor = "#ec7bb6";
+        var mv21 = "#E8544E",
+            mv22 = "#FFD265",
+            mv23 = "#2AA775",
+            mv24 = "#2AA775"
+        ;
 
         Highcharts.chart('container', {
 
@@ -40,8 +44,32 @@
             },
 
             subtitle: {
-                text: 'Based on information made public by HPA'
+                text: 'Confirmed cases based on information made public by HPA'
             },
+
+            tooltip: {
+                formatter: function () {
+                    var info = "";
+                    switch (this.color) {
+                        case mv21:
+                            console.log(mv21);
+                            info = "is aadasdons <br> hhsadasd"
+                            break;
+                        case mv22:
+                            console.log(mv22);
+                            ;
+                            info = "is an asdasdtions"
+                            break;
+                        case mv23:
+                            console.log(mv23);
+                            ;
+                            info = "is an asdasdnations"
+                            break;
+                    }
+                    return "<b>" + this.key + "</b>: " + info;
+                }
+            },
+
 
             plotOptions: {
                 networkgraph: {
@@ -61,30 +89,127 @@
                 dataLabels: {
                     enabled: true,
                     linkFormat: '',
-                    allowOverlap: true
+                    allowOverlap: true, style: {
+                        textOutline: false
+                    }
                 },
                 data: [
-                    ['MAV021', 'MAV022'],
-                    ['MAV021', 'MAV023'],
-                    ['MAV023', 'MAV024'],
-                    ['MAV023', 'MAV025'],
-                    ['MAV023', 'MAV026'],
-                    ['MAV027', 'MAV029'],
-                    ['MAV027', 'MAV030'],
+                    ['Seoul ICN', 'Daegu'],
+                    ['Seoul ICN', 'Busan'],
+                    ['Busan', 'Seoul GMP'],
+                    ['Busan', 'Yangyang'],
 
 
+                    ['Daegu', 'Seoul GMP'],
+                    ['Daegu', 'Jeju'],
+
+                    ['Seoul GMP', 'Gwangju'],
+                    ['Seoul GMP', 'Yeosu'],
+                    ['Seoul GMP', 'Sacheon'],
+                    ['Seoul GMP', 'Ulsan'],
+                    ['Seoul GMP', 'Pohang'],
+
+                    ['Jeju', 'Gwangju'],
+                    ['Jeju', 'Gunsan'],
+                    ['Jeju', 'Wonju'],
+                    ['Jeju', 'Yangyang'],
+                    ['Jeju', 'Daegu'],
+                    ['Jeju', 'Yeosu'],
+                    ['Jeju', 'Sacheon'],
+                    ['Jeju', 'Ulsan'],
+                    ['Jeju', 'Busan'],
+                    ['Jeju', 'Cheongju'],
                 ],
                 nodes: [
                     {
-                        id: 'MAV021',
-                        color: "pink"
+                        id: 'Seoul ICN',
+                        marker: {
+                            radius: 30,
+                        },
+                        color: mv21
                     },
                     {
-                        id: 'MAV027',
-                        color: "pink"
+                        id: 'Daegu',
+                        marker: {
+                            radius: 10,
+                        },
+                        color: mv22
                     },
-
-                ]
+                    {
+                        id: 'Busan',
+                        marker: {
+                            radius: 30
+                        },
+                        color: mv23
+                    },
+                    {
+                        id: 'Seoul GMP',
+                        marker: {
+                            radius: 20,
+                        },
+                        color: mv23
+                    },
+                    {
+                        id: 'Jeju',
+                        marker: {
+                            radius: 30,
+                        },
+                        color: mv23
+                    }, {
+                        id: 'Gwangju',
+                        marker: {
+                            radius: 10,
+                        },
+                        color: mv23
+                    }, {
+                        id: 'Yeosu',
+                        marker: {
+                            radius: 10,
+                        },
+                        color: mv23
+                    }, {
+                        id: 'Sacheon',
+                        marker: {
+                            radius: 10,
+                        },
+                        color: mv23
+                    }, {
+                        id: 'Ulsan',
+                        marker: {
+                            radius: 10,
+                        },
+                        color: mv23
+                    }, {
+                        id: 'Pohang',
+                        marker: {
+                            radius: 20,
+                        },
+                        color: mv23
+                    }, {
+                        id: 'Gunsan',
+                        marker: {
+                            radius: 10,
+                        },
+                        color: mv23
+                    }, {
+                        id: 'Wonju',
+                        marker: {
+                            radius: 10,
+                        },
+                        color: mv23
+                    }, {
+                        id: 'Yangyang',
+                        marker: {
+                            radius: 10,
+                        },
+                        color: mv23
+                    }, {
+                        id: 'Cheongju',
+                        marker: {
+                            radius: 20,
+                        },
+                        color: mv23
+                    },]
             }]
         });
 

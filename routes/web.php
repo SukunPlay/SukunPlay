@@ -47,7 +47,11 @@ Route::get('/refreshvideo/{id}','Facebook\getVideo@newlink')->name('refreshvideo
 
 
 Route::get('/test', function (){
-    return view('front.test.graph');
+
+    $data = \App\Covid\ContactTracing::all();
+
+
+    return view('front.test.graph')->with('return', $data);
 });
 
 //Route::get('/test','Facebook\Main@test')->name('test');
