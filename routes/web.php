@@ -55,6 +55,8 @@ Route::get('/admin', function(){
     return view('dashboard.home')->with('return', $return);
 })->name('dashboard.home')->middleware('auth');
 
+Route::post('/admin', 'ContactTracingController@update')->name('recordcase');
+
 //test routes
 
 

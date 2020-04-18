@@ -101,7 +101,7 @@
             <div class="card-header">Record a new Case</div>
             <div class="card-body">
 
-                <form method="POST" action="{{route('login')}}">
+                <form method="POST" action="{{route('recordcase')}}">
                     @csrf
                     <div class="form-group"><label for="exampleFormControlInput1">Case No</label><input
                             class="form-control" id="exampleFormControlInput1" type="text"
@@ -178,63 +178,43 @@
                         <table class="table table-bordered table-hover" id="dataTable" width="100%" cellspacing="0">
                             <thead>
                             <tr>
-                                <th>Name</th>
-                                <th>Position</th>
-                                <th>Office</th>
-                                <th>Age</th>
-                                <th>Start date</th>
-                                <th>Salary</th>
+                                <th>Case</th>
+                                <th>Color</th>
+                                <th>location</th>
                                 <th>Status</th>
-                                <th>Actions</th>
                             </tr>
                             </thead>
                             <tfoot>
                             <tr>
-                                <th>Name</th>
-                                <th>Position</th>
-                                <th>Office</th>
-                                <th>Age</th>
-                                <th>Start date</th>
-                                <th>Salary</th>
+                                <th>Case</th>
+                                <th>Color</th>
+                                <th>location</th>
                                 <th>Status</th>
-                                <th>Actions</th>
                             </tr>
                             </tfoot>
                             <tbody>
+                            @foreach($return['trace'] as $p)
                             <tr>
-                                <td>Tiger Nixon</td>
-                                <td>System Architect</td>
-                                <td>Edinburgh</td>
-                                <td>61</td>
-                                <td>2011/04/25</td>
-                                <td>$320,800</td>
-                                <td>
-                                    <div class="badge badge-primary badge-pill">Full-time</div>
-                                </td>
-                                <td>
-                                    <button class="btn btn-datatable btn-icon btn-transparent-dark mr-2"><i
-                                            data-feather="more-vertical"></i></button>
-                                    <button class="btn btn-datatable btn-icon btn-transparent-dark"><i
-                                            data-feather="trash-2"></i></button>
-                                </td>
+
+                                    <td>{{$p->case}}</td>
+                                    <td>{{$p->case_color}}</td>
+                                    <td>{{$p->location}}</td>
+                                    <td>
+                                        @switch($p->status)
+                                            @case(0)
+                                            Active
+                                            @break
+                                            @case(1)
+                                            Recovered
+                                            @break
+                                            @case(2)
+                                            Dead
+                                            @break
+                                        @endswitch
+                                    </td>
+
                             </tr>
-                            <tr>
-                                <td>Garrett Winters</td>
-                                <td>Accountant</td>
-                                <td>Tokyo</td>
-                                <td>63</td>
-                                <td>2011/07/25</td>
-                                <td>$170,750</td>
-                                <td>
-                                    <div class="badge badge-warning badge-pill">Pending</div>
-                                </td>
-                                <td>
-                                    <button class="btn btn-datatable btn-icon btn-transparent-dark mr-2"><i
-                                            data-feather="more-vertical"></i></button>
-                                    <button class="btn btn-datatable btn-icon btn-transparent-dark"><i
-                                            data-feather="trash-2"></i></button>
-                                </td>
-                            </tr>
+                            @endforeach
                             </tbody>
                         </table>
                     </div>
