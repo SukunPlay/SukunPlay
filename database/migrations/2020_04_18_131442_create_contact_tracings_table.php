@@ -20,6 +20,7 @@ class CreateContactTracingsTable extends Migration
             $table->integer('parent')->nullable();
             $table->string('full_name')->nullable();
             $table->string('nationality')->nullable();
+            $table->string('location')->nullable();
             $table->string('perm_add')->nullable();
             $table->string('curr_add')->nullable();
             $table->string('work_add')->nullable();

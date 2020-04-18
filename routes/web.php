@@ -16,6 +16,7 @@
 //});
 
 
+use App\Covid\Master;
 
 Route::get('/','DashboardController@index')->name('home');
 
@@ -42,6 +43,17 @@ Route::get('/search/videos','SearchVideo@search')->name('search.videos');
 
 Route::get('/refreshvideo/{id}','Facebook\getVideo@newlink')->name('refreshvideo');
 
+Route::get('/admin', function(){
+
+    $trace = \App\Covid\ContactTracing::all();
+    $master = Master::all();
+
+    $return = [
+        'trace' => $trace,
+        'master' => $master,
+    ];
+    return view('dashboard.home')->with('return', $return);
+})->name('dashboard.home')->middleware('auth');
 
 //test routes
 

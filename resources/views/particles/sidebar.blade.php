@@ -16,22 +16,22 @@
     <li class="nav-item active">
         <a class="nav-link" href="{{route('dashboard.home')}}">
             <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Dashboard</span></a>
+            <span>Covid19</span></a>
     </li>
 
     <!-- Divider -->
-    <hr class="sidebar-divider">
+{{--    <hr class="sidebar-divider">--}}
 
 
 
 
 
     <!-- Nav Item - Charts -->
-    <li class="nav-item">
-        <a class="nav-link" href="charts.html">
-            <i class="fas fa-fw fa-video"></i>
-            <span>Videos</span></a>
-    </li>
+{{--    <li class="nav-item">--}}
+{{--        <a class="nav-link" href="charts.html">--}}
+{{--            <i class="fas fa-fw fa-video"></i>--}}
+{{--            <span>Videos</span></a>--}}
+{{--    </li>--}}
 
 
     <!-- Divider -->
