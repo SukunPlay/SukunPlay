@@ -1,6 +1,8 @@
 <?php
 
+use App\User;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Hash;
 
 class DatabaseSeeder extends Seeder
 {
@@ -20,5 +22,13 @@ class DatabaseSeeder extends Seeder
         $configs->access_token ="EAAkf5GFcAV8BAMv6YA552tvlCMRVbxwPlAZAKdX6zJIWgldJWhEPpm5ccs5Va8UJ9wuWbMIcr5hOh7a064n3iwfDo1mQiLFY8QuzeGhKuK8338ET20nmalUDP3CSBtb1yEWmme6byp79ClA9cgwdKC6saZCCKp9IOh7v2I5slj9ZBaih1UtKdITLr6SWZCEZD";
         $configs->save();
         // $this->call(UsersTableSeeder::class);
+
+
+        $user = new User();
+        $user->name = "Sukun Editor";
+        $user->email = "editor@sukunplay.com";
+        $user->password = Hash::make('SukunDeploy@123');
+        $user->save();
+
     }
 }

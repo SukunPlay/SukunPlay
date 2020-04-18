@@ -55,8 +55,8 @@ Route::get('/test', function (){
     $data = \App\Covid\ContactTracing::all();
 
 
-    return view('dashboard.home')->with('return', $data);
-})->name('dashboard.home');
+    return view('auth.login2')->with('return', $data);
+});
 
 //Route::get('/test','Facebook\Main@test')->name('test');
 //

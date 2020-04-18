@@ -52,7 +52,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="form-group d-flex align-items-center justify-content-between mt-4 mb-0"><a class="small" href="password-basic.html"></a><input class="btn btn-primary" type="submit" value="Submit"></input></div>
+                                    <div class="form-group d-flex align-items-center justify-content-between mt-4 mb-0"><a class="small" href="password-basic.html"></a><a class="btn btn-primary" href="index.html">Login</a></div>
                                 </form>
                             </div>
 
