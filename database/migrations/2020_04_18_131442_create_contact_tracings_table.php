@@ -32,6 +32,7 @@ class CreateContactTracingsTable extends Migration
             $table->integer('radius')->default(10);
             $table->softDeletes();
             $table->timestamps();
+
         });
     }
 
