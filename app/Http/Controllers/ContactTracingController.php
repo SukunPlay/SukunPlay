@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Covid\ContactTracing;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -19,10 +20,22 @@ class ContactTracingController extends Controller
 
         $case = null;
 
+        $edge = null;
+
+        $nodes = null;
+
+        $counter = 0;
+
 
         foreach ($data as $v) {
 
-            $var = $var . $v->case . " = " . '"' . $v->case_color . '",';
+            if($counter == count($data) -1){
+                $var = $var . $v->case . " = " . '"' . $v->case_color . '"';
+            }else{
+                $var = $var . $v->case . " = " . '"' . $v->case_color . '",';
+            }
+
+
             $parent = null;
             $full_name = null;
             $nationality = null;
@@ -36,6 +49,8 @@ class ContactTracingController extends Controller
 
             if ($v->parent != '' || $v->parent != null) {
                 $parent = '<b>Infected from Case: </b>' . $v->parent . '<br>';
+                $pv = ContactTracing::where('id', '=', $v->parent)->first();
+                $edge = $edge . "['" . $pv->case . "','" . $v->case . "'],";
             }
 
             if ($v->full_name != '' || $v->full_name != null) {
@@ -67,7 +82,7 @@ class ContactTracingController extends Controller
             }
 
             if ($v->date != '' || $v->date != null) {
-                $date = '<b>Date: </b>: </b>' . $v->date . '<br>';
+                $date = '<b>Date: </b> </b>' . Carbon::make($v->date)->format() . '<br>';
             }
 
             if ($v->status == 0) {
@@ -84,11 +99,12 @@ class ContactTracingController extends Controller
                 'info ="' . $date . $parent . $full_name . $nationality . $location . $age . $perm_add . $curr_add .
                 $work_add . $status . '"; break;';
 
+            $nodes = $nodes . "{ id: '" . $v->case . "',
+           marker: {
+           radius: " . $v->radius . ",},color: " . $v->case . "},";
 
-//                 case mv21:
-//                            console.log(mv21);
-//                            info = "is aadasdons <br> hhsadasd"
-//                            break;
+            $counter +=1;
+
         }
 
 
@@ -96,6 +112,8 @@ class ContactTracingController extends Controller
             'data' => $data,
             'var' => $var,
             'case' => $case,
+            'edge' => $edge,
+            'node' => $nodes,
 
         ];
 

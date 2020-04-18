@@ -49,7 +49,7 @@
                     switch (this.color) {
                         {!! $return['case'] !!}
                     }
-                    return "<b>" + "</b>: " + info;
+                    return "<b>" + "</b>" + info;
                 }
             },
 
@@ -77,122 +77,11 @@
                     }
                 },
                 data: [
-                    ['Seoul ICN', 'Daegu'],
-                    ['Seoul ICN', 'Busan'],
-                    ['Busan', 'Seoul GMP'],
-                    ['Busan', 'Yangyang'],
-
-
-                    ['Daegu', 'Seoul GMP'],
-                    ['Daegu', 'Jeju'],
-
-                    ['Seoul GMP', 'Gwangju'],
-                    ['Seoul GMP', 'Yeosu'],
-                    ['Seoul GMP', 'Sacheon'],
-                    ['Seoul GMP', 'Ulsan'],
-                    ['Seoul GMP', 'Pohang'],
-
-                    ['Jeju', 'Gwangju'],
-                    ['Jeju', 'Gunsan'],
-                    ['Jeju', 'Wonju'],
-                    ['Jeju', 'Yangyang'],
-                    ['Jeju', 'Daegu'],
-                    ['Jeju', 'Yeosu'],
-                    ['Jeju', 'Sacheon'],
-                    ['Jeju', 'Ulsan'],
-                    ['Jeju', 'Busan'],
-                    ['Jeju', 'Cheongju'],
+                    {!! $return['edge'] !!}
                 ],
                 nodes: [
-                    {
-                        id: 'Seoul ICN',
-                        marker: {
-                            radius: 30,
-                        },
-                        color: mv21
-                    },
-                    {
-                        id: 'Daegu',
-                        marker: {
-                            radius: 10,
-                        },
-                        color: mv22
-                    },
-                    {
-                        id: 'Busan',
-                        marker: {
-                            radius: 30
-                        },
-                        color: mv23
-                    },
-                    {
-                        id: 'Seoul GMP',
-                        marker: {
-                            radius: 20,
-                        },
-                        color: mv23
-                    },
-                    {
-                        id: 'Jeju',
-                        marker: {
-                            radius: 30,
-                        },
-                        color: mv23
-                    }, {
-                        id: 'Gwangju',
-                        marker: {
-                            radius: 10,
-                        },
-                        color: mv23
-                    }, {
-                        id: 'Yeosu',
-                        marker: {
-                            radius: 10,
-                        },
-                        color: mv23
-                    }, {
-                        id: 'Sacheon',
-                        marker: {
-                            radius: 10,
-                        },
-                        color: mv23
-                    }, {
-                        id: 'Ulsan',
-                        marker: {
-                            radius: 10,
-                        },
-                        color: mv23
-                    }, {
-                        id: 'Pohang',
-                        marker: {
-                            radius: 20,
-                        },
-                        color: mv23
-                    }, {
-                        id: 'Gunsan',
-                        marker: {
-                            radius: 10,
-                        },
-                        color: mv23
-                    }, {
-                        id: 'Wonju',
-                        marker: {
-                            radius: 10,
-                        },
-                        color: mv23
-                    }, {
-                        id: 'Yangyang',
-                        marker: {
-                            radius: 10,
-                        },
-                        color: mv23
-                    }, {
-                        id: 'Cheongju',
-                        marker: {
-                            radius: 20,
-                        },
-                        color: mv23
-                    },]
+                    {!! $return['node'] !!}
+                    ]
             }]
         });
 
