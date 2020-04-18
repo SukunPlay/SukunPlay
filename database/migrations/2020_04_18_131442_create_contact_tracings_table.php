@@ -24,6 +24,8 @@ class CreateContactTracingsTable extends Migration
             $table->string('perm_add')->nullable();
             $table->string('curr_add')->nullable();
             $table->string('work_add')->nullable();
+            $table->dateTime('date')->nullable();
+            $table->integer('age')->nullable();
             $table->string('photo')->nullable();
             $table->integer('status')->nullable(); //0 = active 1= recovered 2= dead
             $table->integer('radius')->default(10);

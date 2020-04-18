@@ -2,8 +2,7 @@
 
 <head>
 
-
-
+{{--@dd($return['case'])--}}
     <script src="{{asset('graph/highcharts.js')}}"></script>
     <script src="{{asset('graph/networkgraph.js')}}"></script>
 
@@ -26,10 +25,7 @@
 
 <footer>
     <script>
-        var mv21 = "#E8544E",
-            mv22 = "#FFD265",
-            mv23 = "#2AA775",
-            mv24 = "#2AA775"
+        var {!! $return['var'] !!}
         ;
 
         Highcharts.chart('container', {
@@ -51,22 +47,9 @@
                 formatter: function () {
                     var info = "";
                     switch (this.color) {
-                        case mv21:
-                            console.log(mv21);
-                            info = "is aadasdons <br> hhsadasd"
-                            break;
-                        case mv22:
-                            console.log(mv22);
-                            ;
-                            info = "is an asdasdtions"
-                            break;
-                        case mv23:
-                            console.log(mv23);
-                            ;
-                            info = "is an asdasdnations"
-                            break;
+                        {!! $return['case'] !!}
                     }
-                    return "<b>" + this.key + "</b>: " + info;
+                    return "<b>" + "</b>: " + info;
                 }
             },
 

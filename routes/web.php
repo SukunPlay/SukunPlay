@@ -64,19 +64,12 @@ Route::post('/admin', 'ContactTracingController@update')->name('recordcase');
 //    return view('front.test.graph');
 //});
 
-Route::get('/test', function (){
-
-    $data = \App\Covid\ContactTracing::all();
-
-
-    return view('auth.login2')->with('return', $data);
-});
-
+Route::get('/test','ContactTracingController@index')->name('viewtrace');
 //Route::get('/test','Facebook\Main@test')->name('test');
 //
 //Route::post('/test','Facebook\Main@queryvideoinsights')->name('testpost');
 //Route::get('/search/action', 'SearchController@action')->name('search.action');
 
-Auth::routes();
+Auth::routes(['register' => false]);
 
 Route::get('/home', 'HomeController@index')->name('home');

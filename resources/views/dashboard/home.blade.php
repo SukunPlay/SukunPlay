@@ -14,6 +14,7 @@
     <!-- Content Wrapper -->
 
 
+
     <!-- Begin Page Content -->
     <div class="container-fluid">
 
@@ -106,6 +107,9 @@
                     <div class="form-group"><label for="exampleFormControlInput1">Case No</label><input
                             class="form-control" id="exampleFormControlInput1" type="text"
                             placeholder="MAV021" name="case"></div>
+                    <div class="form-group"><label for="exampleFormControlInput1">Date</label><input
+                            class="form-control" id="exampleFormControlInput1" type="date"
+                            placeholder="" name="date"></div>
                     <div class="form-group">
                         <label for="exampleFormControlSelect1">Infected from</label><select class="form-control"
                                                                                             id="exampleFormControlSelect1"
@@ -129,6 +133,10 @@
                     <div class="form-group"><label for="exampleFormControlInput1">Nationality</label><input
                             class="form-control" id="exampleFormControlInput1" type="text"
                             placeholder="" name="nationality"></div>
+
+                    <div class="form-group"><label for="exampleFormControlInput1">Age</label><input
+                            class="form-control" id="exampleFormControlInput1" type="number"
+                            placeholder="" name="age"></div>
 
                     <div class="form-group"><label for="exampleFormControlInput1">Location of infection</label><input
                             class="form-control" id="exampleFormControlInput1" type="text"
