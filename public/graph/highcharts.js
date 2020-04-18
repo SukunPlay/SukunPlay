@@ -2281,7 +2281,7 @@
                     href: "#",
                     position: {align: "right", x: -10, verticalAlign: "bottom", y: -5},
                     style: {cursor: "pointer", color: "#999999", fontSize: "9px"},
-                    text: "By: Deploy Pvt Ltd"
+                    text: "Developed By Deploy"
                 }
             };
             d.setOptions = function (g) {

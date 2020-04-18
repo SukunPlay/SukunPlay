@@ -46,7 +46,7 @@
             tooltip: {
                 formatter: function () {
                     var info = "";
-                    switch (this.color) {
+                    switch (this.g.text) {
                         {!! $return['case'] !!}
                     }
                     return "<b>" + "</b>" + info;
