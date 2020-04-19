@@ -114,16 +114,18 @@
                         <label for="exampleFormControlSelect1">Infected from</label><select class="form-control"
                                                                                             id="exampleFormControlSelect1"
                                                                                             name="parent">
-                            <option value="0">Unknown</option>
+                            <option value="0" >Unknown</option>
                             @foreach($return['trace'] as $v)
-                                <option value="{{$v->id}}">{{$v->case}}</option>
+                                <option value="{{$v->id}}" >{{$v->case}} - color: {{$v->case_color}}</option>
                             @endforeach
                         </select>
                     </div>
 
 
+
+
                     <div class="form-group"><label for="exampleFormControlInput1">Color Code Hex</label><input
-                            class="form-control" id="exampleFormControlInput1" type="text"
+                            class="form-control" id="color" type="text"
                             placeholder="" name="case_color"></div>
 
                     <div class="form-group"><label for="exampleFormControlInput1">Full Name</label><input
@@ -268,14 +270,14 @@
                 <script src="{{asset('dashboard/js/demo/chart-area-demo.js')}}"></script>
                 <script src="{{asset('dashboard/js/demo/chart-pie-demo.js')}}"></script>
 
+    <script>
+
+
+    </script>
 
 @endsection
 
 @push('js')
-
-
-
-
 
 @endpush
 
