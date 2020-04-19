@@ -43,7 +43,7 @@
 
 </head>
 
-<body style="background-color: #f1f1f1">
+<body style="">
 
 <main>
     <nav class="navbar navbar-marketing navbar-expand-lg navbar-light "
