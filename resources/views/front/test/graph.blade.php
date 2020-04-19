@@ -37,6 +37,16 @@
             padding-top: 24px;
         }
 
+        @font-face {
+            font-family: MVAWAHEED;
+            src: url('{{ asset('fonts/MVAWAHEED.TTF') }}');
+        }
+
+        @font-face {
+            font-family: AAMUFKF;
+            src: url('{{ asset('fonts/AAMMUFKF.TTF') }}');
+        }
+
 
     </style>
 
@@ -100,11 +110,11 @@
             },
 
             title: {
-                text: 'Covid19 Maldives Contact Tracing'
+                text: 'ކޮވިޑް-19 ކޮންޓެކްޓް ޓްރޭސިންގް'
             },
 
             subtitle: {
-                text: 'Confirmed cases based on information made public by HPA'
+                text: ' އިން އާންމުކޮށްފައިވާ މައުލޫމާތައް ބިނާކޮްށް HPA',
             },
 
             tooltip: {
