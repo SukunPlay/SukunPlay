@@ -19,14 +19,14 @@
             <span>Covid19</span></a>
     </li>
 
-    <!-- Divider -->
+{{--    <!-- Divider -->--}}
 {{--    <hr class="sidebar-divider">--}}
 
 
 
 
 
-    <!-- Nav Item - Charts -->
+{{--    <!-- Nav Item - Charts -->--}}
 {{--    <li class="nav-item">--}}
 {{--        <a class="nav-link" href="charts.html">--}}
 {{--            <i class="fas fa-fw fa-video"></i>--}}
@@ -83,7 +83,7 @@
             <!-- Nav Item - User Information -->
             <li class="nav-item dropdown no-arrow">
                 <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <span class="mr-2 d-none d-lg-inline text-gray-600 small">Ali Sabeeh</span>
+                    <span class="mr-2 d-none d-lg-inline text-gray-600 small"></span>
                     <img class="img-profile rounded-circle" src="{{'./img/user.jpg'}}">
                 </a>
                 <!-- Dropdown - User Information -->

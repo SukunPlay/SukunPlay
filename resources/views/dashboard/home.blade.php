@@ -24,7 +24,7 @@
         </div>
 
         <!-- Content Row -->
-        <div class="row">
+        <div class="row col-12">
 
             <!-- Applications (Monthly) Card Example -->
             <div class="col-xl-3 col-md-6 mb-4">
@@ -98,7 +98,7 @@
         <!-- Content Row -->
 
 
-        <div class="card">
+        <div class="card col-12">
             <div class="card-header">Record a new Case</div>
             <div class="card-body">
 

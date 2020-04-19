@@ -16,7 +16,7 @@ class CreateContactTracingsTable extends Migration
         Schema::create('contact_tracings', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('case');
-            $table->string('case_color');
+            $table->string('case_color')->nullable();
             $table->integer('parent')->nullable();
             $table->string('full_name')->nullable();
             $table->string('nationality')->nullable();
