@@ -2,16 +2,39 @@
 
 <head>
 
-{{--@dd($return['case'])--}}
+    {{--@dd($return['case'])--}}
+
+    <title>Sukun Play</title>
+    <link href="css/styles.css" rel="stylesheet"/>
+    <link href="{{asset('fawesome/all.min.css')}}" rel="stylesheet"/>
+    <link rel="icon" type="image/x-icon" href="{{asset('playbutton.svg')}}"/>
+{{ csrf_field() }}
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163224940-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-163224940-1');
+    </script>
     <script src="{{asset('graph/highcharts.js')}}"></script>
     <script src="{{asset('graph/networkgraph.js')}}"></script>
 
     <style>
-        #container {
+        #sv {
             min-width: 320px;
             max-width: 100%;
             margin: 0 auto;
-            height: 100%;
+            height: 50%;
+            width: 50%;
+            padding-top: 24;
         }
 
 
@@ -20,8 +43,47 @@
 
 </head>
 
-<body>
-<div id="container"></div>
+<body style="background-color: #f1f1f1">
+
+<main>
+    <nav class="navbar navbar-marketing navbar-expand-lg navbar-light "
+         style="background-color: #00A651; height: 68px">
+        <div class="container justify-content-center">
+            <img src="{{asset('logo.svg')}}" height="24.53px">
+        </div>
+
+    </nav>
+</main>
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-xl-3 col-md-6">
+            <div class="card">
+                <div class="card-title" style="align-content: center">
+                    <h3>Infected</h3>
+                </div>
+                <div class="card-body">
+                    gsd
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+b
+        </div>
+        <div class="col-xl-3 col-md-6">
+c
+        </div>
+        <div class="col-xl-3 col-md-6">
+d
+        </div>
+
+    </div>
+
+</div>
+
+<div id="sv"></div>
 
 </body>
 
@@ -30,7 +92,7 @@
         var {!! $return['var'] !!}
         ;
 
-        Highcharts.chart('container', {
+        Highcharts.chart('sv', {
 
             chart: {
                 type: 'networkgraph',
@@ -84,7 +146,7 @@
                 ],
                 nodes: [
                     {!! $return['node'] !!}
-                    ]
+                ]
             }]
         });
 
