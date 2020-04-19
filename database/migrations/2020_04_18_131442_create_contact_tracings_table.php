@@ -29,7 +29,7 @@ class CreateContactTracingsTable extends Migration
             $table->integer('age')->nullable();
             $table->string('photo')->nullable();
             $table->integer('status')->nullable(); //0 = active 1= recovered 2= dead
-            $table->integer('radius')->default(10);
+            $table->integer('radius')->default(10)->nullable();
             $table->softDeletes();
             $table->timestamps();
 

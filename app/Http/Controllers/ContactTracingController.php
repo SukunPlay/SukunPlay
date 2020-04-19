@@ -137,11 +137,22 @@ class ContactTracingController extends Controller
 
         DB::beginTransaction();
         $new = new ContactTracing;
+        $color = null;
 
         try {
+            if ($request->parent != null || $request->parent != ''){
+                if ($request->case_color != ''|| $request->case_color != null){
+
+                    $color = $request->case_color;
+            }else{
+                    $color = ContactTracing::where('id','=',$request->parent)->first()->case_color;
+
+                }
+            }
+
 
             $new->case = $request->case;
-            $new->case_color = $request->case_color;
+            $new->case_color = $color;
             $new->parent = $request->parent;
             $new->full_name = $request->full_name;
             $new->nationality = $request->nationality;
