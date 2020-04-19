@@ -1226,7 +1226,7 @@
             }, getStyle: function (b) {
                 return this.style = h({
                     fontFamily: '"Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif',
-                    fontSize: "12px"
+                    fontSize: "15px"
                 }, b)
             }, setStyle: function (b) {
                 this.boxWrapper.css(this.getStyle(b))
@@ -4667,7 +4667,7 @@
                 this.layOutTitles(c)
             }, applyDescription: function (b, a) {
                 var c = this, e = "title" ===
-                b ? {color: "#333333", fontSize: this.options.isStock ? "16px" : "18px"} : {color: "#666666"};
+                b ? {color: "#333333", fontSize: this.options.isStock ? "16px" : "40px"} : {color: "#666666"};
                 e = this.options[b] = z(!this.styledMode && {style: e}, this.options[b], a);
                 var f = this[b];
                 f && a && (this[b] = f = f.destroy());
