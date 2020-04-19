@@ -32,9 +32,9 @@
             min-width: 320px;
             max-width: 100%;
             margin: 0 auto;
-            height: 50%;
-            width: 50%;
-            padding-top: 24;
+            height: 90%;
+            width: 100%;
+            padding-top: 24px;
         }
 
 
@@ -55,33 +55,33 @@
     </nav>
 </main>
 
-<div class="container">
+{{--<div class="container">--}}
 
-    <div class="row">
+{{--    <div class="row">--}}
 
-        <div class="col-xl-3 col-md-6">
-            <div class="card">
-                <div class="card-title" style="align-content: center">
-                    <h3>Infected</h3>
-                </div>
-                <div class="card-body">
-                    gsd
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-md-6">
-b
-        </div>
-        <div class="col-xl-3 col-md-6">
-c
-        </div>
-        <div class="col-xl-3 col-md-6">
-d
-        </div>
+{{--        <div class="col-xl-3 col-md-6">--}}
+{{--            <div class="card">--}}
+{{--                <div class="card-title" style="align-content: center">--}}
+{{--                    <h3>Infected</h3>--}}
+{{--                </div>--}}
+{{--                <div class="card-body">--}}
+{{--                    gsd--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <div class="col-xl-3 col-md-6">--}}
+{{--b--}}
+{{--        </div>--}}
+{{--        <div class="col-xl-3 col-md-6">--}}
+{{--c--}}
+{{--        </div>--}}
+{{--        <div class="col-xl-3 col-md-6">--}}
+{{--d--}}
+{{--        </div>--}}
 
-    </div>
+{{--    </div>--}}
 
-</div>
+{{--</div>--}}
 
 <div id="sv"></div>
 
