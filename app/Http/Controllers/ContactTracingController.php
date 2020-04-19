@@ -46,12 +46,15 @@ class ContactTracingController extends Controller
             $work_add = null;
             $date = null;
             $status = null;
+            $radius =null;
             $sex = null;
 
             if ($v->parent != '' || $v->parent != null) {
                 $parent = '<b>Infected from Case: </b>' . $pv->case . '<br>';
-
+                $radius = 20;
                 $edge = $edge . "['" . $pv->case . "','" . $v->case . "'],";
+            }else{
+                $radius = 40;
             }
 
             if ($v->full_name != '' || $v->full_name != null) {
@@ -100,13 +103,14 @@ class ContactTracingController extends Controller
             }
 
 
+
             $case = $case . 'case ' .'"'.$v->case .'"'. ': ' . 'console.log(' . $v->case . ');' .
                 'info ="' . $date . $parent . $full_name . $nationality . $location . $age . $perm_add . $curr_add .
                 $work_add . $status . '"; break;';
 
             $nodes = $nodes . "{ id: '" . $v->case . "',
            marker: {
-           radius: " . $v->radius . ",},color: " . $v->case . "},";
+           radius: " . $radius . ",},color: " . $v->case . "},";
 
             $counter +=1;
 
