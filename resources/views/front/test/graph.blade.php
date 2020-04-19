@@ -114,7 +114,7 @@
                         {!! $return['case'] !!}
 
                     }
-                    return "<b>" + "</b>" + info;
+                    return info;
                 }
             },
 
