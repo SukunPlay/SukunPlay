@@ -209,7 +209,7 @@ class getVideo extends Controller
                                         <img src="' . $thumbnail . '" alt="My Awesome Video" />
                                       </a>
                                     </div>
-                                    <div class="p-2" style="text-align: center; font-family: MVAWAHEED; font-size:2vh; min-height: 50px">' . $row->title . '</div>
+                                    <div class="p-2" style="text-align: center; font-family: MVAWAHEED; font-size:2vh; min-height: 50px;direction: rtl">' . $row->title . '</div>
 
 
                                 </div>
@@ -225,7 +225,7 @@ class getVideo extends Controller
             <div class="container" id="load_more">
             <div class="row justify-content-center">
             <div class="">
-        <button type="button" name="load_more_button" class="btn btn-success form-control" data-id="' . $last_id . '" id="load_more_button" style="font-family: MVAWAHEED; font-size: 15px">އިތުރަށް</button>
+        <button type="button" name="load_more_button" class="btn btn-success form-control" data-id="' . $last_id . '" id="load_more_button" style="font-family: MVAWAHEED; font-size: 15px; direction: rtl">އިތުރަށް</button>
        </div>
        </div>
        </div>
@@ -235,7 +235,7 @@ class getVideo extends Controller
        <div class="container" id="load_more">
             <div class="row justify-content-center">
             <div class="">
-        <button type="button" name="load_more_button" class="btn btn-info form-control"style="font-family: MVAWAHEED; font-size: 15px">ނިމުނީ<button>
+        <button type="button" name="load_more_button" class="btn btn-info form-control"style="font-family: MVAWAHEED; font-size: 15px;direction: rtl">ނިމުނީ<button>
          </div>
        </div>
        </div>
