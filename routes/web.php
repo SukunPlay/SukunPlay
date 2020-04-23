@@ -65,6 +65,9 @@ Route::post('/admin', 'ContactTracingController@update')->name('recordcase');
 //});
 
 Route::get('/test','CovidRumorController@index')->name('viewtrace');
+
+Route::get('/test1','Test\TestController@test1');
+
 //Route::get('/test','Facebook\Main@test')->name('test');
 //
 //Route::post('/test','Facebook\Main@queryvideoinsights')->name('testpost');
