@@ -372,7 +372,7 @@
                                     <div class="col-5 p-4 col-md-12 col-lg-5">
                                         <hr style="border-width: 1px;display: block; border-color: black">
                                         <p class="pt-2"
-                                           style="font-family: AAMUFKF; text-align: center;font-size: 1.7vw; color: #285943"
+                                           style="font-family: AAMUFKF; text-align: center;font-size: 1.7vw; color: #285943; direction: rtl"
                                            id=""><b>{{$return['sample']->title}}</b></p>
 
                                         <div class="row pl-4 pt-0">
@@ -555,7 +555,7 @@
                                     <div class="col-5 p-4 col-md-12 col-lg-5">
                                         <hr style="border-width: 1px;display: block; border-color: black">
                                         <p class="pt-2"
-                                           style="font-family: AAMUFKF; text-align: center;font-size: 1.7vw; color: #285943"
+                                           style="font-family: AAMUFKF; text-align: center;font-size: 1.7vw; color: #285943;direction: rtl"
                                            id=""><b>{{$return['sample']->title}}</b></p>
 
 
@@ -730,7 +730,7 @@
         <section class="" style="background-color: #f2f2f2">
             <div class="container justify-content-center pt-3 pt-lg-5 pt-sm-3 pt-md-5 pb-3">
                 <div class="justify-content-center d-flex">
-                    <h6 class="mb-0" style="font-family: MVAWAHEED; text-align: right; font-size: 25px">ހުރިހާ
+                    <h6 class="mb-0" style="font-family: MVAWAHEED; text-align: right; font-size: 25px;direction: rtl">ހުރިހާ
                         ވީޑިއޯ</h6>
                 </div>
 
@@ -776,11 +776,11 @@
                                             <div class="card-body pt-0 pb-0">
                                                 <hr style="border-width: 1px;display: block; border-color: black">
                                                 <p class="pt-5 hides-for-small"
-                                                   style="font-family: AAMUFKF; text-align: center;font-size: 2vw; color: #285943"
+                                                   style="font-family: AAMUFKF; text-align: center;font-size: 2vw; color: #285943;direction: rtl"
                                                    id="video_title"><b></b></p>
 
                                                 <p class="pt-5 hides-for-large"
-                                                   style="font-family: AAMUFKF; text-align: center;font-size: 10vw; color: #285943"
+                                                   style="font-family: AAMUFKF; text-align: center;font-size: 10vw; color: #285943;direction: rtl"
                                                    id="video_titles"><b></b></p>
 
 
@@ -1084,12 +1084,12 @@
                     </div>
 
                     <div class="col-6" style="text-align: right">
-                        <p style="font-family: MVAWAHEED;margin-bottom: 0px">ހ. އޯލްވޭސް ހެޕީ ހައުސް، ފުރަތަމަ
+                        <p style="font-family: MVAWAHEED;margin-bottom: 0px; direction: rtl">ހ. އޯލްވޭސް ހެޕީ ހައުސް، ފުރަތަމަ
                             ފަންގިފިލާ، އަބަދަށް އުފާ
                             ހިނގުން، 20038، މާލެ، ދިވެހިރާއްޖެ</p>
-                        <p style="font-family: MVAWAHEED;margin-bottom: 0px"> &#x202b;އީމެއިލް :&nbsp;<a
+                        <p style="font-family: MVAWAHEED;margin-bottom: 0px; direction: rtl"> &#x202b;އީމެއިލް :&nbsp;<a
                                 href="mailto:editor@sukunplay.com">editor@sukunplay.com</a> &nbsp;</p>
-                        <p style="font-family: MVAWAHEED;margin-bottom: 0px">&#x202b;މޯބައިލް :&nbsp;<a
+                        <p style="font-family: MVAWAHEED;margin-bottom: 0px; direction: rtl">&#x202b;މޯބައިލް :&nbsp;<a
                                 href="tel:9700200">9700200</a>
                             &nbsp;</p>
 
@@ -1191,13 +1191,13 @@
                     </div>
 
 
-                    <div class="col-12" style="text-align: center">
-                        <p style="font-family: MVAWAHEED;margin-bottom: 0px">ހ. އޯލްވޭސް ހެޕީ ހައުސް، ފުރަތަމަ
+                    <div class="col-12" style="text-align: center; direction: rtl">
+                        <p style="font-family: MVAWAHEED;margin-bottom: 0px; direction: rtl">ހ. އޯލްވޭސް ހެޕީ ހައުސް، ފުރަތަމަ
                             ފަންގިފިލާ، އަބަދަށް އުފާ
                             ހިނގުން، 20038، މާލެ، ދިވެހިރާއްޖެ</p>
-                        <p style="font-family: MVAWAHEED;margin-bottom: 0px"> &#x202b;އީމެއިލް :&nbsp;<a
+                        <p style="font-family: MVAWAHEED;margin-bottom: 0px;direction: rtl"> &#x202b;އީމެއިލް :&nbsp;<a
                                 href="mailto:editor@sukunplay.com">editor@sukunplay.com</a> &nbsp;</p>
-                        <p style="font-family: MVAWAHEED;margin-bottom: 0px">&#x202b;މޯބައިލް :&nbsp;<a
+                        <p style="font-family: MVAWAHEED;margin-bottom: 0px;direction: rtl">&#x202b;މޯބައިލް :&nbsp;<a
                                 href="tel:9700200">9700200</a>
                             &nbsp;</p>
                     </div>
