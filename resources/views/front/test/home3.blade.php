@@ -62,7 +62,7 @@
                 </g>
             </svg>
 
-            <h2 class="mt-6 text-center text-3xl leading-9 font-extrabold text-gray-900" style="direction: rtl; font-family: MVAWAHEED">
+            <h2 class="mt-6 text-center tracking-tight text-3xl leading-9 font-extrabold text-gray-900" style="direction: rtl; font-family: MVAWAHEED">
                 ލޮގް އިން ވެލައްވާ
             </h2>
 
