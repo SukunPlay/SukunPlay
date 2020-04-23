@@ -87,10 +87,10 @@
 <section style="">
     <div class="container">
         <div class="row">
-            <div class="col-2"><h5 class="pt-4 pb-4" style="float: left; font-family: AAMUFKF; align-content: start">
-                    ހަގީގަތް</h5></div>
             <div class="col-10" style="align-self: center">
                 <hr style="border: none; border-bottom: 1px solid grey;">
+            </div>
+            <div class="col-2" style="font-family: AAMUFKF; direction: rtl;"><h5 class="pt-4 pb-4">ހަގީގަތް </h5>
             </div>
         </div>
         <div class="pb-4">
@@ -151,11 +151,11 @@
 </section>
 <section style="">
     <div class="container">
-        <div class="row">
-            <div class="col-2"><h5 class="pt-4 pb-4" style="float: left; font-family: AAMUFKF; align-content: start">
-                    ހަގީގަތް</h5></div>
+          <div class="row">
             <div class="col-10" style="align-self: center">
                 <hr style="border: none; border-bottom: 1px solid grey;">
+            </div>
+            <div class="col-2" style="font-family: AAMUFKF; direction: rtl;"><h5 class="pt-4 pb-4">ހަގީގަތް </h5>
             </div>
         </div>
         <div class="pb-4">
@@ -177,8 +177,8 @@
             <div class="col-6">
                 <div class="row">
                     <div class="col-2">
-                        <div class="" style="background-color: red; text-align: center; border-radius: 2px"><p
-                                style="direction: rtl;color: white; font-family: MVAWAHEED;" class="mb-2">ދޮގެއް</p>
+                        <div class="" style="background-color: limegreen; text-align: center; border-radius: 2px"><p
+                                style="direction: rtl;color: white; font-family: MVAWAHEED;" class="mb-2">ތެދެއް</p>
                         </div>
                     </div>
                     <div class="col-10"><p
