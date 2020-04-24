@@ -12,4 +12,8 @@ class TestController extends Controller
 
         return view('front.test.home3');
     }
+
+    public function test2(){
+        return view('front.test.test2');
+    }
 }
