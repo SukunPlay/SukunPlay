@@ -2900,8 +2900,21 @@ video {
   border-color: #00A651;
 }
 
-.divide-skndark > :not(template) ~ :not(template) {
-  border-color: #285943;
+.divide-sukun-official > :not(template) ~ :not(template) {
+  border-color: #00A651;
+}
+
+.divide-sukun-green > :not(template) ~ :not(template) border-color {
+  100: #D7FFF1;
+  200: #8CD790;
+  300: #77AF9C;
+  400: #285943;
+}
+
+.divide-sukun-black > :not(template) ~ :not(template) border-color {
+  100: #777777;
+  200: #444444;
+  300: #242424;
 }
 
 .sr-only {
@@ -3428,8 +3441,21 @@ video {
   background-color: #00A651;
 }
 
-.bg-skndark {
-  background-color: #285943;
+.bg-sukun-official {
+  background-color: #00A651;
+}
+
+.bg-sukun-green background-color {
+  100: #D7FFF1;
+  200: #8CD790;
+  300: #77AF9C;
+  400: #285943;
+}
+
+.bg-sukun-black background-color {
+  100: #777777;
+  200: #444444;
+  300: #242424;
 }
 
 .group:hover .group-hover\:bg-transparent {
@@ -3892,8 +3918,21 @@ video {
   background-color: #00A651;
 }
 
-.group:hover .group-hover\:bg-skndark {
-  background-color: #285943;
+.group:hover .group-hover\:bg-sukun-official {
+  background-color: #00A651;
+}
+
+.group:hover .group-hover\:bg-sukun-green background-color {
+  100: #D7FFF1;
+  200: #8CD790;
+  300: #77AF9C;
+  400: #285943;
+}
+
+.group:hover .group-hover\:bg-sukun-black background-color {
+  100: #777777;
+  200: #444444;
+  300: #242424;
 }
 
 .group:focus .group-focus\:bg-transparent {
@@ -4356,8 +4395,21 @@ video {
   background-color: #00A651;
 }
 
-.group:focus .group-focus\:bg-skndark {
-  background-color: #285943;
+.group:focus .group-focus\:bg-sukun-official {
+  background-color: #00A651;
+}
+
+.group:focus .group-focus\:bg-sukun-green background-color {
+  100: #D7FFF1;
+  200: #8CD790;
+  300: #77AF9C;
+  400: #285943;
+}
+
+.group:focus .group-focus\:bg-sukun-black background-color {
+  100: #777777;
+  200: #444444;
+  300: #242424;
 }
 
 .hover\:bg-transparent:hover {
@@ -4820,8 +4872,21 @@ video {
   background-color: #00A651;
 }
 
-.hover\:bg-skndark:hover {
-  background-color: #285943;
+.hover\:bg-sukun-official:hover {
+  background-color: #00A651;
+}
+
+.hover\:bg-sukun-green:hover background-color {
+  100: #D7FFF1;
+  200: #8CD790;
+  300: #77AF9C;
+  400: #285943;
+}
+
+.hover\:bg-sukun-black:hover background-color {
+  100: #777777;
+  200: #444444;
+  300: #242424;
 }
 
 .focus\:bg-transparent:focus {
@@ -5284,8 +5349,21 @@ video {
   background-color: #00A651;
 }
 
-.focus\:bg-skndark:focus {
-  background-color: #285943;
+.focus\:bg-sukun-official:focus {
+  background-color: #00A651;
+}
+
+.focus\:bg-sukun-green:focus background-color {
+  100: #D7FFF1;
+  200: #8CD790;
+  300: #77AF9C;
+  400: #285943;
+}
+
+.focus\:bg-sukun-black:focus background-color {
+  100: #777777;
+  200: #444444;
+  300: #242424;
 }
 
 .active\:bg-transparent:active {
@@ -5748,8 +5826,21 @@ video {
   background-color: #00A651;
 }
 
-.active\:bg-skndark:active {
-  background-color: #285943;
+.active\:bg-sukun-official:active {
+  background-color: #00A651;
+}
+
+.active\:bg-sukun-green:active background-color {
+  100: #D7FFF1;
+  200: #8CD790;
+  300: #77AF9C;
+  400: #285943;
+}
+
+.active\:bg-sukun-black:active background-color {
+  100: #777777;
+  200: #444444;
+  300: #242424;
 }
 
 .bg-bottom {
@@ -6292,8 +6383,21 @@ video {
   border-color: #00A651;
 }
 
-.border-skndark {
-  border-color: #285943;
+.border-sukun-official {
+  border-color: #00A651;
+}
+
+.border-sukun-green border-color {
+  100: #D7FFF1;
+  200: #8CD790;
+  300: #77AF9C;
+  400: #285943;
+}
+
+.border-sukun-black border-color {
+  100: #777777;
+  200: #444444;
+  300: #242424;
 }
 
 .group:hover .group-hover\:border-transparent {
@@ -6756,8 +6860,21 @@ video {
   border-color: #00A651;
 }
 
-.group:hover .group-hover\:border-skndark {
-  border-color: #285943;
+.group:hover .group-hover\:border-sukun-official {
+  border-color: #00A651;
+}
+
+.group:hover .group-hover\:border-sukun-green border-color {
+  100: #D7FFF1;
+  200: #8CD790;
+  300: #77AF9C;
+  400: #285943;
+}
+
+.group:hover .group-hover\:border-sukun-black border-color {
+  100: #777777;
+  200: #444444;
+  300: #242424;
 }
 
 .group:focus .group-focus\:border-transparent {
@@ -7220,8 +7337,21 @@ video {
   border-color: #00A651;
 }
 
-.group:focus .group-focus\:border-skndark {
-  border-color: #285943;
+.group:focus .group-focus\:border-sukun-official {
+  border-color: #00A651;
+}
+
+.group:focus .group-focus\:border-sukun-green border-color {
+  100: #D7FFF1;
+  200: #8CD790;
+  300: #77AF9C;
+  400: #285943;
+}
+
+.group:focus .group-focus\:border-sukun-black border-color {
+  100: #777777;
+  200: #444444;
+  300: #242424;
 }
 
 .hover\:border-transparent:hover {
@@ -7684,8 +7814,21 @@ video {
   border-color: #00A651;
 }
 
-.hover\:border-skndark:hover {
-  border-color: #285943;
+.hover\:border-sukun-official:hover {
+  border-color: #00A651;
+}
+
+.hover\:border-sukun-green:hover border-color {
+  100: #D7FFF1;
+  200: #8CD790;
+  300: #77AF9C;
+  400: #285943;
+}
+
+.hover\:border-sukun-black:hover border-color {
+  100: #777777;
+  200: #444444;
+  300: #242424;
 }
 
 .focus\:border-transparent:focus {
@@ -8148,8 +8291,21 @@ video {
   border-color: #00A651;
 }
 
-.focus\:border-skndark:focus {
-  border-color: #285943;
+.focus\:border-sukun-official:focus {
+  border-color: #00A651;
+}
+
+.focus\:border-sukun-green:focus border-color {
+  100: #D7FFF1;
+  200: #8CD790;
+  300: #77AF9C;
+  400: #285943;
+}
+
+.focus\:border-sukun-black:focus border-color {
+  100: #777777;
+  200: #444444;
+  300: #242424;
 }
 
 .rounded-none {
@@ -17764,24 +17920,89 @@ video {
   color: #00A651;
 }
 
-.placeholder-skndark::-webkit-input-placeholder {
-  color: #285943;
+.placeholder-sukun-official::-webkit-input-placeholder {
+  color: #00A651;
 }
 
-.placeholder-skndark::-moz-placeholder {
-  color: #285943;
+.placeholder-sukun-official::-moz-placeholder {
+  color: #00A651;
 }
 
-.placeholder-skndark:-ms-input-placeholder {
-  color: #285943;
+.placeholder-sukun-official:-ms-input-placeholder {
+  color: #00A651;
 }
 
-.placeholder-skndark::-ms-input-placeholder {
-  color: #285943;
+.placeholder-sukun-official::-ms-input-placeholder {
+  color: #00A651;
 }
 
-.placeholder-skndark::placeholder {
-  color: #285943;
+.placeholder-sukun-official::placeholder {
+  color: #00A651;
+}
+
+.placeholder-sukun-green::-webkit-input-placeholder color {
+  100: #D7FFF1;
+  200: #8CD790;
+  300: #77AF9C;
+  400: #285943;
+}
+
+.placeholder-sukun-green::-moz-placeholder color {
+  100: #D7FFF1;
+  200: #8CD790;
+  300: #77AF9C;
+  400: #285943;
+}
+
+.placeholder-sukun-green:-ms-input-placeholder color {
+  100: #D7FFF1;
+  200: #8CD790;
+  300: #77AF9C;
+  400: #285943;
+}
+
+.placeholder-sukun-green::-ms-input-placeholder color {
+  100: #D7FFF1;
+  200: #8CD790;
+  300: #77AF9C;
+  400: #285943;
+}
+
+.placeholder-sukun-green::placeholder color {
+  100: #D7FFF1;
+  200: #8CD790;
+  300: #77AF9C;
+  400: #285943;
+}
+
+.placeholder-sukun-black::-webkit-input-placeholder color {
+  100: #777777;
+  200: #444444;
+  300: #242424;
+}
+
+.placeholder-sukun-black::-moz-placeholder color {
+  100: #777777;
+  200: #444444;
+  300: #242424;
+}
+
+.placeholder-sukun-black:-ms-input-placeholder color {
+  100: #777777;
+  200: #444444;
+  300: #242424;
+}
+
+.placeholder-sukun-black::-ms-input-placeholder color {
+  100: #777777;
+  200: #444444;
+  300: #242424;
+}
+
+.placeholder-sukun-black::placeholder color {
+  100: #777777;
+  200: #444444;
+  300: #242424;
 }
 
 .focus\:placeholder-transparent:focus::-webkit-input-placeholder {
@@ -20084,24 +20305,89 @@ video {
   color: #00A651;
 }
 
-.focus\:placeholder-skndark:focus::-webkit-input-placeholder {
-  color: #285943;
+.focus\:placeholder-sukun-official:focus::-webkit-input-placeholder {
+  color: #00A651;
 }
 
-.focus\:placeholder-skndark:focus::-moz-placeholder {
-  color: #285943;
+.focus\:placeholder-sukun-official:focus::-moz-placeholder {
+  color: #00A651;
 }
 
-.focus\:placeholder-skndark:focus:-ms-input-placeholder {
-  color: #285943;
+.focus\:placeholder-sukun-official:focus:-ms-input-placeholder {
+  color: #00A651;
 }
 
-.focus\:placeholder-skndark:focus::-ms-input-placeholder {
-  color: #285943;
+.focus\:placeholder-sukun-official:focus::-ms-input-placeholder {
+  color: #00A651;
 }
 
-.focus\:placeholder-skndark:focus::placeholder {
-  color: #285943;
+.focus\:placeholder-sukun-official:focus::placeholder {
+  color: #00A651;
+}
+
+.focus\:placeholder-sukun-green:focus::-webkit-input-placeholder color {
+  100: #D7FFF1;
+  200: #8CD790;
+  300: #77AF9C;
+  400: #285943;
+}
+
+.focus\:placeholder-sukun-green:focus::-moz-placeholder color {
+  100: #D7FFF1;
+  200: #8CD790;
+  300: #77AF9C;
+  400: #285943;
+}
+
+.focus\:placeholder-sukun-green:focus:-ms-input-placeholder color {
+  100: #D7FFF1;
+  200: #8CD790;
+  300: #77AF9C;
+  400: #285943;
+}
+
+.focus\:placeholder-sukun-green:focus::-ms-input-placeholder color {
+  100: #D7FFF1;
+  200: #8CD790;
+  300: #77AF9C;
+  400: #285943;
+}
+
+.focus\:placeholder-sukun-green:focus::placeholder color {
+  100: #D7FFF1;
+  200: #8CD790;
+  300: #77AF9C;
+  400: #285943;
+}
+
+.focus\:placeholder-sukun-black:focus::-webkit-input-placeholder color {
+  100: #777777;
+  200: #444444;
+  300: #242424;
+}
+
+.focus\:placeholder-sukun-black:focus::-moz-placeholder color {
+  100: #777777;
+  200: #444444;
+  300: #242424;
+}
+
+.focus\:placeholder-sukun-black:focus:-ms-input-placeholder color {
+  100: #777777;
+  200: #444444;
+  300: #242424;
+}
+
+.focus\:placeholder-sukun-black:focus::-ms-input-placeholder color {
+  100: #777777;
+  200: #444444;
+  300: #242424;
+}
+
+.focus\:placeholder-sukun-black:focus::placeholder color {
+  100: #777777;
+  200: #444444;
+  300: #242424;
 }
 
 .pointer-events-none {
@@ -23068,8 +23354,21 @@ video {
   color: #00A651;
 }
 
-.text-skndark {
-  color: #285943;
+.text-sukun-official {
+  color: #00A651;
+}
+
+.text-sukun-green color {
+  100: #D7FFF1;
+  200: #8CD790;
+  300: #77AF9C;
+  400: #285943;
+}
+
+.text-sukun-black color {
+  100: #777777;
+  200: #444444;
+  300: #242424;
 }
 
 .group:hover .group-hover\:text-transparent {
@@ -23532,8 +23831,21 @@ video {
   color: #00A651;
 }
 
-.group:hover .group-hover\:text-skndark {
-  color: #285943;
+.group:hover .group-hover\:text-sukun-official {
+  color: #00A651;
+}
+
+.group:hover .group-hover\:text-sukun-green color {
+  100: #D7FFF1;
+  200: #8CD790;
+  300: #77AF9C;
+  400: #285943;
+}
+
+.group:hover .group-hover\:text-sukun-black color {
+  100: #777777;
+  200: #444444;
+  300: #242424;
 }
 
 .group:focus .group-focus\:text-transparent {
@@ -23996,8 +24308,21 @@ video {
   color: #00A651;
 }
 
-.group:focus .group-focus\:text-skndark {
-  color: #285943;
+.group:focus .group-focus\:text-sukun-official {
+  color: #00A651;
+}
+
+.group:focus .group-focus\:text-sukun-green color {
+  100: #D7FFF1;
+  200: #8CD790;
+  300: #77AF9C;
+  400: #285943;
+}
+
+.group:focus .group-focus\:text-sukun-black color {
+  100: #777777;
+  200: #444444;
+  300: #242424;
 }
 
 .hover\:text-transparent:hover {
@@ -24460,8 +24785,21 @@ video {
   color: #00A651;
 }
 
-.hover\:text-skndark:hover {
-  color: #285943;
+.hover\:text-sukun-official:hover {
+  color: #00A651;
+}
+
+.hover\:text-sukun-green:hover color {
+  100: #D7FFF1;
+  200: #8CD790;
+  300: #77AF9C;
+  400: #285943;
+}
+
+.hover\:text-sukun-black:hover color {
+  100: #777777;
+  200: #444444;
+  300: #242424;
 }
 
 .focus-within\:text-transparent:focus-within {
@@ -24924,8 +25262,21 @@ video {
   color: #00A651;
 }
 
-.focus-within\:text-skndark:focus-within {
-  color: #285943;
+.focus-within\:text-sukun-official:focus-within {
+  color: #00A651;
+}
+
+.focus-within\:text-sukun-green:focus-within color {
+  100: #D7FFF1;
+  200: #8CD790;
+  300: #77AF9C;
+  400: #285943;
+}
+
+.focus-within\:text-sukun-black:focus-within color {
+  100: #777777;
+  200: #444444;
+  300: #242424;
 }
 
 .focus\:text-transparent:focus {
@@ -25388,8 +25739,21 @@ video {
   color: #00A651;
 }
 
-.focus\:text-skndark:focus {
-  color: #285943;
+.focus\:text-sukun-official:focus {
+  color: #00A651;
+}
+
+.focus\:text-sukun-green:focus color {
+  100: #D7FFF1;
+  200: #8CD790;
+  300: #77AF9C;
+  400: #285943;
+}
+
+.focus\:text-sukun-black:focus color {
+  100: #777777;
+  200: #444444;
+  300: #242424;
 }
 
 .active\:text-transparent:active {
@@ -25852,8 +26216,21 @@ video {
   color: #00A651;
 }
 
-.active\:text-skndark:active {
-  color: #285943;
+.active\:text-sukun-official:active {
+  color: #00A651;
+}
+
+.active\:text-sukun-green:active color {
+  100: #D7FFF1;
+  200: #8CD790;
+  300: #77AF9C;
+  400: #285943;
+}
+
+.active\:text-sukun-black:active color {
+  100: #777777;
+  200: #444444;
+  300: #242424;
 }
 
 .italic {
@@ -33523,8 +33900,21 @@ video {
     border-color: #00A651;
   }
 
-  .sm\:divide-skndark > :not(template) ~ :not(template) {
-    border-color: #285943;
+  .sm\:divide-sukun-official > :not(template) ~ :not(template) {
+    border-color: #00A651;
+  }
+
+  .sm\:divide-sukun-green > :not(template) ~ :not(template) border-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .sm\:divide-sukun-black > :not(template) ~ :not(template) border-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .sm\:sr-only {
@@ -34051,8 +34441,21 @@ video {
     background-color: #00A651;
   }
 
-  .sm\:bg-skndark {
-    background-color: #285943;
+  .sm\:bg-sukun-official {
+    background-color: #00A651;
+  }
+
+  .sm\:bg-sukun-green background-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .sm\:bg-sukun-black background-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .group:hover .sm\:group-hover\:bg-transparent {
@@ -34515,8 +34918,21 @@ video {
     background-color: #00A651;
   }
 
-  .group:hover .sm\:group-hover\:bg-skndark {
-    background-color: #285943;
+  .group:hover .sm\:group-hover\:bg-sukun-official {
+    background-color: #00A651;
+  }
+
+  .group:hover .sm\:group-hover\:bg-sukun-green background-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .group:hover .sm\:group-hover\:bg-sukun-black background-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .group:focus .sm\:group-focus\:bg-transparent {
@@ -34979,8 +35395,21 @@ video {
     background-color: #00A651;
   }
 
-  .group:focus .sm\:group-focus\:bg-skndark {
-    background-color: #285943;
+  .group:focus .sm\:group-focus\:bg-sukun-official {
+    background-color: #00A651;
+  }
+
+  .group:focus .sm\:group-focus\:bg-sukun-green background-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .group:focus .sm\:group-focus\:bg-sukun-black background-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .sm\:hover\:bg-transparent:hover {
@@ -35443,8 +35872,21 @@ video {
     background-color: #00A651;
   }
 
-  .sm\:hover\:bg-skndark:hover {
-    background-color: #285943;
+  .sm\:hover\:bg-sukun-official:hover {
+    background-color: #00A651;
+  }
+
+  .sm\:hover\:bg-sukun-green:hover background-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .sm\:hover\:bg-sukun-black:hover background-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .sm\:focus\:bg-transparent:focus {
@@ -35907,8 +36349,21 @@ video {
     background-color: #00A651;
   }
 
-  .sm\:focus\:bg-skndark:focus {
-    background-color: #285943;
+  .sm\:focus\:bg-sukun-official:focus {
+    background-color: #00A651;
+  }
+
+  .sm\:focus\:bg-sukun-green:focus background-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .sm\:focus\:bg-sukun-black:focus background-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .sm\:active\:bg-transparent:active {
@@ -36371,8 +36826,21 @@ video {
     background-color: #00A651;
   }
 
-  .sm\:active\:bg-skndark:active {
-    background-color: #285943;
+  .sm\:active\:bg-sukun-official:active {
+    background-color: #00A651;
+  }
+
+  .sm\:active\:bg-sukun-green:active background-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .sm\:active\:bg-sukun-black:active background-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .sm\:bg-bottom {
@@ -36915,8 +37383,21 @@ video {
     border-color: #00A651;
   }
 
-  .sm\:border-skndark {
-    border-color: #285943;
+  .sm\:border-sukun-official {
+    border-color: #00A651;
+  }
+
+  .sm\:border-sukun-green border-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .sm\:border-sukun-black border-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .group:hover .sm\:group-hover\:border-transparent {
@@ -37379,8 +37860,21 @@ video {
     border-color: #00A651;
   }
 
-  .group:hover .sm\:group-hover\:border-skndark {
-    border-color: #285943;
+  .group:hover .sm\:group-hover\:border-sukun-official {
+    border-color: #00A651;
+  }
+
+  .group:hover .sm\:group-hover\:border-sukun-green border-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .group:hover .sm\:group-hover\:border-sukun-black border-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .group:focus .sm\:group-focus\:border-transparent {
@@ -37843,8 +38337,21 @@ video {
     border-color: #00A651;
   }
 
-  .group:focus .sm\:group-focus\:border-skndark {
-    border-color: #285943;
+  .group:focus .sm\:group-focus\:border-sukun-official {
+    border-color: #00A651;
+  }
+
+  .group:focus .sm\:group-focus\:border-sukun-green border-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .group:focus .sm\:group-focus\:border-sukun-black border-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .sm\:hover\:border-transparent:hover {
@@ -38307,8 +38814,21 @@ video {
     border-color: #00A651;
   }
 
-  .sm\:hover\:border-skndark:hover {
-    border-color: #285943;
+  .sm\:hover\:border-sukun-official:hover {
+    border-color: #00A651;
+  }
+
+  .sm\:hover\:border-sukun-green:hover border-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .sm\:hover\:border-sukun-black:hover border-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .sm\:focus\:border-transparent:focus {
@@ -38771,8 +39291,21 @@ video {
     border-color: #00A651;
   }
 
-  .sm\:focus\:border-skndark:focus {
-    border-color: #285943;
+  .sm\:focus\:border-sukun-official:focus {
+    border-color: #00A651;
+  }
+
+  .sm\:focus\:border-sukun-green:focus border-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .sm\:focus\:border-sukun-black:focus border-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .sm\:rounded-none {
@@ -48387,24 +48920,89 @@ video {
     color: #00A651;
   }
 
-  .sm\:placeholder-skndark::-webkit-input-placeholder {
-    color: #285943;
+  .sm\:placeholder-sukun-official::-webkit-input-placeholder {
+    color: #00A651;
   }
 
-  .sm\:placeholder-skndark::-moz-placeholder {
-    color: #285943;
+  .sm\:placeholder-sukun-official::-moz-placeholder {
+    color: #00A651;
   }
 
-  .sm\:placeholder-skndark:-ms-input-placeholder {
-    color: #285943;
+  .sm\:placeholder-sukun-official:-ms-input-placeholder {
+    color: #00A651;
   }
 
-  .sm\:placeholder-skndark::-ms-input-placeholder {
-    color: #285943;
+  .sm\:placeholder-sukun-official::-ms-input-placeholder {
+    color: #00A651;
   }
 
-  .sm\:placeholder-skndark::placeholder {
-    color: #285943;
+  .sm\:placeholder-sukun-official::placeholder {
+    color: #00A651;
+  }
+
+  .sm\:placeholder-sukun-green::-webkit-input-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .sm\:placeholder-sukun-green::-moz-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .sm\:placeholder-sukun-green:-ms-input-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .sm\:placeholder-sukun-green::-ms-input-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .sm\:placeholder-sukun-green::placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .sm\:placeholder-sukun-black::-webkit-input-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .sm\:placeholder-sukun-black::-moz-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .sm\:placeholder-sukun-black:-ms-input-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .sm\:placeholder-sukun-black::-ms-input-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .sm\:placeholder-sukun-black::placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .sm\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
@@ -50707,24 +51305,89 @@ video {
     color: #00A651;
   }
 
-  .sm\:focus\:placeholder-skndark:focus::-webkit-input-placeholder {
-    color: #285943;
+  .sm\:focus\:placeholder-sukun-official:focus::-webkit-input-placeholder {
+    color: #00A651;
   }
 
-  .sm\:focus\:placeholder-skndark:focus::-moz-placeholder {
-    color: #285943;
+  .sm\:focus\:placeholder-sukun-official:focus::-moz-placeholder {
+    color: #00A651;
   }
 
-  .sm\:focus\:placeholder-skndark:focus:-ms-input-placeholder {
-    color: #285943;
+  .sm\:focus\:placeholder-sukun-official:focus:-ms-input-placeholder {
+    color: #00A651;
   }
 
-  .sm\:focus\:placeholder-skndark:focus::-ms-input-placeholder {
-    color: #285943;
+  .sm\:focus\:placeholder-sukun-official:focus::-ms-input-placeholder {
+    color: #00A651;
   }
 
-  .sm\:focus\:placeholder-skndark:focus::placeholder {
-    color: #285943;
+  .sm\:focus\:placeholder-sukun-official:focus::placeholder {
+    color: #00A651;
+  }
+
+  .sm\:focus\:placeholder-sukun-green:focus::-webkit-input-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .sm\:focus\:placeholder-sukun-green:focus::-moz-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .sm\:focus\:placeholder-sukun-green:focus:-ms-input-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .sm\:focus\:placeholder-sukun-green:focus::-ms-input-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .sm\:focus\:placeholder-sukun-green:focus::placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .sm\:focus\:placeholder-sukun-black:focus::-webkit-input-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .sm\:focus\:placeholder-sukun-black:focus::-moz-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .sm\:focus\:placeholder-sukun-black:focus:-ms-input-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .sm\:focus\:placeholder-sukun-black:focus::-ms-input-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .sm\:focus\:placeholder-sukun-black:focus::placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .sm\:pointer-events-none {
@@ -53691,8 +54354,21 @@ video {
     color: #00A651;
   }
 
-  .sm\:text-skndark {
-    color: #285943;
+  .sm\:text-sukun-official {
+    color: #00A651;
+  }
+
+  .sm\:text-sukun-green color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .sm\:text-sukun-black color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .group:hover .sm\:group-hover\:text-transparent {
@@ -54155,8 +54831,21 @@ video {
     color: #00A651;
   }
 
-  .group:hover .sm\:group-hover\:text-skndark {
-    color: #285943;
+  .group:hover .sm\:group-hover\:text-sukun-official {
+    color: #00A651;
+  }
+
+  .group:hover .sm\:group-hover\:text-sukun-green color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .group:hover .sm\:group-hover\:text-sukun-black color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .group:focus .sm\:group-focus\:text-transparent {
@@ -54619,8 +55308,21 @@ video {
     color: #00A651;
   }
 
-  .group:focus .sm\:group-focus\:text-skndark {
-    color: #285943;
+  .group:focus .sm\:group-focus\:text-sukun-official {
+    color: #00A651;
+  }
+
+  .group:focus .sm\:group-focus\:text-sukun-green color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .group:focus .sm\:group-focus\:text-sukun-black color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .sm\:hover\:text-transparent:hover {
@@ -55083,8 +55785,21 @@ video {
     color: #00A651;
   }
 
-  .sm\:hover\:text-skndark:hover {
-    color: #285943;
+  .sm\:hover\:text-sukun-official:hover {
+    color: #00A651;
+  }
+
+  .sm\:hover\:text-sukun-green:hover color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .sm\:hover\:text-sukun-black:hover color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .sm\:focus-within\:text-transparent:focus-within {
@@ -55547,8 +56262,21 @@ video {
     color: #00A651;
   }
 
-  .sm\:focus-within\:text-skndark:focus-within {
-    color: #285943;
+  .sm\:focus-within\:text-sukun-official:focus-within {
+    color: #00A651;
+  }
+
+  .sm\:focus-within\:text-sukun-green:focus-within color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .sm\:focus-within\:text-sukun-black:focus-within color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .sm\:focus\:text-transparent:focus {
@@ -56011,8 +56739,21 @@ video {
     color: #00A651;
   }
 
-  .sm\:focus\:text-skndark:focus {
-    color: #285943;
+  .sm\:focus\:text-sukun-official:focus {
+    color: #00A651;
+  }
+
+  .sm\:focus\:text-sukun-green:focus color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .sm\:focus\:text-sukun-black:focus color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .sm\:active\:text-transparent:active {
@@ -56475,8 +57216,21 @@ video {
     color: #00A651;
   }
 
-  .sm\:active\:text-skndark:active {
-    color: #285943;
+  .sm\:active\:text-sukun-official:active {
+    color: #00A651;
+  }
+
+  .sm\:active\:text-sukun-green:active color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .sm\:active\:text-sukun-black:active color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .sm\:italic {
@@ -64147,8 +64901,21 @@ video {
     border-color: #00A651;
   }
 
-  .md\:divide-skndark > :not(template) ~ :not(template) {
-    border-color: #285943;
+  .md\:divide-sukun-official > :not(template) ~ :not(template) {
+    border-color: #00A651;
+  }
+
+  .md\:divide-sukun-green > :not(template) ~ :not(template) border-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .md\:divide-sukun-black > :not(template) ~ :not(template) border-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .md\:sr-only {
@@ -64675,8 +65442,21 @@ video {
     background-color: #00A651;
   }
 
-  .md\:bg-skndark {
-    background-color: #285943;
+  .md\:bg-sukun-official {
+    background-color: #00A651;
+  }
+
+  .md\:bg-sukun-green background-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .md\:bg-sukun-black background-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .group:hover .md\:group-hover\:bg-transparent {
@@ -65139,8 +65919,21 @@ video {
     background-color: #00A651;
   }
 
-  .group:hover .md\:group-hover\:bg-skndark {
-    background-color: #285943;
+  .group:hover .md\:group-hover\:bg-sukun-official {
+    background-color: #00A651;
+  }
+
+  .group:hover .md\:group-hover\:bg-sukun-green background-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .group:hover .md\:group-hover\:bg-sukun-black background-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .group:focus .md\:group-focus\:bg-transparent {
@@ -65603,8 +66396,21 @@ video {
     background-color: #00A651;
   }
 
-  .group:focus .md\:group-focus\:bg-skndark {
-    background-color: #285943;
+  .group:focus .md\:group-focus\:bg-sukun-official {
+    background-color: #00A651;
+  }
+
+  .group:focus .md\:group-focus\:bg-sukun-green background-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .group:focus .md\:group-focus\:bg-sukun-black background-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .md\:hover\:bg-transparent:hover {
@@ -66067,8 +66873,21 @@ video {
     background-color: #00A651;
   }
 
-  .md\:hover\:bg-skndark:hover {
-    background-color: #285943;
+  .md\:hover\:bg-sukun-official:hover {
+    background-color: #00A651;
+  }
+
+  .md\:hover\:bg-sukun-green:hover background-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .md\:hover\:bg-sukun-black:hover background-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .md\:focus\:bg-transparent:focus {
@@ -66531,8 +67350,21 @@ video {
     background-color: #00A651;
   }
 
-  .md\:focus\:bg-skndark:focus {
-    background-color: #285943;
+  .md\:focus\:bg-sukun-official:focus {
+    background-color: #00A651;
+  }
+
+  .md\:focus\:bg-sukun-green:focus background-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .md\:focus\:bg-sukun-black:focus background-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .md\:active\:bg-transparent:active {
@@ -66995,8 +67827,21 @@ video {
     background-color: #00A651;
   }
 
-  .md\:active\:bg-skndark:active {
-    background-color: #285943;
+  .md\:active\:bg-sukun-official:active {
+    background-color: #00A651;
+  }
+
+  .md\:active\:bg-sukun-green:active background-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .md\:active\:bg-sukun-black:active background-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .md\:bg-bottom {
@@ -67539,8 +68384,21 @@ video {
     border-color: #00A651;
   }
 
-  .md\:border-skndark {
-    border-color: #285943;
+  .md\:border-sukun-official {
+    border-color: #00A651;
+  }
+
+  .md\:border-sukun-green border-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .md\:border-sukun-black border-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .group:hover .md\:group-hover\:border-transparent {
@@ -68003,8 +68861,21 @@ video {
     border-color: #00A651;
   }
 
-  .group:hover .md\:group-hover\:border-skndark {
-    border-color: #285943;
+  .group:hover .md\:group-hover\:border-sukun-official {
+    border-color: #00A651;
+  }
+
+  .group:hover .md\:group-hover\:border-sukun-green border-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .group:hover .md\:group-hover\:border-sukun-black border-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .group:focus .md\:group-focus\:border-transparent {
@@ -68467,8 +69338,21 @@ video {
     border-color: #00A651;
   }
 
-  .group:focus .md\:group-focus\:border-skndark {
-    border-color: #285943;
+  .group:focus .md\:group-focus\:border-sukun-official {
+    border-color: #00A651;
+  }
+
+  .group:focus .md\:group-focus\:border-sukun-green border-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .group:focus .md\:group-focus\:border-sukun-black border-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .md\:hover\:border-transparent:hover {
@@ -68931,8 +69815,21 @@ video {
     border-color: #00A651;
   }
 
-  .md\:hover\:border-skndark:hover {
-    border-color: #285943;
+  .md\:hover\:border-sukun-official:hover {
+    border-color: #00A651;
+  }
+
+  .md\:hover\:border-sukun-green:hover border-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .md\:hover\:border-sukun-black:hover border-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .md\:focus\:border-transparent:focus {
@@ -69395,8 +70292,21 @@ video {
     border-color: #00A651;
   }
 
-  .md\:focus\:border-skndark:focus {
-    border-color: #285943;
+  .md\:focus\:border-sukun-official:focus {
+    border-color: #00A651;
+  }
+
+  .md\:focus\:border-sukun-green:focus border-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .md\:focus\:border-sukun-black:focus border-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .md\:rounded-none {
@@ -79011,24 +79921,89 @@ video {
     color: #00A651;
   }
 
-  .md\:placeholder-skndark::-webkit-input-placeholder {
-    color: #285943;
+  .md\:placeholder-sukun-official::-webkit-input-placeholder {
+    color: #00A651;
   }
 
-  .md\:placeholder-skndark::-moz-placeholder {
-    color: #285943;
+  .md\:placeholder-sukun-official::-moz-placeholder {
+    color: #00A651;
   }
 
-  .md\:placeholder-skndark:-ms-input-placeholder {
-    color: #285943;
+  .md\:placeholder-sukun-official:-ms-input-placeholder {
+    color: #00A651;
   }
 
-  .md\:placeholder-skndark::-ms-input-placeholder {
-    color: #285943;
+  .md\:placeholder-sukun-official::-ms-input-placeholder {
+    color: #00A651;
   }
 
-  .md\:placeholder-skndark::placeholder {
-    color: #285943;
+  .md\:placeholder-sukun-official::placeholder {
+    color: #00A651;
+  }
+
+  .md\:placeholder-sukun-green::-webkit-input-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .md\:placeholder-sukun-green::-moz-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .md\:placeholder-sukun-green:-ms-input-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .md\:placeholder-sukun-green::-ms-input-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .md\:placeholder-sukun-green::placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .md\:placeholder-sukun-black::-webkit-input-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .md\:placeholder-sukun-black::-moz-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .md\:placeholder-sukun-black:-ms-input-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .md\:placeholder-sukun-black::-ms-input-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .md\:placeholder-sukun-black::placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .md\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
@@ -81331,24 +82306,89 @@ video {
     color: #00A651;
   }
 
-  .md\:focus\:placeholder-skndark:focus::-webkit-input-placeholder {
-    color: #285943;
+  .md\:focus\:placeholder-sukun-official:focus::-webkit-input-placeholder {
+    color: #00A651;
   }
 
-  .md\:focus\:placeholder-skndark:focus::-moz-placeholder {
-    color: #285943;
+  .md\:focus\:placeholder-sukun-official:focus::-moz-placeholder {
+    color: #00A651;
   }
 
-  .md\:focus\:placeholder-skndark:focus:-ms-input-placeholder {
-    color: #285943;
+  .md\:focus\:placeholder-sukun-official:focus:-ms-input-placeholder {
+    color: #00A651;
   }
 
-  .md\:focus\:placeholder-skndark:focus::-ms-input-placeholder {
-    color: #285943;
+  .md\:focus\:placeholder-sukun-official:focus::-ms-input-placeholder {
+    color: #00A651;
   }
 
-  .md\:focus\:placeholder-skndark:focus::placeholder {
-    color: #285943;
+  .md\:focus\:placeholder-sukun-official:focus::placeholder {
+    color: #00A651;
+  }
+
+  .md\:focus\:placeholder-sukun-green:focus::-webkit-input-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .md\:focus\:placeholder-sukun-green:focus::-moz-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .md\:focus\:placeholder-sukun-green:focus:-ms-input-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .md\:focus\:placeholder-sukun-green:focus::-ms-input-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .md\:focus\:placeholder-sukun-green:focus::placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .md\:focus\:placeholder-sukun-black:focus::-webkit-input-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .md\:focus\:placeholder-sukun-black:focus::-moz-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .md\:focus\:placeholder-sukun-black:focus:-ms-input-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .md\:focus\:placeholder-sukun-black:focus::-ms-input-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .md\:focus\:placeholder-sukun-black:focus::placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .md\:pointer-events-none {
@@ -84315,8 +85355,21 @@ video {
     color: #00A651;
   }
 
-  .md\:text-skndark {
-    color: #285943;
+  .md\:text-sukun-official {
+    color: #00A651;
+  }
+
+  .md\:text-sukun-green color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .md\:text-sukun-black color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .group:hover .md\:group-hover\:text-transparent {
@@ -84779,8 +85832,21 @@ video {
     color: #00A651;
   }
 
-  .group:hover .md\:group-hover\:text-skndark {
-    color: #285943;
+  .group:hover .md\:group-hover\:text-sukun-official {
+    color: #00A651;
+  }
+
+  .group:hover .md\:group-hover\:text-sukun-green color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .group:hover .md\:group-hover\:text-sukun-black color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .group:focus .md\:group-focus\:text-transparent {
@@ -85243,8 +86309,21 @@ video {
     color: #00A651;
   }
 
-  .group:focus .md\:group-focus\:text-skndark {
-    color: #285943;
+  .group:focus .md\:group-focus\:text-sukun-official {
+    color: #00A651;
+  }
+
+  .group:focus .md\:group-focus\:text-sukun-green color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .group:focus .md\:group-focus\:text-sukun-black color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .md\:hover\:text-transparent:hover {
@@ -85707,8 +86786,21 @@ video {
     color: #00A651;
   }
 
-  .md\:hover\:text-skndark:hover {
-    color: #285943;
+  .md\:hover\:text-sukun-official:hover {
+    color: #00A651;
+  }
+
+  .md\:hover\:text-sukun-green:hover color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .md\:hover\:text-sukun-black:hover color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .md\:focus-within\:text-transparent:focus-within {
@@ -86171,8 +87263,21 @@ video {
     color: #00A651;
   }
 
-  .md\:focus-within\:text-skndark:focus-within {
-    color: #285943;
+  .md\:focus-within\:text-sukun-official:focus-within {
+    color: #00A651;
+  }
+
+  .md\:focus-within\:text-sukun-green:focus-within color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .md\:focus-within\:text-sukun-black:focus-within color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .md\:focus\:text-transparent:focus {
@@ -86635,8 +87740,21 @@ video {
     color: #00A651;
   }
 
-  .md\:focus\:text-skndark:focus {
-    color: #285943;
+  .md\:focus\:text-sukun-official:focus {
+    color: #00A651;
+  }
+
+  .md\:focus\:text-sukun-green:focus color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .md\:focus\:text-sukun-black:focus color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .md\:active\:text-transparent:active {
@@ -87099,8 +88217,21 @@ video {
     color: #00A651;
   }
 
-  .md\:active\:text-skndark:active {
-    color: #285943;
+  .md\:active\:text-sukun-official:active {
+    color: #00A651;
+  }
+
+  .md\:active\:text-sukun-green:active color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .md\:active\:text-sukun-black:active color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .md\:italic {
@@ -94771,8 +95902,21 @@ video {
     border-color: #00A651;
   }
 
-  .lg\:divide-skndark > :not(template) ~ :not(template) {
-    border-color: #285943;
+  .lg\:divide-sukun-official > :not(template) ~ :not(template) {
+    border-color: #00A651;
+  }
+
+  .lg\:divide-sukun-green > :not(template) ~ :not(template) border-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .lg\:divide-sukun-black > :not(template) ~ :not(template) border-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .lg\:sr-only {
@@ -95299,8 +96443,21 @@ video {
     background-color: #00A651;
   }
 
-  .lg\:bg-skndark {
-    background-color: #285943;
+  .lg\:bg-sukun-official {
+    background-color: #00A651;
+  }
+
+  .lg\:bg-sukun-green background-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .lg\:bg-sukun-black background-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .group:hover .lg\:group-hover\:bg-transparent {
@@ -95763,8 +96920,21 @@ video {
     background-color: #00A651;
   }
 
-  .group:hover .lg\:group-hover\:bg-skndark {
-    background-color: #285943;
+  .group:hover .lg\:group-hover\:bg-sukun-official {
+    background-color: #00A651;
+  }
+
+  .group:hover .lg\:group-hover\:bg-sukun-green background-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .group:hover .lg\:group-hover\:bg-sukun-black background-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .group:focus .lg\:group-focus\:bg-transparent {
@@ -96227,8 +97397,21 @@ video {
     background-color: #00A651;
   }
 
-  .group:focus .lg\:group-focus\:bg-skndark {
-    background-color: #285943;
+  .group:focus .lg\:group-focus\:bg-sukun-official {
+    background-color: #00A651;
+  }
+
+  .group:focus .lg\:group-focus\:bg-sukun-green background-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .group:focus .lg\:group-focus\:bg-sukun-black background-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .lg\:hover\:bg-transparent:hover {
@@ -96691,8 +97874,21 @@ video {
     background-color: #00A651;
   }
 
-  .lg\:hover\:bg-skndark:hover {
-    background-color: #285943;
+  .lg\:hover\:bg-sukun-official:hover {
+    background-color: #00A651;
+  }
+
+  .lg\:hover\:bg-sukun-green:hover background-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .lg\:hover\:bg-sukun-black:hover background-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .lg\:focus\:bg-transparent:focus {
@@ -97155,8 +98351,21 @@ video {
     background-color: #00A651;
   }
 
-  .lg\:focus\:bg-skndark:focus {
-    background-color: #285943;
+  .lg\:focus\:bg-sukun-official:focus {
+    background-color: #00A651;
+  }
+
+  .lg\:focus\:bg-sukun-green:focus background-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .lg\:focus\:bg-sukun-black:focus background-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .lg\:active\:bg-transparent:active {
@@ -97619,8 +98828,21 @@ video {
     background-color: #00A651;
   }
 
-  .lg\:active\:bg-skndark:active {
-    background-color: #285943;
+  .lg\:active\:bg-sukun-official:active {
+    background-color: #00A651;
+  }
+
+  .lg\:active\:bg-sukun-green:active background-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .lg\:active\:bg-sukun-black:active background-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .lg\:bg-bottom {
@@ -98163,8 +99385,21 @@ video {
     border-color: #00A651;
   }
 
-  .lg\:border-skndark {
-    border-color: #285943;
+  .lg\:border-sukun-official {
+    border-color: #00A651;
+  }
+
+  .lg\:border-sukun-green border-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .lg\:border-sukun-black border-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .group:hover .lg\:group-hover\:border-transparent {
@@ -98627,8 +99862,21 @@ video {
     border-color: #00A651;
   }
 
-  .group:hover .lg\:group-hover\:border-skndark {
-    border-color: #285943;
+  .group:hover .lg\:group-hover\:border-sukun-official {
+    border-color: #00A651;
+  }
+
+  .group:hover .lg\:group-hover\:border-sukun-green border-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .group:hover .lg\:group-hover\:border-sukun-black border-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .group:focus .lg\:group-focus\:border-transparent {
@@ -99091,8 +100339,21 @@ video {
     border-color: #00A651;
   }
 
-  .group:focus .lg\:group-focus\:border-skndark {
-    border-color: #285943;
+  .group:focus .lg\:group-focus\:border-sukun-official {
+    border-color: #00A651;
+  }
+
+  .group:focus .lg\:group-focus\:border-sukun-green border-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .group:focus .lg\:group-focus\:border-sukun-black border-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .lg\:hover\:border-transparent:hover {
@@ -99555,8 +100816,21 @@ video {
     border-color: #00A651;
   }
 
-  .lg\:hover\:border-skndark:hover {
-    border-color: #285943;
+  .lg\:hover\:border-sukun-official:hover {
+    border-color: #00A651;
+  }
+
+  .lg\:hover\:border-sukun-green:hover border-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .lg\:hover\:border-sukun-black:hover border-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .lg\:focus\:border-transparent:focus {
@@ -100019,8 +101293,21 @@ video {
     border-color: #00A651;
   }
 
-  .lg\:focus\:border-skndark:focus {
-    border-color: #285943;
+  .lg\:focus\:border-sukun-official:focus {
+    border-color: #00A651;
+  }
+
+  .lg\:focus\:border-sukun-green:focus border-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .lg\:focus\:border-sukun-black:focus border-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .lg\:rounded-none {
@@ -109635,24 +110922,89 @@ video {
     color: #00A651;
   }
 
-  .lg\:placeholder-skndark::-webkit-input-placeholder {
-    color: #285943;
+  .lg\:placeholder-sukun-official::-webkit-input-placeholder {
+    color: #00A651;
   }
 
-  .lg\:placeholder-skndark::-moz-placeholder {
-    color: #285943;
+  .lg\:placeholder-sukun-official::-moz-placeholder {
+    color: #00A651;
   }
 
-  .lg\:placeholder-skndark:-ms-input-placeholder {
-    color: #285943;
+  .lg\:placeholder-sukun-official:-ms-input-placeholder {
+    color: #00A651;
   }
 
-  .lg\:placeholder-skndark::-ms-input-placeholder {
-    color: #285943;
+  .lg\:placeholder-sukun-official::-ms-input-placeholder {
+    color: #00A651;
   }
 
-  .lg\:placeholder-skndark::placeholder {
-    color: #285943;
+  .lg\:placeholder-sukun-official::placeholder {
+    color: #00A651;
+  }
+
+  .lg\:placeholder-sukun-green::-webkit-input-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .lg\:placeholder-sukun-green::-moz-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .lg\:placeholder-sukun-green:-ms-input-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .lg\:placeholder-sukun-green::-ms-input-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .lg\:placeholder-sukun-green::placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .lg\:placeholder-sukun-black::-webkit-input-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .lg\:placeholder-sukun-black::-moz-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .lg\:placeholder-sukun-black:-ms-input-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .lg\:placeholder-sukun-black::-ms-input-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .lg\:placeholder-sukun-black::placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .lg\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
@@ -111955,24 +113307,89 @@ video {
     color: #00A651;
   }
 
-  .lg\:focus\:placeholder-skndark:focus::-webkit-input-placeholder {
-    color: #285943;
+  .lg\:focus\:placeholder-sukun-official:focus::-webkit-input-placeholder {
+    color: #00A651;
   }
 
-  .lg\:focus\:placeholder-skndark:focus::-moz-placeholder {
-    color: #285943;
+  .lg\:focus\:placeholder-sukun-official:focus::-moz-placeholder {
+    color: #00A651;
   }
 
-  .lg\:focus\:placeholder-skndark:focus:-ms-input-placeholder {
-    color: #285943;
+  .lg\:focus\:placeholder-sukun-official:focus:-ms-input-placeholder {
+    color: #00A651;
   }
 
-  .lg\:focus\:placeholder-skndark:focus::-ms-input-placeholder {
-    color: #285943;
+  .lg\:focus\:placeholder-sukun-official:focus::-ms-input-placeholder {
+    color: #00A651;
   }
 
-  .lg\:focus\:placeholder-skndark:focus::placeholder {
-    color: #285943;
+  .lg\:focus\:placeholder-sukun-official:focus::placeholder {
+    color: #00A651;
+  }
+
+  .lg\:focus\:placeholder-sukun-green:focus::-webkit-input-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .lg\:focus\:placeholder-sukun-green:focus::-moz-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .lg\:focus\:placeholder-sukun-green:focus:-ms-input-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .lg\:focus\:placeholder-sukun-green:focus::-ms-input-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .lg\:focus\:placeholder-sukun-green:focus::placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .lg\:focus\:placeholder-sukun-black:focus::-webkit-input-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .lg\:focus\:placeholder-sukun-black:focus::-moz-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .lg\:focus\:placeholder-sukun-black:focus:-ms-input-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .lg\:focus\:placeholder-sukun-black:focus::-ms-input-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .lg\:focus\:placeholder-sukun-black:focus::placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .lg\:pointer-events-none {
@@ -114939,8 +116356,21 @@ video {
     color: #00A651;
   }
 
-  .lg\:text-skndark {
-    color: #285943;
+  .lg\:text-sukun-official {
+    color: #00A651;
+  }
+
+  .lg\:text-sukun-green color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .lg\:text-sukun-black color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .group:hover .lg\:group-hover\:text-transparent {
@@ -115403,8 +116833,21 @@ video {
     color: #00A651;
   }
 
-  .group:hover .lg\:group-hover\:text-skndark {
-    color: #285943;
+  .group:hover .lg\:group-hover\:text-sukun-official {
+    color: #00A651;
+  }
+
+  .group:hover .lg\:group-hover\:text-sukun-green color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .group:hover .lg\:group-hover\:text-sukun-black color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .group:focus .lg\:group-focus\:text-transparent {
@@ -115867,8 +117310,21 @@ video {
     color: #00A651;
   }
 
-  .group:focus .lg\:group-focus\:text-skndark {
-    color: #285943;
+  .group:focus .lg\:group-focus\:text-sukun-official {
+    color: #00A651;
+  }
+
+  .group:focus .lg\:group-focus\:text-sukun-green color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .group:focus .lg\:group-focus\:text-sukun-black color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .lg\:hover\:text-transparent:hover {
@@ -116331,8 +117787,21 @@ video {
     color: #00A651;
   }
 
-  .lg\:hover\:text-skndark:hover {
-    color: #285943;
+  .lg\:hover\:text-sukun-official:hover {
+    color: #00A651;
+  }
+
+  .lg\:hover\:text-sukun-green:hover color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .lg\:hover\:text-sukun-black:hover color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .lg\:focus-within\:text-transparent:focus-within {
@@ -116795,8 +118264,21 @@ video {
     color: #00A651;
   }
 
-  .lg\:focus-within\:text-skndark:focus-within {
-    color: #285943;
+  .lg\:focus-within\:text-sukun-official:focus-within {
+    color: #00A651;
+  }
+
+  .lg\:focus-within\:text-sukun-green:focus-within color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .lg\:focus-within\:text-sukun-black:focus-within color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .lg\:focus\:text-transparent:focus {
@@ -117259,8 +118741,21 @@ video {
     color: #00A651;
   }
 
-  .lg\:focus\:text-skndark:focus {
-    color: #285943;
+  .lg\:focus\:text-sukun-official:focus {
+    color: #00A651;
+  }
+
+  .lg\:focus\:text-sukun-green:focus color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .lg\:focus\:text-sukun-black:focus color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .lg\:active\:text-transparent:active {
@@ -117723,8 +119218,21 @@ video {
     color: #00A651;
   }
 
-  .lg\:active\:text-skndark:active {
-    color: #285943;
+  .lg\:active\:text-sukun-official:active {
+    color: #00A651;
+  }
+
+  .lg\:active\:text-sukun-green:active color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .lg\:active\:text-sukun-black:active color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .lg\:italic {
@@ -125395,8 +126903,21 @@ video {
     border-color: #00A651;
   }
 
-  .xl\:divide-skndark > :not(template) ~ :not(template) {
-    border-color: #285943;
+  .xl\:divide-sukun-official > :not(template) ~ :not(template) {
+    border-color: #00A651;
+  }
+
+  .xl\:divide-sukun-green > :not(template) ~ :not(template) border-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .xl\:divide-sukun-black > :not(template) ~ :not(template) border-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .xl\:sr-only {
@@ -125923,8 +127444,21 @@ video {
     background-color: #00A651;
   }
 
-  .xl\:bg-skndark {
-    background-color: #285943;
+  .xl\:bg-sukun-official {
+    background-color: #00A651;
+  }
+
+  .xl\:bg-sukun-green background-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .xl\:bg-sukun-black background-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .group:hover .xl\:group-hover\:bg-transparent {
@@ -126387,8 +127921,21 @@ video {
     background-color: #00A651;
   }
 
-  .group:hover .xl\:group-hover\:bg-skndark {
-    background-color: #285943;
+  .group:hover .xl\:group-hover\:bg-sukun-official {
+    background-color: #00A651;
+  }
+
+  .group:hover .xl\:group-hover\:bg-sukun-green background-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .group:hover .xl\:group-hover\:bg-sukun-black background-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .group:focus .xl\:group-focus\:bg-transparent {
@@ -126851,8 +128398,21 @@ video {
     background-color: #00A651;
   }
 
-  .group:focus .xl\:group-focus\:bg-skndark {
-    background-color: #285943;
+  .group:focus .xl\:group-focus\:bg-sukun-official {
+    background-color: #00A651;
+  }
+
+  .group:focus .xl\:group-focus\:bg-sukun-green background-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .group:focus .xl\:group-focus\:bg-sukun-black background-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .xl\:hover\:bg-transparent:hover {
@@ -127315,8 +128875,21 @@ video {
     background-color: #00A651;
   }
 
-  .xl\:hover\:bg-skndark:hover {
-    background-color: #285943;
+  .xl\:hover\:bg-sukun-official:hover {
+    background-color: #00A651;
+  }
+
+  .xl\:hover\:bg-sukun-green:hover background-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .xl\:hover\:bg-sukun-black:hover background-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .xl\:focus\:bg-transparent:focus {
@@ -127779,8 +129352,21 @@ video {
     background-color: #00A651;
   }
 
-  .xl\:focus\:bg-skndark:focus {
-    background-color: #285943;
+  .xl\:focus\:bg-sukun-official:focus {
+    background-color: #00A651;
+  }
+
+  .xl\:focus\:bg-sukun-green:focus background-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .xl\:focus\:bg-sukun-black:focus background-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .xl\:active\:bg-transparent:active {
@@ -128243,8 +129829,21 @@ video {
     background-color: #00A651;
   }
 
-  .xl\:active\:bg-skndark:active {
-    background-color: #285943;
+  .xl\:active\:bg-sukun-official:active {
+    background-color: #00A651;
+  }
+
+  .xl\:active\:bg-sukun-green:active background-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .xl\:active\:bg-sukun-black:active background-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .xl\:bg-bottom {
@@ -128787,8 +130386,21 @@ video {
     border-color: #00A651;
   }
 
-  .xl\:border-skndark {
-    border-color: #285943;
+  .xl\:border-sukun-official {
+    border-color: #00A651;
+  }
+
+  .xl\:border-sukun-green border-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .xl\:border-sukun-black border-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .group:hover .xl\:group-hover\:border-transparent {
@@ -129251,8 +130863,21 @@ video {
     border-color: #00A651;
   }
 
-  .group:hover .xl\:group-hover\:border-skndark {
-    border-color: #285943;
+  .group:hover .xl\:group-hover\:border-sukun-official {
+    border-color: #00A651;
+  }
+
+  .group:hover .xl\:group-hover\:border-sukun-green border-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .group:hover .xl\:group-hover\:border-sukun-black border-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .group:focus .xl\:group-focus\:border-transparent {
@@ -129715,8 +131340,21 @@ video {
     border-color: #00A651;
   }
 
-  .group:focus .xl\:group-focus\:border-skndark {
-    border-color: #285943;
+  .group:focus .xl\:group-focus\:border-sukun-official {
+    border-color: #00A651;
+  }
+
+  .group:focus .xl\:group-focus\:border-sukun-green border-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .group:focus .xl\:group-focus\:border-sukun-black border-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .xl\:hover\:border-transparent:hover {
@@ -130179,8 +131817,21 @@ video {
     border-color: #00A651;
   }
 
-  .xl\:hover\:border-skndark:hover {
-    border-color: #285943;
+  .xl\:hover\:border-sukun-official:hover {
+    border-color: #00A651;
+  }
+
+  .xl\:hover\:border-sukun-green:hover border-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .xl\:hover\:border-sukun-black:hover border-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .xl\:focus\:border-transparent:focus {
@@ -130643,8 +132294,21 @@ video {
     border-color: #00A651;
   }
 
-  .xl\:focus\:border-skndark:focus {
-    border-color: #285943;
+  .xl\:focus\:border-sukun-official:focus {
+    border-color: #00A651;
+  }
+
+  .xl\:focus\:border-sukun-green:focus border-color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .xl\:focus\:border-sukun-black:focus border-color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .xl\:rounded-none {
@@ -140259,24 +141923,89 @@ video {
     color: #00A651;
   }
 
-  .xl\:placeholder-skndark::-webkit-input-placeholder {
-    color: #285943;
+  .xl\:placeholder-sukun-official::-webkit-input-placeholder {
+    color: #00A651;
   }
 
-  .xl\:placeholder-skndark::-moz-placeholder {
-    color: #285943;
+  .xl\:placeholder-sukun-official::-moz-placeholder {
+    color: #00A651;
   }
 
-  .xl\:placeholder-skndark:-ms-input-placeholder {
-    color: #285943;
+  .xl\:placeholder-sukun-official:-ms-input-placeholder {
+    color: #00A651;
   }
 
-  .xl\:placeholder-skndark::-ms-input-placeholder {
-    color: #285943;
+  .xl\:placeholder-sukun-official::-ms-input-placeholder {
+    color: #00A651;
   }
 
-  .xl\:placeholder-skndark::placeholder {
-    color: #285943;
+  .xl\:placeholder-sukun-official::placeholder {
+    color: #00A651;
+  }
+
+  .xl\:placeholder-sukun-green::-webkit-input-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .xl\:placeholder-sukun-green::-moz-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .xl\:placeholder-sukun-green:-ms-input-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .xl\:placeholder-sukun-green::-ms-input-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .xl\:placeholder-sukun-green::placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .xl\:placeholder-sukun-black::-webkit-input-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .xl\:placeholder-sukun-black::-moz-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .xl\:placeholder-sukun-black:-ms-input-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .xl\:placeholder-sukun-black::-ms-input-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .xl\:placeholder-sukun-black::placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .xl\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
@@ -142579,24 +144308,89 @@ video {
     color: #00A651;
   }
 
-  .xl\:focus\:placeholder-skndark:focus::-webkit-input-placeholder {
-    color: #285943;
+  .xl\:focus\:placeholder-sukun-official:focus::-webkit-input-placeholder {
+    color: #00A651;
   }
 
-  .xl\:focus\:placeholder-skndark:focus::-moz-placeholder {
-    color: #285943;
+  .xl\:focus\:placeholder-sukun-official:focus::-moz-placeholder {
+    color: #00A651;
   }
 
-  .xl\:focus\:placeholder-skndark:focus:-ms-input-placeholder {
-    color: #285943;
+  .xl\:focus\:placeholder-sukun-official:focus:-ms-input-placeholder {
+    color: #00A651;
   }
 
-  .xl\:focus\:placeholder-skndark:focus::-ms-input-placeholder {
-    color: #285943;
+  .xl\:focus\:placeholder-sukun-official:focus::-ms-input-placeholder {
+    color: #00A651;
   }
 
-  .xl\:focus\:placeholder-skndark:focus::placeholder {
-    color: #285943;
+  .xl\:focus\:placeholder-sukun-official:focus::placeholder {
+    color: #00A651;
+  }
+
+  .xl\:focus\:placeholder-sukun-green:focus::-webkit-input-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .xl\:focus\:placeholder-sukun-green:focus::-moz-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .xl\:focus\:placeholder-sukun-green:focus:-ms-input-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .xl\:focus\:placeholder-sukun-green:focus::-ms-input-placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .xl\:focus\:placeholder-sukun-green:focus::placeholder color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .xl\:focus\:placeholder-sukun-black:focus::-webkit-input-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .xl\:focus\:placeholder-sukun-black:focus::-moz-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .xl\:focus\:placeholder-sukun-black:focus:-ms-input-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .xl\:focus\:placeholder-sukun-black:focus::-ms-input-placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
+  }
+
+  .xl\:focus\:placeholder-sukun-black:focus::placeholder color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .xl\:pointer-events-none {
@@ -145563,8 +147357,21 @@ video {
     color: #00A651;
   }
 
-  .xl\:text-skndark {
-    color: #285943;
+  .xl\:text-sukun-official {
+    color: #00A651;
+  }
+
+  .xl\:text-sukun-green color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .xl\:text-sukun-black color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .group:hover .xl\:group-hover\:text-transparent {
@@ -146027,8 +147834,21 @@ video {
     color: #00A651;
   }
 
-  .group:hover .xl\:group-hover\:text-skndark {
-    color: #285943;
+  .group:hover .xl\:group-hover\:text-sukun-official {
+    color: #00A651;
+  }
+
+  .group:hover .xl\:group-hover\:text-sukun-green color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .group:hover .xl\:group-hover\:text-sukun-black color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .group:focus .xl\:group-focus\:text-transparent {
@@ -146491,8 +148311,21 @@ video {
     color: #00A651;
   }
 
-  .group:focus .xl\:group-focus\:text-skndark {
-    color: #285943;
+  .group:focus .xl\:group-focus\:text-sukun-official {
+    color: #00A651;
+  }
+
+  .group:focus .xl\:group-focus\:text-sukun-green color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .group:focus .xl\:group-focus\:text-sukun-black color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .xl\:hover\:text-transparent:hover {
@@ -146955,8 +148788,21 @@ video {
     color: #00A651;
   }
 
-  .xl\:hover\:text-skndark:hover {
-    color: #285943;
+  .xl\:hover\:text-sukun-official:hover {
+    color: #00A651;
+  }
+
+  .xl\:hover\:text-sukun-green:hover color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .xl\:hover\:text-sukun-black:hover color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .xl\:focus-within\:text-transparent:focus-within {
@@ -147419,8 +149265,21 @@ video {
     color: #00A651;
   }
 
-  .xl\:focus-within\:text-skndark:focus-within {
-    color: #285943;
+  .xl\:focus-within\:text-sukun-official:focus-within {
+    color: #00A651;
+  }
+
+  .xl\:focus-within\:text-sukun-green:focus-within color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .xl\:focus-within\:text-sukun-black:focus-within color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .xl\:focus\:text-transparent:focus {
@@ -147883,8 +149742,21 @@ video {
     color: #00A651;
   }
 
-  .xl\:focus\:text-skndark:focus {
-    color: #285943;
+  .xl\:focus\:text-sukun-official:focus {
+    color: #00A651;
+  }
+
+  .xl\:focus\:text-sukun-green:focus color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .xl\:focus\:text-sukun-black:focus color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .xl\:active\:text-transparent:active {
@@ -148347,8 +150219,21 @@ video {
     color: #00A651;
   }
 
-  .xl\:active\:text-skndark:active {
-    color: #285943;
+  .xl\:active\:text-sukun-official:active {
+    color: #00A651;
+  }
+
+  .xl\:active\:text-sukun-green:active color {
+    100: #D7FFF1;
+    200: #8CD790;
+    300: #77AF9C;
+    400: #285943;
+  }
+
+  .xl\:active\:text-sukun-black:active color {
+    100: #777777;
+    200: #444444;
+    300: #242424;
   }
 
   .xl\:italic {
