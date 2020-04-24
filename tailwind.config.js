@@ -6,6 +6,7 @@ module.exports = {
                     light: '#8CD790',
                     dark: '#00A651',
                 },
+                skndark:'#285943',
             },
         },
     },
