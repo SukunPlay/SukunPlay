@@ -207,7 +207,7 @@
                     </div>
 
                     <div class=" px-2 pt-10">
-                        <div class="bg-gray-400 h-48" style="width: 450px">AD slot</div>
+                        <div class="bg-gray-400 h-48" style="width: 445px">AD slot</div>
                     </div>
 
                     <div class=" px-2 pt-10">
@@ -251,7 +251,7 @@
                     </div>
 
                     <div class=" px-2 pt-10">
-                        <div class="bg-gray-400 h-48" style="width: 450px"> AD Slot</div>
+                        <div class="bg-gray-400 h-48" style="width: 445px"> AD Slot</div>
                     </div>
 
 
