@@ -115,7 +115,7 @@
 
                 <div
                     class="flex w-3/6 mr-8 border-t border-b border-sukungreen-300 sdirm items-center text-sukungreen-600">
-                    <div class="">
+                    <div class="mr-5">
                         <p>ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                     </div>
                 </div>
