@@ -220,7 +220,8 @@
                     </div>
 
                     <div class=" px-2 pt-10">
-                        <div class="bg-gray-400 h-56" style="width: 467px">AD slot</div>
+                        <div class="h-56 bg-cover bg-center" style="width: 467px; background-image:url('{{asset('horizontal.jpg')}}')">
+                        </div>
                     </div>
 
                     <div class=" px-2 pt-10">
@@ -270,13 +271,12 @@
                     </div>
 
                     <div class=" px-2 pt-10">
-                        <div class="bg-gray-400 h-56" style="width: 467px">AD slot</div>
+                        <div class="h-56 bg-cover bg-center" style="width: 467px; background-image:url('{{asset('horizontal.jpg')}}')">
+                        </div>
                     </div>
-
                 </div>
-            </div>
 
-        </div>
+            </div>
     </section>
 
 
