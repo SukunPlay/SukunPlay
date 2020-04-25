@@ -5,7 +5,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>SukunPlay</title>
+    <link rel="icon" type="image/x-icon" href="{{asset('playbutton.svg')}}"/>
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <style>
         @font-face {
@@ -122,7 +123,7 @@
 
                 <div class="w-1/6 flex mr-8 align-middle items-center justify-center p-1 ">
 
-                    <div class="flex border border-sukungreen-300 bg-sukungreen-200 hover:bg-sukungreen-100">
+                    <div class="flex border border-sukungreen-300 bg-sukungreen-200 hover:bg-sukungreen-100 cursor-pointer text-sukungreen-600">
                         <div style="font-family: MVAWAHEED; direction: rtl;" class="mr-2 pl-4 pt-3 pb-2 ">
                             ހާއްސަ ވީޑިއޯ
 
@@ -144,21 +145,17 @@
                 </div>
 
 
-                <div class="flex w-2/6 border-t border-b border-sukungreen-300 justify-between items-center sdirm">
-                    <div>
-                        <div class="bg-sukungreen-200 pt-2 pb-1 mr-3 pr-2 pl-2">
-                            asdasd
-                        </div>
+                <div class="flex w-2/6 border-t border-b border-sukungreen-300 justify-between items-center sdirm text-sukungreen-600">
+                    <div class="bg-sukungreen-200 pt-2 pb-1 mr-3 pr-2 pl-2 rounded-sm cursor-not-allowed">
+                        އެންމެ ފަހުގެ ވީޑިއޯ
                     </div>
 
-
-                    <div class="pt-2 pb-1">
-                        emmme
+                    <div class="pt-2 pb-1 mr-3 pr-2 pl-2 hover:bg-gray-200 rounded-sm cursor-pointer">
+                        އެންމެ މަޝްހޫރު
                     </div>
 
-                    <div class="pt-2 pb-1 ml-5">
-msadas
-
+                    <div class="pt-2 pb-1 ml-5 mr-3 pr-2 pl-2 hover:bg-gray-200 rounded-sm cursor-pointer">
+                        ހުރިހާ ވީޑިއޯ
                     </div>
 
 
