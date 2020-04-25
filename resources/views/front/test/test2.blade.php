@@ -17,13 +17,23 @@
             font-family: AAMUFKF;
             src: url('{{ asset('fonts/AAMMUFKF.TTF') }}');
         }
+
+        .sdirm {
+            direction: rtl;
+            font-family: MVAWAHEED;
+        }
+
+        .sdira {
+            direction: rtl;
+            font-family: AAMUFKF;
+        }
     </style>
 
     <script src="{{asset('js/app.js')}}"></script>
 
 </head>
 <body>
-<div class="hidden xl:block">
+<div class="">
     <section class="bg-sukun-official">
         <div class="container mx-auto px-10">
             <div class="flex justify-between pb-4 pt-4">
@@ -61,45 +71,103 @@
     </section>
 
     <section>
-      <div class="container mx-auto px-10">
-          <div class="flex justify-between bg-gray-100 mt-10 pt-2 pb-2 pr-8 pl-8 text-sukungreen-400 items-center" style="direction: rtl; font-family: MVAWAHEED">
-              <div class="w-1/4 text-2xl" style="font-family: AAMUFKF">
-                  މިއަދުގެ ނަމާދު ވަގުތު
-              </div>
-              <div class="flex">
-                  ފަތިސް
-                  <div class="bg-white align-middle mr-2 rounded-sm" style="font-family: '.SF NS'">
-                      <p class="pr-2 pl-2">19:34</p>
-                  </div>
-              </div>
-              <div class="flex">
-                  މެންދުރު
-                  <div class="bg-white align-middle mr-2 rounded-sm" style="font-family: '.SF NS'">
-                      <p class="pr-2 pl-2">19:34</p>
-                  </div>
-              </div>
-              <div class="flex">
-                  އަސުރު
-                  <div class="bg-white align-middle mr-2 rounded-sm" style="font-family: '.SF NS'">
-                      <p class="pr-2 pl-2">19:34</p>
-                  </div>
-              </div>
-              <div class="flex">
-                  މަޢްރިބު
-                  <div class="bg-white align-middle mr-2 rounded-sm" style="font-family: '.SF NS'">
-                      <p class="pr-2 pl-2">19:34</p>
-                  </div>
-              </div>
-              <div class="flex">
-                  އިޝާ
-                  <div class="bg-white align-middle mr-2 rounded-sm" style="font-family: '.SF NS'">
-                      <p class="pr-2 pl-2">19:34</p>
-                  </div>
-              </div>
+        <div class="container mx-auto px-10">
+            <div class="flex justify-between bg-gray-100 mt-10 pt-2 pb-2 pr-8 pl-8 text-sukungreen-600 items-center"
+                 style="direction: rtl; font-family: MVAWAHEED">
+                <div class="w-1/4 lg:text-2xl md:text-xl text-sm" style="font-family: AAMUFKF">
+                    މިއަދުގެ ނަމާދު ވަގުތު
+                </div>
+                <div class="flex">
+                    ފަތިސް
+                    <div class="bg-white align-middle mr-2 rounded-sm" style="font-family: '.SF NS'">
+                        <p class="pr-2 pl-2">19:34</p>
+                    </div>
+                </div>
+                <div class="flex">
+                    މެންދުރު
+                    <div class="bg-white align-middle mr-2 rounded-sm" style="font-family: '.SF NS'">
+                        <p class="pr-2 pl-2">19:34</p>
+                    </div>
+                </div>
+                <div class="flex">
+                    އަސުރު
+                    <div class="bg-white align-middle mr-2 rounded-sm" style="font-family: '.SF NS'">
+                        <p class="pr-2 pl-2">19:34</p>
+                    </div>
+                </div>
+                <div class="flex">
+                    މަޢްރިބު
+                    <div class="bg-white align-middle mr-2 rounded-sm" style="font-family: '.SF NS'">
+                        <p class="pr-2 pl-2">19:34</p>
+                    </div>
+                </div>
+                <div class="flex">
+                    އިޝާ
+                    <div class="bg-white align-middle mr-2 rounded-sm" style="font-family: '.SF NS'">
+                        <p class="pr-2 pl-2">19:34</p>
+                    </div>
+                </div>
 
 
-          </div>
-      </div>
+            </div>
+
+            <div class="flex pt-8">
+
+                <div
+                    class="flex w-3/6 mr-8 border-t border-b border-sukungreen-300 sdirm items-center text-sukungreen-600">
+                    <div class="">
+                        <p>ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
+                    </div>
+                </div>
+
+                <div class="w-1/6 flex mr-8 align-middle items-center justify-center p-1 ">
+
+                    <div class="flex border border-sukungreen-300 bg-sukungreen-200 hover:bg-sukungreen-100">
+                        <div style="font-family: MVAWAHEED; direction: rtl;" class="mr-2 pl-4 pt-3 pb-2 ">
+                            ހާއްސަ ވީޑިއޯ
+
+                        </div>
+                        <div style="" class="pt-2 pb-2 pr-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 54 54">
+                                <g transform="translate(-19.76 -8.34)">
+                                    <circle cx="27" cy="27" r="27" transform="translate(19.76 8.34)" fill="#fff"/>
+                                    <circle cx="23.039" cy="23.039" r="23.039" transform="translate(23.721 12.301)"
+                                            fill="#06a64f"/>
+                                    <path d="M100.116,67.142,81.17,56.46V77.827Z" transform="translate(-40.585 -31.802)"
+                                          fill="#fff"/>
+                                </g>
+                            </svg>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="flex w-2/6 border-t border-b border-sukungreen-300 justify-between items-center sdirm">
+                    <div>
+                        <div class="bg-sukungreen-200 pt-2 pb-1 mr-3 pr-2 pl-2">
+                            asdasd
+                        </div>
+                    </div>
+
+
+                    <div class="pt-2 pb-1">
+                        emmme
+                    </div>
+
+                    <div class="pt-2 pb-1 ml-5">
+msadas
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
     </section>
 
 
