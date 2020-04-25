@@ -34,6 +34,7 @@
 
 </head>
 <body>
+
 <div class="">
     <section class="bg-sukun-official">
         <div class="container mx-auto px-10">
@@ -112,7 +113,7 @@
 
             </div>
 
-            <div class="flex pt-8">
+            <div class="flex pt-10">
 
                 <div
                     class="flex w-3/6 mr-8 border-t border-b border-sukungreen-300 sdirm items-center text-sukungreen-600">
@@ -162,6 +163,99 @@
                 </div>
 
 
+            </div>
+
+            <div class="flex pt-10">
+                <div class="w-2/12 bg-gray-400" style=""></div>
+                <div class="w-1/12 h-12"></div>
+                <div class="bg-gray-400 " style="height: 450px ;width: 450px"></div>
+                <div class="bg-gray-500" style="height: 450px;width: 450px"></div>
+
+            </div>
+
+            <div class="">
+                <div class="flex -mx-2 justify-between flex-wrap">
+                    <div class=" px-2 pt-10">
+                        <div class="bg-gray-500 h-48 w-48 "></div>
+                    </div>
+                    <div class=" px-2 pt-10">
+                        <div class="bg-gray-400 h-48 w-48 "></div>
+                    </div>
+                    <div class=" px-2 pt-10">
+                        <div class="bg-gray-500 h-48 w-48 "></div>
+                    </div>
+                    <div class=" px-2 pt-10">
+                        <div class="bg-gray-400 h-48 w-48 "></div>
+                    </div>
+                    <div class=" px-2 pt-10">
+                        <div class="bg-gray-500 h-48 w-48 "></div>
+                    </div>
+                    <div class=" px-2 pt-10">
+                        <div class="bg-gray-500 h-48 w-48 "></div>
+                    </div>
+                    <div class=" px-2 pt-10">
+                        <div class="bg-gray-400 h-48 w-48 "></div>
+                    </div>
+                    <div class=" px-2 pt-10">
+                        <div class="bg-gray-500 h-48 w-48 "></div>
+                    </div>
+                    <div class=" px-2 pt-10">
+                        <div class="bg-gray-400 h-48 w-48 "></div>
+                    </div>
+                    <div class=" px-2 pt-10">
+                        <div class="bg-gray-500 h-48 w-48 "></div>
+                    </div>
+
+                    <div class=" px-2 pt-10">
+                        <div class="bg-gray-400 h-48" style="width: 450px">AD slot</div>
+                    </div>
+
+                    <div class=" px-2 pt-10">
+                        <div class="bg-gray-500 h-48 w-48 "></div>
+                    </div>
+                    <div class=" px-2 pt-10">
+                        <div class="bg-gray-400 h-48 w-48 "></div>
+                    </div>
+                    <div class=" px-2 pt-10">
+                        <div class="bg-gray-500 h-48 w-48 "></div>
+                    </div>
+                    <div class=" px-2 pt-10">
+                        <div class="bg-gray-500 h-48 w-48 "></div>
+                    </div>
+                    <div class=" px-2 pt-10">
+                        <div class="bg-gray-400 h-48 w-48 "></div>
+                    </div>
+                    <div class=" px-2 pt-10">
+                        <div class="bg-gray-500 h-48 w-48 "></div>
+                    </div>
+                    <div class=" px-2 pt-10">
+                        <div class="bg-gray-400 h-48 w-48 "></div>
+                    </div>
+                    <div class=" px-2 pt-10">
+                        <div class="bg-gray-500 h-48 w-48 "></div>
+                    </div>
+                    <div class=" px-2 pt-10">
+                        <div class="bg-gray-500 h-48 w-48 "></div>
+                    </div>
+                    <div class=" px-2 pt-10">
+                        <div class="bg-gray-400 h-48 w-48 "></div>
+                    </div>
+                    <div class=" px-2 pt-10">
+                        <div class="bg-gray-500 h-48 w-48 "></div>
+                    </div>
+                    <div class=" px-2 pt-10">
+                        <div class="bg-gray-400 h-48 w-48 "></div>
+                    </div>
+                    <div class=" px-2 pt-10">
+                        <div class="bg-gray-500 h-48 w-48 "></div>
+                    </div>
+
+                    <div class=" px-2 pt-10">
+                        <div class="bg-gray-400 h-48" style="width: 450px"> AD Slot</div>
+                    </div>
+
+
+                </div>
             </div>
 
         </div>
