@@ -166,7 +166,11 @@
             </div>
 
             <div class="flex pt-10">
-                <div class="w-2/12 bg-gray-600" style=""></div>
+                <div class="w-2/12">
+                    <div class="bg-img-cover bg-center" style="background-image: {{asset('vertical.jpg')}}">
+
+                    </div>
+                </div>
                 <div class="bg-gray-400 " style="height: 500px ;width: 500px"></div>
                 <div class="bg-gray-500" style="height: 500px;width: 500px"></div>
 
