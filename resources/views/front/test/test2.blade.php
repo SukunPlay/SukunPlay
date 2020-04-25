@@ -166,12 +166,8 @@
             </div>
 
             <div class="flex pt-10">
-                <div class="w-2/12">
-                    <div class="bg-img-cover bg-center" style="background-image: {{asset('vertical.jpg')}}">
-
-                    </div>
-                </div>
-                <div class="bg-gray-400 " style="height: 500px ;width: 500px"></div>
+                <div class="w-2/12 bg-cover bg-center" style="height: 500px; background-image: url('{{asset('vertical.jpg')}}')"></div>
+                <div class="bg-cover bg-center " style="height: 500px ;width: 500px; background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')"></div>
                 <div class="bg-gray-500" style="height: 500px;width: 500px"></div>
 
             </div>
@@ -248,7 +244,7 @@
                     </div>
 
                     <div class=" px-2 pt-10">
-                        <div class="bg-gray-400 h-56" style="width: 470px">AD slot</div>
+                        <div class="bg-gray-400 h-auto" style="width: 470px">AD slot</div>
                     </div>
 
 
