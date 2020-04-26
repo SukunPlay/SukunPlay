@@ -168,7 +168,7 @@
             </div>
 
             <div class="flex mt-10 shadow-md">
-                <div class="w-2/12 bg-cover bg-center"
+                <div class="w-3/12 bg-cover bg-center"
                      style="height: 500px; background-image: url('{{asset('vertical.jpg')}}')"></div>
                 <div class="bg-cover bg-center "
                      style="height: 500px ;width: 500px; background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')"></div>
