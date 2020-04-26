@@ -74,7 +74,7 @@
 
     <section>
         <div class="container mx-auto px-10">
-            <div class="flex justify-between bg-gray-100 mt-10 pt-2 pb-2 pr-8 pl-8 text-sukungreen-600 items-center shadow-md"
+            <div class="flex justify-between bg-gray-100 mt-10 pt-2 pb-2 pr-8 pl-8 text-sukungreen-600 items-center shadow"
                  style="direction: rtl; font-family: MVAWAHEED">
                 <div class="w-1/4 lg:text-2xl md:text-xl text-sm" style="font-family: AAMUFKF">
                     މިއަދުގެ ނަމާދު ވަގުތު
