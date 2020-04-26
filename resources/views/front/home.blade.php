@@ -749,7 +749,7 @@
                                     <div class="row no-gutters">
                                         <div class="col-12 col-md-12 col-lg-8 col-xl-8"
                                              style="margine-left:-1px;">
-                                            <video controls autoplay muted width="100%" height="100%"
+                                            <video controls autoplay preload="auto" muted width="100%" height="100%"
                                                    class="sukun vid"
                                                    style="margin-bottom:-6px;">
                                                 <source src="">
@@ -1419,30 +1419,29 @@
 
             var video = document.getElementsByClassName('sukun');
 
-            // $.ajax({
-            //     type: "get", url: url,
-            //     success: function (data, text) {
-            //         video[0].src = url;
-            //     },
-            //     error: function (request, status, error) {
-            //         $.ajax({
-            //             type: "get", url: "/refreshvideo/".concat(xid),
-            //             success: function (data, text) {
-            //                 //...
-            //                 url = data;
-            //                 video[0].src = data;
-            //             },
-            //             error: function (request, status, error) {
-            //
-            //
-            //             }
-            //         });
-            //
-            //     }
-            // });
+            $.ajax({
+                type: "get", url: url,
+                success: function (data, text) {
+                    video[0].src = url;
+                },
+                error: function (request, status, error) {
+                    $.ajax({
+                        type: "get", url: "/refreshvideo/".concat(xid),
+                        success: function (data, text) {
+
+                            video[0].src = data;
+                        },
+                        error: function (request, status, error) {
 
 
-            video[0].src = url;
+                        }
+                    });
+
+                }
+            });
+
+
+            // video[0].src = url;
             video[0].play();
 
         }).on('hide.bs.modal', function (e) {
