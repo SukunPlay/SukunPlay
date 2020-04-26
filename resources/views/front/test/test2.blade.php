@@ -157,9 +157,9 @@
                         އެންމެ މަޝްހޫރު
                     </div>
 
-                    <div class="pt-2 pb-1 ml-5 mr-3 pr-2 pl-2 hover:bg-gray-200 rounded-sm cursor-pointer">
+                    <a class="pt-2 pb-1 ml-5 mr-3 pr-2 pl-2 hover:bg-gray-200 rounded-sm cursor-pointer" href="#all">
                         ހުރިހާ ވީޑިއޯ
-                    </div>
+                    </a>
 
 
                 </div>
@@ -226,7 +226,7 @@
     </section>
 
     <section class="bg-gray-100 mt-10">
-        <div class="container mx-auto px-10">
+        <div class="container mx-auto px-10 " id="all">
 
             <div class="sdirm pt-10">
                 <h1 class="text-sukungreen-600 text-center" style="font-size: 25px">ހުރިހާ ވީޑިއޯ</h1>
