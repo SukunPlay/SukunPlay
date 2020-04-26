@@ -39,7 +39,7 @@
     <section class="bg-sukun-official">
         <div class="container mx-auto px-10">
             <div class="flex justify-between pb-4 pt-4">
-                <div class="flex rounded-full border-solid border hover:bg-sukungreen-200">
+                <div class="flex rounded-full border-solid border hover:bg-sukungreen-200 focus:bg-sukungreen-200">
                     <div class="p-1">
                         <svg xmlns="http://www.w3.org/2000/svg" width="21.555" height="21.555"
                              viewBox="0 0 21.555 21.555">
@@ -303,6 +303,7 @@
                 </div>
 
             </div>
+        </div>
     </section>
 
 

@@ -9244,6 +9244,30 @@ video {
   order: 12;
 }
 
+.order-13 {
+  order: 13;
+}
+
+.order-14 {
+  order: 14;
+}
+
+.order-15 {
+  order: 15;
+}
+
+.order-16 {
+  order: 16;
+}
+
+.order-17 {
+  order: 17;
+}
+
+.order-18 {
+  order: 18;
+}
+
 .order-first {
   order: -9999;
 }
@@ -40909,6 +40933,30 @@ video {
 
   .sm\:order-12 {
     order: 12;
+  }
+
+  .sm\:order-13 {
+    order: 13;
+  }
+
+  .sm\:order-14 {
+    order: 14;
+  }
+
+  .sm\:order-15 {
+    order: 15;
+  }
+
+  .sm\:order-16 {
+    order: 16;
+  }
+
+  .sm\:order-17 {
+    order: 17;
+  }
+
+  .sm\:order-18 {
+    order: 18;
   }
 
   .sm\:order-first {
@@ -72579,6 +72627,30 @@ video {
     order: 12;
   }
 
+  .md\:order-13 {
+    order: 13;
+  }
+
+  .md\:order-14 {
+    order: 14;
+  }
+
+  .md\:order-15 {
+    order: 15;
+  }
+
+  .md\:order-16 {
+    order: 16;
+  }
+
+  .md\:order-17 {
+    order: 17;
+  }
+
+  .md\:order-18 {
+    order: 18;
+  }
+
   .md\:order-first {
     order: -9999;
   }
@@ -104247,6 +104319,30 @@ video {
     order: 12;
   }
 
+  .lg\:order-13 {
+    order: 13;
+  }
+
+  .lg\:order-14 {
+    order: 14;
+  }
+
+  .lg\:order-15 {
+    order: 15;
+  }
+
+  .lg\:order-16 {
+    order: 16;
+  }
+
+  .lg\:order-17 {
+    order: 17;
+  }
+
+  .lg\:order-18 {
+    order: 18;
+  }
+
   .lg\:order-first {
     order: -9999;
   }
@@ -135913,6 +136009,30 @@ video {
 
   .xl\:order-12 {
     order: 12;
+  }
+
+  .xl\:order-13 {
+    order: 13;
+  }
+
+  .xl\:order-14 {
+    order: 14;
+  }
+
+  .xl\:order-15 {
+    order: 15;
+  }
+
+  .xl\:order-16 {
+    order: 16;
+  }
+
+  .xl\:order-17 {
+    order: 17;
+  }
+
+  .xl\:order-18 {
+    order: 18;
   }
 
   .xl\:order-first {
