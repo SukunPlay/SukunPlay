@@ -38,7 +38,14 @@
 
 </head>
 <body>
-
+<div class="text-center">
+    screen size:
+<p class="block sm:hidden md:hidden lg:hidden xl:hidden ">phone</p>
+<p class="hidden sm:block md:hidden lg:hidden xl:hidden ">small</p>
+<p class="hidden sm:hidden md:block lg:hidden xl:hidden ">medium</p>
+<p class="hidden sm:hidden md:hidden lg:block xl:hidden ">large</p>
+<p class="hidden sm:hidden md:hidden lg:hidden xl:block ">extra large</p>
+</div>
 <div class="block sm:block md:block lg:block xl:block">
     <section class="bg-sukun-official">
         <div class="container mx-auto px-10">
@@ -75,6 +82,8 @@
             </div>
         </div>
     </section>
+
+
 
     <section>
         <div class="container mx-auto px-10">
