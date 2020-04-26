@@ -28,6 +28,10 @@
             direction: rtl;
             font-family: AAMUFKF;
         }
+
+        html{
+            scroll-behavior: smooth;
+        }
     </style>
 
     <script src="{{asset('js/app.js')}}"></script>
