@@ -225,6 +225,8 @@
         </div>
     </section>
 
+
+
     <section class="bg-gray-100 mt-10">
         <div class="container mx-auto px-10 " id="all">
 
