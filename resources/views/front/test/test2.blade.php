@@ -39,7 +39,7 @@
 </head>
 <body>
 
-<div class="">
+<div class="block sm:hidden md:hidden lg:hidden xl:hidden">
     <section class="bg-sukun-official">
         <div class="container mx-auto px-10">
             <div class="flex justify-between pb-4 pt-4">
