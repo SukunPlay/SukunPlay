@@ -730,7 +730,8 @@
         <section class="" style="background-color: #f2f2f2">
             <div class="container justify-content-center pt-3 pt-lg-5 pt-sm-3 pt-md-5 pb-3">
                 <div class="justify-content-center d-flex">
-                    <h6 class="mb-0" style="font-family: MVAWAHEED; text-align: right; font-size: 25px;direction: rtl">ހުރިހާ
+                    <h6 class="mb-0" style="font-family: MVAWAHEED; text-align: right; font-size: 25px;direction: rtl">
+                        ހުރިހާ
                         ވީޑިއޯ</h6>
                 </div>
 
@@ -1084,7 +1085,8 @@
                     </div>
 
                     <div class="col-6" style="text-align: right">
-                        <p style="font-family: MVAWAHEED;margin-bottom: 0px; direction: rtl">ހ. އޯލްވޭސް ހެޕީ ހައުސް، ފުރަތަމަ
+                        <p style="font-family: MVAWAHEED;margin-bottom: 0px; direction: rtl">ހ. އޯލްވޭސް ހެޕީ ހައުސް،
+                            ފުރަތަމަ
                             ފަންގިފިލާ، އަބަދަށް އުފާ
                             ހިނގުން، 20038، މާލެ، ދިވެހިރާއްޖެ</p>
                         <p style="font-family: MVAWAHEED;margin-bottom: 0px; direction: rtl"> &#x202b;އީމެއިލް :&nbsp;<a
@@ -1192,7 +1194,8 @@
 
 
                     <div class="col-12" style="text-align: center; direction: rtl">
-                        <p style="font-family: MVAWAHEED;margin-bottom: 0px; direction: rtl">ހ. އޯލްވޭސް ހެޕީ ހައުސް، ފުރަތަމަ
+                        <p style="font-family: MVAWAHEED;margin-bottom: 0px; direction: rtl">ހ. އޯލްވޭސް ހެޕީ ހައުސް،
+                            ފުރަތަމަ
                             ފަންގިފިލާ، އަބަދަށް އުފާ
                             ހިނގުން، 20038، މާލެ، ދިވެހިރާއްޖެ</p>
                         <p style="font-family: MVAWAHEED;margin-bottom: 0px;direction: rtl"> &#x202b;އީމެއިލް :&nbsp;<a

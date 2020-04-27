@@ -29,7 +29,7 @@
             font-family: AAMUFKF;
         }
 
-        html{
+        html {
             scroll-behavior: smooth;
         }
     </style>
@@ -40,11 +40,11 @@
 <body>
 <div class="text-center">
     screen size:
-<p class="block sm:hidden md:hidden lg:hidden xl:hidden ">phone</p>
-<p class="hidden sm:block md:hidden lg:hidden xl:hidden ">small</p>
-<p class="hidden sm:hidden md:block lg:hidden xl:hidden ">medium</p>
-<p class="hidden sm:hidden md:hidden lg:block xl:hidden ">large</p>
-<p class="hidden sm:hidden md:hidden lg:hidden xl:block ">extra large</p>
+    <p class="block sm:hidden md:hidden lg:hidden xl:hidden ">phone</p>
+    <p class="hidden sm:block md:hidden lg:hidden xl:hidden ">small</p>
+    <p class="hidden sm:hidden md:block lg:hidden xl:hidden ">medium</p>
+    <p class="hidden sm:hidden md:hidden lg:block xl:hidden ">large</p>
+    <p class="hidden sm:hidden md:hidden lg:hidden xl:block ">extra large</p>
 </div>
 <div class="block sm:block md:block lg:block xl:block">
     <section class="bg-sukun-official">
@@ -84,11 +84,11 @@
     </section>
 
 
-
     <section>
         <div class="container mx-auto px-10">
-            <div class="flex justify-between bg-gray-100 mt-10 pt-2 pb-2 pr-8 pl-8 text-sukungreen-600 items-center shadow"
-                 style="direction: rtl; font-family: MVAWAHEED">
+            <div
+                class="flex justify-between bg-gray-100 mt-10 pt-2 pb-2 pr-8 pl-8 text-sukungreen-600 items-center shadow"
+                style="direction: rtl; font-family: MVAWAHEED">
                 <div class="w-1/4 lg:text-2xl md:text-xl text-sm" style="font-family: AAMUFKF">
                     މިއަދުގެ ނަމާދު ވަގުތު
                 </div>
@@ -200,7 +200,8 @@
                              style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                             <div class="">
                                 <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                                   style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
+                                   style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
+                                    ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                             </div>
                         </div>
                     </div>
@@ -209,7 +210,8 @@
                              style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                             <div class="">
                                 <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                                   style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
+                                   style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
+                                    ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                             </div>
                         </div>
                     </div>
@@ -218,7 +220,8 @@
                              style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                             <div class="">
                                 <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                                   style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
+                                   style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
+                                    ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                             </div>
                         </div>
                     </div>
@@ -227,7 +230,8 @@
                              style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                             <div class="">
                                 <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                                   style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
+                                   style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
+                                    ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                             </div>
                         </div>
                     </div>
@@ -237,7 +241,6 @@
             </div>
         </div>
     </section>
-
 
 
     <section class="bg-gray-100 mt-10">
@@ -254,7 +257,8 @@
                          style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                         <div class="">
                             <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
+                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
+                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                         </div>
                     </div>
                 </div>
@@ -264,7 +268,8 @@
                          style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                         <div class="">
                             <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
+                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
+                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                         </div>
                     </div>
                 </div>
@@ -274,7 +279,8 @@
                          style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                         <div class="">
                             <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
+                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
+                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                         </div>
                     </div>
                 </div>
@@ -284,7 +290,8 @@
                          style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                         <div class="">
                             <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
+                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
+                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                         </div>
                     </div>
                 </div>
@@ -294,13 +301,11 @@
                          style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                         <div class="">
                             <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
+                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
+                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                         </div>
                     </div>
                 </div>
-
-
-
 
 
                 <div class=" px-2 pt-10">
@@ -314,7 +319,8 @@
                          style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                         <div class="">
                             <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
+                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
+                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                         </div>
                     </div>
                 </div>
@@ -325,7 +331,8 @@
                          style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                         <div class="">
                             <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
+                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
+                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                         </div>
                     </div>
                 </div>
@@ -336,7 +343,8 @@
                          style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                         <div class="">
                             <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
+                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
+                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                         </div>
                     </div>
                 </div>
@@ -347,7 +355,8 @@
                          style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                         <div class="">
                             <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
+                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
+                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                         </div>
                     </div>
                 </div>
@@ -358,7 +367,8 @@
                          style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                         <div class="">
                             <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
+                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
+                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                         </div>
                     </div>
                 </div>
@@ -369,7 +379,8 @@
                          style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                         <div class="">
                             <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
+                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
+                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                         </div>
                     </div>
                 </div>
@@ -380,7 +391,8 @@
                          style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                         <div class="">
                             <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
+                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
+                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                         </div>
                     </div>
                 </div>
@@ -391,7 +403,8 @@
                          style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                         <div class="">
                             <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
+                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
+                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                         </div>
                     </div>
                 </div>
@@ -402,7 +415,8 @@
                          style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                         <div class="">
                             <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
+                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
+                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                         </div>
                     </div>
                 </div>
@@ -413,7 +427,8 @@
                          style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                         <div class="">
                             <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
+                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
+                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                         </div>
                     </div>
                 </div>
@@ -424,7 +439,8 @@
                          style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                         <div class="">
                             <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
+                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
+                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                         </div>
                     </div>
                 </div>
@@ -435,7 +451,8 @@
                          style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                         <div class="">
                             <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
+                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
+                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                         </div>
                     </div>
                 </div>
@@ -445,11 +462,11 @@
                          style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                         <div class="">
                             <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
+                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
+                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                         </div>
                     </div>
                 </div>
-
 
 
                 <div class=" px-2 pt-10">
@@ -464,7 +481,8 @@
                          style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                         <div class="">
                             <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
+                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
+                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                         </div>
                     </div>
                 </div>
@@ -475,7 +493,8 @@
                          style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                         <div class="">
                             <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
+                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
+                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                         </div>
                     </div>
                 </div>
@@ -486,11 +505,11 @@
                          style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                         <div class="">
                             <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
+                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
+                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                         </div>
                     </div>
                 </div>
-
 
 
             </div>
