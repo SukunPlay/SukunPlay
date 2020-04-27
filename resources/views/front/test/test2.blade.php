@@ -93,7 +93,7 @@
             <div class="flex block justify-center md:hidden">
                 <div
                     class="flex mt-5 justify-center rounded-full border-solid border border-sukungreen-200 focus:shadow-lg"
-                    style="width: 213px; height: 35px">
+                    style="">
                     <div class="p-1">
                         <svg xmlns="http://www.w3.org/2000/svg" width="21.555" height="21.555"
                              viewBox="0 0 21.555 21.555">
