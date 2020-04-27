@@ -50,8 +50,9 @@
 <div class="block sm:block md:block lg:block xl:block">
     <section class="bg-sukun-official">
         <div class="container mx-auto px-10">
-            <div class="flex justify-between pb-4 pt-4">
-                <div class="flex rounded-full border-solid border hover:bg-sukungreen-200 focus:bg-sukungreen-200">
+            <div class="flex sm:justify-center md:justify-between pb-4 pt-4">
+                <div
+                    class="md:flex sm:hidden md:block rounded-full border-solid border hover:bg-sukungreen-200 focus:bg-sukungreen-200">
                     <div class="p-1">
                         <svg xmlns="http://www.w3.org/2000/svg" width="21.555" height="21.555"
                              viewBox="0 0 21.555 21.555">
@@ -86,11 +87,48 @@
 
 
     <section class="bg-white">
+
         <div class="container mx-auto px-10">
+
+            <div class="flex block justify-center md:hidden">
+                <div
+                    class="flex mt-5 justify-center rounded-full border-solid border border-sukungreen-200 focus:shadow-lg"
+                    style="width: 213px; height: 35px">
+                    <div class="p-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="21.555" height="21.555"
+                             viewBox="0 0 21.555 21.555">
+                            <g transform="translate(12.63 7.999)">
+                                <path d="M300.421,190a.421.421,0,1,0,.421.421A.421.421,0,0,0,300.421,190Z"
+                                      transform="translate(-300 -190)"
+                                      fill="#8CD790"/>
+                            </g>
+                            <path
+                                d="M21.061,18.68l-5.619-5.619a8.344,8.344,0,0,0,1.4-4.641,8.42,8.42,0,1,0-8.42,8.42,8.345,8.345,0,0,0,4.641-1.4L14.614,17h0l4.065,4.065a1.684,1.684,0,1,0,2.381-2.381Zm-8.2-4.125h0a7.585,7.585,0,1,1,1.692-1.692A7.614,7.614,0,0,1,12.863,14.555Zm.883.382a8.448,8.448,0,0,0,1.19-1.19l1.194,1.194a10.219,10.219,0,0,1-1.19,1.19Zm6.72,5.529a.841.841,0,0,1-1.19,0l-3.738-3.738a11.062,11.062,0,0,0,1.19-1.19l3.738,3.738a.841.841,0,0,1,0,1.19Z"
+                                fill="#8CD790"/>
+                            <g transform="translate(1.684 1.684)">
+                                <path
+                                    d="M46.736,40a6.736,6.736,0,1,0,6.736,6.736A6.743,6.743,0,0,0,46.736,40Zm0,12.63a5.894,5.894,0,1,1,5.894-5.894A5.9,5.9,0,0,1,46.736,52.63Z"
+                                    transform="translate(-40 -40)" fill="#8CD790"/>
+                            </g>
+                            <g transform="translate(7.999 3.368)">
+                                <path
+                                    d="M195.139,83.245A5.06,5.06,0,0,0,190.421,80a.421.421,0,1,0,0,.842,4.239,4.239,0,0,1,3.932,2.7.421.421,0,1,0,.786-.3Z"
+                                    transform="translate(-190 -80)" fill="#8CD790"/>
+                            </g>
+                        </svg>
+                    </div>
+                    <input placeholder="ހޯދާ" type="text"
+                           class="rounded-full rounded-l-none text-sukungreen-200 focus:outline-none placeholder-sukungreen-200 focus:shadow-md "
+                           style="direction: rtl; padding-right: 15px">
+                </div>
+
+            </div>
+
+
             <div
-                class="flex justify-between bg-gray-100 mt-10 pt-2 pb-2 pr-8 pl-8 text-sukungreen-600 items-center sdirm shadow"
+                class="flex justify-between bg-gray-100 mt-10 pt-2 pb-2 pr-8 pl-8 text-sukungreen-600 items-center sdirm shadow sm:text-xs md:text-sm lg:text-base"
                 style="">
-                <div class="w-1/4 lg:text-2xl md:text-xl text-sm sdira" style="">
+                <div class="w-1/4 lg:text-2xl md:text-xl md:text-sm text-sm sdira" style="">
                     މިއަދުގެ ނަމާދު ވަގުތު
                 </div>
                 <div class="flex">
@@ -130,23 +168,23 @@
             <div class="flex pt-10">
 
                 <div
-                    class="flex w-3/6 lg:mr-8 md:mr-4 border-t border-b border-sukungreen-300 sdirm items-center text-sukungreen-600 hover:text-sukungreen-300">
-                    <div class="lg:mr-5 md:mr-2 lg:text-sm xl:text-base md:text-xs">
+                    class="flex w-3/6 lg:mr-8 md:mr-4 mr-4 border-t border-b border-sukungreen-300 sdirm items-center text-sukungreen-600 hover:text-sukungreen-300">
+                    <div class="lg:mr-5 md:mr-2 mr-2 lg:text-sm xl:text-base md:text-xs sm:text-xs">
                         <p style=""> ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސ ދިވެހިރާއްޖޭގައި ފުރަތަމަ
                             ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                     </div>
                 </div>
 
-                <div class="w-1/6 flex lg:mr-8 md:mr-2 align-middle items-center justify-center lg:p-1 md:p-0 ">
+                <div class="w-1/6 flex lg:mr-8 md:mr-2 mr-2 align-middle items-center justify-center lg:p-1 md:p-0 p-0 ">
 
                     <div
                         class="flex border border-sukungreen-300 bg-sukungreen-200 hover:bg-sukungreen-100 cursor-pointer text-sukungreen-600 hover:shadow-md">
                         <div style="font-family: MVAWAHEED; direction: rtl;"
-                             class="mr-2 pl-4 pt-3 pb-2 lg:text-sm xl:text-base md:text-xs">
+                             class="md:mr-2 mr-1 md:pl-4 ml-1 md:pt-3 pt-2 md:pb-2 lg:text-sm xl:text-base md:text-xs sm:text-xs">
                             ހާއްސަ ވީޑިއޯ
 
                         </div>
-                        <div style="" class="pt-2 pb-2 pr-2">
+                        <div style="" class="md:pt-2 pb-2 pr-1 pt-1 md:pr-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 54 54">
                                 <g transform="translate(-19.76 -8.34)">
                                     <circle cx="27" cy="27" r="27" transform="translate(19.76 8.34)" fill="#fff"/>
@@ -164,16 +202,19 @@
 
 
                 <div
-                    class="flex w-2/6 border-t border-b border-sukungreen-300 justify-between items-center sdirm text-sukungreen-600 lg:text-sm xl:text-base md:text-xs">
-                    <div class="bg-sukungreen-200 lg:pt-2 md:pt-1 pb-1 lg:mr-3 md:mr-1 lg:pr-2 md:pr-1 lg:pl-2 md:pl-1 rounded-sm cursor-not-allowed" style="">
+                    class="flex w-2/6 border-t border-b border-sukungreen-300 justify-between items-center sdirm text-sukungreen-600 lg:text-sm xl:text-base md:text-xs sm:text-xs">
+                    <div
+                        class="bg-sukungreen-200 lg:pt-2 md:pt-1 pb-1 lg:mr-3 md:mr-1 lg:pr-2 md:pr-1 lg:pl-2 md:pl-1 p-1 rounded-sm cursor-not-allowed"
+                        style="">
                         އެންމެ ފަހުގެ ވީޑިއޯ
                     </div>
 
-                    <div class="lg:pt-2 md:pt-1 pb-1 lg:mr-3 md:mr-1 lg:pr-2 md:pr-1 lg:pl-2 md:pl-1  hover:bg-gray-200 rounded-sm cursor-pointer hover:shadow-md">
+                    <div
+                        class="lg:pt-2 md:pt-1 pb-1 lg:mr-3 md:mr-1 lg:pr-2 md:pr-1 lg:pl-2 md:pl-1 p-1 hover:bg-gray-200 rounded-sm cursor-pointer hover:shadow-md">
                         އެންމެ މަޝްހޫރު
                     </div>
 
-                    <a class="plg:pt-2 md:pt-1 pb-1 lg:mr-3 md:mr-1 lg:pr-2 md:pr-1 lg:pl-2 md:pl-1  hover:bg-gray-200 rounded-sm cursor-pointer hover:shadow-md"
+                    <a class="plg:pt-2 md:pt-1 pb-1 lg:mr-3 md:mr-1 lg:pr-2 md:pr-1 lg:pl-2 md:pl-1 p-1 hover:bg-gray-200 rounded-sm cursor-pointer hover:shadow-md"
                        href="#all">
                         ހުރިހާ ވީޑިއޯ
                     </a>
@@ -185,25 +226,26 @@
             </div>
 
             <div class="flex mt-10 shadow-md">
-                <div class="w-3/12 bg-cover bg-center xl:h-450 lg:h-360 md:h-260"
+                <div class="w-3/12 bg-cover bg-center xl:h-450 lg:h-360 md:h-260 h-220"
                      style=";
                          background-image: url('{{asset('vertical.jpg')}}')"></div>
 
                 <div class="flex"> {{--this is where the link should be--}}
-                    <div class="bg-cover bg-center xl:h-450 xl:w-450 lg:h-360 lg:w-360 md:w-260 md:h-260"
+                    <div class="bg-cover bg-center xl:h-450 xl:w-450 lg:h-360 lg:w-360 md:w-260 md:h-260 w-220 h-220"
                          style=";
                          background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')"></div>
 
 
-                    <div class="bg-gray-100 xl:h-450 xl:w-450 lg:h-360 lg:w-360 md:h-260 md:w-260" style="">
+                    <div class="bg-gray-100 xl:h-450 xl:w-450 lg:h-360 lg:w-360 md:h-260 md:w-260 w-220 h-220" style="">
 
                         <div
-                            class="border-t border-b md:ml-5 md:mr-5 lg:ml-10 lg:mr-10 lg:mt-10 md:mt-5 border-sukungreen-600 sdira xl:text-4xl lg:text-2xl text-center justify-center text-sukungreen-600"
+                            class="border-t border-b ml-2 mr-2 md:ml-5 md:mr-5 lg:ml-10 lg:mr-10 lg:mt-10 mt-5 border-sukungreen-600 sdira text-md xl:text-4xl lg:text-2xl text-center justify-center text-sukungreen-600"
                             style="">
-                            <p class="pt-5 pb-5" style="">އިގްތިސާދު ހީނަރުވެ ވަޒީފާ ގެއްލެމުންދާއިރު
+                            <p class="pt-3 pb-3 md:pt-5 md:pb-5" style="">އިގްތިސާދު ހީނަރުވެ ވަޒީފާ ގެއްލެމުންދާއިރު
                                 ރައްޔިތުންނަށް ކުރާނީ ކޮން އަސަރެއް!</p>
                         </div>
-                        <div class="flex justify-between lg:ml-10 lg:mr-10 md:ml-5 md:mr-5 mt-2 sdirm text-gray-500 xl:text-sm lg:text-xs md:text-xs">
+                        <div
+                            class="flex justify-between lg:ml-10 lg:mr-10 md:ml-5 ml-2 mr-2 md:mr-5 mt-2 sdirm text-gray-500 xl:text-sm lg:text-xs text-xs">
                             <div>
                                 4 ދުވަސް ކުރިން
                             </div>
@@ -270,7 +312,8 @@
                         </div>
 
 
-                        <div class="flex lg:ml-10 md:ml-5 lg:mr-10 md:mr-5 pt-5 sdirm text-sukungreen-600 lg:text-base md:text-xs">
+                        <div
+                            class="flex lg:ml-10 md:ml-5 lg:mr-10 md:mr-5 mr-2 pt-5 sdirm text-sukungreen-600 lg:text-base text-xs">
                             <div class="lg:pl-2 md:pl-1 pt-1">
                                 ޝެއަރ ކުރެއްވުމަށް
                             </div>
@@ -381,7 +424,8 @@
                         </div>
 
 
-                        <div class="flex lg:ml-10 md:ml-5 lg:mr-10 md:mr-5 lg:pt-5 md:pt-2 sdirm text-sukungreen-600 ls:text-base md:text-xs">
+                        <div
+                            class="flex lg:ml-10 md:ml-5 lg:mr-10 md:mr-5 mr-2 ml-2 lg:pt-5 pt-2 sdirm text-sukungreen-600 ls:text-base text-xs">
                             <div class="pl-2 pt-1">
                                 ލިންކު ކޮޕީކޮށްލައްވާ
                             </div>
@@ -399,9 +443,11 @@
             <div class="">
                 <div class="flex -mx-2 justify-between flex-wrap" style="direction: rtl">
                     <div class=" px-2 pt-10">
-                        <div class="bg-cover bg-sukungreen-200 bg-center md:w-120 md:h-120 xl:h-56 xl:w-56 lg:w-40 lg:h-40 shadow-md text-center sdira"
-                             style="">
-                            <div class="lg:pt-10 md:pt-8 border-yellow-300 border-b-2 xl:mr-15 xl:ml-15 lg:mr-10 lg:ml-10 md:mr-5 md:ml-5 xl:text-xl lg:text-sm md:text-xs">
+                        <div
+                            class="bg-cover bg-sukungreen-200 bg-center md:w-120 md:h-120 xl:h-56 xl:w-56 lg:w-40 lg:h-40 shadow-md text-center sdira"
+                            style="">
+                            <div
+                                class="lg:pt-10 md:pt-8 border-yellow-300 border-b-2 xl:mr-15 xl:ml-15 lg:mr-10 lg:ml-10 md:mr-5 md:ml-5 xl:text-xl lg:text-sm md:text-xs">
                                 ރޯދަ ސްޕެޝަލް
                             </div>
                             <div class="xl:text-4xl lg:text-2xl">
@@ -412,8 +458,9 @@
                         </div>
                     </div>
                     <div class=" px-2 pt-10">
-                        <div class="bg-cover bg-center md:w-120 md:h-120 xl:h-56 xl:w-56 lg:w-40 lg:h-40 relative shadow-md"
-                             style="
+                        <div
+                            class="bg-cover bg-center md:w-120 md:h-120 xl:h-56 xl:w-56 lg:w-40 lg:h-40 relative shadow-md"
+                            style="
                              background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                             <div class="">
                                 <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg lg:text-base md:text-xs"
@@ -423,8 +470,9 @@
                         </div>
                     </div>
                     <div class=" px-2 pt-10">
-                        <div class="bg-cover bg-center xl:h-56 md:w-120 md:h-120 xl:w-56 lg:w-40 lg:h-40 relative shadow-md"
-                             style="
+                        <div
+                            class="bg-cover bg-center xl:h-56 md:w-120 md:h-120 xl:w-56 lg:w-40 lg:h-40 relative shadow-md"
+                            style="
                              background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                             <div class="">
                                 <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg lg:text-base md:text-xs"
@@ -434,8 +482,9 @@
                         </div>
                     </div>
                     <div class=" px-2 pt-10">
-                        <div class="bg-cover bg-cente xl:h-56 md:w-120 md:h-120 xl:w-56 lg:w-40 lg:h-40 relative shadow-md"
-                             style="
+                        <div
+                            class="bg-cover bg-cente xl:h-56 md:w-120 md:h-120 xl:w-56 lg:w-40 lg:h-40 relative shadow-md"
+                            style="
                              background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                             <div class="">
                                 <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg lg:text-base md:text-xs"
@@ -445,8 +494,9 @@
                         </div>
                     </div>
                     <div class=" px-2 pt-10">
-                        <div class="bg-cover bg-center md:w-120 md:h-120 xl:h-56 xl:w-56 lg:w-40 lg:h-40 relative shadow-md"
-                             style="
+                        <div
+                            class="bg-cover bg-center md:w-120 md:h-120 xl:h-56 xl:w-56 lg:w-40 lg:h-40 relative shadow-md"
+                            style="
                              background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                             <div class="">
                                 <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg lg:text-base md:text-xs"
@@ -471,11 +521,7 @@
             </div>
 
 
-
-
-
-
-            </div>
+        </div>
     </section>
 
 
