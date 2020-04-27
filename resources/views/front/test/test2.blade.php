@@ -444,10 +444,10 @@
                 <div class="flex -mx-2 justify-between flex-wrap" style="direction: rtl">
                     <div class=" px-2 pt-10">
                         <div
-                            class="bg-cover bg-sukungreen-200 bg-center md:w-120 md:h-120 xl:h-56 xl:w-56 lg:w-40 lg:h-40 shadow-md text-center sdira"
+                            class="bg-cover bg-sukungreen-200 bg-center w-99 h-99 md:w-120 md:h-120 xl:h-56 xl:w-56 lg:w-40 lg:h-40 shadow-md text-center sdira"
                             style="">
                             <div
-                                class="lg:pt-10 md:pt-8 border-yellow-300 border-b-2 xl:mr-15 xl:ml-15 lg:mr-10 lg:ml-10 md:mr-5 md:ml-5 xl:text-xl lg:text-sm md:text-xs">
+                                class="lg:pt-10 md:pt-8 pt-4 border-yellow-300 border-b-2 xl:mr-15 xl:ml-15 lg:mr-10 lg:ml-10 mr-5 ml-5 xl:text-xl lg:text-sm text-xs">
                                 ރޯދަ ސްޕެޝަލް
                             </div>
                             <div class="xl:text-4xl lg:text-2xl">
@@ -459,11 +459,11 @@
                     </div>
                     <div class=" px-2 pt-10">
                         <div
-                            class="bg-cover bg-center md:w-120 md:h-120 xl:h-56 xl:w-56 lg:w-40 lg:h-40 relative shadow-md"
+                            class="bg-cover bg-center md:w-120 md:h-120 w-99 h-99 xl:h-56 xl:w-56 lg:w-40 lg:h-40 relative shadow-md"
                             style="
                              background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                             <div class="">
-                                <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg lg:text-base md:text-xs"
+                                <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg lg:text-base text-xs"
                                    style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
                                     ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                             </div>
@@ -471,11 +471,11 @@
                     </div>
                     <div class=" px-2 pt-10">
                         <div
-                            class="bg-cover bg-center xl:h-56 md:w-120 md:h-120 xl:w-56 lg:w-40 lg:h-40 relative shadow-md"
+                            class="bg-cover bg-center xl:h-56 md:w-120 w-99 h-99 md:h-120 xl:w-56 lg:w-40 lg:h-40 relative shadow-md"
                             style="
                              background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                             <div class="">
-                                <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg lg:text-base md:text-xs"
+                                <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg lg:text-base text-xs"
                                    style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
                                     ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                             </div>
@@ -483,11 +483,11 @@
                     </div>
                     <div class=" px-2 pt-10">
                         <div
-                            class="bg-cover bg-cente xl:h-56 md:w-120 md:h-120 xl:w-56 lg:w-40 lg:h-40 relative shadow-md"
+                            class="bg-cover bg-cente xl:h-56 md:w-120 w-99 h-99 md:h-120 xl:w-56 lg:w-40 lg:h-40 relative shadow-md"
                             style="
                              background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                             <div class="">
-                                <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg lg:text-base md:text-xs"
+                                <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg lg:text-base text-xs"
                                    style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
                                     ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                             </div>
@@ -495,11 +495,11 @@
                     </div>
                     <div class=" px-2 pt-10">
                         <div
-                            class="bg-cover bg-center md:w-120 md:h-120 xl:h-56 xl:w-56 lg:w-40 lg:h-40 relative shadow-md"
+                            class="bg-cover bg-center md:w-120 w-99 h-99 md:h-120 xl:h-56 xl:w-56 lg:w-40 lg:h-40 relative shadow-md"
                             style="
                              background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                             <div class="">
-                                <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg lg:text-base md:text-xs"
+                                <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg lg:text-base text-xs"
                                    style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
                                     ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                             </div>
