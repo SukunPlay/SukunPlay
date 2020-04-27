@@ -131,8 +131,9 @@
 
                 <div
                     class="flex w-3/6 mr-8 border-t border-b border-sukungreen-300 sdirm items-center text-sukungreen-600 hover:text-sukungreen-300">
-                    <div class="mr-5">
-                        <p>ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
+                    <div class="mr-5 lg:text-sm xl:text-base">
+                        <p style=""> ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސ ދިވެހިރާއްޖޭގައި ފުރަތަމަ
+                            ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                     </div>
                 </div>
 
@@ -140,7 +141,8 @@
 
                     <div
                         class="flex border border-sukungreen-300 bg-sukungreen-200 hover:bg-sukungreen-100 cursor-pointer text-sukungreen-600 hover:shadow-md">
-                        <div style="font-family: MVAWAHEED; direction: rtl;" class="mr-2 pl-4 pt-3 pb-2 ">
+                        <div style="font-family: MVAWAHEED; direction: rtl;"
+                             class="mr-2 pl-4 pt-3 pb-2 lg:text-sm xl:text-base ">
                             ހާއްސަ ވީޑިއޯ
 
                         </div>
@@ -162,8 +164,8 @@
 
 
                 <div
-                    class="flex w-2/6 border-t border-b border-sukungreen-300 justify-between items-center sdirm text-sukungreen-600">
-                    <div class="bg-sukungreen-200 pt-2 pb-1 mr-3 pr-2 pl-2 rounded-sm cursor-not-allowed">
+                    class="flex w-2/6 border-t border-b border-sukungreen-300 justify-between items-center sdirm text-sukungreen-600 lg:text-sm xl:text-base">
+                    <div class="bg-sukungreen-200 pt-2 pb-1 mr-3 pr-2 pl-2 rounded-sm cursor-not-allowed" style="">
                         އެންމެ ފަހުގެ ވީޑިއޯ
                     </div>
 
@@ -183,21 +185,25 @@
             </div>
 
             <div class="flex mt-10 shadow-md">
-                <div class="w-3/12 bg-cover bg-center"
-                     style="height: 450px; background-image: url('{{asset('vertical.jpg')}}')"></div>
+                <div class="w-3/12 bg-cover bg-center xl:h-450 lg:h-360"
+                     style=";
+                         background-image: url('{{asset('vertical.jpg')}}')"></div>
 
                 <div class="flex"> {{--this is where the link should be--}}
-                    <div class="bg-cover bg-center"
-                         style="height: 450px ;width: 450px; background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')"></div>
-                    <div class="bg-gray-100" style="height: 450px;width: 450px">
+                    <div class="bg-cover bg-center xl:h-450 xl:w-450 lg:h-360 lg:w-360"
+                         style=";
+                         background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')"></div>
+
+
+                    <div class="bg-gray-100 xl:h-450 xl:w-450 lg:h-360 lg:w-360" style="">
 
                         <div
-                            class="border-t border-b ml-10 mr-10 mt-10 border-sukungreen-600 sdira text-4xl text-center justify-center text-sukungreen-600"
+                            class="border-t border-b ml-10 mr-10 mt-10 border-sukungreen-600 sdira xl:text-4xl lg:text-2xl text-center justify-center text-sukungreen-600"
                             style="">
                             <p class="pt-5 pb-5" style="">އިގްތިސާދު ހީނަރުވެ ވަޒީފާ ގެއްލެމުންދާއިރު
                                 ރައްޔިތުންނަށް ކުރާނީ ކޮން އަސަރެއް!</p>
                         </div>
-                        <div class="flex justify-between ml-10 mr-10 mt-2 sdirm text-gray-500 text-sm">
+                        <div class="flex justify-between ml-10 mr-10 mt-2 sdirm text-gray-500 xl:text-sm lg:text-xs">
                             <div>
                                 4 ދުވަސް ކުރިން
                             </div>
@@ -380,7 +386,9 @@
                                 ލިންކު ކޮޕީކޮށްލައްވާ
                             </div>
                             <div class="focus:outline-none focus:shadow-lg rounded-md select-all">
-                                <input class="border select-all focus:shadow-md focus:outline-none rounded-md bg-gray-100 px-2 focus:bg-white" value="The link here">
+                                <input
+                                    class="border select-all focus:shadow-md focus:outline-none rounded-md bg-gray-100 px-2 focus:bg-white"
+                                    value="The link here">
                             </div>
                         </div>
                     </div>
@@ -391,12 +399,12 @@
             <div class="">
                 <div class="flex -mx-2 justify-between flex-wrap" style="direction: rtl">
                     <div class=" px-2 pt-10">
-                        <div class="bg-cover bg-sukungreen-200 bg-center h-56 w-56 shadow-md text-center sdira"
+                        <div class="bg-cover bg-sukungreen-200 bg-center xl:h-56 xl:w-56 lg:w-40 lg:h-40 shadow-md text-center sdira"
                              style="">
-                            <div class="pt-10 border-yellow-300 border-b-2 mr-15 ml-15 text-xl">
+                            <div class="pt-10 border-yellow-300 border-b-2 xl:mr-15 xl:ml-15 lg:mr-10 lg:ml-10 xl:text-xl lg:text-sm">
                                 ރޯދަ ސްޕެޝަލް
                             </div>
-                            <div class="text-4xl">
+                            <div class="xl:text-4xl lg:text-2xl">
                                 އަޑުނީވޭ<br>
                                 ވާހަކަތައް
                             </div>
@@ -404,7 +412,7 @@
                         </div>
                     </div>
                     <div class=" px-2 pt-10">
-                        <div class="bg-cover bg-center h-56 w-56 relative shadow-md"
+                        <div class="bg-cover bg-center xl:h-56 xl:w-56 lg:w-40 lg:h-40 relative shadow-md"
                              style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                             <div class="">
                                 <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
@@ -414,7 +422,7 @@
                         </div>
                     </div>
                     <div class=" px-2 pt-10">
-                        <div class="bg-cover bg-center h-56 w-56 relative shadow-md"
+                        <div class="bg-cover bg-center xl:h-56 xl:w-56 lg:w-40 lg:h-40 relative shadow-md"
                              style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                             <div class="">
                                 <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
@@ -424,7 +432,7 @@
                         </div>
                     </div>
                     <div class=" px-2 pt-10">
-                        <div class="bg-cover bg-center h-56 w-56 relative shadow-md"
+                        <div class="bg-cover bg-center xl:h-56 xl:w-56 lg:w-40 lg:h-40 relative shadow-md"
                              style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                             <div class="">
                                 <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
@@ -434,7 +442,7 @@
                         </div>
                     </div>
                     <div class=" px-2 pt-10">
-                        <div class="bg-cover bg-center h-56 w-56 relative shadow-md"
+                        <div class="bg-cover bg-center xl:h-56 xl:w-56 lg:w-40 lg:h-40 relative shadow-md"
                              style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                             <div class="">
                                 <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
@@ -461,7 +469,7 @@
 
             <div class="flex -mx-2 flex-wrap justify-between">
                 <div class=" px-2 pt-10">
-                    <div class="bg-cover bg-center h-56 w-56 relative"
+                    <div class="bg-cover bg-center xl:h-56 xl:w-56 lg:w-48 lg:h-48 relative"
                          style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                         <div class="">
                             <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
@@ -472,7 +480,7 @@
                 </div>
 
                 <div class=" px-2 pt-10">
-                    <div class="bg-cover bg-center h-56 w-56 relative"
+                    <div class="bg-cover bg-center xl:h-56 xl:w-56 lg:w-48 lg:h-48 relative"
                          style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                         <div class="">
                             <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
@@ -483,7 +491,7 @@
                 </div>
 
                 <div class=" px-2 pt-10">
-                    <div class="bg-cover bg-center h-56 w-56 relative"
+                    <div class="bg-cover bg-center xl:h-56 xl:w-56 lg:w-48 lg:h-48 relative"
                          style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                         <div class="">
                             <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
@@ -494,7 +502,7 @@
                 </div>
 
                 <div class=" px-2 pt-10">
-                    <div class="bg-cover bg-center h-56 w-56 relative"
+                    <div class="bg-cover bg-center xl:h-56 xl:w-56 lg:w-48 lg:h-48 relative"
                          style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                         <div class="">
                             <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
@@ -505,7 +513,7 @@
                 </div>
 
                 <div class=" px-2 pt-10">
-                    <div class="bg-cover bg-center h-56 w-56 relative"
+                    <div class="bg-cover bg-center xl:h-56 xl:w-56 lg:w-48 lg:h-48 relative"
                          style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                         <div class="">
                             <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
@@ -737,92 +745,101 @@
                 ‫މޯބައިލް : 9700200<br>
             </div>
             <div class="flex pt-4 pl-4">
-                <a href="https://www.linkedin.com/company/31204848/admin/">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24.824" height="24.824"
-                         viewBox="0 0 24.824 24.824">
-                        <g transform="translate(-422.131 -1924.987)">
-                            <rect width="23.324" height="23.324" rx="11.662"
-                                  transform="translate(422.881 1925.737)"
-                                  fill="rgba(255,255,255,0)" stroke="#fff" stroke-miterlimit="10"
-                                  stroke-width="1.5"/>
-                            <g transform="translate(429.024 1930.901)">
-                                <rect width="2.414" height="7.797" transform="translate(0.232 3.898)"
-                                      fill="#fff"/>
+                <div class="pr-1">
+                    <a href="https://www.linkedin.com/company/31204848/admin/">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24.824" height="24.824"
+                             viewBox="0 0 24.824 24.824">
+                            <g transform="translate(-422.131 -1924.987)">
+                                <rect width="23.324" height="23.324" rx="11.662"
+                                      transform="translate(422.881 1925.737)"
+                                      fill="rgba(255,255,255,0)" stroke="#fff" stroke-miterlimit="10"
+                                      stroke-width="1.5"/>
+                                <g transform="translate(429.024 1930.901)">
+                                    <rect width="2.414" height="7.797" transform="translate(0.232 3.898)"
+                                          fill="#fff"/>
+                                    <path
+                                        d="M327.3,193.734a1.439,1.439,0,1,0-1.427-1.439A1.434,1.434,0,0,0,327.3,193.734Z"
+                                        transform="translate(-325.874 -190.857)" fill="#fff"/>
+                                </g>
                                 <path
-                                    d="M327.3,193.734a1.439,1.439,0,1,0-1.427-1.439A1.434,1.434,0,0,0,327.3,193.734Z"
-                                    transform="translate(-325.874 -190.857)" fill="#fff"/>
+                                    d="M335.024,200.772c0-1.1.5-1.749,1.47-1.749.888,0,1.315.627,1.315,1.749v4.093h2.4v-4.937c0-2.088-1.184-3.1-2.837-3.1a2.718,2.718,0,0,0-2.35,1.288v-1.05h-2.315v7.8h2.315Z"
+                                    transform="translate(100.503 1737.731)" fill="#fff"/>
                             </g>
-                            <path
-                                d="M335.024,200.772c0-1.1.5-1.749,1.47-1.749.888,0,1.315.627,1.315,1.749v4.093h2.4v-4.937c0-2.088-1.184-3.1-2.837-3.1a2.718,2.718,0,0,0-2.35,1.288v-1.05h-2.315v7.8h2.315Z"
-                                transform="translate(100.503 1737.731)" fill="#fff"/>
-                        </g>
-                    </svg>
-                </a>
+                        </svg>
+                    </a>
+                </div>
+                <div class="pr-1">
 
-
-                <a href="https://www.instagram.com/sukunplay/">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24.824" height="24.824"
-                         viewBox="0 0 24.824 24.824">
-                        <g transform="translate(-449.095 -1924.987)">
-                            <path
-                                d="M438.352,151.829h0a11.662,11.662,0,0,1-11.662-11.662h0a11.662,11.662,0,0,1,11.662-11.662h0a11.662,11.662,0,0,1,11.662,11.662h0A11.662,11.662,0,0,1,438.352,151.829Z"
-                                transform="translate(23.155 1797.232)" fill="none" stroke="#fff"
-                                stroke-miterlimit="10" stroke-width="1.5"/>
-                            <path
-                                d="M441.68,138.253c1.707,0,1.91.007,2.584.037a3.542,3.542,0,0,1,1.187.221,2.114,2.114,0,0,1,1.213,1.213,3.542,3.542,0,0,1,.221,1.187c.031.675.037.877.037,2.584s-.007,1.91-.037,2.584a3.543,3.543,0,0,1-.221,1.188,2.113,2.113,0,0,1-1.213,1.213,3.531,3.531,0,0,1-1.187.22c-.675.031-.876.037-2.584.037s-1.91-.007-2.584-.037a3.536,3.536,0,0,1-1.188-.22,2.118,2.118,0,0,1-1.213-1.213,3.533,3.533,0,0,1-.22-1.188c-.031-.674-.037-.876-.037-2.584s.007-1.91.037-2.584a3.532,3.532,0,0,1,.22-1.187,2.118,2.118,0,0,1,1.213-1.213,3.547,3.547,0,0,1,1.188-.221c.674-.031.876-.037,2.584-.037m0-1.152c-1.737,0-1.954.008-2.636.039a4.7,4.7,0,0,0-1.552.3,3.27,3.27,0,0,0-1.87,1.87,4.682,4.682,0,0,0-.3,1.552c-.031.682-.039.9-.039,2.636s.007,1.954.039,2.636a4.682,4.682,0,0,0,.3,1.552,3.27,3.27,0,0,0,1.87,1.87,4.714,4.714,0,0,0,1.552.3c.682.031.9.038,2.636.038s1.954-.007,2.636-.038a4.714,4.714,0,0,0,1.552-.3,3.273,3.273,0,0,0,1.87-1.87,4.7,4.7,0,0,0,.3-1.552c.031-.682.039-.9.039-2.636s-.007-1.954-.039-2.636a4.7,4.7,0,0,0-.3-1.552,3.273,3.273,0,0,0-1.87-1.87,4.7,4.7,0,0,0-1.552-.3c-.682-.031-.9-.039-2.636-.039"
-                                transform="translate(19.827 1793.903)" fill="#fff"/>
-                            <path
-                                d="M443.645,142.178a3.283,3.283,0,1,0,3.283,3.283,3.284,3.284,0,0,0-3.283-3.283m0,5.415a2.131,2.131,0,1,1,2.131-2.131,2.131,2.131,0,0,1-2.131,2.131"
-                                transform="translate(17.862 1791.938)" fill="#fff"/>
-                            <path d="M451.572,141.481a.767.767,0,1,1-.767-.767.767.767,0,0,1,.767.767"
-                                  transform="translate(14.115 1792.505)" fill="#fff"/>
-                        </g>
-                    </svg>
-                </a>
-
-                <a href="https://web.facebook.com/sukunplay/">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24.824" height="24.824"
-                         viewBox="0 0 24.824 24.824">
-                        <g transform="translate(-477.023 -1924.987)">
-                            <rect width="23.324" height="23.324" rx="11.662"
-                                  transform="translate(477.773 1925.737)"
-                                  fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"/>
-                            <path
-                                d="M386.153,150.131h2.839v-7.109h1.981l.211-2.38h-2.192v-1.356c0-.561.113-.783.656-.783h1.536v-2.47h-1.966c-2.112,0-3.065.93-3.065,2.711v1.9h-1.477v2.41h1.477Z"
-                                transform="translate(101.505 1794.317)" fill="#fff"/>
-                        </g>
-                    </svg>
-                </a>
-
-                <a href="https://twitter.com/sukunplay">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24.824" height="24.824"
-                         viewBox="0 0 24.824 24.824">
-                        <g transform="translate(-503.987 -1924.987)">
-                            <path
-                                d="M271.778,151.829h0a11.662,11.662,0,0,1-11.662-11.662h0a11.662,11.662,0,0,1,11.662-11.662h0a11.662,11.662,0,0,1,11.662,11.662h0A11.662,11.662,0,0,1,271.778,151.829Z"
-                                transform="translate(244.621 1797.232)" fill="none" stroke="#fff"
-                                stroke-miterlimit="10" stroke-width="1.5"/>
-                            <path
-                                d="M269.007,148.25a7.252,7.252,0,0,0,11.156-6.439,5.168,5.168,0,0,0,1.272-1.32,5.086,5.086,0,0,1-1.464.4,2.553,2.553,0,0,0,1.121-1.411,5.115,5.115,0,0,1-1.618.619,2.552,2.552,0,0,0-4.345,2.326,7.235,7.235,0,0,1-5.255-2.664,2.553,2.553,0,0,0,.789,3.4,2.542,2.542,0,0,1-1.155-.319,2.553,2.553,0,0,0,2.045,2.533,2.552,2.552,0,0,1-1.151.043,2.551,2.551,0,0,0,2.381,1.771A5.127,5.127,0,0,1,269.007,148.25Z"
-                                transform="translate(241.178 1793.054)" fill="#fff"/>
-                        </g>
-                    </svg>
-                </a>
-
-                <a href="https://www.tiktok.com/@sukunplay">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24.824" height="24.824"
-                         viewBox="0 0 25.083 25.083">
-                        <g id="Group_115" data-name="Group 115" transform="translate(-200.04 -722.04)">
-                            <path id="Path_38" data-name="Path 38"
-                                  d="M97.5,78.547v-.715H96.069v7.86a2.144,2.144,0,1,1-2.144-2.144h.715V82.119h-.715A3.573,3.573,0,1,0,97.5,85.692V81.4a3.55,3.55,0,0,0,2.144.721h.715V80.69h-.715A2.146,2.146,0,0,1,97.5,78.547Z"
-                                  transform="translate(117.228 651.033)" fill="#fff"/>
-                            <circle id="Ellipse_17" data-name="Ellipse 17" cx="11.791" cy="11.791" r="11.791"
-                                    transform="translate(200.79 722.79)" fill="none" stroke="#fff"
+                    <a href="https://www.instagram.com/sukunplay/">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24.824" height="24.824"
+                             viewBox="0 0 24.824 24.824">
+                            <g transform="translate(-449.095 -1924.987)">
+                                <path
+                                    d="M438.352,151.829h0a11.662,11.662,0,0,1-11.662-11.662h0a11.662,11.662,0,0,1,11.662-11.662h0a11.662,11.662,0,0,1,11.662,11.662h0A11.662,11.662,0,0,1,438.352,151.829Z"
+                                    transform="translate(23.155 1797.232)" fill="none" stroke="#fff"
                                     stroke-miterlimit="10" stroke-width="1.5"/>
-                        </g>
-                    </svg>
+                                <path
+                                    d="M441.68,138.253c1.707,0,1.91.007,2.584.037a3.542,3.542,0,0,1,1.187.221,2.114,2.114,0,0,1,1.213,1.213,3.542,3.542,0,0,1,.221,1.187c.031.675.037.877.037,2.584s-.007,1.91-.037,2.584a3.543,3.543,0,0,1-.221,1.188,2.113,2.113,0,0,1-1.213,1.213,3.531,3.531,0,0,1-1.187.22c-.675.031-.876.037-2.584.037s-1.91-.007-2.584-.037a3.536,3.536,0,0,1-1.188-.22,2.118,2.118,0,0,1-1.213-1.213,3.533,3.533,0,0,1-.22-1.188c-.031-.674-.037-.876-.037-2.584s.007-1.91.037-2.584a3.532,3.532,0,0,1,.22-1.187,2.118,2.118,0,0,1,1.213-1.213,3.547,3.547,0,0,1,1.188-.221c.674-.031.876-.037,2.584-.037m0-1.152c-1.737,0-1.954.008-2.636.039a4.7,4.7,0,0,0-1.552.3,3.27,3.27,0,0,0-1.87,1.87,4.682,4.682,0,0,0-.3,1.552c-.031.682-.039.9-.039,2.636s.007,1.954.039,2.636a4.682,4.682,0,0,0,.3,1.552,3.27,3.27,0,0,0,1.87,1.87,4.714,4.714,0,0,0,1.552.3c.682.031.9.038,2.636.038s1.954-.007,2.636-.038a4.714,4.714,0,0,0,1.552-.3,3.273,3.273,0,0,0,1.87-1.87,4.7,4.7,0,0,0,.3-1.552c.031-.682.039-.9.039-2.636s-.007-1.954-.039-2.636a4.7,4.7,0,0,0-.3-1.552,3.273,3.273,0,0,0-1.87-1.87,4.7,4.7,0,0,0-1.552-.3c-.682-.031-.9-.039-2.636-.039"
+                                    transform="translate(19.827 1793.903)" fill="#fff"/>
+                                <path
+                                    d="M443.645,142.178a3.283,3.283,0,1,0,3.283,3.283,3.284,3.284,0,0,0-3.283-3.283m0,5.415a2.131,2.131,0,1,1,2.131-2.131,2.131,2.131,0,0,1-2.131,2.131"
+                                    transform="translate(17.862 1791.938)" fill="#fff"/>
+                                <path d="M451.572,141.481a.767.767,0,1,1-.767-.767.767.767,0,0,1,.767.767"
+                                      transform="translate(14.115 1792.505)" fill="#fff"/>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+                <div class="pr-1">
 
-                </a>
+                    <a href="https://web.facebook.com/sukunplay/">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24.824" height="24.824"
+                             viewBox="0 0 24.824 24.824">
+                            <g transform="translate(-477.023 -1924.987)">
+                                <rect width="23.324" height="23.324" rx="11.662"
+                                      transform="translate(477.773 1925.737)"
+                                      fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"/>
+                                <path
+                                    d="M386.153,150.131h2.839v-7.109h1.981l.211-2.38h-2.192v-1.356c0-.561.113-.783.656-.783h1.536v-2.47h-1.966c-2.112,0-3.065.93-3.065,2.711v1.9h-1.477v2.41h1.477Z"
+                                    transform="translate(101.505 1794.317)" fill="#fff"/>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+                <div class="pr-1">
+
+                    <a href="https://twitter.com/sukunplay">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24.824" height="24.824"
+                             viewBox="0 0 24.824 24.824">
+                            <g transform="translate(-503.987 -1924.987)">
+                                <path
+                                    d="M271.778,151.829h0a11.662,11.662,0,0,1-11.662-11.662h0a11.662,11.662,0,0,1,11.662-11.662h0a11.662,11.662,0,0,1,11.662,11.662h0A11.662,11.662,0,0,1,271.778,151.829Z"
+                                    transform="translate(244.621 1797.232)" fill="none" stroke="#fff"
+                                    stroke-miterlimit="10" stroke-width="1.5"/>
+                                <path
+                                    d="M269.007,148.25a7.252,7.252,0,0,0,11.156-6.439,5.168,5.168,0,0,0,1.272-1.32,5.086,5.086,0,0,1-1.464.4,2.553,2.553,0,0,0,1.121-1.411,5.115,5.115,0,0,1-1.618.619,2.552,2.552,0,0,0-4.345,2.326,7.235,7.235,0,0,1-5.255-2.664,2.553,2.553,0,0,0,.789,3.4,2.542,2.542,0,0,1-1.155-.319,2.553,2.553,0,0,0,2.045,2.533,2.552,2.552,0,0,1-1.151.043,2.551,2.551,0,0,0,2.381,1.771A5.127,5.127,0,0,1,269.007,148.25Z"
+                                    transform="translate(241.178 1793.054)" fill="#fff"/>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+                <div class="pr-1">
+
+                    <a href="https://www.tiktok.com/@sukunplay">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24.824" height="24.824"
+                             viewBox="0 0 25.083 25.083">
+                            <g id="Group_115" data-name="Group 115" transform="translate(-200.04 -722.04)">
+                                <path id="Path_38" data-name="Path 38"
+                                      d="M97.5,78.547v-.715H96.069v7.86a2.144,2.144,0,1,1-2.144-2.144h.715V82.119h-.715A3.573,3.573,0,1,0,97.5,85.692V81.4a3.55,3.55,0,0,0,2.144.721h.715V80.69h-.715A2.146,2.146,0,0,1,97.5,78.547Z"
+                                      transform="translate(117.228 651.033)" fill="#fff"/>
+                                <circle id="Ellipse_17" data-name="Ellipse 17" cx="11.791" cy="11.791" r="11.791"
+                                        transform="translate(200.79 722.79)" fill="none" stroke="#fff"
+                                        stroke-miterlimit="10" stroke-width="1.5"/>
+                            </g>
+                        </svg>
+
+                    </a>
+                </div>
             </div>
         </div>
 

@@ -1,6 +1,14 @@
 module.exports = {
     theme: {
         extend: {
+            width: {
+                '450': '450px',
+                '360': '360px',
+            },
+            height: {
+                '450': '450px',
+                '360': '360px',
+            },
             colors: {
                 sbtnprm: {
                     light: '#8CD790',
