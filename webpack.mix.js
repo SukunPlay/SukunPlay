@@ -7,3 +7,6 @@ mix.js('resources/js/app.js', 'public/js')
         processCssUrls: false,
         postCss: [tailwindcss('./tailwind.config.js')],
     });
+mix.scripts([
+    'public/custom/homepage.js',
+],'public/js/homepage.js')
