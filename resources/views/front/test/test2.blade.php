@@ -130,24 +130,24 @@
             <div class="flex pt-10">
 
                 <div
-                    class="flex w-3/6 mr-8 border-t border-b border-sukungreen-300 sdirm items-center text-sukungreen-600 hover:text-sukungreen-300">
-                    <div class="mr-5 lg:text-sm xl:text-base">
+                    class="flex w-3/6 lg:mr-8 md:mr-4 border-t border-b border-sukungreen-300 sdirm items-center text-sukungreen-600 hover:text-sukungreen-300">
+                    <div class="lg:mr-5 md:mr-2 lg:text-sm xl:text-base md:text-xs">
                         <p style=""> ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސ ދިވެހިރާއްޖޭގައި ފުރަތަމަ
                             ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                     </div>
                 </div>
 
-                <div class="w-1/6 flex mr-8 align-middle items-center justify-center p-1 ">
+                <div class="w-1/6 flex lg:mr-8 md:mr-2 align-middle items-center justify-center lg:p-1 md:p-0 ">
 
                     <div
                         class="flex border border-sukungreen-300 bg-sukungreen-200 hover:bg-sukungreen-100 cursor-pointer text-sukungreen-600 hover:shadow-md">
                         <div style="font-family: MVAWAHEED; direction: rtl;"
-                             class="mr-2 pl-4 pt-3 pb-2 lg:text-sm xl:text-base ">
+                             class="mr-2 pl-4 pt-3 pb-2 lg:text-sm xl:text-base md:text-xs">
                             ހާއްސަ ވީޑިއޯ
 
                         </div>
                         <div style="" class="pt-2 pb-2 pr-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 54 54">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 54 54">
                                 <g transform="translate(-19.76 -8.34)">
                                     <circle cx="27" cy="27" r="27" transform="translate(19.76 8.34)" fill="#fff"/>
                                     <circle cx="23.039" cy="23.039" r="23.039" transform="translate(23.721 12.301)"
@@ -164,16 +164,16 @@
 
 
                 <div
-                    class="flex w-2/6 border-t border-b border-sukungreen-300 justify-between items-center sdirm text-sukungreen-600 lg:text-sm xl:text-base">
-                    <div class="bg-sukungreen-200 pt-2 pb-1 mr-3 pr-2 pl-2 rounded-sm cursor-not-allowed" style="">
+                    class="flex w-2/6 border-t border-b border-sukungreen-300 justify-between items-center sdirm text-sukungreen-600 lg:text-sm xl:text-base md:text-xs">
+                    <div class="bg-sukungreen-200 lg:pt-2 md:pt-1 pb-1 lg:mr-3 md:mr-1 lg:pr-2 md:pr-1 lg:pl-2 md:pl-1 rounded-sm cursor-not-allowed" style="">
                         އެންމެ ފަހުގެ ވީޑިއޯ
                     </div>
 
-                    <div class="pt-2 pb-1 mr-3 pr-2 pl-2 hover:bg-gray-200 rounded-sm cursor-pointer hover:shadow-md">
+                    <div class="lg:pt-2 md:pt-1 pb-1 lg:mr-3 md:mr-1 lg:pr-2 md:pr-1 lg:pl-2 md:pl-1  hover:bg-gray-200 rounded-sm cursor-pointer hover:shadow-md">
                         އެންމެ މަޝްހޫރު
                     </div>
 
-                    <a class="pt-2 pb-1 ml-5 mr-3 pr-2 pl-2 hover:bg-gray-200 rounded-sm cursor-pointer hover:shadow-md"
+                    <a class="plg:pt-2 md:pt-1 pb-1 lg:mr-3 md:mr-1 lg:pr-2 md:pr-1 lg:pl-2 md:pl-1  hover:bg-gray-200 rounded-sm cursor-pointer hover:shadow-md"
                        href="#all">
                         ހުރިހާ ވީޑިއޯ
                     </a>
@@ -185,25 +185,25 @@
             </div>
 
             <div class="flex mt-10 shadow-md">
-                <div class="w-3/12 bg-cover bg-center xl:h-450 lg:h-360"
+                <div class="w-3/12 bg-cover bg-center xl:h-450 lg:h-360 md:h-260"
                      style=";
                          background-image: url('{{asset('vertical.jpg')}}')"></div>
 
                 <div class="flex"> {{--this is where the link should be--}}
-                    <div class="bg-cover bg-center xl:h-450 xl:w-450 lg:h-360 lg:w-360"
+                    <div class="bg-cover bg-center xl:h-450 xl:w-450 lg:h-360 lg:w-360 md:w-260 md:h-260"
                          style=";
                          background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')"></div>
 
 
-                    <div class="bg-gray-100 xl:h-450 xl:w-450 lg:h-360 lg:w-360" style="">
+                    <div class="bg-gray-100 xl:h-450 xl:w-450 lg:h-360 lg:w-360 md:h-260 md:w-260" style="">
 
                         <div
-                            class="border-t border-b ml-10 mr-10 mt-10 border-sukungreen-600 sdira xl:text-4xl lg:text-2xl text-center justify-center text-sukungreen-600"
+                            class="border-t border-b md:ml-5 md:mr-5 lg:ml-10 lg:mr-10 lg:mt-10 md:mt-5 border-sukungreen-600 sdira xl:text-4xl lg:text-2xl text-center justify-center text-sukungreen-600"
                             style="">
                             <p class="pt-5 pb-5" style="">އިގްތިސާދު ހީނަރުވެ ވަޒީފާ ގެއްލެމުންދާއިރު
                                 ރައްޔިތުންނަށް ކުރާނީ ކޮން އަސަރެއް!</p>
                         </div>
-                        <div class="flex justify-between ml-10 mr-10 mt-2 sdirm text-gray-500 xl:text-sm lg:text-xs">
+                        <div class="flex justify-between lg:ml-10 lg:mr-10 md:ml-5 md:mr-5 mt-2 sdirm text-gray-500 xl:text-sm lg:text-xs md:text-xs">
                             <div>
                                 4 ދުވަސް ކުރިން
                             </div>
@@ -270,8 +270,8 @@
                         </div>
 
 
-                        <div class="flex ml-10 mr-10 pt-5 sdirm text-sukungreen-600">
-                            <div class="pl-2 pt-1">
+                        <div class="flex lg:ml-10 md:ml-5 lg:mr-10 md:mr-5 pt-5 sdirm text-sukungreen-600 lg:text-base md:text-xs">
+                            <div class="lg:pl-2 md:pl-1 pt-1">
                                 ޝެއަރ ކުރެއްވުމަށް
                             </div>
                             <div class="pr-1">
@@ -381,7 +381,7 @@
                         </div>
 
 
-                        <div class="flex ml-10 mr-10 pt-5 sdirm text-sukungreen-600">
+                        <div class="flex lg:ml-10 md:ml-5 lg:mr-10 md:mr-5 lg:pt-5 md:pt-2 sdirm text-sukungreen-600 ls:text-base md:text-xs">
                             <div class="pl-2 pt-1">
                                 ލިންކު ކޮޕީކޮށްލައްވާ
                             </div>
@@ -399,9 +399,9 @@
             <div class="">
                 <div class="flex -mx-2 justify-between flex-wrap" style="direction: rtl">
                     <div class=" px-2 pt-10">
-                        <div class="bg-cover bg-sukungreen-200 bg-center xl:h-56 xl:w-56 lg:w-40 lg:h-40 shadow-md text-center sdira"
+                        <div class="bg-cover bg-sukungreen-200 bg-center md:w-120 md:h-120 xl:h-56 xl:w-56 lg:w-40 lg:h-40 shadow-md text-center sdira"
                              style="">
-                            <div class="pt-10 border-yellow-300 border-b-2 xl:mr-15 xl:ml-15 lg:mr-10 lg:ml-10 xl:text-xl lg:text-sm">
+                            <div class="lg:pt-10 md:pt-8 border-yellow-300 border-b-2 xl:mr-15 xl:ml-15 lg:mr-10 lg:ml-10 md:mr-5 md:ml-5 xl:text-xl lg:text-sm md:text-xs">
                                 ރޯދަ ސްޕެޝަލް
                             </div>
                             <div class="xl:text-4xl lg:text-2xl">
@@ -412,40 +412,44 @@
                         </div>
                     </div>
                     <div class=" px-2 pt-10">
-                        <div class="bg-cover bg-center xl:h-56 xl:w-56 lg:w-40 lg:h-40 relative shadow-md"
-                             style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
+                        <div class="bg-cover bg-center md:w-120 md:h-120 xl:h-56 xl:w-56 lg:w-40 lg:h-40 relative shadow-md"
+                             style="
+                             background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                             <div class="">
-                                <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
+                                <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg lg:text-base md:text-xs"
                                    style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
                                     ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                             </div>
                         </div>
                     </div>
                     <div class=" px-2 pt-10">
-                        <div class="bg-cover bg-center xl:h-56 xl:w-56 lg:w-40 lg:h-40 relative shadow-md"
-                             style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
+                        <div class="bg-cover bg-center xl:h-56 md:w-120 md:h-120 xl:w-56 lg:w-40 lg:h-40 relative shadow-md"
+                             style="
+                             background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                             <div class="">
-                                <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
+                                <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg lg:text-base md:text-xs"
                                    style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
                                     ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                             </div>
                         </div>
                     </div>
                     <div class=" px-2 pt-10">
-                        <div class="bg-cover bg-center xl:h-56 xl:w-56 lg:w-40 lg:h-40 relative shadow-md"
-                             style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
+                        <div class="bg-cover bg-cente xl:h-56 md:w-120 md:h-120 xl:w-56 lg:w-40 lg:h-40 relative shadow-md"
+                             style="
+                             background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                             <div class="">
-                                <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
+                                <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg lg:text-base md:text-xs"
                                    style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
                                     ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                             </div>
                         </div>
                     </div>
                     <div class=" px-2 pt-10">
-                        <div class="bg-cover bg-center xl:h-56 xl:w-56 lg:w-40 lg:h-40 relative shadow-md"
-                             style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
+                        <div class="bg-cover bg-center md:w-120 md:h-120 xl:h-56 xl:w-56 lg:w-40 lg:h-40 relative shadow-md"
+                             style="
+                             background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
                             <div class="">
-                                <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
+                                <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg lg:text-base md:text-xs"
                                    style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
                                     ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                             </div>
@@ -467,269 +471,11 @@
             </div>
 
 
-            <div class="flex -mx-2 flex-wrap justify-between">
-                <div class=" px-2 pt-10">
-                    <div class="bg-cover bg-center xl:h-56 xl:w-56 lg:w-48 lg:h-48 relative"
-                         style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
-                        <div class="">
-                            <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
-                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class=" px-2 pt-10">
-                    <div class="bg-cover bg-center xl:h-56 xl:w-56 lg:w-48 lg:h-48 relative"
-                         style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
-                        <div class="">
-                            <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
-                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class=" px-2 pt-10">
-                    <div class="bg-cover bg-center xl:h-56 xl:w-56 lg:w-48 lg:h-48 relative"
-                         style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
-                        <div class="">
-                            <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
-                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class=" px-2 pt-10">
-                    <div class="bg-cover bg-center xl:h-56 xl:w-56 lg:w-48 lg:h-48 relative"
-                         style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
-                        <div class="">
-                            <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
-                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class=" px-2 pt-10">
-                    <div class="bg-cover bg-center xl:h-56 xl:w-56 lg:w-48 lg:h-48 relative"
-                         style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
-                        <div class="">
-                            <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
-                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
-                        </div>
-                    </div>
-                </div>
 
 
-                <div class=" px-2 pt-10">
-                    <div class="h-56 bg-cover bg-center"
-                         style="width: 467px; background-image:url('{{asset('horizontal.jpg')}}')">
-                    </div>
-                </div>
-
-                <div class=" px-2 pt-10">
-                    <div class="bg-cover bg-center h-56 w-56 relative"
-                         style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
-                        <div class="">
-                            <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
-                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class=" px-2 pt-10">
-                    <div class="bg-cover bg-center h-56 w-56 relative"
-                         style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
-                        <div class="">
-                            <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
-                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class=" px-2 pt-10">
-                    <div class="bg-cover bg-center h-56 w-56 relative"
-                         style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
-                        <div class="">
-                            <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
-                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class=" px-2 pt-10">
-                    <div class="bg-cover bg-center h-56 w-56 relative"
-                         style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
-                        <div class="">
-                            <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
-                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class=" px-2 pt-10">
-                    <div class="bg-cover bg-center h-56 w-56 relative"
-                         style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
-                        <div class="">
-                            <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
-                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class=" px-2 pt-10">
-                    <div class="bg-cover bg-center h-56 w-56 relative"
-                         style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
-                        <div class="">
-                            <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
-                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class=" px-2 pt-10">
-                    <div class="bg-cover bg-center h-56 w-56 relative"
-                         style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
-                        <div class="">
-                            <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
-                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class=" px-2 pt-10">
-                    <div class="bg-cover bg-center h-56 w-56 relative"
-                         style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
-                        <div class="">
-                            <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
-                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class=" px-2 pt-10">
-                    <div class="bg-cover bg-center h-56 w-56 relative"
-                         style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
-                        <div class="">
-                            <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
-                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class=" px-2 pt-10">
-                    <div class="bg-cover bg-center h-56 w-56 relative"
-                         style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
-                        <div class="">
-                            <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
-                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class=" px-2 pt-10">
-                    <div class="bg-cover bg-center h-56 w-56 relative"
-                         style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
-                        <div class="">
-                            <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
-                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class=" px-2 pt-10">
-                    <div class="bg-cover bg-center h-56 w-56 relative"
-                         style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
-                        <div class="">
-                            <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
-                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class=" px-2 pt-10">
-                    <div class="bg-cover bg-center h-56 w-56 relative"
-                         style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
-                        <div class="">
-                            <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
-                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class=" px-2 pt-10">
-                    <div class="h-56 bg-cover bg-center"
-                         style="width: 467px; background-image:url('{{asset('horizontal.jpg')}}')">
-                    </div>
-                </div>
-
-
-                <div class=" px-2 pt-10">
-                    <div class="bg-cover bg-center h-56 w-56 relative"
-                         style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
-                        <div class="">
-                            <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
-                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class=" px-2 pt-10">
-                    <div class="bg-cover bg-center h-56 w-56 relative"
-                         style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
-                        <div class="">
-                            <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
-                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class=" px-2 pt-10">
-                    <div class="bg-cover bg-center h-56 w-56 relative"
-                         style="background-image: url('https://scontent.fmle1-1.fna.fbcdn.net/v/t15.5256-10/93796045_2874382489313357_4131329724922200064_n.jpg?_nc_cat=103&_nc_sid=f2c4d5&_nc_eui2=AeGpewli4yAOsQg0_12mevXMEVUghrcHzYkRVSCGtwfNidz_cFnilnZsNvHBHikQ4JpZBLxV5UscQAqf4sQJtwYp&_nc_oc=AQnOad56PWFCivFf1ncfqvJ8eYu7BJyKnGzbA2PhRlNXAzj04c33A8N7DSlblrRIoO8&_nc_ht=scontent.fmle1-1.fna&oh=882adb027fce310b84265d8a01fd2962&oe=5EC771B8')">
-                        <div class="">
-                            <p class=" absolute inset-x-0 bottom-0 text-center text-white p-2 sdirm shadow-lg"
-                               style="opacity: 1; text-shadow: 1px 1px black">ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް
-                                ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
-                        </div>
-                    </div>
-                </div>
 
 
             </div>
-        </div>
     </section>
 
 

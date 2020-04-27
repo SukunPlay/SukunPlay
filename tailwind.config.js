@@ -2,12 +2,16 @@ module.exports = {
     theme: {
         extend: {
             width: {
+                '120': '120px',
                 '450': '450px',
                 '360': '360px',
+                '260': '260px',
             },
             height: {
+                '120': '120px',
                 '450': '450px',
                 '360': '360px',
+                '260': '260px',
             },
             colors: {
                 sbtnprm: {
