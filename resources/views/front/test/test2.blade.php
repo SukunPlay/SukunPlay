@@ -192,9 +192,9 @@
                     <div class="bg-gray-100" style="height: 450px;width: 450px">
 
                         <div
-                            class="border-t border-b ml-10 mr-10 mt-10 border-sukungreen-600 sdira text-xl text-center justify-center text-sukungreen-600"
+                            class="border-t border-b ml-10 mr-10 mt-10 border-sukungreen-600 sdira text-4xl text-center justify-center text-sukungreen-600"
                             style="">
-                            <p class="pt-5 pb-5" style="font-size: 36px">އިގްތިސާދު ހީނަރުވެ ވަޒީފާ ގެއްލެމުންދާއިރު
+                            <p class="pt-5 pb-5" style="">އިގްތިސާދު ހީނަރުވެ ވަޒީފާ ގެއްލެމުންދާއިރު
                                 ރައްޔިތުންނަށް ކުރާނީ ކޮން އަސަރެއް!</p>
                         </div>
                         <div class="flex justify-between ml-10 mr-10 mt-2 sdirm text-gray-500 text-sm">
@@ -203,12 +203,38 @@
                             </div>
 
                             <div class="flex">
-                                <div>
-                                    1
+                                <div class="flex pr-2 text-center justify-center">
+                                    <div>
+                                        1000
+                                    </div>
+                                    <div class="pr-2" style="padding-top: 2px">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12.871" height="12.355"
+                                             viewBox="0 0 12.871 12.355">
+                                            <g id="like" transform="translate(0.25 0.25)">
+                                                <g id="Group_79" data-name="Group 79" transform="translate(0 0)">
+                                                    <g id="Group_78" data-name="Group 78">
+                                                        <path id="Path_30" data-name="Path 30"
+                                                              d="M12.37,17.754a1.145,1.145,0,0,0-.336-.811,1.28,1.28,0,0,0,.33-.984,1.332,1.332,0,0,0-1.344-1.169H7.837a7.411,7.411,0,0,0,.41-2.062A2.107,2.107,0,0,0,6.7,10.667a1.619,1.619,0,0,0-.934.314.258.258,0,0,0-.1.2V12.93L4.185,16.146l-.061.031v-.1a.258.258,0,0,0-.258-.258H1.289A1.29,1.29,0,0,0,0,17.11v4.123a1.29,1.29,0,0,0,1.289,1.289H2.835a1.292,1.292,0,0,0,1.213-.852,3.36,3.36,0,0,0,1.364.337h4.731a1.186,1.186,0,0,0,1.168-.9,1.164,1.164,0,0,0-.093-.775,1.155,1.155,0,0,0,.516-1.546A1.155,1.155,0,0,0,12.37,17.754Zm-1.087.636a.258.258,0,0,0-.147.444.639.639,0,0,1-.367,1.1.258.258,0,0,0-.147.444.637.637,0,0,1,.187.615.667.667,0,0,1-.664.5H5.412a2.443,2.443,0,0,1-1.364-.44.258.258,0,0,0-.44.182.774.774,0,0,1-.773.773H1.289a.774.774,0,0,1-.773-.773V17.11a.774.774,0,0,1,.773-.773H3.608v.258a.259.259,0,0,0,.123.22.263.263,0,0,0,.251.011l.515-.258a.257.257,0,0,0,.119-.122l1.546-3.35a.263.263,0,0,0,.024-.108V11.322a1.087,1.087,0,0,1,.515-.14,1.7,1.7,0,0,1,1.031,1.546,8.026,8.026,0,0,1-.5,2.228.257.257,0,0,0,.241.349h3.547a.814.814,0,0,1,.831.7.77.77,0,0,1-.367.729.258.258,0,0,0,.018.449.638.638,0,0,1-.219,1.206Z"
+                                                              transform="translate(0 -10.667)" fill="#718096"
+                                                              stroke="#718096" stroke-width="0.5"/>
+                                                    </g>
+                                                </g>
+                                                <g id="Group_81" data-name="Group 81" transform="translate(3.608 5.67)">
+                                                    <g id="Group_80" data-name="Group 80">
+                                                        <path id="Path_31" data-name="Path 31"
+                                                              d="M149.591,245.333a.258.258,0,0,0-.258.258v4.639a.258.258,0,0,0,.515,0v-4.639A.258.258,0,0,0,149.591,245.333Z"
+                                                              transform="translate(-149.333 -245.333)" fill="#718096"
+                                                              stroke="#718096" stroke-width="0.5"/>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </svg>
+
+                                    </div>
                                 </div>
-                                <div class="flex pr-2 text-center">
+                                <div class="flex pr-2 text-center justify-center">
                                     <p class="align-top" style="">2000</p>
-                                    <div class="pr-2">
+                                    <div class="pr-2" style="padding-top: 3px">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="17.724" height="11.297"
                                              viewBox="0 0 17.724 11.297">
                                             <g id="eye" transform="translate(0 -92.835)">
@@ -216,14 +242,15 @@
                                                     <g id="Group_74" data-name="Group 74" transform="translate(0 0)">
                                                         <path id="Path_28" data-name="Path 28"
                                                               d="M17.612,98.139c-.158-.217-3.931-5.3-8.75-5.3s-8.592,5.087-8.75,5.3a.585.585,0,0,0,0,.69c.158.217,3.931,5.3,8.75,5.3s8.591-5.087,8.75-5.3A.584.584,0,0,0,17.612,98.139Zm-8.75,4.825c-3.549,0-6.624-3.376-7.534-4.48C2.237,97.378,5.305,94,8.862,94s6.623,3.376,7.534,4.48C15.487,99.589,12.419,102.963,8.862,102.963Z"
-                                                              transform="translate(0 -92.835)" fill="#285943"/>
+                                                              transform="translate(0 -92.835)" fill="#718096"/>
                                                     </g>
                                                 </g>
-                                                <g id="Group_77" data-name="Group 77" transform="translate(5.356 94.978)">
+                                                <g id="Group_77" data-name="Group 77"
+                                                   transform="translate(5.356 94.978)">
                                                     <g id="Group_76" data-name="Group 76" transform="translate(0 0)">
                                                         <path id="Path_29" data-name="Path 29"
                                                               d="M158.228,154.725a3.506,3.506,0,1,0,3.506,3.506A3.51,3.51,0,0,0,158.228,154.725Zm0,5.843a2.337,2.337,0,1,1,2.337-2.337A2.34,2.34,0,0,1,158.228,160.568Z"
-                                                              transform="translate(-154.722 -154.725)" fill="#285943"/>
+                                                              transform="translate(-154.722 -154.725)" fill="#718096"/>
                                                     </g>
                                                 </g>
                                             </g>
@@ -243,8 +270,17 @@
             <div class="">
                 <div class="flex -mx-2 justify-between flex-wrap" style="direction: rtl">
                     <div class=" px-2 pt-10">
-                        <div class="bg-cover bg-gray-100 bg-center h-56 w-56 shadow-md "
-                             style=""></div>
+                        <div class="bg-cover bg-sukungreen-200 bg-center h-56 w-56 shadow-md text-center sdira"
+                             style="">
+                            <div class="pt-10 border-yellow-300 border-b-2 mr-15 ml-15 text-xl">
+                                ރޯދަ ސްޕެޝަލް
+                            </div>
+                            <div class="text-4xl">
+                                އަޑުނީވޭ<br>
+                                ވާހަކަތައް
+                            </div>
+
+                        </div>
                     </div>
                     <div class=" px-2 pt-10">
                         <div class="bg-cover bg-center h-56 w-56 relative shadow-md"
