@@ -211,7 +211,7 @@
 
                     <div
                         class="lg:pt-2 md:pt-1 pb-1 lg:mr-3 md:mr-1 lg:pr-2 md:pr-1 lg:pl-2 md:pl-1 p-1 hover:bg-gray-200 rounded-sm cursor-pointer hover:shadow-md">
-                        އެންމެ މަޝްހޫރު
+                        އެންމެ މަޤުބޫލް
                     </div>
 
                     <a class="plg:pt-2 md:pt-1 pb-1 lg:mr-3 md:mr-1 lg:pr-2 md:pr-1 lg:pl-2 md:pl-1 p-1 hover:bg-gray-200 rounded-sm cursor-pointer hover:shadow-md"
