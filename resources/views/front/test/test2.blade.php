@@ -429,9 +429,9 @@
                             <div class="pl-2 pt-1">
                                 ލިންކު ކޮޕީކޮށްލައްވާ
                             </div>
-                            <div class="focus:outline-none focus:shadow-lg rounded-md select-all">
+                            <div class="focus:outline-none focus:shadow-lg select-all">
                                 <input
-                                    class="border select-all focus:shadow-md focus:outline-none rounded-md bg-gray-100 px-2 focus:bg-white"
+                                    class="border select-all focus:shadow-md focus:outline-none rounded-none bg-gray-100 px-2 focus:bg-white"
                                     value="The link here">
                             </div>
                         </div>
