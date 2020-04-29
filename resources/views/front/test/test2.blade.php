@@ -51,8 +51,7 @@
     <section class="bg-sukun-official">
         <div class="container mx-auto px-10">
             <div class="flex sm:justify-center md:justify-between pb-4 pt-4">
-                <div
-                    class="md:flex sm:hidden md:block rounded-full border-solid border hover:bg-sukungreen-200 focus:bg-sukungreen-200">
+                <div class="md:flex sm:hidden md:block rounded-full border-solid border hover:bg-sukungreen-200 focus:bg-sukungreen-200">
                     <div class="p-1">
                         <svg xmlns="http://www.w3.org/2000/svg" width="21.555" height="21.555"
                              viewBox="0 0 21.555 21.555">
@@ -168,22 +167,15 @@
             <div class="flex pt-10">
 
                 <div
-                    class="flex w-3/6 lg:mr-8 md:mr-4 mr-4 border-t border-b border-sukungreen-300 sdirm items-center text-sukungreen-600 hover:text-sukungreen-300">
-                    <div class="lg:mr-5 md:mr-2 mr-2 lg:text-sm xl:text-base md:text-xs sm:text-xs">
-                        <p style=""> ދިވެހިރާއްޖޭގައި ފުރަތަމަ ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސ ދިވެހިރާއްޖޭގައި ފުރަތަމަ
-                            ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
-                    </div>
-                </div>
+                    class="flex w-4/6 lg:mr-8 md:mr-4 mr-4 border-t border-b border-sukungreen-300 sdirm items-center text-sukungreen-600 hover:text-sukungreen-300">
 
-                <div class="w-1/6 flex lg:mr-8 md:mr-2 mr-2 align-middle items-center justify-center lg:p-1 md:p-0 p-0 ">
+{{--                </div>--}}
+
+{{--                <div class="w-1/6 flex lg:mr-8 md:mr-2 mr-2 align-middle items-center justify-center lg:p-1 md:p-0 p-0 ">--}}
 
                     <div
-                        class="flex border border-sukungreen-300 bg-sukungreen-200 hover:bg-sukungreen-100 cursor-pointer text-sukungreen-600 hover:shadow-md">
-                        <div style="font-family: MVAWAHEED; direction: rtl;"
-                             class="md:mr-2 mr-1 md:pl-4 ml-1 md:pt-3 pt-2 md:pb-2 lg:text-sm xl:text-base md:text-xs sm:text-xs">
-                            ހާއްސަ ވީޑިއޯ
+                        class="w-1/4 flex border border-sukungreen-300 bg-sukungreen-200 hover:bg-sukungreen-100 cursor-pointer text-sukungreen-600 hover:shadow-md">
 
-                        </div>
                         <div style="" class="md:pt-2 pb-2 pr-1 pt-1 md:pr-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 54 54">
                                 <g transform="translate(-19.76 -8.34)">
@@ -196,6 +188,17 @@
                             </svg>
 
                         </div>
+
+                        <div
+                            class="md:mr-2 mr-1 md:pl-4 ml-1 md:pt-3 pt-2 md:pb-2 lg:text-sm xl:text-base md:text-xs sm:text-xs">
+                            ހާއްސަ ވީޑިއޯ
+
+                        </div>
+                    </div>
+
+                    <div class="lg:mr-5 md:mr-2 mr-2 lg:text-sm xl:text-base md:text-xs sm:text-xs">
+                        <p style=""> ދިވެހިރފުރަތަމަ
+                            ފަހަރަށް ކޮވިޑަށް މީހަކު ޕޮސިޓިވް ވެއްޖެ</p>
                     </div>
 
                 </div>
