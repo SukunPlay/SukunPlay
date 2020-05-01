@@ -76,7 +76,7 @@
                         </svg>
                     </div>
                     <input placeholder="ހޯދާ" type="text"
-                           class="rounded-full rounded-l-none bg-sukun-official text-white hover:bg-sukungreen-200 focus:outline-none focus:bg-sukungreen-200 placeholder-white"
+                           class="rounded-full sdirm rounded-l-none bg-sukun-official text-white hover:bg-sukungreen-200 focus:outline-none focus:bg-sukungreen-200 placeholder-white"
                            style="direction: rtl; padding-right: 15px">
                 </div>
                 <img src="{{asset('logo.svg')}}" class="">
@@ -117,7 +117,7 @@
                         </svg>
                     </div>
                     <input placeholder="ހޯދާ" type="text"
-                           class="rounded-full rounded-l-none text-sukungreen-200 focus:outline-none placeholder-sukungreen-200 focus:shadow-md "
+                           class="rounded-full sdirm rounded-l-none text-sukungreen-200 focus:outline-none placeholder-sukungreen-200 focus:shadow-md "
                            style="direction: rtl; padding-right: 15px">
                 </div>
 
@@ -169,12 +169,8 @@
                 <div
                     class="flex w-4/6 lg:mr-8 md:mr-4 mr-4 border-t border-b border-sukungreen-300 sdirm items-center text-sukungreen-600 hover:text-sukungreen-300">
 
-{{--                </div>--}}
-
-{{--                <div class="w-1/6 flex lg:mr-8 md:mr-2 mr-2 align-middle items-center justify-center lg:p-1 md:p-0 p-0 ">--}}
-
                     <div
-                        class="w-1/4 flex border border-sukungreen-300 bg-sukungreen-200 hover:bg-sukungreen-100 cursor-pointer text-sukungreen-600 hover:shadow-md">
+                        class="w-1/4 xl:w-1/6 lg:w-1/5 flex border border-sukungreen-300 bg-sukungreen-200 hover:bg-sukungreen-100 cursor-pointer text-sukungreen-600 hover:shadow-md">
 
                         <div style="" class="md:pt-2 pb-2 pr-1 pt-1 md:pr-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 54 54">
