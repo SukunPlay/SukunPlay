@@ -1422,30 +1422,21 @@
 
             var video = document.getElementsByClassName('sukun');
 
-
-
-
-            video[0].src = url;
-            video[0].play();
-
             $.ajax({
                 type: "get", url: url,
                 success: function (data, text) {
-
                 },
                 error: function (request, status, error) {
                     $.ajax({
-                        type: "get", url: "/refreshvideo/".concat(xid),
-                        success: function (data, text) {
-                        },
-                        error: function (request, status, error) {
-
-
-                        }
+                        type: "get", url: "/refreshvideo/".concat(xid)
                     });
 
                 }
             });
+
+
+            video[0].src = url;
+            video[0].play();
 
         }).on('hide.bs.modal', function (e) {
 
