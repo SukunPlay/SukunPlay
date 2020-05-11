@@ -1430,7 +1430,6 @@
                     $.ajax({
                         type: "get", url: "/refreshvideo/".concat(xid)
                     });
-
                 }
             });
 
